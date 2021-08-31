@@ -1,0 +1,77 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 2000,
+        "extra_count": 0,
+        "extra_chance": 0
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:heightmap",
+              "config": {
+                "heightmap": "WORLD_SURFACE_WG"
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:decorated",
+                  "config": {
+                    "outer": {
+                      "type": "minecraft:count_noise_biased",
+                      "config": {
+                        "noise_to_count_ratio": 1,
+                        "noise_factor": 133.5,
+                        "noise_offset": -0.0
+                      }
+                    },
+                    "inner": {
+                      "type": "minecraft:count_noise_biased",
+                      "config": {
+                        "noise_to_count_ratio": -1,
+                        "noise_factor": 133.5,
+                        "noise_offset": -0.2
+                      }
+                    }
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:netherrack_replace_blobs",
+                  "config": {
+                    "state": {
+                      "Name": "minecraft:snow",
+                      "Properties": {
+                        "layers": "5"
+                      }
+                    },
+                    "target": {
+                      "Name": "minecraft:snow",
+                      "Properties": {
+                        "layers": "1"
+                      }
+                    },
+                    "radius": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

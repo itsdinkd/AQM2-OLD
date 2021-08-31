@@ -1,0 +1,22 @@
+{
+	// Magnets configuration options.
+	"magnets": {
+		// If false the magnet only work when holding in your hands else if true the magnets works when in inventory [DEFAULT: false]
+		"magnet_always_works": false,
+		// This value determines how big the capacity of the basic magnet is [DEFAULT: 10000]
+		"capacity_basic_magnet": 10000,
+		// This value determines how big the capacity of the advanced magnet is [DEFAULT: 30000]
+		"capacity_advanced_magnet": 30000,
+		// This value determines how big the range of the basic magnet is [DEFAULT: 6]
+		"range_basic_magnet": 6,
+		// This value determines how big the range of the advanced magnet is [DEFAULT: 8]
+		"range_advanced_magnet": 8
+	},
+	// Magnets configuration options.
+	"blocks": {
+		// If false the magnet jar is not disabled else if true the magnet jar is disabled [DEFAULT: false]
+		"disable_magnet_jar": false,
+		// If false the magnet jar can not be disabled with redstone else if true the magnet jar can be disabled with redstone (when the magnet jar is disabled it can't attract items anymore but it can still charge)  [DEFAULT: true]
+		"disable_magnet_jar_with_redstone": true
+	}
+}

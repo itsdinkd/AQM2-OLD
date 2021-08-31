@@ -1,0 +1,137 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 10000,
+        "extra_count": 0,
+        "extra_chance": 0
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "inner": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": 5,
+                "noise_factor": 160,
+                "noise_offset": 0.4
+              }
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:range",
+              "config": {
+                "height": {
+                  "type": "minecraft:trapezoid",
+                  "min_inclusive": {
+                    "absolute": 82
+                  },
+                  "max_inclusive": {
+                    "absolute": 138
+                  }
+                }
+              }
+            },
+            "feature": {
+              "type": "minecraft:simple_block",
+              "config": {
+                "to_place": {
+                  "state": {
+                    "Name": "minecraft:grass_block",
+                    "Properties": {
+                      "snowy": "false"
+                    }
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "place_on": [
+                  {
+                    "Name": "minecraft:diorite"
+                  },
+                  {
+                    "Name": "minecraft:granite"
+                  },
+                  {
+                    "Name": "minecraft:andesite"
+                  },
+                  {
+                    "Name": "minecraft:stone"
+                  },
+                  {
+                    "Name": "minecraft:cobblestone"
+                  },
+                  {
+                    "Name": "minecraft:orange_terracotta"
+                  },
+                  {
+                    "Name": "minecraft:yellow_terracotta"
+                  },
+                  {
+                    "Name": "minecraft:terracotta"
+                  },
+                  {
+                    "Name": "minecraft:dirt"
+                  }
+                ],
+                "place_in": [
+                  {
+                    "Name": "minecraft:diorite"
+                  },
+                  {
+                    "Name": "minecraft:granite"
+                  },
+                  {
+                    "Name": "minecraft:andesite"
+                  },
+                  {
+                    "Name": "minecraft:stone"
+                  },
+                  {
+                    "Name": "minecraft:cobblestone"
+                  }
+                ],
+                "place_under": [
+                  {
+                    "Name": "minecraft:dandelion"
+                  },
+                  {
+                    "Name": "minecraft:poppy"
+                  },
+                  {
+                    "Name": "minecraft:tall_grass",
+                    "Properties": {
+                      "half": "lower"
+                    }
+                  },
+                  {
+                    "Name": "minecraft:fern"
+                  },
+                  {
+                    "Name": "minecraft:grass"
+                  },
+                  {
+                    "Name": "minecraft:air"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

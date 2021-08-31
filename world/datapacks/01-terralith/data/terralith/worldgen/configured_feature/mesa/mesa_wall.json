@@ -1,0 +1,132 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 85,
+        "extra_count": 0,
+        "extra_chance": 0
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": 1,
+                "noise_factor": 450,
+                "noise_offset": 0.25
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:heightmap",
+                  "config": {
+                    "heightmap": "WORLD_SURFACE"
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:random_patch",
+                  "config": {
+                    "can_replace": false,
+                    "project": false,
+                    "need_water": false,
+                    "xspread": 14,
+                    "yspread": 0,
+                    "zspread": 14,
+                    "tries": 6000,
+                    "state_provider": {
+                      "type": "minecraft:weighted_state_provider",
+                      "entries": [
+                        {
+                          "weight": 12,
+                          "data": {
+                            "Name": "minecraft:terracotta"
+                          }
+                        },
+                        {
+                          "weight": 0,
+                          "data": {
+                            "Name": "minecraft:orange_terracotta"
+                          }
+                        },
+                        {
+                          "weight": 3,
+                          "data": {
+                            "Name": "minecraft:white_terracotta"
+                          }
+                        },
+                        {
+                          "weight": 3,
+                          "data": {
+                            "Name": "minecraft:light_gray_terracotta"
+                          }
+                        },
+                        {
+                          "weight": 0,
+                          "data": {
+                            "Name": "minecraft:red_terracotta"
+                          }
+                        },
+                        {
+                          "weight": 0,
+                          "data": {
+                            "Name": "minecraft:yellow_terracotta"
+                          }
+                        },
+                        {
+                          "weight": 3,
+                          "data": {
+                            "Name": "minecraft:brown_terracotta"
+                          }
+                        }
+                      ]
+                    },
+                    "block_placer": {
+                      "type": "minecraft:simple_block_placer"
+                    },
+                    "whitelist": [
+                      {
+                        "Name": "minecraft:terracotta"
+                      },
+                      {
+                        "Name": "minecraft:orange_terracotta"
+                      },
+                      {
+                        "Name": "minecraft:yellow_terracotta"
+                      },
+                      {
+                        "Name": "minecraft:red_terracotta"
+                      },
+                      {
+                        "Name": "minecraft:white_terracotta"
+                      },
+                      {
+                        "Name": "minecraft:light_gray_terracotta"
+                      },
+                      {
+                        "Name": "minecraft:brown_terracotta"
+                      }
+                    ],
+                    "blacklist": []
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

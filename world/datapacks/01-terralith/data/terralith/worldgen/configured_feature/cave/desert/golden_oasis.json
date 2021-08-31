@@ -1,0 +1,496 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:chance",
+      "config": {
+        "chance": 2
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:decorated",
+              "config": {
+                "outer": {
+                  "type": "minecraft:square",
+                  "config": {}
+                },
+                "inner": {
+                  "type": "minecraft:count_noise_biased",
+                  "config": {
+                    "noise_to_count_ratio": 1,
+                    "noise_factor": 807,
+                    "noise_offset": -0.05
+                  }
+                }
+              }
+            },
+            "inner": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": -1,
+                "noise_factor": 457,
+                "noise_offset": 0.05
+              }
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:range",
+              "config": {
+                "height": {
+                  "type": "minecraft:uniform",
+                  "min_inclusive": {
+                    "above_bottom": 15
+                  },
+                  "max_inclusive": {
+                    "absolute": 60
+                  }
+                }
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:decorated",
+                  "config": {
+                    "outer": {
+                      "type": "minecraft:cave_surface",
+                      "config": {
+                        "surface": "floor",
+                        "floor_to_ceiling_search_range": 60
+                      }
+                    },
+                    "inner": {
+                      "type": "minecraft:nope",
+                      "config": {}
+                    }
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:waterlogged_vegetation_patch",
+                  "config": {
+                    "surface": "floor",
+                    "depth": {
+                      "type": "minecraft:uniform",
+                      "value": {
+                        "min_inclusive": 2,
+                        "max_inclusive": 4
+                      }
+                    },
+                    "vertical_range": 6,
+                    "extra_bottom_block_chance": 0.25,
+                    "extra_edge_column_chance": 0.5,
+                    "vegetation_chance": 1,
+                    "xz_radius": {
+                      "type": "minecraft:uniform",
+                      "value": {
+                        "min_inclusive": 3,
+                        "max_inclusive": 6
+                      }
+                    },
+                    "replaceable": "terralith:oasis_blocks",
+                    "ground_state": {
+                      "type": "minecraft:simple_state_provider",
+                      "state": {
+                        "Name": "minecraft:moss_block"
+                      }
+                    },
+                    "vegetation_feature": {
+                      "type": "minecraft:random_selector",
+                      "config": {
+                        "features": [
+                          {
+                            "chance": 0.25,
+                            "feature": {
+                              "type": "minecraft:decorated",
+                              "config": {
+                                "decorator": {
+                                  "type": "minecraft:decorated",
+                                  "config": {
+                                    "outer": {
+                                      "type": "minecraft:spread_32_above",
+                                      "config": {}
+                                    },
+                                    "inner": {
+                                      "type": "minecraft:cave_surface",
+                                      "config": {
+                                        "surface": "ceiling",
+                                        "floor_to_ceiling_search_range": 17
+                                      }
+                                    }
+                                  }
+                                },
+                                "feature": {
+                                  "type": "minecraft:vegetation_patch",
+                                  "config": {
+                                    "surface": "ceiling",
+                                    "depth": {
+                                      "type": "minecraft:uniform",
+                                      "value": {
+                                        "min_inclusive": 1,
+                                        "max_inclusive": 12
+                                      }
+                                    },
+                                    "vertical_range": 1,
+                                    "extra_bottom_block_chance": 0.25,
+                                    "extra_edge_column_chance": 0.5,
+                                    "vegetation_chance": 0.65,
+                                    "xz_radius": {
+                                      "type": "minecraft:biased_to_bottom",
+                                      "value": {
+                                        "min_inclusive": 0,
+                                        "max_inclusive": 2
+                                      }
+                                    },
+                                    "replaceable": "terralith:oasis_blocks",
+                                    "ground_state": {
+                                      "type": "minecraft:simple_state_provider",
+                                      "state": {
+                                        "Name": "minecraft:moss_block"
+                                      }
+                                    },
+                                    "vegetation_feature": "minecraft:cave_vine_in_moss"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "chance": 0.2,
+                            "feature": {
+                              "type": "minecraft:scattered_ore",
+                              "config": {
+                                "size": 57,
+                                "discard_chance_on_air_exposure": 0.85,
+                                "targets": [
+                                  {
+                                    "target": {
+                                      "predicate_type": "minecraft:random_block_match",
+                                      "block": "minecraft:red_sand",
+                                      "probability": 0.04
+                                    },
+                                    "state": {
+                                      "Name": "minecraft:raw_gold_block"
+                                    }
+                                  },
+                                  {
+                                    "target": {
+                                      "predicate_type": "minecraft:random_block_match",
+                                      "block": "minecraft:deepslate",
+                                      "probability": 0.04
+                                    },
+                                    "state": {
+                                      "Name": "minecraft:raw_gold_block"
+                                    }
+                                  },
+                                  {
+                                    "target": {
+                                      "predicate_type": "minecraft:random_block_match",
+                                      "block": "minecraft:sand",
+                                      "probability": 0.04
+                                    },
+                                    "state": {
+                                      "Name": "minecraft:raw_gold_block"
+                                    }
+                                  },
+                                  {
+                                    "target": {
+                                      "predicate_type": "minecraft:random_block_match",
+                                      "block": "minecraft:moss_block",
+                                      "probability": 0.04
+                                    },
+                                    "state": {
+                                      "Name": "minecraft:raw_gold_block"
+                                    }
+                                  },
+                                  {
+                                    "target": {
+                                      "predicate_type": "minecraft:random_block_match",
+                                      "block": "minecraft:moss_block",
+                                      "probability": 1.0
+                                    },
+                                    "state": {
+                                      "Name": "minecraft:deepslate_gold_ore"
+                                    }
+                                  },
+                                  {
+                                    "target": {
+                                      "predicate_type": "minecraft:random_block_match",
+                                      "block": "minecraft:deepslate",
+                                      "probability": 1
+                                    },
+                                    "state": {
+                                      "Name": "minecraft:deepslate_gold_ore"
+                                    }
+                                  },
+                                  {
+                                    "target": {
+                                      "predicate_type": "minecraft:random_block_match",
+                                      "block": "minecraft:stone",
+                                      "probability": 1
+                                    },
+                                    "state": {
+                                      "Name": "minecraft:gold_ore"
+                                    }
+                                  },
+                                  {
+                                    "target": {
+                                      "predicate_type": "minecraft:random_block_match",
+                                      "block": "minecraft:andesite",
+                                      "probability": 1
+                                    },
+                                    "state": {
+                                      "Name": "minecraft:gold_ore"
+                                    }
+                                  },
+                                  {
+                                    "target": {
+                                      "predicate_type": "minecraft:random_block_match",
+                                      "block": "minecraft:diorite",
+                                      "probability": 1
+                                    },
+                                    "state": {
+                                      "Name": "minecraft:gold_ore"
+                                    }
+                                  },
+                                  {
+                                    "target": {
+                                      "predicate_type": "minecraft:random_block_match",
+                                      "block": "minecraft:granite",
+                                      "probability": 1
+                                    },
+                                    "state": {
+                                      "Name": "minecraft:gold_ore"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "chance": 0.2,
+                            "feature": {
+                              "type": "minecraft:decorated",
+                              "config": {
+                                "decorator": {
+                                  "type": "minecraft:count",
+                                  "config": {
+                                    "count": 1
+                                  }
+                                },
+                                "feature": {
+                                  "type": "minecraft:simple_block",
+                                  "config": {
+                                    "to_place": {
+                                      "type": "minecraft:weighted_state_provider",
+                                      "entries": [
+                                        {
+                                          "weight": 10,
+                                          "data": {
+                                            "Name": "minecraft:sea_pickle",
+                                            "Properties": {
+                                              "pickles": "4",
+                                              "waterlogged": "true"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "weight": 15,
+                                          "data": {
+                                            "Name": "minecraft:sea_pickle",
+                                            "Properties": {
+                                              "pickles": "3",
+                                              "waterlogged": "true"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "weight": 20,
+                                          "data": {
+                                            "Name": "minecraft:sea_pickle",
+                                            "Properties": {
+                                              "pickles": "2",
+                                              "waterlogged": "true"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "weight": 25,
+                                          "data": {
+                                            "Name": "minecraft:sea_pickle",
+                                            "Properties": {
+                                              "pickles": "1",
+                                              "waterlogged": "true"
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    "place_on": [
+                                      {
+                                        "Name": "minecraft:moss_block"
+                                      }
+                                    ],
+                                    "place_in": [
+                                      {
+                                        "Name": "minecraft:water",
+                                        "Properties": {
+                                          "level": "0"
+                                        }
+                                      }
+                                    ],
+                                    "place_under": [
+                                      {
+                                        "Name": "minecraft:cave_air"
+                                      },
+                                      {
+                                        "Name": "minecraft:air"
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "chance": 0.15,
+                            "feature": {
+                              "type": "minecraft:decorated",
+                              "config": {
+                                "decorator": {
+                                  "type": "minecraft:count",
+                                  "config": {
+                                    "count": 120
+                                  }
+                                },
+                                "feature": {
+                                  "type": "minecraft:random_patch",
+                                  "config": {
+                                    "can_replace": false,
+                                    "project": false,
+                                    "need_water": false,
+                                    "xspread": 7,
+                                    "yspread": 3,
+                                    "zspread": 7,
+                                    "tries": 1,
+                                    "state_provider": {
+                                      "type": "minecraft:weighted_state_provider",
+                                      "entries": [
+                                        {
+                                          "weight": 6,
+                                          "data": {
+                                            "Name": "minecraft:flowering_azalea"
+                                          }
+                                        },
+                                        {
+                                          "weight": 10,
+                                          "data": {
+                                            "Name": "minecraft:azalea"
+                                          }
+                                        },
+                                        {
+                                          "weight": 25,
+                                          "data": {
+                                            "Name": "minecraft:moss_carpet"
+                                          }
+                                        },
+                                        {
+                                          "weight": 30,
+                                          "data": {
+                                            "Name": "minecraft:grass"
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    "block_placer": {
+                                      "type": "minecraft:simple_block_placer"
+                                    },
+                                    "whitelist": [
+                                      {
+                                        "Name": "minecraft:moss_block"
+                                      }
+                                    ],
+                                    "blacklist": []
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "chance": 0.1,
+                            "feature": "terralith:cave/desert/palm"
+                          }
+                        ],
+                        "default": {
+                          "type": "minecraft:disk",
+                          "config": {
+                            "state": {
+                              "Name": "minecraft:moss_block"
+                            },
+                            "radius": {
+                              "type": "minecraft:uniform",
+                              "value": {
+                                "min_inclusive": 1,
+                                "max_inclusive": 4
+                              }
+                            },
+                            "half_height": 2,
+                            "targets": [
+                              {
+                                "Name": "minecraft:sand"
+                              },
+                              {
+                                "Name": "minecraft:red_sand"
+                              },
+                              {
+                                "Name": "minecraft:smooth_basalt"
+                              },
+                              {
+                                "Name": "minecraft:deepslate",
+                                "Properties": {
+                                  "axis": "y"
+                                }
+                              },
+                              {
+                                "Name": "minecraft:red_sandstone"
+                              },
+                              {
+                                "Name": "minecraft:sandstone"
+                              },
+                              {
+                                "Name": "minecraft:granite"
+                              },
+                              {
+                                "Name": "minecraft:diorite"
+                              },
+                              {
+                                "Name": "minecraft:andesite"
+                              },
+                              {
+                                "Name": "minecraft:tuff"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

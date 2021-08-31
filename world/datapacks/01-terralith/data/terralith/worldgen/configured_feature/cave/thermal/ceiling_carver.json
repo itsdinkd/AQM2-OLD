@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:carving_mask",
+      "config": {
+        "step": "air"
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:decorated",
+              "config": {
+                "outer": {
+                  "type": "minecraft:chance",
+                  "config": {
+                    "chance": 50
+                  }
+                },
+                "inner": {
+                  "type": "minecraft:count_noise_biased",
+                  "config": {
+                    "noise_to_count_ratio": -1,
+                    "noise_factor": 807,
+                    "noise_offset": 0.05
+                  }
+                }
+              }
+            },
+            "inner": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": 1,
+                "noise_factor": 457,
+                "noise_offset": -0.05
+              }
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:cave_surface",
+              "config": {
+                "surface": "ceiling",
+                "floor_to_ceiling_search_range": 20
+              }
+            },
+            "feature": "terralith:cave/thermal/ceiling_small"
+          }
+        }
+      }
+    }
+  }
+}

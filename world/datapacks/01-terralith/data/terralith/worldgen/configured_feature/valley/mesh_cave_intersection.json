@@ -1,0 +1,97 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 128,
+        "extra_count": 2560,
+        "extra_chance": 1
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": 1,
+                "noise_factor": 155.1,
+                "noise_offset": 0.2
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:count_noise_biased",
+                  "config": {
+                    "noise_to_count_ratio": -1,
+                    "noise_factor": 155.1,
+                    "noise_offset": -0.2
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:decorated",
+                  "config": {
+                    "decorator": {
+                      "type": "minecraft:count_noise_biased",
+                      "config": {
+                        "noise_to_count_ratio": 1,
+                        "noise_factor": 180,
+                        "noise_offset": 0.2
+                      }
+                    },
+                    "feature": {
+                      "type": "minecraft:decorated",
+                      "config": {
+                        "decorator": {
+                          "type": "minecraft:count_noise_biased",
+                          "config": {
+                            "noise_to_count_ratio": -1,
+                            "noise_factor": 180,
+                            "noise_offset": -0.2
+                          }
+                        },
+                        "feature": {
+                          "type": "minecraft:decorated",
+                          "config": {
+                            "decorator": {
+                              "type": "minecraft:heightmap",
+                              "config": {
+                                "heightmap": "MOTION_BLOCKING"
+                              }
+                            },
+                            "feature": {
+                              "type": "minecraft:netherrack_replace_blobs",
+                              "config": {
+                                "state": {
+                                  "Name": "minecraft:glowstone"
+                                },
+                                "target": {
+                                  "Name": "minecraft:air"
+                                },
+                                "radius": 0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

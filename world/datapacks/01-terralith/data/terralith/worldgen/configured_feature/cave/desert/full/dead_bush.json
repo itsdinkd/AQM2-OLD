@@ -1,0 +1,105 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count",
+      "config": {
+        "count": 128
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:range",
+              "config": {
+                "height": {
+                  "type": "minecraft:uniform",
+                  "min_inclusive": {
+                    "above_bottom": 7
+                  },
+                  "max_inclusive": {
+                    "absolute": 60
+                  }
+                }
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:cave_surface",
+                  "config": {
+                    "surface": "floor",
+                    "floor_to_ceiling_search_range": 50
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:decorated",
+                  "config": {
+                    "decorator": {
+                      "type": "minecraft:count_noise_biased",
+                      "config": {
+                        "noise_to_count_ratio": 3,
+                        "noise_factor": 80,
+                        "noise_offset": 0.5
+                      }
+                    },
+                    "feature": {
+                      "type": "minecraft:decorated",
+                      "config": {
+                        "decorator": {
+                          "type": "minecraft:chance",
+                          "config": {
+                            "chance": 4
+                          }
+                        },
+                        "feature": {
+                          "type": "minecraft:random_patch",
+                          "config": {
+                            "can_replace": false,
+                            "project": false,
+                            "need_water": false,
+                            "xspread": 4,
+                            "yspread": 3,
+                            "zspread": 4,
+                            "tries": 2,
+                            "state_provider": {
+                              "type": "minecraft:simple_state_provider",
+                              "state": {
+                                "Name": "minecraft:dead_bush"
+                              }
+                            },
+                            "block_placer": {
+                              "type": "minecraft:simple_block_placer"
+                            },
+                            "whitelist": [
+                              {
+                                "Name": "minecraft:red_sand"
+                              },
+                              {
+                                "Name": "minecraft:sand"
+                              }
+                            ],
+                            "blacklist": []
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:decorated",
+      "config": {
+        "outer": {
+          "type": "minecraft:count_extra",
+          "config": {
+            "count": 1750, //4000
+            "extra_count": 0,
+            "extra_chance": 0
+          }
+        },
+        "inner": {
+          "type": "minecraft:square",
+          "config": {}
+        }
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": -1,
+                "noise_factor": 807,
+                "noise_offset": 0.05
+              }
+            },
+            "inner": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": 1,
+                "noise_factor": 457,
+                "noise_offset": -0.05
+              }
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:range",
+              "config": {
+                "height": {
+                  "type": "minecraft:uniform",
+                  "min_inclusive": {
+                    "above_bottom": 14
+                  },
+                  "max_inclusive": {
+                    "absolute": 60
+                  }
+                }
+              }
+            },
+            "feature": {
+              "type": "minecraft:disk",
+              "config": {
+                "state": {
+                  "Name": "minecraft:smooth_basalt",
+                  "Properties": {
+                    "axis": "y"
+                  }
+                },
+                "radius": {
+                  "type": "minecraft:uniform",
+                  "value": {
+                    "min_inclusive": 3,
+                    "max_inclusive": 5
+                  }
+                },
+                "half_height": 3,
+                "targets": [
+                  {
+                    "Name": "minecraft:deepslate",
+                    "Properties": {
+                      "axis": "y"
+                    }
+                  },
+                  {
+                    "Name": "minecraft:gravel"
+                  },
+                  {
+                    "Name": "minecraft:stone"
+                  },
+                  {
+                    "Name": "minecraft:granite"
+                  },
+                  {
+                    "Name": "minecraft:andesite"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

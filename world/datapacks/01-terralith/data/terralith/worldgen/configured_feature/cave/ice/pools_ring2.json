@@ -1,0 +1,109 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:decorated",
+      "config": {
+        "outer": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:count_extra",
+              "config": {
+                "count": 700,
+                "extra_count": 0,
+                "extra_chance": 0
+              }
+            },
+            "inner": {
+              "type": "minecraft:decorated",
+              "config": {
+                "outer": {
+                  "type": "minecraft:decorated",
+                  "config": {
+                    "outer": {
+                      "type": "minecraft:square",
+                      "config": {}
+                    },
+                    "inner": {
+                      "type": "minecraft:count_noise_biased",
+                      "config": {
+                        "noise_to_count_ratio": 1,
+                        "noise_factor": 807,
+                        "noise_offset": -0.05
+                      }
+                    }
+                  }
+                },
+                "inner": {
+                  "type": "minecraft:count_noise_biased",
+                  "config": {
+                    "noise_to_count_ratio": 1,
+                    "noise_factor": 457,
+                    "noise_offset": -0.05
+                  }
+                }
+              }
+            }
+          }
+        },
+        "inner": {
+          "type": "minecraft:range",
+          "config": {
+            "height": {
+              "type": "minecraft:uniform",
+              "min_inclusive": {
+                "above_bottom": 13
+              },
+              "max_inclusive": {
+                "absolute": 60
+              }
+            }
+          }
+        }
+      }
+    },
+    "feature": {
+      "type": "minecraft:disk",
+      "config": {
+        "state": {
+          "Name": "minecraft:packed_ice"
+        },
+        "radius": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 2,
+            "max_inclusive": 5
+          }
+        },
+        "half_height": 2,
+        "targets": [
+          {
+            "Name": "minecraft:snow_block"
+          },
+          {
+            "Name": "minecraft:calcite"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:deepslate",
+            "Properties": {
+              "axis": "y"
+            }
+          },
+          {
+            "Name": "minecraft:granite"
+          },
+          {
+            "Name": "minecraft:andesite"
+          },
+          {
+            "Name": "minecraft:diorite"
+          }
+        ]
+      }
+    }
+  }
+}

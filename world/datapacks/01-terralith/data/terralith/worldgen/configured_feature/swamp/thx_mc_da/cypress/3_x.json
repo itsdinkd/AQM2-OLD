@@ -1,0 +1,435 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "config": {
+                  "target": {
+                    "Properties": {
+                      "axis": "y"
+                    },
+                    "Name": "minecraft:oak_log"
+                  },
+                  "state": {
+                    "Properties": {
+                      "axis": "y"
+                    },
+                    "Name": "minecraft:stripped_crimson_hyphae"
+                  },
+                  "radius": 2
+                },
+                "type": "minecraft:netherrack_replace_blobs"
+              },
+              {
+                "config": {
+                  "feature": {
+                    "config": {
+                      "features": [
+                        {
+                          "config": {
+                            "can_replace": true,
+                            "project": false,
+                            "need_water": false,
+                            "xspread": 2,
+                            "yspread": 2,
+                            "zspread": 0,
+                            "whitelist": [],
+                            "blacklist": [],
+                            "tries": 25,
+                            "state_provider": {
+                              "state": {
+                                "Name": "minecraft:void_air"
+                              },
+                              "type": "minecraft:simple_state_provider"
+                            },
+                            "block_placer": {
+                              "type": "minecraft:simple_block_placer"
+                            }
+                          },
+                          "type": "minecraft:random_patch"
+                        },
+                        {
+                          "config": {
+                            "can_replace": true,
+                            "project": false,
+                            "need_water": false,
+                            "xspread": 0,
+                            "yspread": 1,
+                            "zspread": 2,
+                            "whitelist": [],
+                            "blacklist": [],
+                            "tries": 15,
+                            "state_provider": {
+                              "state": {
+                                "Name": "minecraft:void_air"
+                              },
+                              "type": "minecraft:simple_state_provider"
+                            },
+                            "block_placer": {
+                              "type": "minecraft:simple_block_placer"
+                            }
+                          },
+                          "type": "minecraft:random_patch"
+                        },
+                        {
+                          "config": {
+                            "can_replace": true,
+                            "project": false,
+                            "need_water": false,
+                            "xspread": 1,
+                            "yspread": 3,
+                            "zspread": 0,
+                            "whitelist": [],
+                            "blacklist": [],
+                            "tries": 21,
+                            "state_provider": {
+                              "state": {
+                                "Name": "minecraft:void_air"
+                              },
+                              "type": "minecraft:simple_state_provider"
+                            },
+                            "block_placer": {
+                              "type": "minecraft:simple_block_placer"
+                            }
+                          },
+                          "type": "minecraft:random_patch"
+                        },
+                        {
+                          "config": {
+                            "can_replace": true,
+                            "project": false,
+                            "need_water": false,
+                            "xspread": 0,
+                            "yspread": 2,
+                            "zspread": 1,
+                            "whitelist": [],
+                            "blacklist": [],
+                            "tries": 15,
+                            "state_provider": {
+                              "state": {
+                                "Name": "minecraft:void_air"
+                              },
+                              "type": "minecraft:simple_state_provider"
+                            },
+                            "block_placer": {
+                              "type": "minecraft:simple_block_placer"
+                            }
+                          },
+                          "type": "minecraft:random_patch"
+                        }
+                      ]
+                    },
+                    "type": "minecraft:simple_random_selector"
+                  },
+                  "decorator": {
+                    "config": {
+                      "count": 20
+                    },
+                    "type": "minecraft:count"
+                  }
+                },
+                "type": "minecraft:decorated"
+              },
+              {
+                "config": {
+                  "feature": {
+                    "config": {
+                      "features": [
+                        {
+                          "config": {
+                            "can_replace": true,
+                            "project": false,
+                            "need_water": false,
+                            "xspread": 1,
+                            "yspread": 1,
+                            "zspread": 0,
+                            "whitelist": [],
+                            "blacklist": [],
+                            "tries": 9,
+                            "state_provider": {
+                              "state": {
+                                "Properties": {
+                                  "axis": "y"
+                                },
+                                "Name": "minecraft:stripped_crimson_hyphae"
+                              },
+                              "type": "minecraft:simple_state_provider"
+                            },
+                            "block_placer": {
+                              "type": "minecraft:simple_block_placer"
+                            }
+                          },
+                          "type": "minecraft:random_patch"
+                        },
+                        {
+                          "config": {
+                            "can_replace": true,
+                            "project": false,
+                            "need_water": false,
+                            "xspread": 0,
+                            "yspread": 0,
+                            "zspread": 1,
+                            "whitelist": [],
+                            "blacklist": [],
+                            "tries": 3,
+                            "state_provider": {
+                              "state": {
+                                "Properties": {
+                                  "axis": "y"
+                                },
+                                "Name": "minecraft:stripped_crimson_hyphae"
+                              },
+                              "type": "minecraft:simple_state_provider"
+                            },
+                            "block_placer": {
+                              "type": "minecraft:simple_block_placer"
+                            }
+                          },
+                          "type": "minecraft:random_patch"
+                        },
+                        {
+                          "config": {
+                            "can_replace": true,
+                            "project": false,
+                            "need_water": false,
+                            "xspread": 0,
+                            "yspread": 2,
+                            "zspread": 0,
+                            "whitelist": [],
+                            "blacklist": [],
+                            "tries": 5,
+                            "state_provider": {
+                              "state": {
+                                "Properties": {
+                                  "axis": "y"
+                                },
+                                "Name": "minecraft:stripped_crimson_hyphae"
+                              },
+                              "type": "minecraft:simple_state_provider"
+                            },
+                            "block_placer": {
+                              "type": "minecraft:simple_block_placer"
+                            }
+                          },
+                          "type": "minecraft:random_patch"
+                        }
+                      ]
+                    },
+                    "type": "minecraft:simple_random_selector"
+                  },
+                  "decorator": {
+                    "config": {
+                      "count": 20
+                    },
+                    "type": "minecraft:count"
+                  }
+                },
+                "type": "minecraft:decorated"
+              },
+              {
+                "config": {
+                  "features": [
+                    {
+                      "feature": {
+                        "config": {
+                          "decorator": {
+                            "type": "decorated",
+                            "config": {
+                              "outer": {
+                                "type": "minecraft:water_depth_threshold",
+                                "config": {
+                                  "max_water_depth": 5
+                                }
+                              },
+                              "inner": {
+                                "type": "minecraft:heightmap",
+                                "config": {
+                                  "heightmap": "OCEAN_FLOOR_WG"
+                                }
+                              }
+                            }
+                          },
+                          "feature": {
+                            "type": "minecraft:tree",
+                            "config": {
+                              "ignore_vines": true,
+                              "minimum_size": {
+                                "middle_size": 0,
+                                "upper_size": 0,
+                                "limit": 0,
+                                "upper_limit": 0,
+                                "lower_size": 0,
+                                "type": "minecraft:three_layers_feature_size"
+                              },
+                              "decorators": [
+                                {
+                                  "type": "minecraft:leave_vine"
+                                }
+                              ],
+                              "trunk_provider": {
+                                "state": {
+                                  "Properties": {
+                                    "axis": "y"
+                                  },
+                                  "Name": "minecraft:oak_log"
+                                },
+                                "type": "minecraft:simple_state_provider"
+                              },
+                              "foliage_placer": {
+                                "radius": 2,
+                                "offset": 1,
+                                "height": 2,
+                                "type": "minecraft:fancy_foliage_placer"
+                              },
+                              "trunk_placer": {
+                                "base_height": 14,
+                                "height_rand_a": 2,
+                                "height_rand_b": 2,
+                                "type": "minecraft:forking_trunk_placer"
+                              },
+                              "foliage_provider": {
+                                "state": {
+                                  "Properties": {
+                                    "persistent": "false",
+                                    "distance": "1"
+                                  },
+                                  "Name": "minecraft:oak_leaves"
+                                },
+                                "type": "minecraft:simple_state_provider"
+                              },
+                              "force_dirt": false,
+                              "dirt_provider": {
+                                "type": "minecraft:simple_state_provider",
+                                "state": {
+                                  "Name": "minecraft:dirt"
+                                }
+                              },
+                              "sapling_provider": {
+                                "type": "minecraft:simple_state_provider",
+                                "state": {
+                                  "Name": "minecraft:oak_sapling",
+                                  "Properties": {
+                                    "stage": "0"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "type": "minecraft:decorated"
+                      },
+                      "chance": 0.35
+                    }
+                  ],
+                  "default": {
+                    "config": {
+                      "decorator": {
+                        "type": "decorated",
+                        "config": {
+                          "outer": {
+                            "type": "minecraft:water_depth_threshold",
+                            "config": {
+                              "max_water_depth": 5
+                            }
+                          },
+                          "inner": {
+                            "type": "minecraft:heightmap",
+                            "config": {
+                              "heightmap": "OCEAN_FLOOR_WG"
+                            }
+                          }
+                        }
+                      },
+                      "feature": {
+                        "type": "minecraft:tree",
+                        "config": {
+                          "ignore_vines": true,
+                          "minimum_size": {
+                            "middle_size": 0,
+                            "upper_size": 0,
+                            "limit": 0,
+                            "upper_limit": 0,
+                            "lower_size": 0,
+                            "type": "minecraft:three_layers_feature_size"
+                          },
+                          "decorators": [],
+                          "trunk_provider": {
+                            "state": {
+                              "Properties": {
+                                "axis": "y"
+                              },
+                              "Name": "minecraft:oak_log"
+                            },
+                            "type": "minecraft:simple_state_provider"
+                          },
+                          "foliage_placer": {
+                            "radius": 2,
+                            "offset": 1,
+                            "height": 2,
+                            "type": "minecraft:fancy_foliage_placer"
+                          },
+                          "trunk_placer": {
+                            "base_height": 14,
+                            "height_rand_a": 2,
+                            "height_rand_b": 2,
+                            "type": "minecraft:forking_trunk_placer"
+                          },
+                          "foliage_provider": {
+                            "state": {
+                              "Properties": {
+                                "persistent": "false",
+                                "distance": "1"
+                              },
+                              "Name": "minecraft:oak_leaves"
+                            },
+                            "type": "minecraft:simple_state_provider"
+                          },
+                          "force_dirt": false,
+                          "dirt_provider": {
+                            "type": "minecraft:simple_state_provider",
+                            "state": {
+                              "Name": "minecraft:dirt"
+                            }
+                          },
+                          "sapling_provider": {
+                            "type": "minecraft:simple_state_provider",
+                            "state": {
+                              "Name": "minecraft:oak_sapling",
+                              "Properties": {
+                                "stage": "0"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "type": "minecraft:decorated"
+                  }
+                },
+                "type": "minecraft:random_selector"
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "decorator": {
+          "config": {
+            "count": 32
+          },
+          "type": "minecraft:count"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "heightmap": "OCEAN_FLOOR_WG"
+      },
+      "type": "minecraft:heightmap"
+    }
+  },
+  "type": "minecraft:decorated"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:fill_layer",
+  "config": {
+    "state": {
+      "Name": "minecraft:blue_concrete"
+    },
+    "height": 319
+  }
+}

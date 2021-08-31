@@ -1,0 +1,126 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 620,
+        "extra_count": 0,
+        "extra_chance": 0
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:range",
+              "config": {
+                "height": {
+                  "type": "minecraft:uniform",
+                  "min_inclusive": {
+                    "absolute": 115
+                  },
+                  "max_inclusive": {
+                    "absolute": 190
+                  }
+                }
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:cave_surface",
+                  "config": {
+                    "surface": "floor",
+                    "floor_to_ceiling_search_range": 40
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:random_patch",
+                  "config": {
+                    "can_replace": true,
+                    "project": false,
+                    "need_water": false,
+                    "xspread": 8,
+                    "yspread": 3,
+                    "zspread": 8,
+                    "tries": 300,
+                    "state_provider": {
+                      "type": "minecraft:weighted_state_provider",
+                      "entries": [
+                        {
+                          "weight": 200,
+                          "data": {
+                            "Name": "minecraft:deepslate",
+                            "Properties": {
+                              "axis": "y"
+                            }
+                          }
+                        },
+                        {
+                          "weight": 50,
+                          "data": {
+                            "Name": "minecraft:blackstone"
+                          }
+                        },
+                        {
+                          "weight": 4,
+                          "data": {
+                            "Name": "minecraft:deepslate_redstone_ore","Properties":{"lit":"false"}
+                          }
+                        }
+                      ]
+                    },
+                    "block_placer": {
+                      "type": "minecraft:simple_block_placer"
+                    },
+                    "whitelist": [
+                      {
+                        "Name": "minecraft:netherrack",
+                        "Properties": {}
+                      },
+                      {
+                        "Name": "minecraft:grass_block",
+                        "Properties": {
+                          "snowy": "false"
+                        }
+                      },
+                      {
+                        "Name": "minecraft:dirt",
+                        "Properties": {}
+                      },
+                      {
+                        "Name": "minecraft:stone"
+                      },
+                      {
+                        "Name": "minecraft:blackstone"
+                      },
+                      {
+                        "Name": "minecraft:deepslate_redstone_ore","Properties":{"lit":"false"}
+                      },
+                      {
+                        "Name": "minecraft:deepslate",
+                        "Properties": {
+                          "axis": "y"
+                        }
+                      }
+                    ],
+                    "blacklist": []
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

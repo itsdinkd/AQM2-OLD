@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:heightmap",
+      "config": {
+        "heightmap": "OCEAN_FLOOR"
+      }
+    },
+    "feature": {
+      "type": "minecraft:growing_plant",
+      "config": {
+        "direction": "up",
+        "allow_water": true,
+        "height_distribution": [
+          {
+            "weight": 1,
+            "data": {
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": 1,
+                "max_inclusive": 1
+              }
+            }
+          }
+        ],
+        "body_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:basalt",
+            "Properties":{"axis":"y"}
+          }
+        },
+        "head_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:basalt",
+            "Properties":{"axis":"y"}
+          }
+        }
+      }
+    }
+  }
+}

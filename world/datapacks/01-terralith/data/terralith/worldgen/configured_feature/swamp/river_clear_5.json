@@ -1,0 +1,107 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 500,
+        "extra_count": 120,
+        "extra_chance": 1
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "inner": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": 1,
+                "noise_factor": 250,
+                "noise_offset": -0.25
+              }
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": 1,
+                "noise_factor": 405,
+                "noise_offset": 0.025
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:decorated",
+                  "config": {
+                    "outer": {
+                      "type": "minecraft:count_noise_biased",
+                      "config": {
+                        "noise_to_count_ratio": -1,
+                        "noise_factor": 405,
+                        "noise_offset": -0.025
+                      }
+                    },
+                    "inner": {
+                      "type": "minecraft:decorated",
+                      "config": {
+                        "outer": {
+                          "type": "minecraft:nope",
+                          "config": {}
+                        },
+                        "inner": {
+                          "type": "minecraft:range",
+                          "config": {
+                            "height": {
+                              "type": "minecraft:trapezoid",
+                              "min_inclusive": {
+                                "absolute": 79
+                              },
+                              "max_inclusive": {
+                                "absolute": 83
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:ore",
+                  "config": {
+                    "size": 18,
+                    "targets": [
+                      {
+                        "target": {
+                          "tag": "terralith:river_replace",
+                          "predicate_type": "minecraft:tag_match"
+                        },
+                        "state": {
+                          "Name": "minecraft:air"
+                        }
+                      }
+                    ],
+                    "discard_chance_on_air_exposure": 0.0
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

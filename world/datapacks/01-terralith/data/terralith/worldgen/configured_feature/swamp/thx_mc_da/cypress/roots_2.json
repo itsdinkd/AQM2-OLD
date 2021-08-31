@@ -1,0 +1,71 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "size": 24,
+                "discard_chance_on_air_exposure": 0,
+                "targets": [
+                  {
+                    "target": {
+                      "block": "minecraft:stripped_crimson_hyphae",
+                      "predicate_type": "minecraft:block_match"
+                    },
+                    "state": {
+                      "Properties": {
+                        "level": "0"
+                      },
+                      "Name": "minecraft:water"
+                    }
+                  }
+                ]
+              },
+              "type": "minecraft:ore"
+            },
+            "decorator": {
+              "config": {
+                "height": {
+                  "type": "minecraft:uniform",
+                  "min_inclusive": {
+                    "absolute": 56
+                  },
+                  "max_inclusive": {
+                    "absolute": 61
+                  }
+                }
+              },
+              "type": "minecraft:range"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "outer": {
+          "config": {
+            "count": 128
+          },
+          "type": "minecraft:count"
+        },
+        "inner": {
+          "config": {
+            "count": 2
+          },
+          "type": "minecraft:count"
+        }
+      },
+      "type": "minecraft:decorated"
+    }
+  },
+  "type": "minecraft:decorated"
+}

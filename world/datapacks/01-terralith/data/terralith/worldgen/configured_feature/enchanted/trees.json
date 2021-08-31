@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 50,
+        "extra_count": 1,
+        "extra_chance": 0.1
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "inner": {
+              "type": "minecraft:heightmap",
+              "config": {"heightmap":"WORLD_SURFACE"}
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:random_selector",
+          "config": {
+            "features": [
+              {
+                "chance": 0.1,
+                "feature": "terralith:enchanted/enchanted_oak"
+              },
+              {
+                "chance": 0.49,
+                "feature": "terralith:enchanted/bush"
+              },
+                            {
+                "chance": 0.004,
+                "feature": "terralith:flower/lavender/giant_flower"
+              },
+              {
+                "chance": 0.25,
+                "feature": "terralith:enchanted/big_tree"
+              }
+            ],
+            "default": "terralith:enchanted/jungle_tree"
+          }
+        }
+      }
+    }
+  }
+}

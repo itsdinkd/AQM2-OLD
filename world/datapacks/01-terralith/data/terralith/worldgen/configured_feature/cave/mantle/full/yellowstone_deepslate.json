@@ -1,0 +1,125 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 1000,
+        "extra_count": 0,
+        "extra_chance": 0
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:decorated",
+              "config": {
+                "outer": {
+                  "type": "minecraft:square",
+                  "config": {}
+                },
+                "inner": {
+                  "type": "minecraft:nope",
+                  "config": {}
+                }
+              }
+            },
+            "inner": {
+              "type": "minecraft:nope",
+              "config": {}
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:decorated",
+              "config": {
+                "outer": {
+                  "type": "minecraft:range",
+                  "config": {
+                    "height": {
+                      "type": "minecraft:biased_to_bottom",
+                      "min_inclusive": {
+                        "absolute": 0
+                      },
+                      "max_inclusive": {
+                        "absolute": 50
+                      }
+                    }
+                  }
+                },
+                "inner": {
+                  "type": "minecraft:nope",
+                  "config": {}
+                }
+              }
+            },
+            "feature": {
+              "type": "minecraft:scattered_ore",
+              "config": {
+                "size": 55,
+                "discard_chance_on_air_exposure": 0,
+                "targets": [
+                  {
+                    "target": {
+                      "predicate_type": "minecraft:block_match",
+                      "block": "minecraft:granite"
+                    },
+                    "state": {
+                      "Name": "minecraft:deepslate",
+                      "Properties": {
+                        "axis": "y"
+                      }
+                    }
+                  },
+                  {
+                    "target": {
+                      "predicate_type": "minecraft:block_match",
+                      "block": "minecraft:diorite"
+                    },
+                    "state": {
+                      "Name": "minecraft:deepslate",
+                      "Properties": {
+                        "axis": "y"
+                      }
+                    }
+                  },
+                  {
+                    "target": {
+                      "predicate_type": "minecraft:block_match",
+                      "block": "minecraft:andesite"
+                    },
+                    "state": {
+                      "Name": "minecraft:deepslate",
+                      "Properties": {
+                        "axis": "y"
+                      }
+                    }
+                  },
+                  {
+                    "target": {
+                      "predicate_type": "minecraft:block_match",
+                      "block": "minecraft:stone"
+                    },
+                    "state": {
+                      "Name": "minecraft:deepslate",
+                      "Properties": {
+                        "axis": "y"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

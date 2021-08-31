@@ -1,0 +1,89 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 2000,
+        "extra_count": 0,
+        "extra_chance": 0
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:heightmap",
+              "config": {
+                "heightmap": "MOTION_BLOCKING"
+              }
+            },
+            "feature": {
+              "type": "minecraft:simple_block",
+              "config": {
+                "to_place": {
+                  "state": {
+                    "Name": "minecraft:tuff"
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "place_on": [
+                  {
+                    "Name": "minecraft:light_blue_terracotta"
+                  },
+                  {
+                    "Name": "minecraft:blue_terracotta"
+                  },
+                  {
+                    "Name": "minecraft:purple_terracotta"
+                  },
+                  {
+                    "Name": "minecraft:cyan_terracotta"
+                  },
+                  {
+                    "Name": "minecraft:white_terracotta"
+                  },
+                  {
+                    "Name": "minecraft:light_gray_terracotta"
+                  },
+                  {
+                    "Name": "minecraft:yellow_terracotta"
+                  },
+                  {
+                    "Name": "minecraft:red_terracotta"
+                  },
+                  {
+                    "Name": "minecraft:orange_terracotta"
+                  },
+                  {
+                    "Name": "minecraft:terracotta"
+                  }
+                ],
+                "place_in": [
+                  {
+                    "Name": "minecraft:void_air"
+                  }
+                ],
+                "place_under": [
+                  {
+                    "Name": "minecraft:air"
+                  },
+                  {
+                    "Name": "minecraft:void_air"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

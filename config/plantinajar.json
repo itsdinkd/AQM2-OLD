@@ -1,0 +1,11 @@
+{
+  "dropItems": true,
+  "growthTime": 30,
+  "perItemGrowthTimes": {
+    "minecraft:bamboo": -1,
+    "bewitchment:mandrake": -1,
+    "bewitchment:belladonna": -1,
+    "bewitchment:aconite": -1
+  },
+  "growthModifierRegexPatterns": {}
+}

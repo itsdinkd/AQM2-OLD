@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:decorated",
+      "config": {
+        "inner": {
+          "config": {
+            "chance": 1.0
+          },
+          "type": "minecraft:chance"
+        },
+        "outer": {
+          "config": {
+            "step": "air"
+          },
+          "type": "minecraft:carving_mask"
+        }
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:heightmap",
+          "config": {
+            "heightmap": "MOTION_BLOCKING"
+          }
+        },
+        "feature": {
+          "type": "minecraft:simple_block",
+          "config": {
+            "to_place": {
+              "state": {
+                "Name": "minecraft:red_sand"
+              },
+              "type": "minecraft:simple_state_provider"
+            },
+            "place_on": [
+              {
+                "Name": "minecraft:red_sandstone"
+              }
+            ],
+            "place_in": [
+              {
+                "Name": "minecraft:air"
+              }
+            ],
+            "place_under": [
+              {
+                "Name": "minecraft:air"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

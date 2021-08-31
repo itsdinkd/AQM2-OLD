@@ -1,0 +1,100 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 100,
+        "extra_count": 0,
+        "extra_chance": 0
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": 20,
+                "noise_factor": 87.27,
+                "noise_offset": -0.3
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:chance",
+                  "config": {
+                    "chance": 110
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:decorated",
+                  "config": {
+                    "decorator": {
+                      "type": "minecraft:heightmap",
+                      "config": {
+                        "heightmap": "OCEAN_FLOOR_WG"
+                      }
+                    },
+                    "feature": {
+                      "type": "minecraft:simple_block",
+                      "config": {
+                        "to_place": {
+                          "type": "minecraft:weighted_state_provider",
+                          "entries": [
+                            {
+                              "weight": 3,
+                              "data": {
+                                "Name": "minecraft:azalea"
+                              }
+                            },
+                            {
+                              "weight": 1,
+                              "data": {
+                                "Name": "minecraft:flowering_azalea"
+                              }
+                            }
+                          ]
+                        },
+                        "place_on": [
+                          {
+                            "Name": "minecraft:grass_block",
+                            "Properties": {
+                              "snowy": "false"
+                            }
+                          },
+                          {
+                            "Name": "minecraft:moss_block"
+                          }
+                        ],
+                        "place_in": [
+                          {
+                            "Name": "minecraft:air"
+                          }
+                        ],
+                        "place_under": [
+                          {
+                            "Name": "minecraft:air"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

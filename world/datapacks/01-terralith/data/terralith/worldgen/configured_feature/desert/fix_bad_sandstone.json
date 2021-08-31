@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_noise_biased",
+      "config": {
+        "noise_to_count_ratio": -900,
+        "noise_factor": 400,
+        "noise_offset": 0.1
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:heightmap",
+                  "config": {
+                    "heightmap": "WORLD_SURFACE_WG"
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:netherrack_replace_blobs",
+                  "config": {
+                    "state": {
+                      "Name": "minecraft:red_sand"
+                    },
+                    "target": {
+                      "Name": "minecraft:sandstone"
+                    },
+                    "radius": {
+                      "type": "minecraft:uniform",
+                      "value": {
+                        "min_inclusive": 3,
+                        "max_inclusive": 5
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

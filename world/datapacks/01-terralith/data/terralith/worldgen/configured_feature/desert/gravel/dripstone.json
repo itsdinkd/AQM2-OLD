@@ -1,0 +1,86 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 500,
+        "extra_count": 0,
+        "extra_chance": 0
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": 20,
+                "noise_factor": 220,
+                "noise_offset": -0.1
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:chance",
+                  "config": {
+                    "chance": 50
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:decorated",
+                  "config": {
+                    "decorator": {
+                      "type": "minecraft:heightmap",
+                      "config": {
+                        "heightmap": "OCEAN_FLOOR_WG"
+                      }
+                    },
+                    "feature": {
+                      "type": "minecraft:ore",
+                      "config": {
+                        "size": 50,
+                        "discard_chance_on_air_exposure": 0,
+                        "targets": [
+                          {
+                            "target": {
+                              "predicate_type": "minecraft:random_block_match",
+                              "block": "minecraft:granite",
+                              "probability": 0.0
+                            },
+                            "state": {
+                              "Name": "minecraft:dripstone_block"
+                            }
+                          },
+                          {
+                            "target": {
+                              "predicate_type": "minecraft:random_block_match",
+                              "block": "minecraft:gravel",
+                              "probability": 0.05
+                            },
+                            "state": {
+                              "Name": "minecraft:dripstone_block"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

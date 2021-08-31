@@ -1,0 +1,55 @@
+{
+	// Level scaling formula inputs
+	"scaling": {
+		// Default 2.05
+		"power": 2.05,
+		// Default 0.5
+		"scale": 0.5,
+		// Default 80
+		"base": 80,
+		// If the required amount should be the requirements from previous levels combined + new one instead of just solving once
+		"isCumulative": true,
+		"maxLevel": 50
+	},
+	// If players should lose all stats on death
+	"hardcoreMode": false,
+	// Toggles for level effects
+	"toggles": {
+		"magic": {
+			"enableLv50Buff": true,
+			"enableLv25Buff": true
+		},
+		"melee": {
+			"enableLv50Buff": true,
+			"enableLv25Buff": true
+		},
+		"fishing": {
+			"enableLv50Buff": true,
+			"enableLv25Buff": true
+		},
+		"ranged": {
+			"enableLv50Buff": true,
+			"enableLv25Buff": true
+		},
+		"defense": {
+			"enableLv50Buff": true,
+			"enableLv25Buff": true
+		},
+		"mining": {
+			"effectLevelTrigger": 40,
+			"enableLv50Buff": true,
+			"enableLv25Buff": true
+		},
+		"farming": {
+			"enableLv50Buff": true,
+			"enableLv25Buff": false
+		}
+	},
+	// Debug options
+	"debug": {
+		"logXpGain": false,
+		"logBrokenBlocks": false,
+		"logRawOps": false,
+		"logRawWrite": false
+	}
+}

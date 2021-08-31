@@ -1,0 +1,22 @@
+{
+	/* 
+	   
+	   ***********************
+	   Portals
+	   ***********************
+	*/
+	"enableMiningPortal": true,
+	"enableHuntingPortal": true,
+	"enableCavingPortal": true,
+	"enableNetheringPortal": true,
+	/* 
+	   
+	   ***********************
+	   Portable Teleporters
+	   ***********************
+	*/
+	"enableMiningTeleporter": true,
+	"enableHuntingTeleporter": true,
+	"enableCavingTeleporter": true,
+	"enableNetheringTeleporter": true
+}

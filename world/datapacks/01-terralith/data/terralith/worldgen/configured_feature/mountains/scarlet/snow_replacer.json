@@ -1,0 +1,130 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count",
+      "config": {
+        "count": 16
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:range",
+              "config": {
+                "height": {
+                  "type": "minecraft:uniform",
+                  "min_inclusive": {
+                    "absolute": 250
+                  },
+                  "max_inclusive": {
+                    "absolute": 250
+                  }
+                }
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:cave_surface",
+                  "config": {
+                    "surface": "floor",
+                    "floor_to_ceiling_search_range": 100
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:geode",
+                  "config": {
+                    "blocks": {
+                      "filling_provider": {
+                        "type": "minecraft:simple_state_provider",
+                        "state": {
+                          "Name": "minecraft:snow_block"
+                        }
+                      },
+                      "inner_layer_provider": {
+                        "type": "minecraft:simple_state_provider",
+                        "state": {
+                          "Name": "minecraft:snow_block"
+                        }
+                      },
+                      "alternate_inner_layer_provider": {
+                        "type": "minecraft:simple_state_provider",
+                        "state": {
+                          "Name": "minecraft:snow_block"
+                        }
+                      },
+                      "middle_layer_provider": {
+                        "type": "minecraft:simple_state_provider",
+                        "state": {
+                          "Name": "minecraft:snow_block"
+                        }
+                      },
+                      "outer_layer_provider": {
+                        "type": "minecraft:simple_state_provider",
+                        "state": {
+                          "Name": "minecraft:snow_block"
+                        }
+                      },
+                      "inner_placements": [{"Name":"minecraft:snow_block"}],
+                      "cannot_replace": "terralith:scarlet_mountain_banned",
+                      "invalid_blocks": "terralith:scarlet_mountain_banned"
+                    },
+                    "layers": {
+                      "filling": 1,
+                      "inner_layer": 2,
+                      "middle_layer": 3,
+                      "outer_layer": 4
+                    },
+                    "crack": {
+                      "generate_crack_chance": 0,
+                      "base_crack_size": 0,
+                      "crack_point_offset": 0
+                    },
+                    "noise_multiplier": 0.05,
+                    "use_potential_placements_chance": 0,
+                    "use_alternate_layer0_chance": 0,
+                    "placements_require_layer0_alternate": false,
+                    "outer_wall_distance": {
+                      "type": "minecraft:uniform",
+                      "value": {
+                        "min_inclusive": 1,
+                        "max_inclusive": 5
+                      }
+                    },
+                    "distribution_points": {
+                      "type": "minecraft:uniform",
+                      "value": {
+                        "min_inclusive": 3,
+                        "max_inclusive": 4
+                      }
+                    },
+                    "point_offset": {
+                      "type": "minecraft:uniform",
+                      "value": {
+                        "min_inclusive": 2,
+                        "max_inclusive": 6
+                      }
+                    },
+                    "min_gen_offset": -16,
+                    "max_gen_offset": 16,
+                    "invalid_blocks_threshold": 16
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

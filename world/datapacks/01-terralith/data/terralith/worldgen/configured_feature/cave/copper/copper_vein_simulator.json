@@ -1,0 +1,988 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 1776,
+        "extra_count": 0,
+        "extra_chance": 0
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": 1,
+                "noise_factor": 150,
+                "noise_offset": 0.1
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:count_noise_biased",
+                  "config": {
+                    "noise_to_count_ratio": -1,
+                    "noise_factor": 150,
+                    "noise_offset": -0.1
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:decorated",
+                  "config": {
+                    "decorator": {
+                      "type": "minecraft:count_noise_biased",
+                      "config": {
+                        "noise_to_count_ratio": 1,
+                        "noise_factor": 275,
+                        "noise_offset": 1
+                      }
+                    },
+                    "feature": {
+                      "type": "minecraft:simple_random_selector",
+                      "config": {
+                        "features": [
+                          {
+                            "type": "minecraft:decorated",
+                            "config": {
+                              "decorator": {
+                                "type": "minecraft:count_noise_biased",
+                                "config": {
+                                  "noise_to_count_ratio": 1,
+                                  "noise_factor": 115,
+                                  "noise_offset": 1
+                                }
+                              },
+                              "feature": {
+                                "type": "minecraft:decorated",
+                                "config": {
+                                  "decorator": {
+                                    "type": "minecraft:count_noise_biased",
+                                    "config": {
+                                      "noise_to_count_ratio": -1,
+                                      "noise_factor": 115,
+                                      "noise_offset": 0.9
+                                    }
+                                  },
+                                  "feature": {
+                                    "type": "minecraft:decorated",
+                                    "config": {
+                                      "decorator": {
+                                        "type": "minecraft:range",
+                                        "config": {
+                                          "height": {
+                                            "type": "minecraft:trapezoid",
+                                            "min_inclusive": {
+                                              "absolute": 50
+                                            },
+                                            "max_inclusive": {
+                                              "absolute": 60
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "feature": "terralith:cave/copper/copper_base"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "type": "minecraft:decorated",
+                            "config": {
+                              "decorator": {
+                                "type": "minecraft:count_noise_biased",
+                                "config": {
+                                  "noise_to_count_ratio": 1,
+                                  "noise_factor": 115,
+                                  "noise_offset": 0.9
+                                }
+                              },
+                              "feature": {
+                                "type": "minecraft:decorated",
+                                "config": {
+                                  "decorator": {
+                                    "type": "minecraft:count_noise_biased",
+                                    "config": {
+                                      "noise_to_count_ratio": -1,
+                                      "noise_factor": 115,
+                                      "noise_offset": 0.8
+                                    }
+                                  },
+                                  "feature": {
+                                    "type": "minecraft:decorated",
+                                    "config": {
+                                      "decorator": {
+                                        "type": "minecraft:range",
+                                        "config": {
+                                          "height": {
+                                            "type": "minecraft:trapezoid",
+                                            "min_inclusive": {
+                                              "absolute": 45
+                                            },
+                                            "max_inclusive": {
+                                              "absolute": 55
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "feature": "terralith:cave/copper/copper_base"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "type": "minecraft:decorated",
+                            "config": {
+                              "decorator": {
+                                "type": "minecraft:count_noise_biased",
+                                "config": {
+                                  "noise_to_count_ratio": 1,
+                                  "noise_factor": 115,
+                                  "noise_offset": 0.8
+                                }
+                              },
+                              "feature": {
+                                "type": "minecraft:decorated",
+                                "config": {
+                                  "decorator": {
+                                    "type": "minecraft:count_noise_biased",
+                                    "config": {
+                                      "noise_to_count_ratio": -1,
+                                      "noise_factor": 115,
+                                      "noise_offset": 0.7
+                                    }
+                                  },
+                                  "feature": {
+                                    "type": "minecraft:decorated",
+                                    "config": {
+                                      "decorator": {
+                                        "type": "minecraft:range",
+                                        "config": {
+                                          "height": {
+                                            "type": "minecraft:trapezoid",
+                                            "min_inclusive": {
+                                              "absolute": 40
+                                            },
+                                            "max_inclusive": {
+                                              "absolute": 50
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "feature": "terralith:cave/copper/copper_base"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "type": "minecraft:decorated",
+                            "config": {
+                              "decorator": {
+                                "type": "minecraft:count_noise_biased",
+                                "config": {
+                                  "noise_to_count_ratio": 1,
+                                  "noise_factor": 115,
+                                  "noise_offset": 0.7
+                                }
+                              },
+                              "feature": {
+                                "type": "minecraft:decorated",
+                                "config": {
+                                  "decorator": {
+                                    "type": "minecraft:count_noise_biased",
+                                    "config": {
+                                      "noise_to_count_ratio": -1,
+                                      "noise_factor": 115,
+                                      "noise_offset": 0.6
+                                    }
+                                  },
+                                  "feature": {
+                                    "type": "minecraft:decorated",
+                                    "config": {
+                                      "decorator": {
+                                        "type": "minecraft:range",
+                                        "config": {
+                                          "height": {
+                                            "type": "minecraft:trapezoid",
+                                            "min_inclusive": {
+                                              "absolute": 35
+                                            },
+                                            "max_inclusive": {
+                                              "absolute": 45
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "feature": "terralith:cave/copper/copper_base"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "type": "minecraft:decorated",
+                            "config": {
+                              "decorator": {
+                                "type": "minecraft:count_noise_biased",
+                                "config": {
+                                  "noise_to_count_ratio": 1,
+                                  "noise_factor": 115,
+                                  "noise_offset": 0.6
+                                }
+                              },
+                              "feature": {
+                                "type": "minecraft:decorated",
+                                "config": {
+                                  "decorator": {
+                                    "type": "minecraft:count_noise_biased",
+                                    "config": {
+                                      "noise_to_count_ratio": -1,
+                                      "noise_factor": 115,
+                                      "noise_offset": 0.5
+                                    }
+                                  },
+                                  "feature": {
+                                    "type": "minecraft:decorated",
+                                    "config": {
+                                      "decorator": {
+                                        "type": "minecraft:range",
+                                        "config": {
+                                          "height": {
+                                            "type": "minecraft:trapezoid",
+                                            "min_inclusive": {
+                                              "absolute": 30
+                                            },
+                                            "max_inclusive": {
+                                              "absolute": 40
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "feature": "terralith:cave/copper/copper_base"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "type": "minecraft:decorated",
+                            "config": {
+                              "decorator": {
+                                "type": "minecraft:count_noise_biased",
+                                "config": {
+                                  "noise_to_count_ratio": 1,
+                                  "noise_factor": 115,
+                                  "noise_offset": 0.5
+                                }
+                              },
+                              "feature": {
+                                "type": "minecraft:decorated",
+                                "config": {
+                                  "decorator": {
+                                    "type": "minecraft:count_noise_biased",
+                                    "config": {
+                                      "noise_to_count_ratio": -1,
+                                      "noise_factor": 115,
+                                      "noise_offset": 0.4
+                                    }
+                                  },
+                                  "feature": {
+                                    "type": "minecraft:decorated",
+                                    "config": {
+                                      "decorator": {
+                                        "type": "minecraft:range",
+                                        "config": {
+                                          "height": {
+                                            "type": "minecraft:trapezoid",
+                                            "min_inclusive": {
+                                              "absolute": 25
+                                            },
+                                            "max_inclusive": {
+                                              "absolute": 35
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "feature": "terralith:cave/copper/copper_base"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "type": "minecraft:decorated",
+                            "config": {
+                              "decorator": {
+                                "type": "minecraft:count_noise_biased",
+                                "config": {
+                                  "noise_to_count_ratio": 1,
+                                  "noise_factor": 115,
+                                  "noise_offset": 0.4
+                                }
+                              },
+                              "feature": {
+                                "type": "minecraft:decorated",
+                                "config": {
+                                  "decorator": {
+                                    "type": "minecraft:count_noise_biased",
+                                    "config": {
+                                      "noise_to_count_ratio": -1,
+                                      "noise_factor": 115,
+                                      "noise_offset": 0.3
+                                    }
+                                  },
+                                  "feature": {
+                                    "type": "minecraft:decorated",
+                                    "config": {
+                                      "decorator": {
+                                        "type": "minecraft:range",
+                                        "config": {
+                                          "height": {
+                                            "type": "minecraft:trapezoid",
+                                            "min_inclusive": {
+                                              "absolute": 20
+                                            },
+                                            "max_inclusive": {
+                                              "absolute": 30
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "feature": "terralith:cave/copper/copper_base"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "type": "minecraft:decorated",
+                            "config": {
+                              "decorator": {
+                                "type": "minecraft:count_noise_biased",
+                                "config": {
+                                  "noise_to_count_ratio": 1,
+                                  "noise_factor": 115,
+                                  "noise_offset": 0.3
+                                }
+                              },
+                              "feature": {
+                                "type": "minecraft:decorated",
+                                "config": {
+                                  "decorator": {
+                                    "type": "minecraft:count_noise_biased",
+                                    "config": {
+                                      "noise_to_count_ratio": -1,
+                                      "noise_factor": 115,
+                                      "noise_offset": 0.2
+                                    }
+                                  },
+                                  "feature": {
+                                    "type": "minecraft:decorated",
+                                    "config": {
+                                      "decorator": {
+                                        "type": "minecraft:range",
+                                        "config": {
+                                          "height": {
+                                            "type": "minecraft:trapezoid",
+                                            "min_inclusive": {
+                                              "absolute": 15
+                                            },
+                                            "max_inclusive": {
+                                              "absolute": 25
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "feature": "terralith:cave/copper/copper_base"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "type": "minecraft:decorated",
+                            "config": {
+                              "decorator": {
+                                "type": "minecraft:count_noise_biased",
+                                "config": {
+                                  "noise_to_count_ratio": 1,
+                                  "noise_factor": 115,
+                                  "noise_offset": 0.2
+                                }
+                              },
+                              "feature": {
+                                "type": "minecraft:decorated",
+                                "config": {
+                                  "decorator": {
+                                    "type": "minecraft:count_noise_biased",
+                                    "config": {
+                                      "noise_to_count_ratio": -1,
+                                      "noise_factor": 115,
+                                      "noise_offset": 0.1
+                                    }
+                                  },
+                                  "feature": {
+                                    "type": "minecraft:decorated",
+                                    "config": {
+                                      "decorator": {
+                                        "type": "minecraft:range",
+                                        "config": {
+                                          "height": {
+                                            "type": "minecraft:trapezoid",
+                                            "min_inclusive": {
+                                              "absolute": 10
+                                            },
+                                            "max_inclusive": {
+                                              "absolute": 20
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "feature": "terralith:cave/copper/copper_base"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "type": "minecraft:decorated",
+                            "config": {
+                              "decorator": {
+                                "type": "minecraft:count_noise_biased",
+                                "config": {
+                                  "noise_to_count_ratio": 1,
+                                  "noise_factor": 115,
+                                  "noise_offset": 0.1
+                                }
+                              },
+                              "feature": {
+                                "type": "minecraft:decorated",
+                                "config": {
+                                  "decorator": {
+                                    "type": "minecraft:count_noise_biased",
+                                    "config": {
+                                      "noise_to_count_ratio": -1,
+                                      "noise_factor": 115,
+                                      "noise_offset": 0.0
+                                    }
+                                  },
+                                  "feature": {
+                                    "type": "minecraft:decorated",
+                                    "config": {
+                                      "decorator": {
+                                        "type": "minecraft:range",
+                                        "config": {
+                                          "height": {
+                                            "type": "minecraft:trapezoid",
+                                            "min_inclusive": {
+                                              "absolute": 5
+                                            },
+                                            "max_inclusive": {
+                                              "absolute": 15
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "feature": "terralith:cave/copper/copper_base"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "type": "minecraft:decorated",
+                            "config": {
+                              "decorator": {
+                                "type": "minecraft:count_noise_biased",
+                                "config": {
+                                  "noise_to_count_ratio": 1,
+                                  "noise_factor": 115,
+                                  "noise_offset": 0.0
+                                }
+                              },
+                              "feature": {
+                                "type": "minecraft:decorated",
+                                "config": {
+                                  "decorator": {
+                                    "type": "minecraft:count_noise_biased",
+                                    "config": {
+                                      "noise_to_count_ratio": -1,
+                                      "noise_factor": 115,
+                                      "noise_offset": -0.1
+                                    }
+                                  },
+                                  "feature": {
+                                    "type": "minecraft:decorated",
+                                    "config": {
+                                      "decorator": {
+                                        "type": "minecraft:range",
+                                        "config": {
+                                          "height": {
+                                            "type": "minecraft:trapezoid",
+                                            "min_inclusive": {
+                                              "absolute": 0
+                                            },
+                                            "max_inclusive": {
+                                              "absolute": 10
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "feature": "terralith:cave/copper/copper_base"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "type": "minecraft:decorated",
+                            "config": {
+                              "decorator": {
+                                "type": "minecraft:count_noise_biased",
+                                "config": {
+                                  "noise_to_count_ratio": 1,
+                                  "noise_factor": 115,
+                                  "noise_offset": -0.1
+                                }
+                              },
+                              "feature": {
+                                "type": "minecraft:decorated",
+                                "config": {
+                                  "decorator": {
+                                    "type": "minecraft:count_noise_biased",
+                                    "config": {
+                                      "noise_to_count_ratio": -1,
+                                      "noise_factor": 115,
+                                      "noise_offset": -0.2
+                                    }
+                                  },
+                                  "feature": {
+                                    "type": "minecraft:decorated",
+                                    "config": {
+                                      "decorator": {
+                                        "type": "minecraft:range",
+                                        "config": {
+                                          "height": {
+                                            "type": "minecraft:trapezoid",
+                                            "min_inclusive": {
+                                              "absolute": -5
+                                            },
+                                            "max_inclusive": {
+                                              "absolute": 5
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "feature": "terralith:cave/copper/copper_base"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "type": "minecraft:decorated",
+                            "config": {
+                              "decorator": {
+                                "type": "minecraft:count_noise_biased",
+                                "config": {
+                                  "noise_to_count_ratio": 1,
+                                  "noise_factor": 115,
+                                  "noise_offset": -0.2
+                                }
+                              },
+                              "feature": {
+                                "type": "minecraft:decorated",
+                                "config": {
+                                  "decorator": {
+                                    "type": "minecraft:count_noise_biased",
+                                    "config": {
+                                      "noise_to_count_ratio": -1,
+                                      "noise_factor": 115,
+                                      "noise_offset": -0.3
+                                    }
+                                  },
+                                  "feature": {
+                                    "type": "minecraft:decorated",
+                                    "config": {
+                                      "decorator": {
+                                        "type": "minecraft:range",
+                                        "config": {
+                                          "height": {
+                                            "type": "minecraft:trapezoid",
+                                            "min_inclusive": {
+                                              "absolute": -10
+                                            },
+                                            "max_inclusive": {
+                                              "absolute": 0
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "feature": "terralith:cave/copper/copper_base"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "type": "minecraft:decorated",
+                            "config": {
+                              "decorator": {
+                                "type": "minecraft:count_noise_biased",
+                                "config": {
+                                  "noise_to_count_ratio": 1,
+                                  "noise_factor": 115,
+                                  "noise_offset": -0.3
+                                }
+                              },
+                              "feature": {
+                                "type": "minecraft:decorated",
+                                "config": {
+                                  "decorator": {
+                                    "type": "minecraft:count_noise_biased",
+                                    "config": {
+                                      "noise_to_count_ratio": -1,
+                                      "noise_factor": 115,
+                                      "noise_offset": -0.4
+                                    }
+                                  },
+                                  "feature": {
+                                    "type": "minecraft:decorated",
+                                    "config": {
+                                      "decorator": {
+                                        "type": "minecraft:range",
+                                        "config": {
+                                          "height": {
+                                            "type": "minecraft:trapezoid",
+                                            "min_inclusive": {
+                                              "absolute": -15
+                                            },
+                                            "max_inclusive": {
+                                              "absolute": -5
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "feature": "terralith:cave/copper/copper_base"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "type": "minecraft:decorated",
+                            "config": {
+                              "decorator": {
+                                "type": "minecraft:count_noise_biased",
+                                "config": {
+                                  "noise_to_count_ratio": 1,
+                                  "noise_factor": 115,
+                                  "noise_offset": -0.4
+                                }
+                              },
+                              "feature": {
+                                "type": "minecraft:decorated",
+                                "config": {
+                                  "decorator": {
+                                    "type": "minecraft:count_noise_biased",
+                                    "config": {
+                                      "noise_to_count_ratio": -1,
+                                      "noise_factor": 115,
+                                      "noise_offset": -0.5
+                                    }
+                                  },
+                                  "feature": {
+                                    "type": "minecraft:decorated",
+                                    "config": {
+                                      "decorator": {
+                                        "type": "minecraft:range",
+                                        "config": {
+                                          "height": {
+                                            "type": "minecraft:trapezoid",
+                                            "min_inclusive": {
+                                              "absolute": -20
+                                            },
+                                            "max_inclusive": {
+                                              "absolute": -10
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "feature": "terralith:cave/copper/copper_base"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "type": "minecraft:decorated",
+                            "config": {
+                              "decorator": {
+                                "type": "minecraft:count_noise_biased",
+                                "config": {
+                                  "noise_to_count_ratio": 1,
+                                  "noise_factor": 115,
+                                  "noise_offset": -0.5
+                                }
+                              },
+                              "feature": {
+                                "type": "minecraft:decorated",
+                                "config": {
+                                  "decorator": {
+                                    "type": "minecraft:count_noise_biased",
+                                    "config": {
+                                      "noise_to_count_ratio": -1,
+                                      "noise_factor": 115,
+                                      "noise_offset": -0.6
+                                    }
+                                  },
+                                  "feature": {
+                                    "type": "minecraft:decorated",
+                                    "config": {
+                                      "decorator": {
+                                        "type": "minecraft:range",
+                                        "config": {
+                                          "height": {
+                                            "type": "minecraft:trapezoid",
+                                            "min_inclusive": {
+                                              "absolute": -25
+                                            },
+                                            "max_inclusive": {
+                                              "absolute": -15
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "feature": "terralith:cave/copper/copper_base"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "type": "minecraft:decorated",
+                            "config": {
+                              "decorator": {
+                                "type": "minecraft:count_noise_biased",
+                                "config": {
+                                  "noise_to_count_ratio": 1,
+                                  "noise_factor": 115,
+                                  "noise_offset": -0.6
+                                }
+                              },
+                              "feature": {
+                                "type": "minecraft:decorated",
+                                "config": {
+                                  "decorator": {
+                                    "type": "minecraft:count_noise_biased",
+                                    "config": {
+                                      "noise_to_count_ratio": -1,
+                                      "noise_factor": 115,
+                                      "noise_offset": -0.7
+                                    }
+                                  },
+                                  "feature": {
+                                    "type": "minecraft:decorated",
+                                    "config": {
+                                      "decorator": {
+                                        "type": "minecraft:range",
+                                        "config": {
+                                          "height": {
+                                            "type": "minecraft:trapezoid",
+                                            "min_inclusive": {
+                                              "absolute": -30
+                                            },
+                                            "max_inclusive": {
+                                              "absolute": -20
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "feature": "terralith:cave/copper/copper_base"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "type": "minecraft:decorated",
+                            "config": {
+                              "decorator": {
+                                "type": "minecraft:count_noise_biased",
+                                "config": {
+                                  "noise_to_count_ratio": 1,
+                                  "noise_factor": 115,
+                                  "noise_offset": -0.7
+                                }
+                              },
+                              "feature": {
+                                "type": "minecraft:decorated",
+                                "config": {
+                                  "decorator": {
+                                    "type": "minecraft:count_noise_biased",
+                                    "config": {
+                                      "noise_to_count_ratio": -1,
+                                      "noise_factor": 115,
+                                      "noise_offset": -0.8
+                                    }
+                                  },
+                                  "feature": {
+                                    "type": "minecraft:decorated",
+                                    "config": {
+                                      "decorator": {
+                                        "type": "minecraft:range",
+                                        "config": {
+                                          "height": {
+                                            "type": "minecraft:trapezoid",
+                                            "min_inclusive": {
+                                              "absolute": -35
+                                            },
+                                            "max_inclusive": {
+                                              "absolute": -25
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "feature": "terralith:cave/copper/copper_base"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "type": "minecraft:decorated",
+                            "config": {
+                              "decorator": {
+                                "type": "minecraft:count_noise_biased",
+                                "config": {
+                                  "noise_to_count_ratio": 1,
+                                  "noise_factor": 115,
+                                  "noise_offset": -0.8
+                                }
+                              },
+                              "feature": {
+                                "type": "minecraft:decorated",
+                                "config": {
+                                  "decorator": {
+                                    "type": "minecraft:count_noise_biased",
+                                    "config": {
+                                      "noise_to_count_ratio": -1,
+                                      "noise_factor": 115,
+                                      "noise_offset": -0.9
+                                    }
+                                  },
+                                  "feature": {
+                                    "type": "minecraft:decorated",
+                                    "config": {
+                                      "decorator": {
+                                        "type": "minecraft:range",
+                                        "config": {
+                                          "height": {
+                                            "type": "minecraft:trapezoid",
+                                            "min_inclusive": {
+                                              "absolute": -40
+                                            },
+                                            "max_inclusive": {
+                                              "absolute": -30
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "feature": "terralith:cave/copper/copper_base"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "type": "minecraft:decorated",
+                            "config": {
+                              "decorator": {
+                                "type": "minecraft:count_noise_biased",
+                                "config": {
+                                  "noise_to_count_ratio": 1,
+                                  "noise_factor": 115,
+                                  "noise_offset": -0.9
+                                }
+                              },
+                              "feature": {
+                                "type": "minecraft:decorated",
+                                "config": {
+                                  "decorator": {
+                                    "type": "minecraft:count_noise_biased",
+                                    "config": {
+                                      "noise_to_count_ratio": -1,
+                                      "noise_factor": 115,
+                                      "noise_offset": -1
+                                    }
+                                  },
+                                  "feature": {
+                                    "type": "minecraft:decorated",
+                                    "config": {
+                                      "decorator": {
+                                        "type": "minecraft:range",
+                                        "config": {
+                                          "height": {
+                                            "type": "minecraft:trapezoid",
+                                            "min_inclusive": {
+                                              "absolute": -45
+                                            },
+                                            "max_inclusive": {
+                                              "absolute": -35
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "feature": "terralith:cave/copper/copper_base"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

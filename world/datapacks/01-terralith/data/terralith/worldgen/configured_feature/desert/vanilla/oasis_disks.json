@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_noise_biased",
+      "config": {
+        "noise_to_count_ratio": 50,
+        "noise_factor": 245,
+        "noise_offset": 0
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:range",
+              "config": {
+                "height": {
+                  "min_inclusive": {
+                    "absolute": 62
+                  },
+                  "max_inclusive": {
+                    "absolute": 63
+                  },
+                  "type": "minecraft:uniform"
+                }
+              }
+            },
+            "feature": {
+              "type": "minecraft:disk",
+              "config": {
+                "state": {
+                  "Name": "minecraft:grass_block",
+                  "Properties": {
+                    "snowy": "false"
+                  }
+                },
+                "radius": {
+                  "type": "minecraft:uniform",
+                  "value": {
+                    "min_inclusive": 4,
+                    "max_inclusive": 8
+                  }
+                },
+                "half_height": 0,
+                "targets": [
+                  {
+                    "Name": "minecraft:sand"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

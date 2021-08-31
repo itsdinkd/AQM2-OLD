@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 128,
+        "extra_count": 1000,
+        "extra_chance": 1
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "inner": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": 1,
+                "noise_factor": 300,
+                "noise_offset": 1
+              }
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:heightmap",
+              "config": {
+                "heightmap": "OCEAN_FLOOR_WG"
+              }
+            },
+            "feature": {
+              "type": "minecraft:netherrack_replace_blobs",
+              "config": {
+                "state": {
+                  "Name": "minecraft:light_gray_terracotta"
+                },
+                "target": {
+                  "Name": "minecraft:red_sand"
+                },
+                "radius": {
+                  "type": "minecraft:uniform",
+                  "value": {
+                    "min_inclusive": 7,
+                    "max_inclusive": 12
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

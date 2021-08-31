@@ -1,0 +1,96 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count",
+      "config": {
+        "count": 8
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:decorated",
+              "config": {
+                "outer": {
+                  "type": "minecraft:count_noise_biased",
+                  "config": {
+                    "noise_to_count_ratio": 1,
+                    "noise_factor": 807,
+                    "noise_offset": -0.05
+                  }
+                },
+                "inner": {
+                  "type": "minecraft:count_noise_biased",
+                  "config": {
+                    "noise_to_count_ratio": 1,
+                    "noise_factor": 457,
+                    "noise_offset": -0.05
+                  }
+                }
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:range",
+                  "config": {
+                    "height": {
+                      "type": "minecraft:uniform",
+                      "min_inclusive": {
+                        "above_bottom": 0
+                      },
+                      "max_inclusive": {
+                        "absolute": 40
+                      }
+                    }
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:random_boolean_selector",
+                  "config": {
+                    "feature_false": {
+                      "type": "minecraft:decorated",
+                      "config": {
+                        "decorator": {
+                          "type": "minecraft:cave_surface",
+                          "config": {
+                            "surface": "floor",
+                            "floor_to_ceiling_search_range": 12
+                          }
+                        },
+                        "feature": "terralith:cave/lush/calcite_vpatch"
+                      }
+                    },
+                    "feature_true": {
+                      "type": "minecraft:decorated",
+                      "config": {
+                        "decorator": {
+                          "type": "minecraft:cave_surface",
+                          "config": {
+                            "surface": "ceiling",
+                            "floor_to_ceiling_search_range": 12
+                          }
+                        },
+                        "feature": "terralith:cave/lush/calcite_vpatch_ceiling"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

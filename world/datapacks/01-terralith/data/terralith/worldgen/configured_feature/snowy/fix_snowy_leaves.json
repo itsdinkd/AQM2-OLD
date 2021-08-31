@@ -1,0 +1,139 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 40000,
+        "extra_count": 0,
+        "extra_chance": 0
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:range",
+                  "config": {
+                    "height": {
+                      "min_inclusive": {
+                        "absolute": 64
+                      },
+                      "max_inclusive": {
+                        "absolute": 104
+                      },
+                      "type": "minecraft:uniform"
+                    }
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:random_selector",
+                  "config": {
+                    "features": [
+                      {
+                        "chance": 1,
+                        "feature": {
+                          "type": "minecraft:simple_block",
+                          "config": {
+                            "to_place": {
+                              "state": {
+                                "Name": "minecraft:snow",
+                                "Properties": {
+                                  "layers": "1"
+                                }
+                              },
+                              "type": "minecraft:simple_state_provider"
+                            },
+                            "place_on": [
+                              {
+                                "Name": "minecraft:spruce_leaves",
+                                "Properties": {
+                                  "distance": "7",
+                                  "persistent": "false"
+                                }
+                              },
+                              {
+                                "Name": "minecraft:spruce_leaves",
+                                "Properties": {
+                                  "distance": "6",
+                                  "persistent": "false"
+                                }
+                              },
+                              {
+                                "Name": "minecraft:spruce_leaves",
+                                "Properties": {
+                                  "distance": "5",
+                                  "persistent": "false"
+                                }
+                              },
+                              {
+                                "Name": "minecraft:spruce_leaves",
+                                "Properties": {
+                                  "distance": "4",
+                                  "persistent": "false"
+                                }
+                              },
+                              {
+                                "Name": "minecraft:spruce_leaves",
+                                "Properties": {
+                                  "distance": "3",
+                                  "persistent": "false"
+                                }
+                              },
+                              {
+                                "Name": "minecraft:spruce_leaves",
+                                "Properties": {
+                                  "distance": "2",
+                                  "persistent": "false"
+                                }
+                              },
+                              {
+                                "Name": "minecraft:spruce_leaves",
+                                "Properties": {
+                                  "distance": "1",
+                                  "persistent": "false"
+                                }
+                              }
+                            ],
+                            "place_in": [
+                              {
+                                "Name": "minecraft:air"
+                              }
+                            ],
+                            "place_under": [
+                              {
+                                "Name": "minecraft:air"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ],
+                    "default": {
+                      "type": "minecraft:no_op",
+                      "config": {}
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

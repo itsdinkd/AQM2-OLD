@@ -1,0 +1,165 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:heightmap",
+      "config": {
+        "heightmap": "WORLD_SURFACE"
+      }
+    },
+    "feature": {
+      "type": "minecraft:vegetation_patch",
+      "config": {
+        "surface": "floor",
+        "depth": 1,
+        "vertical_range": 1,
+        "extra_bottom_block_chance": 0,
+        "extra_edge_column_chance": 0,
+        "vegetation_chance": 1,
+        "xz_radius": 16,
+        "replaceable": "terralith:tophack/red_concrete",
+        "ground_state": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:air"
+          }
+        },
+        "vegetation_feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": 1,
+                "noise_factor": 44,
+                "noise_offset": 0.12
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:decorated",
+                  "config": {
+                    "outer": {
+                      "type": "minecraft:count_noise_biased",
+                      "config": {
+                        "noise_to_count_ratio": -1,
+                        "noise_factor": 44,
+                        "noise_offset": -0.12
+                      }
+                    },
+                    "inner": {
+                      "type": "minecraft:heightmap",
+                      "config": {
+                        "heightmap": "WORLD_SURFACE_WG"
+                      }
+                    }
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:random_selector",
+                  "config": {
+                    "features": [
+                      {
+                        "chance": 0.01,
+                        "feature": "terralith:jungle/mega/random_mega_tree"
+                      },
+                      {
+                        "chance": 0.25,
+                        "feature": {
+                          "type": "minecraft:ore",
+                          "config": {
+                            "size": 40,
+                            "discard_chance_on_air_exposure": 0,
+                            "targets": [
+                              {
+                                "target": {
+                                  "predicate_type": "minecraft:random_block_match",
+                                  "block": "minecraft:grass_block",
+                                  "probability": 0.4
+                                },
+                                "state": {
+                                  "Name": "minecraft:podzol","Properties":{"snowy":"false"}
+                                }
+                              },
+                              {
+                                "target": {
+                                  "predicate_type": "minecraft:random_block_match",
+                                  "block": "minecraft:moss_block",
+                                  "probability": 0.4
+                                },
+                                "state": {
+                                  "Name": "minecraft:podzol","Properties":{"snowy":"false"}
+                                }
+                              },
+                              {
+                                "target": {
+                                  "predicate_type": "minecraft:random_block_match",
+                                  "block": "minecraft:dirt",
+                                  "probability": 0.3
+                                },
+                                "state": {
+                                  "Name": "minecraft:coarse_dirt"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ],
+                    "default": {
+                      "type": "minecraft:ore",
+                      "config": {
+                        "size": 10,
+                        "discard_chance_on_air_exposure": 0,
+                        "targets": [
+                          {
+                            "target": {
+                              "predicate_type": "minecraft:block_match",
+                              "block": "minecraft:grass_block"
+                            },
+                            "state": {
+                              "Name": "minecraft:rooted_dirt"
+                            }
+                          },
+                          {
+                            "target": {
+                              "predicate_type": "minecraft:block_match",
+                              "block": "minecraft:dirt"
+                            },
+                            "state": {
+                              "Name": "minecraft:rooted_dirt"
+                            }
+                          },
+                                                    {
+                            "target": {
+                              "predicate_type": "minecraft:block_match",
+                              "block": "minecraft:moss_block"
+                            },
+                            "state": {
+                              "Name": "minecraft:rooted_dirt"
+                            }
+                          },
+                          {
+                            "target": {
+                              "predicate_type": "minecraft:block_match",
+                              "block": "minecraft:podzol"
+                            },
+                            "state": {
+                              "Name": "minecraft:rooted_dirt"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

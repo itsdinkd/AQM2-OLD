@@ -1,0 +1,89 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 250,
+        "extra_count":0,
+        "extra_chance":0
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "inner": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": 10,
+                "noise_factor": 144,
+                "noise_offset": 0
+              }
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:chance",
+              "config": {
+                "chance": 20
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:range",
+                  "config": {
+                    "height": {
+                      "absolute": 62
+                    }
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:disk",
+                  "config": {
+                    "state": {
+                      "Name": "minecraft:sand"
+                    },
+                    "radius": {
+                      "type": "minecraft:biased_to_bottom",
+                      "value": {
+                        "min_inclusive": 1,
+                        "max_inclusive": 6
+                      }
+                    },
+                    "half_height": 3,
+                    "targets": [
+                      {
+                        "Name": "minecraft:gravel"
+                      },
+                      {
+                        "Name": "minecraft:dirt"
+                      },
+                      {
+                        "Name": "minecraft:grass_block",
+                        "Properties": {
+                          "snowy": "false"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

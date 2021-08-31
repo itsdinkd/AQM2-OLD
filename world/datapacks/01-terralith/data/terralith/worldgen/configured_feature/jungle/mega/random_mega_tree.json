@@ -1,0 +1,12 @@
+{
+          "type": "minecraft:random_selector",
+          "config": {
+            "features": [
+              {
+                "chance": 0.5,
+                "feature": "terralith:jungle/mega/mega_tree_2"
+              }
+            ],
+            "default": "terralith:jungle/mega/mega_tree"
+          }
+        }

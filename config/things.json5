@@ -1,0 +1,18 @@
+{
+	// Disables trinket support for apples
+	"appleTrinket": true,
+	// How much faster the wax gland should make you
+	"waxGlandMultiplier": 7.0,
+	// The base durability of the infernal scepter
+	"infernalScepterDurability": 64,
+	// The momentum level the mining glove produces
+	"miningGloveMomentumLevel": 2,
+	// Whether Things should prevent beacons from giving someone haste when they already have momentum
+	"nerfBeaconsWithMomentum": true,
+	// Globally disables Things trinket rendering
+	"renderTrinkets": true,
+	// Only disables trinket rendering for apples
+	"renderAppleTrinket": true,
+	// Whether players should receive a Things guide when they first enter a world
+	"giveGuideOnWorldEntry": true
+}

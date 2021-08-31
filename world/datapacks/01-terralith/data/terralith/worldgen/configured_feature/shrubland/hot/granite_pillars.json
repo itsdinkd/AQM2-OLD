@@ -1,0 +1,143 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:nope",
+      "config": {}
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:nope",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": 1,
+                "noise_factor": 170,
+                "noise_offset": 1
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:count_noise_biased",
+                  "config": {
+                    "noise_to_count_ratio": 10,
+                    "noise_factor": 550,
+                    "noise_offset": 0
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:decorated",
+                  "config": {
+                    "decorator": {
+                      "type": "minecraft:count_noise_biased",
+                      "config": {
+                        "noise_to_count_ratio": 1,
+                        "noise_factor": 15,
+                        "noise_offset": 1
+                      }
+                    },
+                    "feature": {
+                      "type": "minecraft:decorated",
+                      "config": {
+                        "decorator": {
+                          "type": "minecraft:chance",
+                          "config": {
+                            "chance": 100
+                          }
+                        },
+                        "feature": {
+                          "type": "minecraft:decorated",
+                          "config": {
+                            "decorator": {
+                              "type": "minecraft:decorated",
+                              "config": {
+                                "outer": {
+                                  "type": "minecraft:range",
+                                  "config": {
+                                    "height": {
+                                      "absolute": 318
+                                    }
+                                  }
+                                },
+                                "inner": {
+                                  "type": "minecraft:cave_surface",
+                                  "config": {
+                                    "surface": "floor",
+                                    "floor_to_ceiling_search_range": 255
+                                  }
+                                }
+                              }
+                            },
+                            "feature": {
+                              "type": "minecraft:vegetation_patch",
+                              "config": {
+                                "surface": "floor",
+                                "depth": 2,
+                                "vertical_range": 25,
+                                "extra_bottom_block_chance": 0,
+                                "extra_edge_column_chance": 0.5,
+                                "vegetation_chance": 1,
+                                "xz_radius": {
+                                  "type": "minecraft:uniform",
+                                  "value": {
+                                    "min_inclusive": 8,
+                                    "max_inclusive": 8
+                                  }
+                                },
+                                "replaceable": "terralith:granite_pillar_ok",
+                                "ground_state": {
+                                  "type": "minecraft:simple_state_provider",
+                                  "state": {
+                                    "Name": "minecraft:granite"
+                                  }
+                                },
+                                "vegetation_feature": {
+                                  "type": "minecraft:growing_plant",
+                                  "config": {
+                                    "direction": "up",
+                                    "allow_water": false,
+                                    "height_distribution": [
+                                      {
+                                        "weight": 1,
+                                        "data": 1
+                                      }
+                                    ],
+                                    "body_provider": {
+                                      "type": "minecraft:simple_state_provider",
+                                      "state": {
+                                        "Name": "minecraft:granite"
+                                      }
+                                    },
+                                    "head_provider": {
+                                      "type": "minecraft:simple_state_provider",
+                                      "state": {
+                                        "Name": "minecraft:granite"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "scale": 0.525,
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "sky_color": 9619199, //7842047
+    "fog_color": 12638463,
+    "foliage_color":11856974,
+    "grass_color":9035086,
+    "water_color": 4445678,
+    "water_fog_color": 329011
+  },
+  "surface_builder": "minecraft:grass",
+  "carvers": {
+    "air": [
+      "terralith:noodle_ravine",
+      "terralith:flat_cave",
+      "terralith:tall_cave",
+      "minecraft:prototype_cave",
+     "minecraft:prototype_canyon",
+"terralith:big_cave_entrance"    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_water",
+      "minecraft:lake_lava"
+    ],
+    [],
+    [
+      "minecraft:amethyst_geode",
+      "minecraft:monster_room"
+    ],
+    [],
+    [
+      "terralith:coastal/black_beach",
+      "terralith:coastal/spikes",
+      "terralith:coastal/blackstone_spread",
+      "terralith:coastal/gravel_beach"
+    ],
+    [ 
+      "minecraft:prototype_ore_dirt",
+      "terralith:techreborn_bauxite_ore",
+      "terralith:techreborn_galena_ore",
+      "terralith:techreborn_iridium_ore",
+      "terralith:techreborn_lead_ore",
+      "terralith:techreborn_ruby_ore",
+      "terralith:techreborn_sapphire_ore",
+      "terralith:techreborn_silver_ore",
+      "terralith:techreborn_tin_ore",
+      "terralith:gobber2_ore",
+      "terralith:things_gleaming_ore",
+      "minecraft:prototype_ore_gravel",
+      "minecraft:prototype_ore_granite",
+      "minecraft:prototype_ore_diorite",
+      "minecraft:prototype_ore_andesite",
+      "minecraft:prototype_ore_tuff",
+      "minecraft:prototype_ore_coal_upper",
+      "minecraft:prototype_ore_coal_lower",
+      "minecraft:prototype_ore_iron_upper",
+      "minecraft:prototype_ore_iron_middle",
+      "minecraft:prototype_ore_iron_small",
+      "minecraft:prototype_ore_gold",
+      "minecraft:prototype_ore_redstone",
+      "minecraft:prototype_ore_redstone_lower",
+      "minecraft:prototype_ore_diamond",
+      "minecraft:ore_diamond_strip_mine",
+      "minecraft:prototype_ore_diamond_large",
+      "minecraft:prototype_ore_lapis",
+      "minecraft:prototype_ore_lapis_buried",
+      "minecraft:prototype_ore_copper",
+      "minecraft:prototype_underwater_magma",
+      "terralith:cave/thermal/magma2",
+      "terralith:cave/thermal/springs",
+      "terralith:cave/generic/tiles",
+      "terralith:cave/mantle/gen_pillars",
+      "terralith:cave/mantle/ceiling",
+      "terralith:cave/mantle/magma",
+      "terralith:cave/mantle/lava_fountain",
+      "terralith:cave/mantle/geyser"
+    ],
+    [],
+    [
+      "terralith:coastal/magma",
+      "terralith:coastal/corals",
+      "terralith:coastal/trees_hawaii",
+      "minecraft:flower_warm",
+      "terralith:coastal/patch_grass_jungle",
+      "terralith:coastal/remove_grass",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:seagrass_warm",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin",
+      "minecraft:prototype_glow_lichen",
+"minecraft:prototype_spring_water",
+      "minecraft:prototype_spring_lava",
+      "minecraft:patch_melon",
+      "minecraft:vines"
+    ],
+    [
+      "minecraft:freeze_top_layer",
+      "terralith:cave/generic/kill_bad_leaves",
+      "terralith:cave/lush/calcite_geode_gen",
+      "terralith:cave/lush/lush_caves_ceiling_vegetation",
+      "terralith:cave/lush/cave_vines",
+      "terralith:cave/lush/lush_caves_clay",
+      "terralith:cave/lush/lush_caves_vegetation",
+      "terralith:cave/lush/rooted_azalea_trees",
+      "terralith:cave/lush/spore_blossom",
+      "terralith:cave/lush/classic_vines_cave_feature",
+      "terralith:cave/dripstone/large_dripstone",
+      "terralith:cave/dripstone/iron_dripstone",
+      "terralith:cave/dripstone/dripstone_cluster",
+      "terralith:cave/dripstone/small_dripstone",
+      "terralith:cave/thermal/redstone_extra",
+      "terralith:cave/thermal/ceiling_lower",
+      "terralith:cave/thermal/ceiling_upper",
+      "terralith:cave/thermal/ceiling_lower_small",
+      "terralith:cave/thermal/ceiling_upper_small",
+      "terralith:cave/thermal/pools",
+      "terralith:cave/thermal/pools_carver",
+      "terralith:cave/thermal/ceiling_carver",
+      "terralith:cave/thermal/magma2",
+      "terralith:cave/thermal/springs"
+    ]
+  ],
+  "starts": [
+    "minecraft:jungle_pyramid",
+    "minecraft:mineshaft",
+    "minecraft:stronghold",
+    "minecraft:ruined_portal_jungle"
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 95,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:witch",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:ocelot",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:sheep",
+        "weight": 12,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:pig",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:chicken",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:cow",
+        "weight": 8,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:chicken",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:parrot",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:panda",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      }
+    ],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": [],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:axolotl",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "player_spawn_friendly": true,
+  "precipitation": "rain",
+  "temperature": 0.95,
+  "downfall": 0.9,
+  "category": "jungle",
+  "depth": 0.09
+}

@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count",
+      "config": {
+        "count": 100
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:decorated",
+              "config": {
+                "outer": {
+                  "type": "minecraft:square",
+                  "config": {}
+                },
+                "inner": {
+                  "type": "minecraft:count_noise_biased",
+                  "config": {
+                    "noise_to_count_ratio": 1,
+                    "noise_factor": 275,
+                    "noise_offset": 0.75
+                  }
+                }
+              }
+            },
+            "inner": {
+              "type": "minecraft:range",
+              "config": {
+                "height": {
+                  "min_inclusive": {
+                    "absolute": 61
+                  },
+                  "max_inclusive": {
+                    "absolute": 62
+                  },
+                  "type": "minecraft:uniform"
+                }
+              }
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 64,
+            "targets": [
+              {
+                "target": {
+                  "tag": "terralith:soil_and_gravel",
+                  "predicate_type": "minecraft:tag_match"
+                },
+                "state": {
+                  "Name": "minecraft:sand"
+                }
+              }
+            ],
+            "discard_chance_on_air_exposure": 0.0
+          }
+        }
+      }
+    }
+  }
+}

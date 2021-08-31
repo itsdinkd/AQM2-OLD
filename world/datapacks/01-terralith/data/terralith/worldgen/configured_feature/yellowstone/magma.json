@@ -1,0 +1,76 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 9,
+        "extra_count": 0,
+        "extra_chance": 0.5
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:decorated",
+              "config": {
+                "outer": {
+                  "type": "minecraft:square",
+                  "config": {}
+                },
+                "inner": {
+                  "type": "minecraft:count_noise_biased",
+                  "config": {
+                    "noise_to_count_ratio": 1,
+                    "noise_factor": 175,
+                    "noise_offset": 0.5
+                  }
+                }
+              }
+            },
+            "inner": {
+              "type": "minecraft:heightmap",
+              "config": {
+                "maximum": 10,
+                "bottom_offset": 50,
+                "top_offset": 0,
+                "heightmap": "OCEAN_FLOOR_WG"
+              }
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:disk",
+          "config": {
+            "state": {
+              "Name": "minecraft:magma_block"
+            },
+            "radius": {
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": 0,
+                "max_inclusive": 1
+              }
+            },
+            "half_height": 1,
+            "targets": [
+              {
+                "Name": "minecraft:calcite"
+              },
+              {
+                "Name": "minecraft:diorite"
+              },
+              {
+                "Name": "minecraft:blue_terracotta"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

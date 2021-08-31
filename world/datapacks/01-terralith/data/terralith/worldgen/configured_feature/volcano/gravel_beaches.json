@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_noise_biased",
+      "config": {
+        "noise_to_count_ratio": 100,
+        "noise_factor": 275,
+        "noise_offset": 0
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:decorated",
+              "config": {
+                "outer": {
+                  "type": "minecraft:nope",
+                  "config": {}
+                },
+                "inner": {
+                  "type": "minecraft:square",
+                  "config": {}
+                }
+              }
+            },
+            "inner": {
+              "type": "minecraft:range",
+              "config": {
+                "height": {
+                  "type": "minecraft:constant",
+                  "value": {
+                    "absolute": 62
+                  }
+                }
+              }
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 50,
+            "discard_chance_on_air_exposure": 0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "terralith:soil"
+                },
+                "state": {
+                  "Name": "minecraft:gravel"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

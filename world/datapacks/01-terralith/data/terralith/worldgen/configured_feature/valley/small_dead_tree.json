@@ -1,0 +1,107 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count",
+      "config": {
+        "count": 2
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:heightmap",
+              "config": {
+                "heightmap": "WORLD_SURFACE_WG"
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "feature": {
+                  "config": {
+                    "feature": {
+                      "type": "minecraft:tree",
+                      "config": {
+                        "ignore_vines": false,
+                        "minimum_size": {
+                          "type": "minecraft:two_layers_feature_size",
+                          "min_clipped_height": 0,
+                          "limit": 1,
+                          "lower_size": 0,
+                          "upper_size": 1
+                        },
+                        "trunk_provider": {
+                          "type": "minecraft:simple_state_provider",
+                          "state": {
+                            "Name": "minecraft:warped_stem",
+                            "Properties": {
+                              "axis": "y"
+                            }
+                          }
+                        },
+                        "trunk_placer": {
+                          "type": "minecraft:fancy_trunk_placer",
+                          "base_height": 6,
+                          "height_rand_a": 5,
+                          "height_rand_b": 9
+                        },
+                        "foliage_placer": {
+                          "type": "minecraft:pine_foliage_placer",
+                          "radius": 1,
+                          "offset": 1,
+                          "height": 2
+                        },
+                        "decorators": [],
+                        "foliage_provider": {
+                          "type": "minecraft:simple_state_provider",
+                          "state": {
+                            "Name": "minecraft:oak_leaves",
+                            "Properties": {
+                              "distance": "7",
+                              "persistent": "false"
+                            }
+                          }
+                        },
+                        "force_dirt": false,
+                        "dirt_provider": {
+                          "state": {
+                            "Name": "minecraft:dirt"
+                          },
+                          "type": "minecraft:simple_state_provider"
+                        },
+                        "sapling_provider":{"type":"simple_state_provider","state":{"Name":"minecraft:oak_sapling","Properties":{"stage":"1"}}}
+
+                      }
+                    },
+                    "decorator": {
+                      "config": {
+                        "max_water_depth": 0
+                      },
+                      "type": "minecraft:water_depth_threshold"
+                    }
+                  },
+                  "type": "minecraft:decorated"
+                },
+                "decorator": {
+                  "config": {
+                    "heightmap": "WORLD_SURFACE_WG"
+                  },
+                  "type": "minecraft:heightmap"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

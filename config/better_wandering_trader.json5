@@ -1,0 +1,19 @@
+{
+	"trades": {
+		"enable_user_added_traded": false
+	},
+	"invisibleTradeFactory": {
+		"number_of_trades": 1,
+		"trades_to_choose": 1,
+		"array": [
+			null
+		]
+	},
+	"example": {
+		"identifier": "minecraft:end_crystal",
+		"price": 0,
+		"count": 0,
+		"maxUses": 0,
+		"experience": 0
+	}
+}

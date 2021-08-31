@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:chance",
+      "config": {
+        "chance": 9
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:nope",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:count",
+              "config": {
+                "count": {
+                  "type": "minecraft:uniform",
+                  "value": {
+                    "min_inclusive": 27,
+                    "max_inclusive": 57
+                  }
+                }
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:decorated",
+                  "config": {
+                    "outer": {
+                      "type": "minecraft:iceberg",
+                      "config": {}
+                    },
+                    "inner": {
+                      "type": "minecraft:heightmap",
+                      "config": {
+                        "heightmap": "OCEAN_FLOOR"
+                      }
+                    }
+                  }
+                },
+                "feature": "terralith:enchanted/tower_base"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

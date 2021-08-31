@@ -1,0 +1,108 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 100,
+        "extra_count": 0,
+        "extra_chance": 0
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:range",
+              "config": {
+                "height": {
+                  "type": "minecraft:uniform",
+                  "min_inclusive": {
+                    "absolute": 170
+                  },
+                  "max_inclusive": {
+                    "absolute": 240
+                  }
+                }
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:cave_surface",
+                  "config": {
+                    "surface": "floor",
+                    "floor_to_ceiling_search_range": 90
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:vegetation_patch",
+                  "config": {
+                    "surface": "floor",
+                    "depth": 80,
+                    "vertical_range": 128,
+                    "extra_bottom_block_chance": 0,
+                    "extra_edge_column_chance": 1,
+                    "vegetation_chance": 1,
+                    "xz_radius": 4,
+                    "replaceable": "terralith:mountain_blocks",
+                    "ground_state": {
+                      "type": "minecraft:simple_state_provider",
+                      "state": {
+                        "Name": "minecraft:stone"
+                      }
+                    },
+                    "vegetation_feature": {
+                      "type": "minecraft:decorated",
+                      "config": {
+                        "decorator": {
+                          "type": "minecraft:heightmap",
+                          "config": {
+                            "heightmap": "WORLD_SURFACE"
+                          }
+                        },
+                        "feature": {
+                          "type": "minecraft:growing_plant",
+                          "config": {
+                            "direction": "up",
+                            "allow_water": false,
+                            "height_distribution": [
+                              {
+                                "weight": 1,
+                                "data": 1
+                              }
+                            ],
+                            "body_provider": {
+                              "type": "minecraft:simple_state_provider",
+                              "state": {
+                                "Name": "minecraft:stone"
+                              }
+                            },
+                            "head_provider": {
+                              "type": "minecraft:simple_state_provider",
+                              "state": {
+                                "Name": "minecraft:stone"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

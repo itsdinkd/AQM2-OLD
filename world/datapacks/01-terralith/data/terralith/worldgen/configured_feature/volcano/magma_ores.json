@@ -1,0 +1,113 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_noise_biased",
+      "config": {
+        "noise_to_count_ratio": 800,
+        "noise_factor": 400,
+        "noise_offset": -0.3
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:count_noise_biased",
+          "config": {
+            "noise_to_count_ratio": 800,
+            "noise_factor": 165,
+            "noise_offset": -0.3
+          }
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:square",
+                  "config": {}
+                },
+                "feature": {
+                  "type": "minecraft:decorated",
+                  "config": {
+                    "decorator": {
+                      "type": "minecraft:nope",
+                      "config": {}
+                    },
+                    "feature": {
+                      "type": "minecraft:decorated",
+                      "config": {
+                        "decorator": {
+                          "type": "minecraft:range",
+                          "config": {
+                            "height": {
+                              "type": "minecraft:trapezoid",
+                              "min_inclusive": {
+                                "absolute": 135
+                              },
+                              "max_inclusive": {
+                                "absolute": 210
+                              }
+                            }
+                          }
+                        },
+                        "feature": {
+                          "type": "minecraft:simple_block",
+                          "config": {
+                            "to_place": {
+                              "type": "minecraft:simple_state_provider",
+                              "state": {
+                                "Name": "minecraft:magma_block"
+                              }
+                            },
+                            "place_on": [
+                              {
+                                "Name": "minecraft:magma_block"
+                              },
+                              {
+                                "Name": "minecraft:basalt",
+                                "Properties": {
+                                  "axis": "y"
+                                }
+                              },
+                              {
+                                "Name": "minecraft:blackstone"
+                              }
+                            ],
+                            "place_in": [
+                              {
+                                "Name": "minecraft:blackstone"
+                              }
+                            ],
+                            "place_under": [
+                              {
+                                "Name": "minecraft:blackstone"
+                              },
+                              {
+                                "Name": "minecraft:air"
+                              },
+                              {
+                                "Name": "minecraft:magma_block"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:chance",
+      "config": {
+        "chance": 1
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "inner": {
+              "type": "minecraft:decorated",
+              "config": {
+                "outer": {
+                  "type": "minecraft:count_noise_biased",
+                  "config": {
+                    "noise_to_count_ratio": -1,
+                    "noise_factor": 807,
+                    "noise_offset": 0.1
+                  }
+                },
+                "inner": {
+                  "type": "minecraft:count_noise_biased",
+                  "config": {
+                    "noise_to_count_ratio": -1,
+                    "noise_factor": 457,
+                    "noise_offset": 0.1
+                  }
+                }
+              }
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:decorated",
+              "config": {
+                "outer": {
+                  "type": "minecraft:range",
+                  "config": {
+                    "height": {
+                      "type": "minecraft:uniform",
+                      "min_inclusive": {
+                        "above_bottom": 0
+                      },
+                      "max_inclusive": {
+                        "absolute": 59
+                      }
+                    }
+                  }
+                },
+                "inner": {
+                  "type": "minecraft:cave_surface",
+                  "config": {
+                    "surface": "ceiling",
+                    "floor_to_ceiling_search_range": 6
+                  }
+                }
+              }
+            },
+            "feature": {
+              "type": "minecraft:vegetation_patch",
+              "config": {
+                "surface": "ceiling",
+                "depth": {
+                  "type": "minecraft:uniform",
+                  "value": {
+                    "min_inclusive": 1,
+                    "max_inclusive": 3
+                  }
+                },
+                "vertical_range": 6,
+                "extra_bottom_block_chance": 0.5,
+                "extra_edge_column_chance": 0.5,
+                "vegetation_chance": 1,
+                "xz_radius": {
+                  "type": "minecraft:uniform",
+                  "value": {
+                    "min_inclusive": 5,
+                    "max_inclusive": 7
+                  }
+                },
+                "replaceable": "minecraft:base_stone_overworld",
+                "ground_state": {
+                  "type": "minecraft:weighted_state_provider",
+                  "entries": [
+                    {
+                      "weight": 50,
+                      "data": {
+                        "Name": "minecraft:dripstone_block"
+                      }
+                    },
+                    {
+                      "weight": 1,
+                      "data": {
+                        "Name": "minecraft:raw_iron_block"
+                      }
+                    }
+                  ]
+                },
+                "vegetation_feature": {
+                  "type": "minecraft:random_selector",
+                  "config": {
+                    "features": [
+                      {
+                        "chance": 0.07,
+                        "feature": {
+                          "type": "minecraft:large_dripstone",
+                          "config": {
+                            "floor_to_ceiling_search_range": 70,
+                            "column_radius": {
+                              "type": "minecraft:biased_to_bottom",
+                              "value": {
+                                "min_inclusive": 1,
+                                "max_inclusive": 2
+                              }
+                            },
+                            "height_scale": {
+                              "type": "minecraft:uniform",
+                              "value": {
+                                "min_inclusive": 2,
+                                "max_exclusive": 6
+                              }
+                            },
+                            "max_column_radius_to_cave_height_ratio": 1,
+                            "stalactite_bluntness": 0.3,
+                            "stalagmite_bluntness": 0.3,
+                            "wind_speed": {
+                              "type": "minecraft:uniform",
+                              "value": {
+                                "min_inclusive": 0,
+                                "max_exclusive": 0.1
+                              }
+                            },
+                            "min_radius_for_wind": 0,
+                            "min_bluntness_for_wind": 0
+                          }
+                        }
+                      },
+                      {
+                        "chance": 0.03,
+                        "feature": {
+                          "type": "minecraft:dripstone_cluster",
+                          "config": {
+                            "floor_to_ceiling_search_range": 80,
+                            "height": {
+                              "type": "minecraft:biased_to_bottom",
+                              "value": {
+                                "min_inclusive": 2,
+                                "max_inclusive": 8
+                              }
+                            },
+                            "radius": {
+                              "type": "minecraft:uniform",
+                              "value": {
+                                "min_inclusive": 1,
+                                "max_inclusive": 4
+                              }
+                            },
+                            "max_stalagmite_stalactite_height_diff": 3,
+                            "height_deviation": 4,
+                            "dripstone_block_layer_thickness": {
+                              "type": "minecraft:uniform",
+                              "value": {
+                                "min_inclusive": 2,
+                                "max_inclusive": 4
+                              }
+                            },
+                            "density": {
+                              "type": "minecraft:uniform",
+                              "value": {
+                                "min_inclusive": 0.05,
+                                "max_exclusive": 0.1
+                              }
+                            },
+                            "wetness": 0,
+                            "chance_of_dripstone_column_at_max_distance_from_center": 0,
+                            "max_distance_from_edge_affecting_chance_of_dripstone_column": 2,
+                            "max_distance_from_center_affecting_height_bias": 3
+                          }
+                        }
+                      },
+                      {
+                        "chance": 0.07,
+                        "feature": {
+                          "type": "minecraft:decorated",
+                          "config": {
+                            "decorator": {
+                              "type": "minecraft:cave_surface",
+                              "config": {
+                                "surface": "floor",
+                                "floor_to_ceiling_search_range": 80
+                              }
+                            },
+                            "feature": {
+                              "type": "minecraft:waterlogged_vegetation_patch",
+                              "config": {
+                                "surface": "floor",
+                                "depth": {
+                                  "type": "minecraft:uniform",
+                                  "value": {
+                                    "min_inclusive": 1,
+                                    "max_inclusive": 2
+                                  }
+                                },
+                                "vertical_range": 4,
+                                "extra_bottom_block_chance": 0.5,
+                                "extra_edge_column_chance": 0.5,
+                                "vegetation_chance": 0.24,
+                                "xz_radius": {
+                                  "type": "minecraft:uniform",
+                                  "value": {
+                                    "min_inclusive": 1,
+                                    "max_inclusive": 4
+                                  }
+                                },
+                                "replaceable": "terralith:bso_iron",
+                                "ground_state": {
+                                  "type": "minecraft:simple_state_provider",
+                                  "state": {
+                                    "Name": "minecraft:cobbled_deepslate"
+                                  }
+                                },
+                                "vegetation_feature": {
+                                  "type": "minecraft:random_selector",
+                                  "config": {
+                                    "features": [
+                                      {
+                                        "chance": 0.7,
+                                        "feature": {
+                                          "type": "minecraft:scattered_ore",
+                                          "config": {
+                                            "size": 64,
+                                            "discard_chance_on_air_exposure": 0.95,
+                                            "targets": [
+                                              {
+                                                "target": {
+                                                  "predicate_type": "minecraft:tag_match",
+                                                  "tag": "minecraft:stone_ore_replaceables"
+                                                },
+                                                "state": {
+                                                  "Name": "minecraft:iron_ore"
+                                                }
+                                              },
+                                              {
+                                                "target": {
+                                                  "predicate_type": "minecraft:tag_match",
+                                                  "tag": "minecraft:deepslate_ore_replaceables"
+                                                },
+                                                "state": {
+                                                  "Name": "minecraft:deepslate_iron_ore"
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "default": {
+                                      "type": "minecraft:glow_lichen",
+                                      "config": {
+                                        "search_range": 5,
+                                        "chance_of_spreading": 0.85,
+                                        "can_place_on_floor": true,
+                                        "can_place_on_ceiling": true,
+                                        "can_place_on_wall": true,
+                                        "can_be_placed_on": [
+                                          {
+                                            "Name": "minecraft:cobbled_deepslate"
+                                          },
+                                          {
+                                            "Name": "minecraft:deepslate",
+                                            "Properties": {
+                                              "axis": "y"
+                                            }
+                                          },
+                                          {
+                                            "Name": "minecraft:dripstone_block"
+                                          },
+                                          {
+                                            "Name": "minecraft:deepslate_iron_ore"
+                                          },
+                                          {
+                                            "Name": "minecraft:stone"
+                                          },
+                                          {
+                                            "Name": "minecraft:granite"
+                                          },
+                                          {
+                                            "Name": "minecraft:andesite"
+                                          },
+                                          {
+                                            "Name": "minecraft:diorite"
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "default": {
+                      "type": "minecraft:no_op",
+                      "config": {}
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

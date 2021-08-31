@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:fill_layer",
+  "config": {
+    "state": {
+      "Name": "minecraft:red_concrete"
+    },
+    "height": 318
+  }
+}

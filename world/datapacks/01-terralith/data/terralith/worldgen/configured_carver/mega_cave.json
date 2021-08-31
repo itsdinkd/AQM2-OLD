@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:cave",
+  "config": {
+    "probability": 0.05,
+    "y": {
+      "type": "minecraft:uniform",
+      "min_inclusive": {
+        "absolute": -64
+      },
+      "max_inclusive": {
+        "absolute": 0
+      }
+    },
+    "yScale": {
+      "type": "minecraft:clamped_normal",
+      "value": {
+        "min": 0,
+        "max": 0.2,
+        "mean": 0.1,
+        "deviation": 0.05
+      }
+    },
+    "lava_level": {
+      "above_bottom": 10
+    },
+    "aquifers_enabled": true,
+    "debug_settings": {
+      "debug_mode": false,
+      "air_state": {
+        "Name": "minecraft:cave_air"
+      },
+      "water_state": {
+        "Name": "minecraft:cave_air"
+      },
+      "lava_state": {
+        "Name": "minecraft:cave_air"
+      },
+      "barrier_state": {
+        "Name": "minecraft:cave_air"
+      }
+    },
+    "horizontal_radius_multiplier": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 2.2,
+        "max_exclusive": 3.0
+      }
+    },
+    "vertical_radius_multiplier": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 2.5,
+        "max_exclusive": 4.0
+      }
+    },
+    "floor_level": -0.1
+  }
+}

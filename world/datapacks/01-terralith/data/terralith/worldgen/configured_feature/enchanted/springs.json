@@ -1,0 +1,78 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 70,
+        "extra_count": 0,
+        "extra_chance": 0
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:decorated",
+              "config": {
+                "outer": {
+                  "type": "minecraft:nope",
+                  "config": {}
+                },
+                "inner": {
+                  "type": "minecraft:square",
+                  "config": {}
+                }
+              }
+            },
+            "inner": {
+              "type": "minecraft:decorated",
+              "config": {
+                "outer": {
+                  "type": "minecraft:range",
+                  "config": {
+                    "height": {
+                      "type": "minecraft:uniform",
+                      "min_inclusive": {
+                        "absolute": 140
+                      },
+                      "max_inclusive": {
+                        "absolute": 255
+                      }
+                    }
+                  }
+                },
+                "inner": {
+                  "type": "minecraft:nope",
+                  "config": {}
+                }
+              }
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:spring_feature",
+          "config": {
+            "state": {
+              "Name": "minecraft:water",
+              "Properties": {
+                "falling": "false"
+              }
+            },
+            "rock_count": 5,
+            "hole_count": 1,
+            "requires_block_below": true,
+            "valid_blocks": [
+              "minecraft:grass_block",
+              "minecraft:stone",
+              "minecraft:air"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

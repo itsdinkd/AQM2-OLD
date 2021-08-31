@@ -1,0 +1,93 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 128,
+        "extra_count": 12000,
+        "extra_chance": 1
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "inner": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": 1,
+                "noise_factor": 500,
+                "noise_offset": 0.8
+              }
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": 1,
+                "noise_factor": 32,
+                "noise_offset": 0.08
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:decorated",
+                  "config": {
+                    "outer": {
+                      "type": "minecraft:count_noise_biased",
+                      "config": {
+                        "noise_to_count_ratio": -1,
+                        "noise_factor": 32,
+                        "noise_offset": -0.08
+                      }
+                    },
+                    "inner": {
+                      "type": "minecraft:heightmap",
+                      "config": {
+                        "heightmap": "MOTION_BLOCKING"
+                      }
+                    }
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:ore",
+                  "config": {
+                    "size": 8,
+                    "targets": [
+                      {
+                        "target": {
+                          "block": "minecraft:grass_block",
+                          "predicate_type": "minecraft:block_match"
+                        },
+                        "state": {
+                          "Name": "minecraft:grass_block",
+                          "Properties": {
+                            "snowy": "true"
+                          }
+                        }
+                      }
+                    ],
+                    "discard_chance_on_air_exposure": 0.0
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_noise_biased",
+      "config": {
+        "noise_to_count_ratio": 50,
+        "noise_factor": 400,
+        "noise_offset": -0.2
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:count_noise_biased",
+          "config": {
+            "noise_to_count_ratio": 50,
+            "noise_factor": 165,
+            "noise_offset": -0.2
+          }
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:nope",
+                  "config": {}
+                },
+                "feature": {
+                  "type": "minecraft:decorated",
+                  "config": {
+                    "decorator": {
+                      "type": "minecraft:nope",
+                      "config": {}
+                    },
+                    "feature": {
+                      "type": "minecraft:decorated",
+                      "config": {
+                        "decorator": {
+                          "type": "minecraft:heightmap",
+                          "config": {
+                            "heightmap": "WORLD_SURFACE"
+                          }
+                        },
+                        "feature": {
+                          "type": "minecraft:delta_feature",
+                          "config": {
+                            "contents": {
+                              "Name": "minecraft:lava",
+                              "Properties": {
+                                "level": "0"
+                              }
+                            },
+                            "rim": {
+                              "Name": "minecraft:magma_block"
+                            },
+                            "size": {
+                              "type": "minecraft:uniform",
+                              "value": {
+                                "min_inclusive": 0,
+                                "max_inclusive": 11
+                              }
+                            },
+                            "rim_size": {
+                              "type": "minecraft:uniform",
+                              "value": {
+                                "min_inclusive": 0,
+                                "max_inclusive": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 0,
+        "extra_count": 0,
+        "extra_chance": 1
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": -5,
+                "noise_factor": 215,
+                "noise_offset": -0.3
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:nope",
+                  "config": {}
+                },
+                "feature": {
+                  "type": "minecraft:decorated",
+                  "config": {
+                    "decorator": {
+                      "type": "minecraft:decorated",
+                      "config": {
+                        "outer": {
+                          "type": "minecraft:chance",
+                          "config": {
+                            "chance": 2000
+                          }
+                        },
+                        "inner": {
+                          "type": "minecraft:range",
+                          "config": {
+                            "height": {
+                              "min_inclusive": {
+                                "absolute": 59
+                              },
+                              "max_inclusive": {
+                                "absolute": 60
+                              },
+                              "type": "minecraft:uniform"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "feature": "terralith:snowy/base_boulder"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

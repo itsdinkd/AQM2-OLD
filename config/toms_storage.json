@@ -1,0 +1,6 @@
+{
+  "onlyTrims": false,
+  "invRange": 32,
+  "wirelessRange": 32,
+  "invConnectorMaxCables": 2048
+}

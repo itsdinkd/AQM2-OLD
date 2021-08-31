@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_noise_biased",
+      "config": {
+        "noise_to_count_ratio": 6000,
+        "noise_factor": 850.1,
+        "noise_offset": -0.2
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:nope",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:decorated",
+              "config": {
+                "outer": {
+                  "type": "minecraft:square",
+                  "config": {}
+                },
+                "inner": {
+                  "type": "minecraft:heightmap",
+                  "config": {
+                    "heightmap": "WORLD_SURFACE_WG"
+                  }
+                }
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:count_noise_biased",
+                  "config": {
+                    "noise_to_count_ratio": 1,
+                    "noise_factor": 325.5,
+                    "noise_offset": 0.01
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:decorated",
+                  "config": {
+                    "decorator": {
+                      "type": "minecraft:count_noise_biased",
+                      "config": {
+                        "noise_to_count_ratio": -1,
+                        "noise_factor": 325.5,
+                        "noise_offset": -0.01
+                      }
+                    },
+                    "feature": {
+                      "type": "minecraft:netherrack_replace_blobs",
+                      "config": {
+                        "state": {
+                          "Name": "minecraft:sandstone"
+                        },
+                        "target": {
+                          "Name": "minecraft:red_sand"
+                        },
+                        "radius": 0
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

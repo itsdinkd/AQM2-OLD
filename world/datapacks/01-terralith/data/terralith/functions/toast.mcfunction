@@ -1,0 +1,4 @@
+tellraw @a ["",{"text":"Hello, and thank you for installing Terralith!\nYou are being randomly teleported to\nensure a properly random world spawn.","color":"#2FCFEF"},{"text":"\n\n"},{"text":"If you'd prefer to use the default spawn,","color":"#2FCFEF"},{"text":"\n"},{"text":"click here","bold":true,"underlined":true,"color":"#1438E7","clickEvent":{"action":"run_command","value":"/trigger terralith.reset set 2"}},{"text":". This will only work once.\n\nIf you have any questions about the pack,","color":"#2FCFEF"},{"text":"\n"},{"text":"click here","bold":true,"underlined":true,"color":"#D40BEA","clickEvent":{"action":"open_url","value":"https://discord.gg/ahYvE44pfx"}},{"text":" to join my Discord!","color":"#2FCFEF"},{"text":"\n"}]
+scoreboard players enable @a terralith.reset
+spreadplayers 0 0 10000 50000 false @a
+execute at @a[limit=1] run setworldspawn ~ ~ ~

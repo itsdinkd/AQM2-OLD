@@ -1,0 +1,118 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 180,
+        "extra_count": 0,
+        "extra_chance": 0
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:decorated",
+              "config": {
+                "outer": {
+                  "type": "minecraft:square",
+                  "config": {}
+                },
+                "inner": {
+                  "type": "minecraft:count_noise_biased",
+                  "config": {
+                    "noise_to_count_ratio": 20,
+                    "noise_factor": 77,
+                    "noise_offset": -0.25
+                  }
+                }
+              }
+            },
+            "inner": {
+              "type": "minecraft:chance",
+              "config": {
+                "chance": 20
+              }
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:range",
+              "config": {
+                "height": {
+                  "absolute": 63
+                }
+              }
+            },
+            "feature": {
+              "type": "minecraft:scattered_ore",
+              "config": {
+                "size": 64,
+                "discard_chance_on_air_exposure": 0,
+                "targets": [
+                  {
+                    "target": {
+                      "predicate_type": "minecraft:random_block_match",
+                      "block": "minecraft:grass_block",
+                      "probability": 0.9
+                    },
+                    "state": {
+                      "Name": "minecraft:gravel"
+                    }
+                  },
+                  {
+                    "target": {
+                      "predicate_type": "minecraft:random_block_match",
+                      "block": "minecraft:dirt",
+                      "probability": 0.9
+                    },
+                    "state": {
+                      "Name": "minecraft:gravel"
+                    }
+                  },
+                  {
+                    "target": {
+                      "predicate_type": "minecraft:random_block_match",
+                      "block": "minecraft:rooted_dirt",
+                      "probability": 0.9
+                    },
+                    "state": {
+                      "Name": "minecraft:gravel"
+                    }
+                  },
+                  {
+                    "target": {
+                      "predicate_type": "minecraft:random_block_match",
+                      "block": "minecraft:coarse_dirt",
+                      "probability": 0.9
+                    },
+                    "state": {
+                      "Name": "minecraft:gravel"
+                    }
+                  },
+                  {
+                    "target": {
+                      "predicate_type": "minecraft:random_block_match",
+                      "block": "minecraft:podzol",
+                      "probability": 0.9
+                    },
+                    "state": {
+                      "Name": "minecraft:gravel"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

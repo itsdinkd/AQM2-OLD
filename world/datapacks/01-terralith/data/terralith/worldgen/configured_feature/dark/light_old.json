@@ -1,0 +1,83 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 255,
+        "extra_count": 0,
+        "extra_chance": 0
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:range",
+              "config": {
+                "height": {
+                  "type": "minecraft:uniform",
+                  "min_inclusive": {
+                    "absolute": 63
+                  },
+                  "max_inclusive": {
+                    "absolute": 100
+                  }
+                }
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:nope",
+                  "config": {
+                    "surface": "ceiling",
+                    "floor_to_ceiling_search_range": 18
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:vegetation_patch",
+                  "config": {
+                    "surface": "ceiling",
+                    "depth": 2,
+                    "vertical_range": 1,
+                    "extra_bottom_block_chance": 0,
+                    "extra_edge_column_chance": 0.5,
+                    "vegetation_chance": 0.2,
+                    "xz_radius": {
+                      "type": "minecraft:uniform",
+                      "value": {
+                        "min_inclusive": 1,
+                        "max_inclusive": 4
+                      }
+                    },
+                    "replaceable": "terralith:dark_forest_leaves",
+                    "ground_state": {
+                      "type": "minecraft:simple_state_provider",
+                      "state": {
+                        "Name": "minecraft:dark_oak_leaves",
+                        "Properties": {
+                          "distance": "6",
+                          "persistent": "false"
+                        }
+                      }
+                    },
+                    "vegetation_feature": "terralith:dark/light_vine"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

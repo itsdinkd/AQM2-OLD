@@ -1,0 +1,87 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:nope",
+      "config": {}
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:heightmap",
+              "config": {
+                "heightmap": "WORLD_SURFACE_WG"
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:count_extra",
+                  "config": {
+                    "count": 500,
+                    "extra_count": 0,
+                    "extra_chance": 0
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:decorated",
+                  "config": {
+                    "decorator": {
+                      "type": "minecraft:heightmap",
+                      "config": {
+                        "heightmap": "MOTION_BLOCKING"
+                      }
+                    },
+                    "feature": {
+                      "type": "minecraft:decorated",
+                      "config": {
+                        "decorator": {
+                          "type": "minecraft:nope",
+                          "config": {}
+                        },
+                        "feature": {
+                          "type": "minecraft:netherrack_replace_blobs",
+                          "config": {
+                            "state": {
+                              "Name": "minecraft:amethyst_block"
+                            },
+                            "target": {
+                              "Name": "minecraft:void_air"
+                            },
+                            "radius": {
+                              "type": "minecraft:clamped",
+                              "value": {
+                                "source": {
+                                  "type": "minecraft:uniform",
+                                  "value": {
+                                    "min_inclusive": -1,
+                                    "max_inclusive": 2.0
+                                  }
+                                },
+                                "min_inclusive": 0,
+                                "max_inclusive": 2
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

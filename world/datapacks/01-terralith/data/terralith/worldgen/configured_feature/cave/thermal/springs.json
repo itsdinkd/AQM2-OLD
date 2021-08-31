@@ -1,0 +1,87 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count",
+      "config": {
+        "count": 40
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:decorated",
+              "config": {
+                "outer": {
+                  "type": "minecraft:square",
+                  "config": {}
+                },
+                "inner": {
+                  "type": "minecraft:count_noise_biased",
+                  "config": {
+                    "noise_to_count_ratio": -1,
+                    "noise_factor": 807,
+                    "noise_offset": 0.05
+                  }
+                }
+              }
+            },
+            "inner": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": 1,
+                "noise_factor": 457,
+                "noise_offset": -0.05
+              }
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:range",
+              "config": {
+                "height": {
+                  "type": "minecraft:uniform",
+                  "min_inclusive": {
+                    "above_bottom": 14
+                  },
+                  "max_inclusive": {
+                    "absolute": 50
+                  }
+                }
+              }
+            },
+            "feature": {
+              "type": "minecraft:spring_feature",
+              "config": {
+                "state": {
+                  "Name": "minecraft:water",
+                  "Properties": {
+                    "falling": "true"
+                  }
+                },
+                "rock_count": 4,
+                "hole_count": 1,
+                "requires_block_below": true,
+                "valid_blocks": [
+                  "minecraft:stone",
+                  "minecraft:granite",
+                  "minecraft:diorite",
+                  "minecraft:andesite",
+                  "minecraft:deepslate",
+                  "minecraft:tuff"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

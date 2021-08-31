@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:chance",
+      "config": {
+        "chance": 221
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:nope",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:count",
+              "config": {
+                "count": 1
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:decorated",
+                  "config": {
+                    "outer": {
+                      "type": "minecraft:nope",
+                      "config": {}
+                    },
+                    "inner": {
+                      "type": "minecraft:range",
+                      "config": {
+                        "height": {
+                          "type": "minecraft:uniform",
+                          "min_inclusive": {
+                            "absolute": 160
+                          },
+                          "max_inclusive": {
+                            "absolute": 230
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "feature": "terralith:enchanted/island"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

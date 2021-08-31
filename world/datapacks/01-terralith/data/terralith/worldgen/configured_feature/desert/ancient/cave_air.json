@@ -1,0 +1,69 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 400,
+        "extra_count": 0,
+        "extra_chance": 0
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": 20,
+                "noise_factor": 144,
+                "noise_offset": 1
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:chance",
+                  "config": {
+                    "chance": 250
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:decorated",
+                  "config": {
+                    "decorator": {
+                      "type": "minecraft:heightmap",
+                      "config": {
+                        "heightmap": "WORLD_SURFACE"
+                      }
+                    },
+                    "feature": {
+                      "type": "minecraft:netherrack_replace_blobs",
+                      "config": {
+                        "state": {
+                          "Name": "minecraft:cave_air"
+                        },
+                        "target": {
+                          "Name": "minecraft:air"
+                        },
+                        "radius": 12
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+                          "type": "minecraft:decorated",
+                          "config": {
+                            "decorator": {
+                              "type": "minecraft:chance",
+                              "config": {
+                                "chance": 15
+                              }
+                            },
+                            "feature": {
+                              "type": "minecraft:decorated",
+                              "config": {
+                                "decorator": {
+                                  "type": "minecraft:heightmap",
+                                  "config": {"heightmap":"WORLD_SURFACE_WG"}
+                                },
+                                "feature": {
+                                  "type": "minecraft:random_boolean_selector",
+                                  "config": {
+                                    "feature_false": "terralith:salt/diorite_base",
+                                    "feature_true": "terralith:salt/diorite_base"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }

@@ -1,0 +1,118 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 12500,
+        "extra_count": 0,
+        "extra_chance": 0
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:range",
+              "config": {
+                "height": {
+                  "type": "minecraft:uniform",
+                  "min_inclusive": {
+                    "absolute": 63
+                  },
+                  "max_inclusive": {
+                    "absolute": 72
+                  }
+                }
+              }
+            },
+            "feature": {
+              "type": "minecraft:simple_block",
+              "config": {
+                "to_place": {
+                  "type": "minecraft:simple_state_provider",
+                  "state": {
+                    "Name": "minecraft:grass_block",
+                    "Properties": {
+                      "snowy": "false"
+                    }
+                  }
+                },
+                "place_on": [
+                  {
+                    "Name": "minecraft:red_terracotta"
+                  },
+                  {
+                    "Name": "minecraft:terracotta"
+                  },
+                  {
+                    "Name": "minecraft:white_terracotta"
+                  },
+                  {
+                    "Name": "minecraft:light_gray_terracotta"
+                  },
+                  {
+                    "Name": "minecraft:brown_terracotta"
+                  },
+                  {
+                    "Name": "minecraft:orange_terracotta"
+                  },
+                  {
+                    "Name": "minecraft:yellow_terracotta"
+                  },
+                  {
+                    "Name": "minecraft:lime_terracotta"
+                  },
+                  {
+                    "Name": "minecraft:green_terracotta"
+                  },
+                  {
+                    "Name": "minecraft:cyan_terracotta"
+                  },
+                  {
+                    "Name": "minecraft:dirt"
+                  }
+                ],
+                "place_in": [
+                  {
+                    "Name": "minecraft:brown_terracotta"
+                  }
+                ],
+                "place_under": [
+                  {
+                    "Name": "minecraft:dandelion"
+                  },
+                  {
+                    "Name": "minecraft:poppy"
+                  },
+                  {
+                    "Name": "minecraft:tall_grass",
+                    "Properties": {
+                      "half": "lower"
+                    }
+                  },
+                  {
+                    "Name": "minecraft:fern"
+                  },
+                  {
+                    "Name": "minecraft:grass"
+                  },
+                  {
+                    "Name": "minecraft:air"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

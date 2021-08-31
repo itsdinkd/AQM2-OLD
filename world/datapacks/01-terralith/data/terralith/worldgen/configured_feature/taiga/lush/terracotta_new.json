@@ -1,0 +1,139 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 128,
+        "extra_count": 5000,
+        "extra_chance": 1
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "inner": {
+              "type": "minecraft:nope",
+              "config": {}
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:heightmap",
+              "config": {
+                "heightmap": "WORLD_SURFACE_WG"
+              }
+            },
+            "feature": {
+              "type": "minecraft:simple_random_selector",
+              "config": {
+                "features": [
+                  {
+                    "type": "minecraft:netherrack_replace_blobs",
+                    "config": {
+                      "state": {
+                        "Name": "minecraft:cyan_terracotta"
+                      },
+                      "target": {
+                        "Name": "minecraft:terracotta"
+                      },
+                      "radius": {
+                        "type": "minecraft:uniform",
+                        "value": {
+                          "min_inclusive": 7,
+                          "max_inclusive": 12
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:netherrack_replace_blobs",
+                    "config": {
+                      "state": {
+                        "Name": "minecraft:white_terracotta"
+                      },
+                      "target": {
+                        "Name": "minecraft:yellow_terracotta"
+                      },
+                      "radius": {
+                        "type": "minecraft:uniform",
+                        "value": {
+                          "min_inclusive": 7,
+                          "max_inclusive": 12
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:netherrack_replace_blobs",
+                    "config": {
+                      "state": {
+                        "Name": "minecraft:light_gray_terracotta"
+                      },
+                      "target": {
+                        "Name": "minecraft:orange_terracotta"
+                      },
+                      "radius": {
+                        "type": "minecraft:uniform",
+                        "value": {
+                          "min_inclusive": 7,
+                          "max_inclusive": 12
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:netherrack_replace_blobs",
+                    "config": {
+                      "state": {
+                        "Name": "minecraft:cyan_terracotta"
+                      },
+                      "target": {
+                        "Name": "minecraft:red_terracotta"
+                      },
+                      "radius": {
+                        "type": "minecraft:uniform",
+                        "value": {
+                          "min_inclusive": 7,
+                          "max_inclusive": 12
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:netherrack_replace_blobs",
+                    "config": {
+                      "state": {
+                        "Name": "minecraft:brown_terracotta"
+                      },
+                      "target": {
+                        "Name": "minecraft:white_terracotta"
+                      },
+                      "radius": {
+                        "type": "minecraft:uniform",
+                        "value": {
+                          "min_inclusive": 7,
+                          "max_inclusive": 12
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_noise_biased",
+      "config": {
+        "noise_to_count_ratio": 100,
+        "noise_factor": 400,
+        "noise_offset": -0.2
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:count_noise_biased",
+          "config": {
+            "noise_to_count_ratio": 80,
+            "noise_factor": 165,
+            "noise_offset": -0.2
+          }
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:nope",
+                  "config": {}
+                },
+                "feature": {
+                  "type": "minecraft:decorated",
+                  "config": {
+                    "decorator": {
+                      "type": "minecraft:nope",
+                      "config": {}
+                    },
+                    "feature": {
+                      "type": "minecraft:decorated",
+                      "config": {
+                        "decorator": {
+                          "type": "minecraft:range",
+                          "config": {
+                            "height": {
+                              "type": "minecraft:trapezoid",
+                              "min_inclusive": {
+                                "absolute": 130
+                              },
+                              "max_inclusive": {
+                                "absolute": 256
+                              },
+                              "plateau": 0
+                            }
+                          }
+                        },
+                        "feature": {
+                          "type": "minecraft:spring_feature",
+                          "config": {
+                            "state": {
+                              "Name": "minecraft:lava",
+                              "Properties": {
+                                "falling": "true"
+                              }
+                            },
+                            "rock_count": 4,
+                            "hole_count": 1,
+                            "requires_block_below": false,
+                            "valid_blocks": [
+                              "minecraft:blackstone",
+                              "minecraft:magma_block"
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

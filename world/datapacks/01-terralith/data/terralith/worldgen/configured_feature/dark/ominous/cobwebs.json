@@ -1,0 +1,144 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 128,
+        "extra_count": 0,
+        "extra_chance": 0
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "inner": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": 50,
+                "noise_factor": 25,
+                "noise_offset": 0
+              }
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:range",
+              "config": {
+                "height": {
+                  "type": "minecraft:uniform",
+                  "min_inclusive": {
+                    "absolute": 63
+                  },
+                  "max_inclusive": {
+                    "absolute": 90
+                  }
+                }
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:nope",
+                  "config": {}
+                },
+                "feature": {
+                  "type": "minecraft:simple_block",
+                  "config": {
+                    "to_place": {
+                      "type": "minecraft:simple_state_provider",
+                      "state": {
+                        "Name": "minecraft:cobweb"
+                      }
+                    },
+                    "place_on": [
+                      {
+                        "Name": "minecraft:grass_block",
+                        "Properties": {
+                          "snowy": "false"
+                        }
+                      },
+                      {
+                        "Name": "minecraft:air"
+                      }
+                    ],
+                    "place_in": [
+                      {
+                        "Name": "minecraft:air"
+                      }
+                    ],
+                    "place_under": [
+                      {
+                        "Name": "minecraft:dark_oak_leaves",
+                        "Properties": {
+                          "distance": "7",
+                          "persistent": "false"
+                        }
+                      },
+                      {
+                        "Name": "minecraft:dark_oak_leaves",
+                        "Properties": {
+                          "distance": "6",
+                          "persistent": "false"
+                        }
+                      },
+                      {
+                        "Name": "minecraft:dark_oak_leaves",
+                        "Properties": {
+                          "distance": "5",
+                          "persistent": "false"
+                        }
+                      },
+                      {
+                        "Name": "minecraft:dark_oak_leaves",
+                        "Properties": {
+                          "distance": "4",
+                          "persistent": "false"
+                        }
+                      },
+                      {
+                        "Name": "minecraft:dark_oak_leaves",
+                        "Properties": {
+                          "distance": "3",
+                          "persistent": "false"
+                        }
+                      },
+                      {
+                        "Name": "minecraft:dark_oak_leaves",
+                        "Properties": {
+                          "distance": "2",
+                          "persistent": "false"
+                        }
+                      },
+                      {
+                        "Name": "minecraft:dark_oak_leaves",
+                        "Properties": {
+                          "distance": "1",
+                          "persistent": "false"
+                        }
+                      },
+                      {
+                        "Name": "minecraft:cobweb"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

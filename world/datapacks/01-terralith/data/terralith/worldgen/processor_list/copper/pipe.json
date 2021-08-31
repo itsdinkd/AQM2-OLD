@@ -1,0 +1,100 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:red_sand",
+            "probability": 0.4
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:red_sand"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:sand",
+            "probability": 0.4
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:sand"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:oxidized_cut_copper",
+            "probability": 0.0025
+          },
+          "output_state": {
+            "Name": "minecraft:exposed_copper"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:oxidized_cut_copper",
+            "probability": 0.01
+          },
+          "output_state": {
+            "Name": "minecraft:weathered_copper"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:oxidized_cut_copper",
+            "probability": 0.0375
+          },
+          "output_state": {
+            "Name": "minecraft:oxidized_copper"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:oxidized_cut_copper",
+            "probability": 0.01
+          },
+          "output_state": {
+            "Name": "minecraft:exposed_cut_copper"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:oxidized_cut_copper",
+            "probability": 0.3
+          },
+          "output_state": {
+            "Name": "minecraft:weathered_cut_copper"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 128,
+        "extra_count": 0,
+        "extra_chance": 1
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:decorated",
+              "config": {
+                "outer": {
+                  "type": "minecraft:square",
+                  "config": {}
+                },
+                "inner": {
+                  "type": "minecraft:count_noise_biased",
+                  "config": {
+                    "noise_to_count_ratio": 1,
+                    "noise_factor": 175,
+                    "noise_offset": 1
+                  }
+                }
+              }
+            },
+            "inner": {
+              "type": "minecraft:range",
+              "config": {
+                "height": {
+                  "min_inclusive": {
+                    "absolute": 61
+                  },
+                  "max_inclusive": {
+                    "absolute": 62
+                  },
+                  "type": "minecraft:uniform"
+                }
+              }
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:disk",
+          "config": {
+            "state": {
+              "Name": "minecraft:calcite"
+            },
+            "radius": {
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": 4,
+                "max_inclusive": 5
+              }
+            },
+            "half_height": 0,
+            "targets": [
+              {
+                "Name": "minecraft:blackstone"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

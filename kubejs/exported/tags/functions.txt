@@ -1,0 +1,22 @@
+To refresh this file, delete it and run /reload command again! Last updated: Aug 14, 2021, 7:50:22 PM
+
+#minecraft:tick
+- libra:loop
+- starmute:blaze_nerf
+- starmute:wiskel_nerf
+- starmute:replace_slimes
+- starmute:toxic_slimes
+- starmute:torte
+- starmute:evil_spirits
+- starmute:weapons
+- starmute:spell_tick
+- starmute:renewable_sand
+- starmute:border_of_life/tick
+
+#minecraft:load
+- libra:init
+- starmute:setup_advancements
+- starmute:7_seconds
+- starmute:2_ticks
+- starmute:4_ticks
+- starmute:border_of_life/load

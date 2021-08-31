@@ -1,0 +1,22 @@
+{
+                          "type": "minecraft:decorated",
+                          "config": {
+                            "decorator": {
+                              "type": "minecraft:chance",
+                              "config": {
+                                "chance": 15
+                              }
+                            },
+                            "feature": {
+                              "type": "minecraft:decorated",
+                              "config": {
+                                "decorator": {
+                                  "type": "minecraft:heightmap",
+                                  "config": {"heightmap":"OCEAN_FLOOR"}
+                                },
+                                "feature": "terralith:ocean/dark/cracks_base"
+                                
+                              }
+                            }
+                          }
+                        }

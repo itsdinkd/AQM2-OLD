@@ -1,0 +1,241 @@
+{
+  "scale": 0.1,
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    //"grass_color_modifier": "swamp",
+    "grass_color": 6979667, //6975545
+    "sky_color": 10599601,
+    "foliage_color": 10387789, //6975545 //5341539 //5341530
+    "fog_color": 10660776,
+    "water_color": 6388594, //6388580
+    "water_fog_color": 2302743
+  },
+  "surface_builder": "minecraft:swamp",
+  "carvers": {
+    "air": [
+      "terralith:noodle_ravine",
+      "terralith:flat_cave",
+      "terralith:tall_cave",
+      "minecraft:prototype_cave",
+     "minecraft:prototype_canyon",
+"terralith:big_cave_entrance"    ]
+  },
+  "features": [
+    [
+      //"terralith:swamp/vanilla/rotting_log_x",
+      //"terralith:swamp/vanilla/rotting_log_z",
+      "terralith:swamp/vanilla/swamp_detail"
+    ],
+    [
+      "minecraft:lake_water",
+      "minecraft:lake_lava"
+    ],
+    [],
+    [
+      "minecraft:fossil",
+      "minecraft:amethyst_geode",
+      "minecraft:monster_room"
+    ],
+    [],
+    [],
+    [
+      "minecraft:prototype_ore_dirt",
+      "terralith:techreborn_bauxite_ore",
+      "terralith:techreborn_galena_ore",
+      "terralith:techreborn_iridium_ore",
+      "terralith:techreborn_lead_ore",
+      "terralith:techreborn_ruby_ore",
+      "terralith:techreborn_sapphire_ore",
+      "terralith:techreborn_silver_ore",
+      "terralith:techreborn_tin_ore",
+      "terralith:gobber2_ore",
+      "terralith:things_gleaming_ore",
+      "minecraft:prototype_ore_gravel",
+      "minecraft:prototype_ore_granite",
+      "minecraft:prototype_ore_diorite",
+      "minecraft:prototype_ore_andesite",
+      "minecraft:prototype_ore_tuff",
+      "minecraft:prototype_ore_coal_upper",
+      "minecraft:prototype_ore_coal_lower",
+      "minecraft:prototype_ore_iron_upper",
+      "minecraft:prototype_ore_iron_middle",
+      "minecraft:prototype_ore_iron_small",
+      "minecraft:prototype_ore_gold",
+      "minecraft:prototype_ore_redstone",
+      "minecraft:prototype_ore_redstone_lower",
+      "minecraft:prototype_ore_diamond",
+      "minecraft:ore_diamond_strip_mine",
+      "minecraft:prototype_ore_diamond_large",
+      "minecraft:prototype_ore_lapis",
+      "minecraft:prototype_ore_lapis_buried",
+      "minecraft:prototype_ore_copper",
+      "minecraft:prototype_underwater_magma",
+      "minecraft:disk_clay"
+    ],
+    [],
+    [
+      
+      "terralith:swamp/vanilla/trunk",
+      //"terralith:swamp/ice/mid/trees_mid",
+      "terralith:swamp/ice/small/trees_small",
+      "terralith:swamp/ice/tiny/trees_tiny",
+      "minecraft:flower_swamp",
+      "minecraft:patch_grass_normal",
+      "minecraft:brown_mushroom_swamp",
+      "minecraft:red_mushroom_swamp",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane_swamp",
+      "minecraft:patch_pumpkin",
+      "minecraft:prototype_glow_lichen",
+"minecraft:prototype_spring_water",
+      "minecraft:prototype_spring_lava",
+      "minecraft:seagrass_swamp"
+    ],
+    [
+      "minecraft:freeze_top_layer",
+      "terralith:cave/generic/kill_bad_leaves",
+      "terralith:cave/ice/columns",
+      "terralith:cave/ice/lapis_vein",
+      "terralith:cave/ice/surface",
+      "terralith:cave/ice/pools",
+      "terralith:cave/ice/pools_ring",
+      "terralith:cave/ice/pools_ring2",
+      "terralith:cave/ice/replacer",
+      "terralith:cave/ice/crystal_inside",
+      "terralith:cave/ice/no_lava",
+      "terralith:cave/ice/ceiling",
+      "terralith:cave/dripstone/large_dripstone",
+      "terralith:cave/dripstone/iron_dripstone",
+      "terralith:cave/dripstone/dripstone_cluster",
+      "terralith:cave/dripstone/small_dripstone"
+    ]
+  ],
+  "starts": [
+    "minecraft:swamp_hut",
+    "minecraft:mineshaft",
+    "minecraft:ruined_portal_swamp"
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 95,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:witch",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:sheep",
+        "weight": 12,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:pig",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:chicken",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:cow",
+        "weight": 8,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      }
+    ],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": [],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:axolotl",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "player_spawn_friendly": false,
+  "precipitation": "snow",
+  "temperature": 0.14,
+  "temperature_modifier": "frozen",
+  "downfall": 0.9,
+  "category": "swamp",
+  "depth": -0.15
+}

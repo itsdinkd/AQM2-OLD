@@ -1,0 +1,34 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "target": {
+          "Name": "minecraft:cave_air"
+        },
+        "state": {
+          "Name": "minecraft:sand"
+        },
+        "radius": 0
+      },
+      "type": "minecraft:netherrack_replace_blobs"
+    },
+    "decorator": {
+      "config": {
+        "inner": {
+          "config": {
+            "chance": 1.0
+          },
+          "type": "minecraft:chance"
+        },
+        "outer": {
+          "config": {
+            "step": "liquid"
+          },
+          "type": "minecraft:carving_mask"
+        }
+      },
+      "type": "minecraft:decorated"
+    }
+  },
+  "type": "minecraft:decorated"
+}

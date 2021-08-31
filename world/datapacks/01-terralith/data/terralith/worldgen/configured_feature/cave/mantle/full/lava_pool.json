@@ -1,0 +1,262 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count",
+      "config": {
+        "count": 3
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:decorated",
+              "config": {
+                "outer": {
+                  "type": "minecraft:square",
+                  "config": {}
+                },
+                "inner": {
+                  "type": "minecraft:count_noise_biased",
+                  "config": {
+                    "noise_to_count_ratio": 1,
+                    "noise_factor": 807,
+                    "noise_offset": 1
+                  }
+                }
+              }
+            },
+            "inner": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": -1,
+                "noise_factor": 457,
+                "noise_offset": -1
+              }
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:range",
+              "config": {
+                "height": {
+                  "type": "minecraft:uniform",
+                  "min_inclusive": {
+                    "above_bottom": 11
+                  },
+                  "max_inclusive": {
+                    "absolute": 0
+                  }
+                }
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:cave_surface",
+                  "config": {
+                    "surface": "floor",
+                    "floor_to_ceiling_search_range": 70
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:vegetation_patch",
+                  "config": {
+                    "surface": "floor",
+                    "depth": {
+                      "type": "minecraft:uniform",
+                      "value": {
+                        "min_inclusive": 1,
+                        "max_inclusive": 2
+                      }
+                    },
+                    "vertical_range": 2,
+                    "extra_bottom_block_chance": 0.1,
+                    "extra_edge_column_chance": 0.5,
+                    "vegetation_chance": 0.8,
+                    "xz_radius": {
+                      "type": "minecraft:uniform",
+                      "value": {
+                        "min_inclusive": 2,
+                        "max_inclusive": 4
+                      }
+                    },
+                    "replaceable": "minecraft:base_stone_overworld",
+                    "ground_state": {
+                      "type": "minecraft:weighted_state_provider",
+                      "entries": [
+                        {
+                          "weight": 2,
+                          "data": {
+                            "Name": "minecraft:magma_block"
+                          }
+                        },
+                        {
+                          "weight": 1,
+                          "data": {
+                            "Name": "minecraft:blackstone"
+                          }
+                        }
+                      ]
+                    },
+                    "vegetation_feature": {
+                      "type": "minecraft:random_selector",
+                      "config": {
+                        "features": [
+                          {
+                            "chance": 0.15,
+                            "feature": {
+                              "type": "minecraft:delta_feature",
+                              "config": {
+                                "contents": {
+                                  "Name": "minecraft:lava",
+                                  "Properties": {
+                                    "level": "0"
+                                  }
+                                },
+                                "rim": {
+                                  "Name": "minecraft:magma_block"
+                                },
+                                "size": {
+                                  "type": "minecraft:uniform",
+                                  "value": {
+                                    "min_inclusive": 2,
+                                    "max_inclusive": 7
+                                  }
+                                },
+                                "rim_size": {
+                                  "type": "minecraft:uniform",
+                                  "value": {
+                                    "min_inclusive": 0,
+                                    "max_inclusive": 2
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "chance": 0.8,
+                            "feature": {
+                              "type": "minecraft:ore",
+                              "config": {
+                                "size": 23,
+                                "discard_chance_on_air_exposure": 0.99,
+                                "targets": [
+                                  {
+                                    "target": {
+                                      "predicate_type": "minecraft:random_block_match",
+                                      "block": "minecraft:blackstone",
+                                      "probability": 0.01
+                                    },
+                                    "state": {
+                                      "Name": "minecraft:deepslate_diamond_ore"
+                                    }
+                                  },
+                                  {
+                                    "target": {
+                                      "predicate_type": "minecraft:random_block_match",
+                                      "block": "minecraft:blackstone",
+                                      "probability": 0.2
+                                    },
+                                    "state": {
+                                      "Name": "minecraft:deepslate_coal_ore"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ],
+                        "default": {
+                          "type": "minecraft:vegetation_patch",
+                          "config": {
+                            "surface": "floor",
+                            "depth": 1,
+                            "vertical_range": 1,
+                            "extra_bottom_block_chance": 0,
+                            "extra_edge_column_chance": 0,
+                            "vegetation_chance": 1,
+                            "xz_radius": 0,
+                            "replaceable": "terralith:magma",
+                            "ground_state": {
+                              "type": "minecraft:simple_state_provider",
+                              "state": {
+                                "Name": "minecraft:dirt"
+                              }
+                            },
+                            "vegetation_feature": {
+                              "type": "minecraft:tree",
+                              "config": {
+                                "ignore_vines": false,
+                                "force_dirt": true,
+                                "minimum_size": {
+                                  "type": "minecraft:two_layers_feature_size",
+                                  "min_clipped_height": 0,
+                                  "limit": 0,
+                                  "lower_size": 0,
+                                  "upper_size": 0
+                                },
+                                "dirt_provider": {
+                                  "type": "minecraft:simple_state_provider",
+                                  "state": {
+                                    "Name": "minecraft:magma_block"
+                                  }
+                                },
+                                "sapling_provider": {
+                                  "type": "minecraft:simple_state_provider",
+                                  "state": {
+                                    "Name": "minecraft:stone"
+                                  }
+                                },
+                                "trunk_provider": {
+                                  "type": "minecraft:simple_state_provider",
+                                  "state": {
+                                    "Name": "minecraft:lava",
+                                    "Properties": {
+                                      "level": "0"
+                                    }
+                                  }
+                                },
+                                "foliage_provider": {
+                                  "type": "minecraft:simple_state_provider",
+                                  "state": {
+                                    "Name": "minecraft:air"
+                                  }
+                                },
+                                "trunk_placer": {
+                                  "type": "minecraft:straight_trunk_placer",
+                                  "base_height": 2,
+                                  "height_rand_a": 4,
+                                  "height_rand_b": 3
+                                },
+                                "foliage_placer": {
+                                  "type": "minecraft:fancy_foliage_placer",
+                                  "radius": 0,
+                                  "offset": 0,
+                                  "height": 0
+                                },
+                                "decorators": []
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

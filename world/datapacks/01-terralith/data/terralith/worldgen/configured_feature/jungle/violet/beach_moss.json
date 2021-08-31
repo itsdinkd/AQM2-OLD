@@ -1,0 +1,84 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 99,
+        "extra_count": 0,
+        "extra_chance": 1
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:decorated",
+              "config": {
+                "outer": {
+                  "type": "minecraft:square",
+                  "config": {}
+                },
+                "inner": {
+                  "type": "minecraft:count_noise_biased",
+                  "config": {
+                    "noise_to_count_ratio": 1,
+                    "noise_factor": 40,
+                    "noise_offset": 0.3
+                  }
+                }
+              }
+            },
+            "inner": {
+              "type": "minecraft:range",
+              "config": {
+                "height": {
+                  "absolute": 62
+                }
+              }
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:disk",
+          "config": {
+            "state": {
+              "Name": "minecraft:moss_block"
+            },
+            "radius": {
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": 1,
+                "max_inclusive": 2
+              }
+            },
+            "half_height": 0,
+            "targets": [
+              {
+                "Name": "minecraft:calcite"
+              },
+              {
+                "Name": "minecraft:gravel"
+              },
+              {
+                "Name": "minecraft:sand"
+              },
+              {
+                "Name": "minecraft:dirt"
+              },
+              {
+                "Name": "minecraft:grass_block",
+                "Properties": {
+                  "snowy": "false"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

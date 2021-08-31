@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 225,
+        "extra_count":0,
+        "extra_chance":0
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:range",
+              "config": {
+                "height":{
+                "type":"trapezoid",
+                "min_inclusive": {
+                  "absolute": 77
+                },
+                "max_inclusive": {
+                  "absolute": 150
+                }
+              }
+              }
+            },
+            "feature": "terralith:yellowstone/birch"
+          }
+        }
+      }
+    }
+  }
+}
