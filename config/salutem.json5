@@ -8,18 +8,23 @@
       "minecraft:pufferfish",
       "minecraft:salmon",
       "minecraft:shulker",
-      "minecraft:tropical_fish"
+      "minecraft:tropical_fish",
+      "ratsmischief:rat",
+      "schmucks:schmuck",
+      "transportables:chest_carriage",
+      "transportables:carriage"
     ],
   //List of mobs to use the boss health bar style for
   "bosses": [
-      "adventurez:stone_golem",
+      "adventurez:stone_golem"
+      "doom:marauder",
       "minecraft:ender_dragon",
       "minecraft:wither"
     ],
   //Whether the mod should draw healthbars or not (effectively toggling the mod on/off.)
   "draw": true,
   //The max distance an entity can be and still have its healthbar rendered.
-  "max_distance": 26,
+  "max_distance": 24,
   //Whether to render health bars when the HUD is disabled by pressing F1.
   "render_in_f1": false,
   //Scale modifier for the health bar.
@@ -45,7 +50,7 @@
   "show_max_hp": true,
   "show_current_hp": true,
   "show_percentage": true,
-  "show_on_players": true,
+  "show_on_players": false,
   "show_on_bosses": true,
   //Whether to only show the health of the entity you are looking at or all entities.
   "show_only_focused": false,

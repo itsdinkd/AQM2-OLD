@@ -118,5 +118,11 @@ events.listen("recipes", function (event) {
     "dml-refabricated:glitch_ingot",
   );
 
+
+
+// Origins Orb
+  event.shaped(item.of('origins:orb_of_origin', 1), [
+    ['doom:argent_energy', 'bewitchment:cleansing_balm', 'winged:dipped_ceremonial_knife'],
+    ]);
   
 })

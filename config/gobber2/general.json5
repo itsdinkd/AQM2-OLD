@@ -162,9 +162,9 @@
 	   Gobber End Tool Material Stats
 	   ******************************
 	*/
-	"unbreakableEndTools": true,
-	"gobberEndDurability": 8000,
-	"gobberEndMiningSpeed": 14.0,
+	"unbreakableEndTools": false,
+	"gobberEndDurability": 9001,
+	"gobberEndMiningSpeed": 13.0,
 	"gobberEndAttackDamage": 9.0,
 	"gobberEndMiningLevel": 6,
 	"gobberEndEnchantability": 25,
@@ -179,7 +179,7 @@
 	"enableNetherAllPerks": true,
 	"enableNetherHealthPerks": false,
 	"enableEndAllPerks": true,
-	"enableEndHealthPerks": true,
+	"enableEndHealthPerks": false,
 	"enablePhantomProtection": true,
 	"enableDragonFlight": false,
 	"enableDragonAllPerks": true,
@@ -207,7 +207,7 @@
 	*/
 	"gobberNetherDurabilityMultiplier": 83,
 	"gobberNetherArmorEnchantability": 20,
-	"gobberNetherToughness": 2.7,
+	"gobberNetherToughness": 2.700000047683716,
 	"gobberNetherKnockbackResistance": 0.10000000149011612,
 	/* 
 	   

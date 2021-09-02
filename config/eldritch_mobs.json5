@@ -42,7 +42,7 @@
 	// EXP multiplier for Eldritch Mobs
 	"EldritchExpMult": 20,
 	// Intensity: 1 - 3
-	"intensity": 1,
+	"intensity": 2,
 	// Enable custom user defined loot
 	"enableCustomLoot": false,
 	"disableModifiers": {

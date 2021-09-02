@@ -3,12 +3,13 @@
   "configVersion": 2,
   "startingBlocks": 300,
   "maxClaimBlocks": 5000,
-  "ticksForNextBlock": 600,
+  "ticksForNextBlock": 900,
   "minClaimsize": 100,
   "defaultClaimDepth": 10,
   "ignoredBlocks": [
     "graves",
-    "minecraft:player_head"
+    "minecraft:player_head",
+    "charm:totem_of_preserving"
   ],
   "ignoredEntities": [
     "corpse:corpse"
@@ -35,7 +36,7 @@
   "worldWhitelist": false,
   "claimingItem": "minecraft:golden_hoe",
   "inspectionItem": "minecraft:stick",
-  "claimDisplayTime": 1000,
+  "claimDisplayTime": 1300,
   "permissionLevel": 2,
   "defaultGroups": {
     "Visitor": {
@@ -127,5 +128,8 @@
   "buyPrice": -1,
   "dropTicks": 6000,
   "inactivityTimeDays": 30,
-  "inactivityBlocksMax": 2000
+  "inactivityBlocksMax": 2000,
+  "deletePlayerFile": false,
+  "bannedDeletionTime": 30,
+  "offlineProtectActivation": -1
 }

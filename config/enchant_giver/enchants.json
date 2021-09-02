@@ -130,7 +130,7 @@
     "mcdw:stunning": 1
   },
   "mcdw:spear_venom_glaive": {
-    "mcdw:poison_cloud": 1
+    "mcdw:poison_cloud": 0
   },
   "mcdw:dagger_the_beginning": {
     "mcdw:leeching": 1
@@ -208,13 +208,13 @@
     "mcdw:enigma_resonator": 1
   },
   "mcdw:sickle_nightmares_bite": {
-    "mcdw:poison_cloud": 1
+    "mcdw:poison_cloud": 0
   },
   "mcdw:bow_twin_bow": {
     "minecraft:bonus_shot": 1
   },
   "mcdw:bow_green_menace": {
-    "mcdw:poison_cloud": 1
+    "mcdw:poison_cloud": 0
   },
   "mcdw:sword_freezing_foil": {
     "mcdw:freezing": 1
