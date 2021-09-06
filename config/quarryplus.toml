@@ -1,8 +1,0 @@
-[common]
-debug = false
-netherTop = 127
-noEnergy = false
-convertDeepslateOres = false
-[power]
-rebornEnergyConversionCoefficient = 0.0625
-fastTransferEnergyConversionCoefficient = 0.0625

@@ -1,7 +1,0 @@
-# (Default: true) Compatibility module for betternether@5.1.3(>=5.1.3)
-betternether = true
-# (Default: true) Compatibility module for betterend@0.11.0-pre(>=0.10.2-pre)
-betterend = true
-# (Default: true) Compatibility module for charm@3.3.2(>=3.3.2)
-charm = true
-
