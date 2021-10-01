@@ -1,7 +1,0 @@
-{
-  "type": "minecraft:village",
-  "config": {
-    "start_pool": "terralith:village/fortified/starts",
-    "size": 6
-  }
-}

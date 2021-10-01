@@ -17,7 +17,7 @@
 	/* Should the Quick upgrade affect the pulling speed
 	   of the Hookshot? (Default: false)
 	*/
-	"quickModAffectsPullSpeed": true,
+	"quickModAffectsPullSpeed": false,
 	/* The base maximum range of the Hookshot with no
 	     upgrades applied. (Default: 24 blocks)
 	*/
@@ -29,7 +29,7 @@
 	/* The multiplier the Range upgrade applies to the
 	     default range. (Default: x2)
 	*/
-	"rangeMultiplier": 1.5,
+	"rangeMultiplier": 1.6,
 	/* The multiplier the Quick upgrade applies to the
 	     default speed. (Default: x1.5)
 	*/
@@ -45,5 +45,5 @@
 	/* The ID of the item used to repair the Hookshot.
 	     (Default: minecraft:iron_ingot)
 	*/
-	"hookshotRepairItem": "minecraft:iron_ingot"
+	"hookshotRepairItem": "minecraft:diamond"
 }

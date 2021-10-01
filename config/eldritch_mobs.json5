@@ -8,27 +8,27 @@
 	// Ignore named creatures and monsters
 	"ignoreNamed": true,
 	// Enable Glowing Elite/Ultra/Eldritch Mobs upon discovery
-	"turnOnGlowingMobs": true,
+	"turnOnGlowingMobs": false,
 	// Out of 100 Mobs
-	"EliteSpawnRates": 2.0,
+	"EliteSpawnRates": 1.1,
 	// Out of 100 Elites
-	"UltraSpawnRates": 1.5,
+	"UltraSpawnRates": 1.05,
 	// Out of 100 Ultras
 	"EldritchSpawnRates": 1.0,
-	"healthIncrease": true,
+	"healthIncrease": false,
 	"healthMult": true,
-	// Health Boost Level for Elite Mobs
-	"EliteHealthMod": 15,
-	// Health Boost Level for Ultra Mobs
-	"UltraHealthMod": 30,
-	// Health Boost Level for Eldritch Mobs
-	"EldritchHealthMod": 90,
+	// Number of extra hearts for Elite Mobs
+	"EliteHealthMod": 60,
+	// Number of extra hearts for Ultra Mobs
+	"UltraHealthMod": 120,
+	// Number of extra hearts for Eldritch Mobs
+	"EldritchHealthMod": 240,
 	// Health Multiplier for Elite Mobs
-	"EliteHealthMult": 1.65,
+	"EliteHealthMult": 4.0,
 	// Health Multiplier for Ultra Mobs
-	"UltraHealthMult": 2.0,
+	"UltraHealthMult": 7.5,
 	// Health Modifier for Eldritch Mobs
-	"EldritchHealthMult": 3.5,
+	"EldritchHealthMult": 13.0,
 	// # of Modifiers for Elite Mobs
 	"EliteModTotal": 4,
 	// # of Modifiers for Ultra Mobs
@@ -36,9 +36,9 @@
 	// # of Modifiers for Eldritch Mobs
 	"EldritchModTotal": 12,
 	// EXP multiplier for Elite Mobs
-	"EliteExpMult": 6,
+	"EliteExpMult": 5,
 	// EXP multiplier for Ultra Mobs
-	"UltraExpMult": 14,
+	"UltraExpMult": 12,
 	// EXP multiplier for Eldritch Mobs
 	"EldritchExpMult": 20,
 	// Intensity: 1 - 3

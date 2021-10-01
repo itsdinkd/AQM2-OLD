@@ -2,7 +2,7 @@
   "lightning_rod": {
     "LightningRodChanceOfStrike": {
       "comment": "Chance of lightning striking a rod (Range: 0-70)",
-      "value": 24
+      "value": 32
     },
     "LightningRodMaxOutput": {
       "comment": "Lightning Rod Max Output (Energy per tick)",

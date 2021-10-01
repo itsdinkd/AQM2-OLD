@@ -2,7 +2,7 @@
   "chaosMode": false,
   "shortTemperChance": 5,
   "leatherHelmetChance": 10,
-  "jobRange": 8,
+  "jobRange": 12,
   "wandIndexEntity": 0,
   "wandIndexRange": 0,
   "wandRange": 32,

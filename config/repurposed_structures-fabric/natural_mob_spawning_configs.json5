@@ -81,6 +81,13 @@
         "minGroupSize": 1,
         "maxGroupSize": 1,
         "logErrorIfNotFound": false
+      },
+      {
+        "type": "bewitchment:ghost",
+        "weight": 1,
+        "minGroupSize": 1,
+        "maxGroupSize": 2,
+        "logErrorIfNotFound": true
       }
     ],
     "repurposed_structures:outpost_warped": [
@@ -106,6 +113,13 @@
         "minGroupSize": 1,
         "maxGroupSize": 1,
         "logErrorIfNotFound": false
+      },
+      {
+        "type": "bewitchment:ghost",
+        "weight": 1,
+        "minGroupSize": 1,
+        "maxGroupSize": 2,
+        "logErrorIfNotFound": true
       }
     ],
     "repurposed_structures:outpost_oak": [
@@ -152,6 +166,20 @@
         "minGroupSize": 4,
         "maxGroupSize": 4,
         "logErrorIfNotFound": false
+      },
+      {
+        "type": "doom:pinky",
+        "weight": 1,
+        "minGroupSize": 1,
+        "maxGroupSize": 1,
+        "logErrorIfNotFound": true
+      },
+      {
+        "type": "doom:possessed_scientist",
+        "weight": 3,
+        "minGroupSize": 1,
+        "maxGroupSize": 2,
+        "logErrorIfNotFound": true
       }
     ],
     "repurposed_structures:outpost_badlands": [
@@ -186,6 +214,13 @@
         "minGroupSize": 1,
         "maxGroupSize": 1,
         "logErrorIfNotFound": false
+      },
+      {
+        "type": "bewitchment:ghost",
+        "weight": 1,
+        "minGroupSize": 1,
+        "maxGroupSize": 1,
+        "logErrorIfNotFound": true
       }
     ],
     "repurposed_structures:outpost_nether_brick": [
@@ -211,6 +246,13 @@
         "minGroupSize": 1,
         "maxGroupSize": 1,
         "logErrorIfNotFound": false
+      },
+      {
+        "type": "bewitchment:ghost",
+        "weight": 1,
+        "minGroupSize": 1,
+        "maxGroupSize": 1,
+        "logErrorIfNotFound": false
       }
     ],
     "repurposed_structures:witch_hut_dark_forest": [
@@ -223,6 +265,13 @@
       },
       {
         "type": "minecraft:cat",
+        "weight": 1,
+        "minGroupSize": 1,
+        "maxGroupSize": 1,
+        "logErrorIfNotFound": false
+      },
+      {
+        "type": "bewitchment:ghost",
         "weight": 1,
         "minGroupSize": 1,
         "maxGroupSize": 1,
@@ -245,6 +294,13 @@
         "minGroupSize": 1,
         "maxGroupSize": 4,
         "logErrorIfNotFound": false
+      },
+      {
+        "type": "bewitchment:vampire",
+        "weight": 1,
+        "minGroupSize": 1,
+        "maxGroupSize": 1,
+        "logErrorIfNotFound": true
       }
     ],
     "repurposed_structures:outpost_icy": [
@@ -279,6 +335,13 @@
         "minGroupSize": 2,
         "maxGroupSize": 3,
         "logErrorIfNotFound": false
+      },
+      {
+        "type": "bewitchment:vampire",
+        "weight": 1,
+        "minGroupSize": 1,
+        "maxGroupSize": 1,
+        "logErrorIfNotFound": true
       }
     ]
   },
@@ -304,6 +367,13 @@
         "weight": 25,
         "minGroupSize": 1,
         "maxGroupSize": 1,
+        "logErrorIfNotFound": true
+      },
+      {
+        "type": "bewitchment:ghost",
+        "weight": 1,
+        "minGroupSize": 1,
+        "maxGroupSize": 2,
         "logErrorIfNotFound": true
       }
     ],

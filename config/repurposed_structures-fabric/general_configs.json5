@@ -559,79 +559,79 @@
 			/* 
 			   
 			   
-			   Min Y height of Mineshaft.max = 30
+			   Min Y height of Mineshaft
 			*/
-			"birchMineshaftMinHeight": 8,
+			"birchMineshaftMinHeight": -40,
 			/* 
 			   
 			   
-			   Min Y height of Mineshaft.max = 30
+			   Min Y height of Mineshaft
 			*/
-			"jungleMineshaftMinHeight": 8,
+			"jungleMineshaftMinHeight": -40,
 			/* 
 			   
 			   
-			   Min Y height of Mineshaft.max = 30
+			   Min Y height of Mineshaft
 			*/
-			"desertMineshaftMinHeight": 8,
+			"desertMineshaftMinHeight": -40,
 			/* 
 			   
 			   
-			   Min Y height of Mineshaft.max = 30
+			   Min Y height of Mineshaft
 			*/
-			"stoneMineshaftMinHeight": 8,
+			"stoneMineshaftMinHeight": -40,
 			/* 
 			   
 			   
-			   Min Y height of Mineshaft.max = 30
+			   Min Y height of Mineshaft
 			*/
-			"savannaMineshaftMinHeight": 8,
+			"savannaMineshaftMinHeight": -40,
 			/* 
 			   
 			   
-			   Min Y height of Mineshaft.max = 30
+			   Min Y height of Mineshaft
 			*/
-			"icyMineshaftMinHeight": 8,
+			"icyMineshaftMinHeight": -40,
 			/* 
 			   
 			   
-			   Min Y height of Mineshaft.max = 30
+			   Min Y height of Mineshaft
 			*/
-			"oceanMineshaftMinHeight": 8,
+			"oceanMineshaftMinHeight": -40,
 			/* 
 			   
 			   
-			   Min Y height of Mineshaft.max = 30
+			   Min Y height of Mineshaft
 			*/
-			"taigaMineshaftMinHeight": 8,
+			"taigaMineshaftMinHeight": -40,
 			/* 
 			   
 			   
-			   Min Y height of Mineshaft.max = 30
+			   Min Y height of Mineshaft
 			*/
-			"swampMineshaftMinHeight": 8,
+			"swampMineshaftMinHeight": -40,
 			/* 
 			   
 			   
-			   Min Y height of Mineshaft.max = 30
+			   Min Y height of Mineshaft
 			*/
-			"darkForestMineshaftMinHeight": 8,
+			"darkForestMineshaftMinHeight": -40,
 			/* 
 			   
 			   
-			   Min Y height of Mineshaft.max = 30
+			   Min Y height of Mineshaft
 			*/
 			"netherMineshaftMinHeight": 6,
 			/* 
 			   
 			   
-			   Min Y height of Mineshaft.max = 30
+			   Min Y height of Mineshaft
 			*/
 			"crimsonMineshaftMinHeight": 6,
 			/* 
 			   
 			   
-			   Min Y height of Mineshaft.max = 30
+			   Min Y height of Mineshaft
 			*/
 			"warpedMineshaftMinHeight": 6
 		},
@@ -639,91 +639,91 @@
 			/* 
 			   
 			   
-			   Max Y height of Mineshaft.max = 30
+			   Max Y height of Mineshaft
 			   If below min height, this will be read as min.
 			*/
 			"birchMineshaftMaxHeight": 45,
 			/* 
 			   
 			   
-			   Max Y height of Mineshaft.max = 30
+			   Max Y height of Mineshaft
 			   If below min height, this will be read as min.
 			*/
 			"jungleMineshaftMaxHeight": 45,
 			/* 
 			   
 			   
-			   Max Y height of Mineshaft.max = 30
+			   Max Y height of Mineshaft
 			   If below min height, this will be read as min.
 			*/
 			"desertMineshaftMaxHeight": 45,
 			/* 
 			   
 			   
-			   Max Y height of Mineshaft.max = 30
+			   Max Y height of Mineshaft
 			   If below min height, this will be read as min.
 			*/
 			"stoneMineshaftMaxHeight": 45,
 			/* 
 			   
 			   
-			   Max Y height of Mineshaft.max = 30
+			   Max Y height of Mineshaft
 			   If below min height, this will be read as min.
 			*/
 			"savannaMineshaftMaxHeight": 45,
 			/* 
 			   
 			   
-			   Max Y height of Mineshaft.max = 30
+			   Max Y height of Mineshaft
 			   If below min height, this will be read as min.
 			*/
 			"icyMineshaftMaxHeight": 45,
 			/* 
 			   
 			   
-			   Max Y height of Mineshaft.max = 30
+			   Max Y height of Mineshaft
 			   If below min height, this will be read as min.
 			*/
 			"oceanMineshaftMaxHeight": 26,
 			/* 
 			   
 			   
-			   Max Y height of Mineshaft.max = 30
+			   Max Y height of Mineshaft
 			   If below min height, this will be read as min.
 			*/
 			"taigaMineshaftMaxHeight": 45,
 			/* 
 			   
 			   
-			   Max Y height of Mineshaft.max = 30
+			   Max Y height of Mineshaft
 			   If below min height, this will be read as min.
 			*/
 			"swampMineshaftMaxHeight": 45,
 			/* 
 			   
 			   
-			   Max Y height of Mineshaft.max = 30
+			   Max Y height of Mineshaft
 			   If below min height, this will be read as min.
 			*/
 			"darkForestMineshaftMaxHeight": 45,
 			/* 
 			   
 			   
-			   Max Y height of Mineshaft.max = 30
+			   Max Y height of Mineshaft
 			   If below min height, this will be read as min.
 			*/
 			"netherMineshaftMaxHeight": 17,
 			/* 
 			   
 			   
-			   Max Y height of Mineshaft.max = 30
+			   Max Y height of Mineshaft
 			   If below min height, this will be read as min.
 			*/
 			"crimsonMineshaftMaxHeight": 14,
 			/* 
 			   
 			   
-			   Max Y height of Mineshaft.max = 30
+			   Max Y height of Mineshaft
 			   If below min height, this will be read as min.
 			*/
 			"warpedMineshaftMaxHeight": 14

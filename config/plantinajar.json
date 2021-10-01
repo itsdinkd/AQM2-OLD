@@ -6,8 +6,11 @@
     "bewitchment:mandrake": -1,
     "bewitchment:garlic": -1,
     "bewitchment:belladonna": -1,
+    "minecraft:wheat": -1,
+    "minecraft:oak_sapling": -1,
     "charm:ebony_sapling": -1,
-    "bewitchment:aconite": -1
+    "bewitchment:aconite": -1,
+    "minecraft:sugar_cane": -1
   },
   "growthModifierRegexPatterns": {}
 }

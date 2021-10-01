@@ -89,13 +89,7 @@
 // RS's dungeons and wells identifiers can be found here on GitHub:
 //  https://github.com/TelepathicGrunt/RepurposedStructures-Fabric/blob/7f8021cbc073c9919fa0b08dc3b746f9a0e854af/src/main/java/com/telepathicgrunt/repurposedstructures/modinit/RSConfiguredFeatures.java#L268-L290
 
-  "disallowedBiomes": {
-    "repurposed_structures:dungeons_neutral_ocean": "terrestria:lush_desert",
-    "repurposed_structures:dungeons_lukewarm_ocean": "terrestria:lush_desert",
-    "repurposed_structures:dungeons_frozen_ocean": "terrestria:lush_desert",
-    "repurposed_structures:dungeons_cold_ocean": "terrestria:lush_desert",
-    "repurposed_structures:dungeons_warm_ocean": "terrestria:lush_desert"
-  },
+  "disallowedBiomes": {},
   //
 
 

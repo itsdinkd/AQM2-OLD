@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:fill_layer",
-  "config": {
-    "state": {
-      "Name": "minecraft:black_concrete"
-    },
-    "height": 252
-  }
-}

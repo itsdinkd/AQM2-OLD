@@ -3,9 +3,9 @@
     "enabled": true
   },
   "actionBarDisplayHandler": {
-    "enabled": true
+    "enabled": false
   },
   "bossBarDisplayHandler": {
-    "enabled": false
+    "enabled": true
   }
 }

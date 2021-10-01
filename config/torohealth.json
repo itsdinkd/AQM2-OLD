@@ -1,27 +1,27 @@
 {
   "watchForChanges": true,
   "hud": {
-    "distance": 0,
-    "x": 0.0,
-    "y": 0.0,
-    "scale": 0.0,
-    "hideDelay": 20,
+    "distance": 30,
+    "x": 3.0,
+    "y": 40.0,
+    "scale": 0.6,
+    "hideDelay": 28,
     "anchorPoint": "TOP_LEFT",
     "showEntity": true,
-    "showBar": false,
-    "showSkin": false,
+    "showBar": true,
+    "showSkin": true,
     "onlyWhenHurt": false
   },
   "bar": {
-    "damageNumberType": "CUMULATIVE",
+    "damageNumberType": "LAST",
     "friendColor": "#00ff00",
     "friendColorSecondary": "#008000",
     "foeColor": "#ff0000",
     "foeColorSecondary": "#800000"
   },
   "inWorld": {
-    "mode": "NONE",
-    "distance": 60.0,
+    "mode": "ALWAYS",
+    "distance": 40.0,
     "onlyWhenLookingAt": false,
     "onlyWhenHurt": false
   },

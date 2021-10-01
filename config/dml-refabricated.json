@@ -35,7 +35,7 @@
     "baseDataGainPerKill": 1
   },
   "affix": {
-    "maxAffixesInKey": 4,
+    "maxAffixesInKey": 3,
     "enableMobStrength": true,
     "enableMobSpeed": true,
     "enableMobResistance": true,

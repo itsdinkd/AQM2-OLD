@@ -12,6 +12,6 @@
     "searchRadius": 16,
     "doDeepSearch": true,
     "printSearchTime": false,
-    "cooldownTicks": 5
+    "cooldownTicks": 15
   }
 }

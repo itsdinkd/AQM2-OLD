@@ -1,0 +1,19 @@
+{
+  "enabled": true,
+  "alias": "spt",
+  "defaultConfig": {
+    "centre": {
+      "field_11175": 0,
+      "field_11174": 60,
+      "field_11173": 0
+    },
+    "radius": 0.0,
+    "actionBar": true
+  },
+  "dimensions": {
+    "minecraft:overworld": {
+      "radius": 60.0,
+      "actionBar": true
+    }
+  }
+}

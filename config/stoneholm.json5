@@ -4,7 +4,7 @@
 	// Max distance in chunks between villages. (Default: 32)
 	"VILLAGE_SPACING": 48,
 	// Minimum distance in chunks between villages. (Default: 8)
-	"VILLAGE_SEPARATION": 24,
+	"VILLAGE_SEPARATION": 16,
 	// How far above sea level a village may be. This is used to prevent pieces from generating in the air in less even terrains. (Default: 8)
 	"VILLAGE_MAX_DISTANCE_ABOVE_SEALEVEL": 8,
 	// Whether to disable generating vanilla villages. (Default: false)

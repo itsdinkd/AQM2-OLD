@@ -40,7 +40,7 @@
 	"enableStaffSniper": true,
 	"enableStaffStars": true,
 	"enableStaffTransformation": true,
-	"enableStaffHostileEnsnarement": true,
+	"enableStaffHostileEnsnarement": false,
 	/* 
 	   
 	   ***********************
@@ -68,13 +68,14 @@
 	"ringBlinkDistance": 40,
 	"ringBlinkCooldown": 160,
 	"ringExplorerCooldown": 1200,
+	"ringExplorerUsePlayerPos": false,
 	"ringExplorerMin": 5000,
 	"ringExplorerMax": 10000,
 	"ringFarmerHorizRange": 12,
 	"ringFarmerVertRange": 6,
-	"ringFarmerInterval": 120,
+	"ringFarmerInterval": 160,
 	"ringFarmerIntervalCactus": 40,
-	"ringAboveCooldown": 120,
+	"ringAboveCooldown": 180,
 	"ringRepairInterval": 90,
 	"ringDismissalRange": 8.0,
 	"ringDismissalVelocity": 0.2,
@@ -98,7 +99,7 @@
 	   Staff Settings
 	   ***********************
 	*/
-	"staffTransformationDurability": 1025,
+	"staffTransformationDurability": 825,
 	"staffClearingRange": 11,
 	"staffSniperCooldown": 200,
 	"staffFarmerHorizRange": 12,
@@ -140,9 +141,10 @@
 	*/
 	"gobberDurability": 3800,
 	"gobberMiningSpeed": 9.0,
-	"gobberAttackDamage": 9.0,
+	"gobberAttackDamage": 7.0,
+	"gobberSwordAttackSpeed": 1.7,
 	"gobberMiningLevel": 4,
-	"gobberEnchantability": 20,
+	"gobberEnchantability": 19,
 	/* 
 	   
 	   
@@ -152,9 +154,10 @@
 	*/
 	"gobberNetherDurability": 5200,
 	"gobberNetherMiningSpeed": 11.0,
-	"gobberNetherAttackDamage": 9.0,
+	"gobberNetherAttackDamage": 8.0,
+	"gobberNetherSwordAttackSpeed": 1.900000047683716,
 	"gobberNetherMiningLevel": 5,
-	"gobberNetherEnchantability": 23,
+	"gobberNetherEnchantability": 21,
 	/* 
 	   
 	   
@@ -166,24 +169,31 @@
 	"gobberEndDurability": 9001,
 	"gobberEndMiningSpeed": 13.0,
 	"gobberEndAttackDamage": 9.0,
+	"gobberEndSwordAttackSpeed": 2.2000000953674316,
 	"gobberEndMiningLevel": 6,
-	"gobberEndEnchantability": 25,
+	"gobberEndEnchantability": 23,
 	/* 
 	   
 	   ***********************
-	   Armors
+	   Armor Settings
 	   ***********************
 	*/
-	"enableGobberAllPerks": true,
+	"enableGobberAllPerks": false,
 	"enableGobberHealthPerks": false,
-	"enableNetherAllPerks": true,
+	"gobberGobberArmorHealingPoints": 2,
+	"enableNetherAllPerks": false,
 	"enableNetherHealthPerks": false,
-	"enableEndAllPerks": true,
+	"gobberNetherArmorHealingPoints": 2,
+	"enableEndAllPerks": false,
 	"enableEndHealthPerks": false,
+	"gobberEndArmorHealingPoints": 3,
+	"unbreakableEndArmor": false,
 	"enablePhantomProtection": true,
-	"enableDragonFlight": false,
+	"enableDragonArmorWithoutFlight": true,
+	"enableDragonArmorWithFlight": false,
 	"enableDragonAllPerks": true,
 	"enableDragonHealthPerks": false,
+	"gobberDragonArmorHealingPoints": 0,
 	"enableDragonProtectiveEffects": true,
 	"enableDragonNoFallDamage": false,
 	"unbreakableDragonArmor": true,
@@ -196,8 +206,12 @@
 	*/
 	"gobberDurabilityMultiplier": 68,
 	"gobberArmorEnchantability": 15,
-	"gobberToughness": 2.5,
+	"gobberToughness": 2.0,
 	"gobberKnockbackResistance": 0.10000000149011612,
+	"gobberHeadProtection": 7,
+	"gobberChestProtecction": 10,
+	"gobberLeggingsProtection": 8,
+	"gobberBootsProtection": 5,
 	/* 
 	   
 	   
@@ -206,9 +220,13 @@
 	   ******************************
 	*/
 	"gobberNetherDurabilityMultiplier": 83,
-	"gobberNetherArmorEnchantability": 20,
-	"gobberNetherToughness": 2.700000047683716,
+	"gobberNetherArmorEnchantability": 19,
+	"gobberNetherToughness": 2.25,
 	"gobberNetherKnockbackResistance": 0.10000000149011612,
+	"netherHeadProtection": 9,
+	"netherChestProtecction": 11,
+	"netherLeggingsProtection": 9,
+	"netherBootsProtection": 6,
 	/* 
 	   
 	   
@@ -216,11 +234,14 @@
 	   Gobber End Armor Material Stats
 	   ******************************
 	*/
-	"unbreakableEndArmor": false,
 	"gobberEndDurabilityMultiplier": 120,
-	"gobberEndArmorEnchantability": 25,
-	"gobberEndToughness": 3.0,
-	"gobberEndKnockbackResistance": 0.20000001788139343,
+	"gobberEndArmorEnchantability": 23,
+	"gobberEndToughness": 2.5,
+	"gobberEndKnockbackResistance": 0.11249999701976776,
+	"endHeadProtection": 10,
+	"endChestProtecction": 12,
+	"endLeggingsProtection": 10,
+	"endBootsProtection": 7,
 	/* 
 	   
 	   
@@ -230,9 +251,12 @@
 	*/
 	"gobberDragonDurabilityMultiplier": 130,
 	"gobberDragonArmorEnchantability": 25,
-	"gobberDragonToughness": 3.0,
-	"gobberDragonKnockbackResistance": 0.30000001192092896,
-	"gobberDragonArmorHealingPoints": 0,
+	"gobberDragonToughness": 2.700000047683716,
+	"gobberDragonKnockbackResistance": 0.11874999850988388,
+	"dragonHeadProtection": 10,
+	"dragonChestProtecction": 13,
+	"dragonLeggingsProtection": 10,
+	"dragonBootsProtection": 8,
 	/* 
 	   
 	   ***********************
@@ -274,12 +298,14 @@
 	   Item provides a one-time random teleport
 	   and is consumed after successful teleport.
 	   Min/Max range from world spawn to search
+	   or from the player's current position
 	   Item does NOT have a standard recipe
 	   ***********************
 	*/
 	"enableSpecialItem": true,
 	"specialItemMin": 20000,
 	"specialItemMax": 75000,
+	"specialItemUsePlayerPos": false,
 	/* 
 	   
 	   ***********************
@@ -289,7 +315,7 @@
 	*/
 	"enableNemesis": true,
 	"dropChanceNemesis": 0.1,
-	"attackDamageNemesis": 6.0,
+	"attackDamageNemesis": 7.0,
 	"healthNemesis": 20.0,
 	"movementSpeedNemesis": 0.35,
 	"attackKnockbackNemesis": 0.6,

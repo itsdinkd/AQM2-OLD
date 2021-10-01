@@ -1,0 +1,13 @@
+{
+  "parent": "rug:root",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "rug:blast_furnace_smooth_quartz"
+    ]
+  }
+}

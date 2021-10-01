@@ -6,6 +6,9 @@
     "megane-team-reborn-energy": {
       "badasintended.megane.impl.TeamRebornEnergy": true
     },
+    "megane-industrial-revolution": {
+      "badasintended.megane.impl.IndustrialRevolution": true
+    },
     "megane-fabric-transfer": {
       "badasintended.megane.impl.FabricTransfer": true
     },

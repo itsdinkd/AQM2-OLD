@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:fill_layer",
-  "config": {
-    "state": {
-      "Name": "minecraft:lapis_block"
-    },
-    "height": 383
-  }
-}

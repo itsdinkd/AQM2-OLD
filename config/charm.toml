@@ -9,7 +9,7 @@
 #Refills your hotbar from your inventory.
 "AutoRestock Enabled" = true
 #Unlocks all vanilla recipes.
-"AutomaticRecipeUnlock Enabled" = true
+"AutomaticRecipeUnlock Enabled" = false
 #Azalea wood is obtainable from naturally occurring azalea trees or by growing azalea saplings.
 "AzaleaWood Enabled" = true
 #Right-click a bat with a bucket to capture it. Right-click again to release it and locate entities around you.
@@ -29,7 +29,7 @@
 #Bookshelves that can hold up to 9 stacks of books and maps.
 "Bookcases Enabled" = true
 #Bumblezone integration.
-"Bumblezone Enabled" = true
+"Bumblezone Enabled" = false
 #Scroll the mouse while hovering over a bundle to change the order of its contents.
 "BundleSorting Enabled" = true
 #Campfires no longer damage mobs.
@@ -43,11 +43,11 @@
 #Add amethyst shards to item frames to make them invisible.
 "ClearItemFrames Enabled" = true
 #Tools with the Collection enchantment automatically pick up drops.
-"CollectionEnchantment Enabled" = true
+"CollectionEnchantment Enabled" = false
 #Allows bundles to be dyed.
 "ColoredBundles Enabled" = true
 #Use dye on an anvil to change an item's enchantment color.
-"ColoredGlints Enabled" = true
+"ColoredGlints Enabled" = false
 #Cooking pots let you combine up to 64 food items, keeping an average of all hunger and saturation. Use wooden bowls to extract stew from the pot.
 "CookingPots Enabled" = true
 #Copper ingots can be used to craft rails.
@@ -138,9 +138,9 @@
 #Removes the dark outer overlay when zooming in with the spyglass, giving you the full view.
 "RemoveSpyglassScope Enabled" = true
 #Shows the contents of a Shulker Box on hover-over.
-"ShulkerBoxTooltips Enabled" = true
+"ShulkerBoxTooltips Enabled" = false
 #Increases snow layers in cold biomes during thunderstorms.
-"SnowStorms Enabled" = true
+"SnowStorms Enabled" = false
 #Allows enchanted books to stack.
 "StackableEnchantedBooks Enabled" = true
 #Allows potions to stack.
@@ -242,7 +242,7 @@
 
 [ColoredGlints]
 	#Set the default glint color for all enchanted items.
-	"Default glint color" = "purple"
+	"Default glint color" = "red"
 	#Number of levels of XP required to change an item's enchantment color using dye on an anvil.
 	"XP cost" = 1
 
@@ -269,7 +269,7 @@
 
 [DecreaseRepairCost]
 	#Number of levels required to reduce repair cost on the anvil.
-	"XP cost" = 0
+	"XP cost" = 1
 	#The tool repair cost will be decreased by this amount.
 	"Repair cost decrease" = 5
 
@@ -311,7 +311,7 @@
 
 [ExtractEnchantments]
 	#Initial XP cost before adding XP equivalent to the enchantment level(s) of the item.
-	"Initial XP cost" = 2
+	"Initial XP cost" = 6
 
 [FeatherFallingCrops]
 	#Set to false to prevent trampling even when the player does not wear feather falling boots.
@@ -333,7 +333,7 @@
 
 [Lumberjacks]
 	#Chance of a custom building to spawn. For reference, a vanilla library is 5.
-	"Lumberjack house weight" = 5
+	"Lumberjack house weight" = 6
 
 [MineshaftImprovements]
 	#If true, lanterns and TNT will spawn inside mineshaft corridors.
@@ -373,11 +373,11 @@
 	#Chance (out of 1.0) of a patrol captain dropping a raid horn when killed by the player.
 	"Drop chance" = 0.05
 	#Volume of the raid horn sound effect when used.  1.0 is maximum volume.
-	Volume = 0.75
+	Volume = 0.85
 
 [SnowStorms]
 	#Chance (out of 1.0) every tick of snow increasing by one layer during a thunderstorm.
-	"Snow layer chance" = 0.2
+	"Snow layer chance" = 0.13
 	#If true, heavier snow textures are rendered during thunderstorms.
 	"Heavier snow texture" = true
 	#If true, snowstorms inflict freezing damage to exposed players unless wearing appropriate gear.
@@ -405,13 +405,13 @@
 
 [StorageLabels]
 	#If true, floating labels will show even if the player is not sneaking.
-	"Always show" = true
+	"Always show" = false
 	#If true, barrels with custom names will be displayed.
 	"Show barrel labels" = true
 	#If true, chests with custom names will be displayed.
 	"Show chest labels" = true
 	#Maximum squared distance at which label will be shown. Lower = player closer, Higher = player further.
-	"View distance" = 6
+	"View distance" = 8
 
 [StrayImprovements]
 	#If true, strays can spawn anywhere within their biome rather than just the surface.
@@ -451,7 +451,7 @@
 	#If true, wandering traders will sell maps to structures.
 	"Trade structure maps" = true
 	#If true, makes wandering traders more likely to spawn after one Minecraft day.
-	"Frequent spawning" = true
+	"Frequent spawning" = false
 
 [WitchesDropLuck]
 	#Chance (out of 1.0) of a witch dropping a Potion of Luck when killed by the player.

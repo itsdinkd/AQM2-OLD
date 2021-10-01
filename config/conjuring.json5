@@ -1,13 +1,13 @@
 {
 	"conjurer_config": {
 		// How many extra mobs to spawn per abundance charm
-		"abundance_multiplier": 2,
+		"abundance_multiplier": 1,
 		// How many ticks of waiting to remove per haste charm
-		"haste_multiplier": 93.75,
+		"haste_multiplier": 85.75,
 		// How many blocks of range to add per scope charm
-		"scope_multiplier": 6,
+		"scope_multiplier": 2,
 		// How many extra mobs are allowed close to the conjurer per ignorance charm
-		"ignorance_multiplier": 2,
+		"ignorance_multiplier": 1,
 		// Which mob types you shouldn't be able to create a conjuring focus for
 		"conjurer_blacklist": [
 			"minecraft:wither",
@@ -28,47 +28,61 @@
 			"doom:spidermastermind2016",
 			"doom:cyberdemon",
 			"doom:cyberdemon2016",
-			"doom:armoredbaron"
+			"doom:armoredbaron",
 			"doom:gore_nest",
 			"doom:tyrant",
 			"doom:doom_hunter",
 			"doom:baron",
 			"doom:baron2016",
 			"doom:summoner",
+			"doom:marauder",
+			"doom:iconofsin",
+			"doom:motherdemon",
 			"doom:archvile",
-			"doom:archvileeternal"
+			"doom:archvileeternal",
 			"adventurez:the_eye",
 			"adventurez:stone_golem",
-			"minecraft:ender_dragon"
+			"minecraft:ender_dragon",
+			"golemsgalore:quartz_golem",
+			"golemsgalore:hay_golem",
+			"golemsgalore:diamond_golem",
+			"golemsgalore:netherite_golem",
+			"golemsgalore:golden_golem",
+			"golemsgalore:anti_creeper_golem",
+			"golemsgalore:diamond_laser_golem",
+			"golemsgalore:amethyst_golem",
+			"golemsgalore:laser_golem",
+			"golemsgalore:obama_prism_golem",
+			"golemsgalore:obsidian_golem"
 		]
 	},
 	"tools_config": {
 		// What percentage (additive) of the original damage to apply to each entity in the aoe per scope level
-		"sword_scope_damage_multiplier": 0.30000001192092896,
+		"sword_scope_damage_multiplier": 0.25,
 		// How many entities the sword's aoe is allowed to affect
-		"sword_scope_max_entities": 10,
+		"sword_scope_max_entities": 7,
 		// What percentage (additive) of the original damage to make armor piercing per ignorance level
 		"sword_ignorance_multiplier": 0.10000000149011612,
 		// Exponent for the haste level, attack speed calculation goes like this: -2.4f + haste_level^exponent
-		"sword_haste_exponent": 1.5,
+		"sword_haste_exponent": 1.3,
 		// How much durability firing a projectile with sword costs
-		"sword_secondary_durability_cost": 22,
+		"sword_secondary_durability_cost": 30,
 		// Cooldown for firing projectiles with the sword, in ticks
-		"sword_secondary_cooldown": 35,
+		"sword_secondary_cooldown": 42,
 		// How much of the sword's damage each fired projectile deals
 		"sword_projectile_damage_multiplier": 0.20000000298023224,
 		// The exponent for the scope level, tree cutting range is calculated like this: 8 + scope_level^exponent * 8
-		"axe_scope_exponent": 3.0,
+		"axe_scope_exponent": 2.25,
 		// How much durability firing a projectile with the hatchet costs, base value
-		"axe_secondary_base_durability_cost": 12,
+		"axe_secondary_base_durability_cost": 18,
 		// How much durability firing a projectile with the hatchet costs, added per scope level
-		"axe_secondary_per_scope_durability_cost": 5,
+		"axe_secondary_per_scope_durability_cost": 9,
 		// Cooldown for firing projectiles with the hatchet, in ticks
-		"axe_secondary_cooldown": 15,
+		"axe_secondary_cooldown": 25,
 		// How much durability firing a projectile with the pickaxe costs
-		"pickaxe_secondary_durability_cost": 15,
+		"pickaxe_secondary_durability_cost": 22,
 		// Cooldown for firing projectiles with the pickaxe, in ticks
-		"pickaxe_secondary_cooldown": 16,
+		"pickaxe_secondary_cooldown": 28,
 		// How many ores the pickaxe's projectile can mine in one go
 		"pickaxe_veinmine_max_blocks": 32,
 		// From what distance the shovel's projectile pulls in items

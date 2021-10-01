@@ -64,7 +64,7 @@
 	   - drop chance value between 0.0-1.0
 	   ******************************
 	*/
-	"clamDropChance": 0.8,
+	"clamDropChance": 0.6,
 	/* 
 	   
 	   
@@ -91,8 +91,8 @@
 	   ******************************
 	*/
 	"ironDurability": 250,
-	"ironMiningSpeed": 1.0,
-	"ironAttackDamage": 1.0,
+	"ironMiningSpeed": 1.4,
+	"ironAttackDamage": 1.4,
 	"ironMiningLevel": 2,
 	"ironEnchantability": 8,
 	/* 
@@ -104,8 +104,8 @@
 	   ******************************
 	*/
 	"copperDurability": 125,
-	"copperMiningSpeed": 1.0,
-	"copperAttackDamage": 1.0,
+	"copperMiningSpeed": 1.7,
+	"copperAttackDamage": 1.6,
 	"copperMiningLevel": 2,
 	"copperEnchantability": 8
 }

@@ -10,19 +10,19 @@
     },
     "crystal_furnace_speed": {
       "comment": " Number of ticks to complete one smelting operation.\n 200 ticks is what a regular furnace takes.\n Default: 40",
-      "value": 40
+      "value": 50
     },
     "emerald_furnace_speed": {
       "comment": " Number of ticks to complete one smelting operation.\n 200 ticks is what a regular furnace takes.\n Default: 40",
-      "value": 40
+      "value": 50
     },
     "obsidian_furnace_speed": {
       "comment": " Number of ticks to complete one smelting operation.\n 200 ticks is what a regular furnace takes.\n Default: 20",
-      "value": 20
+      "value": 12
     },
     "netherite_furnace_speed": {
       "comment": " Number of ticks to complete one smelting operation.\n 200 ticks is what a regular furnace takes.\n Default: 5",
-      "value": 5
+      "value": 35
     },
     "gold_furnace_speed": {
       "comment": " Number of ticks to complete one smelting operation.\n 200 ticks is what a regular furnace takes.\n Default: 120",
@@ -50,7 +50,7 @@
   "energy": {
     "energy_usage": {
       "comment": " This value determines how much energy used per smelted item in the wireless heater. \n Default: 250",
-      "value": 250
+      "value": 300
     }
   },
   "rei": {

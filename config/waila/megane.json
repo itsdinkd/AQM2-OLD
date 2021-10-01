@@ -10,7 +10,7 @@
   },
   "entityInventory": {
     "enabled": false,
-    "itemCount": true,
+    "itemCount": false,
     "nbt": false,
     "maxWidth": 9,
     "maxHeight": 3,

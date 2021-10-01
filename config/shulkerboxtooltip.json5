@@ -17,7 +17,7 @@
 		/* If on, the preview is always displayed, regardless of the preview key being pressed.
 		   (default value: false)
 		*/
-		"alwaysOn": false,
+		"alwaysOn": true,
 		/* In compact mode, how should items with the same ID but different NBT data be compacted?
 		   IGNORE: Ignores NBT data
 		   FIRST_ITEM: Items are displayed as all having the same NBT as the first item
@@ -78,12 +78,26 @@
 		   ADVANCED: Shows the loot table used by the item.
 		   (default value: HIDE)
 		*/
-		"lootTableInfoType": "ADVANCED",
+		"lootTableInfoType": "HIDE",
 		/* If on, the mod hides the custom text on shulker box tooltips.
 		   Use this option when a server-side preview datapack clashes with the mod.
 		   (default value: false)
 		*/
 		"hideShulkerBoxLore": false
+	},
+	"controls": {
+		/* Press this key when hovering a container stack to open the preview window.
+		   (default value: key.keyboard.left.shift)
+		*/
+		"previewKey": {
+			"code": "key.keyboard.left.shift"
+		},
+		/* Press this key when hovering a container stack to open the full preview window.
+		   (default value: key.keyboard.left.alt)
+		*/
+		"fullPreviewKey": {
+			"code": "key.keyboard.left.control"
+		}
 	},
 	"server": {
 		/* If on, the server will be able to provide extra information about containers to the clients with the mod installed.

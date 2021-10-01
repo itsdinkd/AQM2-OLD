@@ -1,21 +1,25 @@
 {
   "generate_in_villages": true,
   "consume_infinite_knowledge_scroll_on_use": false,
-  "can_owners_redeem_payments": false,
-  "cost_amount": 1,
+  "can_owners_redeem_payments": true,
+  "cost_amount": 2,
   "cost_type": "level",
-  "cost_item": "minecraft:ender_pearl",
+  "cost_item": "gobber2:gobber2_glob",
   "waystone_block_hardness": 4,
-  "waystone_block_required_mining_level": 3.0,
+  "waystone_block_required_mining_level": 4.0,
   "recipes": {
     "abyss_watcher": {
       "type": "minecraft:crafting_shaped",
       "pattern": [
+        " A ",
         "FEF"
       ],
       "key": {
+        "A": {
+          "item:": "minecraft:ender_pearl"
+        },
         "E": {
-          "item": "minecraft:ender_pearl"
+          "item": "gobber2:gobber2_ingot"
         },
         "F": {
           "item": "minecraft:flint"
@@ -23,26 +27,6 @@
       },
       "result": {
         "item": "waystones:abyss_watcher",
-        "count": 1
-      }
-    },
-    "waystone_scroll": {
-      "type": "minecraft:crafting_shaped",
-      "pattern": [
-        "SPS",
-        "PPP",
-        "SPS"
-      ],
-      "key": {
-        "P": {
-          "item": "minecraft:paper"
-        },
-        "S": {
-          "item": "minecraft:stick"
-        }
-      },
-      "result": {
-        "item": "waystones:waystone_scroll",
         "count": 1
       }
     },
@@ -64,7 +48,7 @@
           "item": "minecraft:emerald"
         },
         "O": {
-          "item": "minecraft:obsidian"
+          "item": "minecraft:crying_obsidian"
         }
       },
       "result": {
@@ -81,17 +65,37 @@
       ],
       "key": {
         "P": {
-          "item": "minecraft:blaze_powder"
+          "item": "gobber2:dragon_star"
         },
         "A": {
           "item": "waystones:abyss_watcher"
         },
         "S": {
-          "item": "minecraft:nether_star"
+          "item": "gobber2:dragon_star"
         }
       },
       "result": {
         "item": "waystones:pocket_wormhole",
+        "count": 1
+      }
+    },
+    "waystone_scroll": {
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "SPS",
+        "PPP",
+        "SPS"
+      ],
+      "key": {
+        "P": {
+          "item": "minecraft:paper"
+        },
+        "S": {
+          "item": "minecraft:stick"
+        }
+      },
+      "result": {
+        "item": "waystones:waystone_scroll",
         "count": 1
       }
     },

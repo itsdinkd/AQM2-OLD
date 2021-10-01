@@ -16,7 +16,14 @@
         "starmute:basalt_deltas_ex",
         "starmute:basalt_deltas_cooled",
         "starmute:toxic_springs",
-        "starmute:soul_sand_valley_d"
+        "starmute:soul_sand_valley_d",
+        "betternether:magma_land",
+        "betternether:nether_jungle",
+        "betternether:gravel_desert",
+        "betternether:soul_plain",
+        "betternether:flooded_deltas",
+        "betternether:sulfuric_bone_reef",
+        "betternether:poor_nether_grasslands"
       ],
       "health": 75.0,
       "attacking": {
@@ -54,7 +61,7 @@
     },
     "meerkat": {
       "spawn": false,
-      "burrowRate": 40,
+      "burrowRate": 60,
       "biomes": [
         "#desert"
       ],
@@ -76,6 +83,6 @@
   },
   "misc": {
     "helmetPenalty": 40,
-    "givePatchouliBookOnLogin": true
+    "givePatchouliBookOnLogin": false
   }
 }

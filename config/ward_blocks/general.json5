@@ -27,7 +27,7 @@
 	*/
 	"growthHoriz": 10,
 	"growthHeight": 5,
-	"baseTickDelay": 90,
+	"baseTickDelay": 70,
 	"cactusTickDelay": 20,
 	/* 
 	   
@@ -35,11 +35,11 @@
 	   Health Ward
 	   ***********************
 	*/
-	"healthRadius": 12,
+	"healthRadius": 10,
 	"healthLevel": 0,
 	"enableYellowHearts": true,
-	"healthYellowHearts": 20.0,
-	"effectTickInterval": 8,
+	"healthYellowHearts": 10.0,
+	"effectTickInterval": 14,
 	/* 
 	   
 	   ***********************
@@ -47,7 +47,7 @@
 	   ***********************
 	*/
 	"defenseRadius": 12,
-	"defenseLevel": 0,
+	"defenseLevel": 1,
 	/* 
 	   
 	   ***********************

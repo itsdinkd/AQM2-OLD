@@ -1,0 +1,14 @@
+# unused
+world_old/*
+config_old/*
+mods_old/*
+mods_oldish/*
+ignore/*
+mods/*
+patchouli_books/
+"AQM2 Server Pack [v2.4.4].zip"
+fabric-server-launch.jar
+fabric-server-launcher.properties
+server.jar
+.fabric/
+.mixin.out/

@@ -7,7 +7,7 @@
 	   CHAT: Messages are sent in the chat. 
 	   ACTION_BAR: Messages are displayed in the player's action bar.
 	*/
-	"notificationMode": "CHAT",
+	"notificationMode": "ACTION_BAR",
 	"trees": {
 		/* Additional list of blocks considered as logs and that will be destroyed by the mod. 
 		   INFO: Blocks marked with the log tag will already be whitelisted.
@@ -116,8 +116,17 @@
 		   ie: if set to 2 then breaking 5 logs will give 10 damage. 
 		   If set to 0, it'll still apply 1 damage for every cut. 
 		   INFO: This only applies when the tree is cut when using the mod.
+		   INFO: If damage is not a whole number then damageRounding will be used to determine what the final damage is.
 		*/
-		"damageMultiplicand": 1,
+		"damageMultiplicand": 1.16,
+		/* How damage taken should be rounded if it isn't a whole number. 
+		   ROUNDING will round to the closest whole number. 
+		   ROUND_DOWN will round down. 
+		   ROUND_UP will round up. 
+		   PROBABILISTIC will treat decimal fraction as a probability of rounding up. 
+		   ie: 9.45 will have 45% chance of being rounded up to 10 and 55% chance of being rounded down to 9.
+		*/
+		"damageRounding": "ROUND_DOWN",
 		/* Applies a speed modifier when breaking the tree. 
 		   0 will disable this, so the speed will be the default one of breaking a block. 
 		   If set to 1 each log block will be counted once, so if the tree is 5 blocks tall it'll require the time of breaking 5 logs. 

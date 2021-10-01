@@ -1,6 +1,6 @@
-mineshaftSpawnRate = 0.009
-minY = -50
-maxY = 49
+mineshaftSpawnRate = 0.011
+minY = 0
+maxY = 55
 
 [spawnRates]
 lanternSpawnRate = 0.0067

@@ -1,4 +1,5 @@
 // Another Quality Modpack 2 //
+// Credits to AOF4           //
 ///////////////////////////////
 
 
@@ -11,13 +12,16 @@ events.listen("recipes", function (event) {
    event.shapeless('charm:spruce_barrel', ['minecraft:barrel']);
    event.shapeless('minecraft:barrel', ['charm:spruce_barrel']);
 
-  // Gunpowder Block
-  event.remove({ output: "blast:gunpowder_block" });
-
-  event.shaped(item.of("blast:gunpowder_block"), [
-    ["minecraft:gunpowder", "minecraft:gunpowder", "minecraft:gunpowder"],
-    ["minecraft:gunpowder", "minecraft:coal_block", "minecraft:gunpowder"],
-    ["minecraft:gunpowder", "minecraft:gunpowder", "minecraft:gunpowder"],
+   // salt
+   event.shapeless('croptopia:salt', ['valley:salt']);
+   event.shapeless('valley:salt', ['croptopia:salt']);
+   
+  // Gunpowder Block - BLAST will be added on AQM2 2.5.0
+ event.remove({ output: "blast:gunpowder_block" });
+ event.shaped(item.of("blast:gunpowder_block"), [
+  ["minecraft:gunpowder", "minecraft:gunpowder", "minecraft:gunpowder"],
+  ["minecraft:gunpowder", "minecraft:coal_block", "minecraft:gunpowder"],
+  ["minecraft:gunpowder", "minecraft:gunpowder", "minecraft:gunpowder"],
   ]);
 
   // Wooden Bucket / Small Logs
