@@ -1,8 +1,8 @@
 {
 	// Should the Lectern Structure Processor run?
-	"doLecternProcessor": true,
+	"doLecternProcessor": false,
 	// Should the Bookshelf Structure Processor run?
-	"doBookshelfProcessor": true,
+	"doBookshelfProcessor": false,
 	/* Should Stronghold Libraries have Spell Books spawn? (Does
 	       nothing if YUNG's Better Strongholds is loaded)
 	*/
@@ -18,27 +18,46 @@
 	*/
 	"magicColour": "7ecdfb",
 	// The time Mana takes to refill by 1 in ticks before modifiers.
-	"baseManaCooldown": 20,
+	"baseManaCooldown": 32,
 	// The time Burnout takes to reduce by 1 in ticks before modifiers.
 	"baseBurnoutCooldown": 60,
-	// The Mana costs for all the spells.
-	"manaCosts": {
-		// The Mana cost for the Lunge spell.
-		"lungeCastingCost": 5,
-		// The Mana cost for the Dream Warp spell.
-		"dreamWarpCastingCost": 23,
-		// The Mana cost for the Magic Missile spell.
-		"magicMissileCastingCost": 4,
-		// The Mana cost for the Telekinetic Shock spell.
-		"telekinesisCastingCost": 6,
-		// The Mana cost for the Heal spell.
-		"healCastingCost": 15,
-		// The Mana cost for the Discombobulate spell.
-		"discombobulateCastingCost": 14,
-		// The Mana cost for the Solar Strike spell.
-		"solarStrikeCastingCost": 26,
-		// The Mana cost for the Arcane Barrier spell.
-		"arcaneBarrierCastingCost": 6
+	// Spells that should be enabled. (Restart Required)
+	"spells": {
+		// Should Lunge be enabled? (Restart Required)
+		"enableLunge": true,
+		// Should Dream Warp be enabled? (Restart Required)
+		"enableDreamWarp": true,
+		// Should Magic Missile be enabled? (Restart Required)
+		"enableMagicMissile": true,
+		// Should Telekinetic Shock be enabled? (Restart Required)
+		"enableTelekineticShock": true,
+		// Should Heal be enabled? (Restart Required)
+		"enableHeal": true,
+		// Should Discombobulate be enabled? (Restart Required)
+		"enableDiscombobulate": true,
+		// Should Solar Strike be enabled? (Restart Required)
+		"enableSolarStrike": true,
+		// Should Arcane Barrier be enabled? (Restart Required)
+		"enableArcaneBarrier": true,
+		// The Mana costs for all the spells.
+		"manaCosts": {
+			// The Mana cost for the Lunge spell.
+			"lungeCastingCost": 7,
+			// The Mana cost for the Dream Warp spell.
+			"dreamWarpCastingCost": 15,
+			// The Mana cost for the Magic Missile spell.
+			"magicMissileCastingCost": 5,
+			// The Mana cost for the Telekinetic Shock spell.
+			"telekinesisCastingCost": 6,
+			// The Mana cost for the Heal spell.
+			"healCastingCost": 14,
+			// The Mana cost for the Discombobulate spell.
+			"discombobulateCastingCost": 16,
+			// The Mana cost for the Solar Strike spell.
+			"solarStrikeCastingCost": 22,
+			// The Mana cost for the Arcane Barrier spell.
+			"arcaneBarrierCastingCost": 7
+		}
 	},
 	/* A list of structure paths that have Bookshelves to be replaced
 	       by Fillable Bookshelves from Arcanus.
