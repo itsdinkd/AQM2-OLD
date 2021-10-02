@@ -41,4 +41,7 @@ be_stuff.forEach(function (item, index) {
   event.get("charm:barrels").add("betterend:" + item + "_barrel")
 });
 
+  //bewitchment silver add tag
+  event.get("c:silver_ingots").add("bewitchment:silver_ingot");
+
 });

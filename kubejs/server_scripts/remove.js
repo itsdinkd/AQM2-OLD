@@ -24,9 +24,6 @@ events.listen("recipes", function (event) {
   // Doom Daisy 
   event.remove({output: 'doom:daisy'});
 
-  // Remove Buggy stripminer
-  event.remove({output: 'blast:stripminer'});
-
   // Night vision (Since Phantom is enabled, this is too OP)
   event.remove({output: 'agape_space:enhanced_helmet'});
   event.remove({output: 'things:monocle'});

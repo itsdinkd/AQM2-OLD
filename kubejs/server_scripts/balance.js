@@ -150,19 +150,151 @@ events.listen("recipes", function (event) {
     "indrev:pulverizer_mk1"
   );
 
- // Cold Digger (until they fix)
+ // Blast
   
   event.replaceInput(
     { id: "blast:cold_digger" },
     "blast:stripminer",
     "blast:gunpowder_block"
-  ); // SimpleGrinder
-  
+  ); 
   event.replaceInput(
-    { id: "simplegrinder:machine_core" },
-    "minecraft:redstone",
-    "indrev:pulverizer_mk1"
+    { id: "blast:stripminer" },
+    "minecraft:stonecutter",
+    "minecraft:tnt"
+  );  
+
+  // blast --dirt bomb
+  event.replaceInput(
+    { id: "blast:dirt_bomb" },
+    "minecraft:dirt",
+    "prefab:block_compressed_dirt"
+  );  
+  event.replaceInput(
+    { id: "blast:dirt_trigger_bomb" },
+    "minecraft:dirt",
+    "prefab:block_compressed_dirt"
+  );  
+
+  // blast --diamond bomb
+  event.replaceInput(
+    { id: "blast:diamond_bomb" },
+    "minecraft:diamond",
+    "magicfungi:magical_fungi_alloy"
+  );  
+  event.replaceInput(
+    { id: "blast:diamond_trigger_bomb" },
+    "minecraft:diamond",
+    "magicfungi:magical_fungi_alloy"
+  );  
+
+  // blast --gold bomb
+  event.replaceInput(
+    { id: "blast:golden_bomb" },
+    "minecraft:gold_ingot",
+    "indrev:gold_chunk"
+  );  
+  event.replaceInput(
+    { id: "blast:golden_trigger_bomb" },
+    "minecraft:gold_ingot",
+    "indrev:gold_chunk"
+  );  
+
+  // blast --bomb
+  event.replaceInput(
+    { id: "blast:bomb" },
+    "minecraft:iron_ingot",
+    "indrev:iron_chunk"
+  );  
+  event.replaceInput(
+    { id: "blast:trigger_bomb" },
+    "minecraft:iron_ingot",
+    "indrev:iron_chunk"
+  );  
+
+  // EXTRA GENERATORS
+
+  // extra generators heavenly
+  event.replaceInput(
+    { id: "extragenerators:heavenly_generator" },
+    "minecraft:netherite_block",
+    "gofish:aquatic_astral_stew"
+  ); 
+
+  // extra generators infernal
+  event.replaceInput(
+    { id: "extragenerators:infernal_generator" },
+    "minecraft:netherite_block",
+    "magicfungi:magical_fungi_alloy"
+  ); 
+  // extra generators dragon
+  event.replaceInput(
+    { id: "extragenerators:dragon_generator" },
+    "#c:iron_ingots",
+    "gobber2:dragon_star"
+  );  
+    // extra generators withered
+  event.replaceInput(
+    { id: "extragenerators:withered_generator" },
+    "#c:iron_ingots",
+    "conjuring:soul_slice"
+  );  
+
+    // extra generators burnable
+  event.replaceInput(
+    { id: "extragenerators:burnable_generator" },
+    "#c:iron_ingots",
+    "indrev:copper_chunk"
+  );  
+
+    // extra generators sludgy
+  event.replaceInput(
+    { id: "extragenerators:sludgy_generator" },
+    "#c:iron_ingots",
+    "betternether:cincinnasite_ingot"
   );
+    // extra generators teleport
+  event.replaceInput(
+    { id: "extragenerators:teleport_generator" },
+    "#c:iron_ingots",
+    "waystones:abyss_watcher"
+  );  
+    // extra generators scalding
+  event.replaceInput(
+    { id: "extragenerators:scalding_generator" },
+    "#c:iron_ingots",
+    "blockus:chiseled_lava_bricks"
+  );  
+    // extra generators steam
+  event.replaceInput(
+    { id: "extragenerators:steam_generator" },
+    "#c:iron_ingots",
+    "indrev:battery"
+  );
+    // extra generators demise
+  event.replaceInput(
+    { id: "extragenerators:demise_generator" },
+    "#c:iron_ingots",
+    "conjuring:soul_alloy"
+  );
+    // extra generators enchanted
+  event.replaceInput(
+    { id: "extragenerators:enchanted_generator" },
+    "#c:iron_ingots",
+    "things:enchanted_wax_gland"
+  );  
+    // extra generators gluttony
+  event.replaceInput(
+    { id: "extragenerators:gluttony_generator" },
+    "#c:iron_ingots",
+    "valley:bbox_salmon"
+  );
+    // extra generators gluttony
+  event.replaceInput(
+    { id: "extragenerators:redstone_generator" },
+    "#c:iron_ingots",
+    "techreborn:redstone_plate"
+  ); 
+
 
   ////// Bewitchment 
 
