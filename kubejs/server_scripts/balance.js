@@ -308,4 +308,10 @@ events.listen("recipes", function (event) {
     ['doom:argent_energy', 'bewitchment:cleansing_balm', 'winged:dipped_ceremonial_knife'],
     ]);
   
+  // QoL Sticks 
+  event.shaped(item.of("minecraft:stick", 16), [
+    ["#minecraft:logs"],
+    ["#minecraft:logs"],
+  ]);
+
 })

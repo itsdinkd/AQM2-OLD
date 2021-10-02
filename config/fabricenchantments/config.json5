@@ -8,9 +8,11 @@
   "sniper": true,
   "sugar_rush": true,
   "god_of_thunder": true,
+  "pumpkin_head": true,
   "auto_smelt": true,
   "rise": true,
   "tank": true,
+  "god_of_the_sea": false,
   "consumer": false,
   "double_swing": true,
   "poison_aspect": true
