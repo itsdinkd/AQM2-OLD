@@ -35,7 +35,7 @@
   ],
   "worldWhitelist": false,
   "claimingItem": "minecraft:golden_hoe",
-  "inspectionItem": "minecraft:stick",
+  "inspectionItem": "minecraft:apple",
   "claimDisplayTime": 1300,
   "permissionLevel": 2,
   "defaultGroups": {
