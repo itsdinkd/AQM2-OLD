@@ -3,29 +3,29 @@ enableHeads = true
 removeVanillaDungeons = false
 enableNetherBlocks = true
 [betterDungeons.spiderDungeon]
-spiderDungeonStartMinY = 20
+spiderDungeonStartMinY = -20
 spiderDungeonStartMaxY = 50
 enableSpiderDungeons = true
 spiderDungeonSeparationDistance = 44
 whitelistedDimensions = "[minecraft:overworld]"
 blacklistedBiomes = "[terralith:dark_ocean, terralith:black_beach, terralith:alpha_islands_beach, terralith:black_beach, terralith:gravel_beach, terralith:red_beach, terralith:zreserved/1/warm_river, terralith:alpha_islands, minecraft:ocean, minecraft:frozen_ocean, minecraft:deep_ocean, minecraft:warm_ocean, minecraft:lukewarm_ocean, minecraft:cold_ocean, minecraft:deep_lukewarm_ocean, minecraft:deep_cold_ocean, minecraft:deep_frozen_ocean, minecraft:beach, minecraft:snowy_beach, minecraft:river, minecraft:frozen_river, minecraft:deep_warm_ocean]"
 [betterDungeons.skeletonDungeon]
-skeletonDungeonStartMinY = 0
-skeletonDungeonStartMaxY = 30
+skeletonDungeonStartMinY = -30
+skeletonDungeonStartMaxY = 10
 enableSkeletonDungeons = true
 skeletonDungeonSeparationDistance = 46
 whitelistedDimensions = "[minecraft:overworld]"
 blacklistedBiomes = "[terralith:dark_ocean, terralith:black_beach, terralith:alpha_islands_beach, terralith:black_beach, terralith:gravel_beach, terralith:red_beach, terralith:zreserved/1/warm_river, terralith:alpha_islands, minecraft:ocean, minecraft:frozen_ocean, minecraft:deep_ocean, minecraft:warm_ocean, minecraft:lukewarm_ocean, minecraft:cold_ocean, minecraft:deep_lukewarm_ocean, minecraft:deep_cold_ocean, minecraft:deep_frozen_ocean, minecraft:beach, minecraft:snowy_beach, minecraft:river, minecraft:frozen_river, minecraft:deep_warm_ocean]"
 [betterDungeons.zombieDungeon]
-zombieDungeonStartMinY = 15
-zombieDungeonStartMaxY = 30
+zombieDungeonStartMinY = -50
+zombieDungeonStartMaxY = 20
 enableZombieDungeons = true
 zombieDungeonSeparationDistance = 48
-zombieDungeonMaxSurfaceStaircaseLength = 20
+zombieDungeonMaxSurfaceStaircaseLength = 6
 whitelistedDimensions = "[minecraft:overworld]"
 blacklistedBiomes = "[terralith:dark_ocean, terralith:black_beach, terralith:alpha_islands_beach, terralith:black_beach, terralith:gravel_beach, terralith:red_beach, terralith:zreserved/1/warm_river, terralith:alpha_islands, minecraft:ocean, minecraft:frozen_ocean, minecraft:deep_ocean, minecraft:warm_ocean, minecraft:lukewarm_ocean, minecraft:cold_ocean, minecraft:deep_lukewarm_ocean, minecraft:deep_cold_ocean, minecraft:deep_frozen_ocean, minecraft:beach, minecraft:snowy_beach, minecraft:river, minecraft:frozen_river, minecraft:deep_warm_ocean]"
 [betterDungeons.smallDungeon]
-smallDungeonMinY = 11
+smallDungeonMinY = -11
 smallDungeonMaxY = 40
 bannerMaxCount = 2
 chestMinCount = 1

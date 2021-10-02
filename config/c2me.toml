@@ -12,7 +12,7 @@
 	# (may cause incompatibility with other mods)
 	allowThreadedFeatures = false
 	# (Default: 2) World generation worker executor parallelism
-	parallelism = 8
+	parallelism = 2
 	# (Default: false) Whether to allow reducing lock radius (faster but UNSAFE) (YOU HAVE BEEN WARNED) 
 	# (may cause incompatibility with other mods)
 	reduceLockRadius = false

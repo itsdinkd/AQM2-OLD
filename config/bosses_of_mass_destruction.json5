@@ -2,14 +2,14 @@
 	"lichConfig": {
 		"eternalNighttime": true,
 		"experienceDrop": 25000,
-		"idleHealingPerTick": 0.1704999953508377,
-		"health": 950.0,
+		"idleHealingPerTick": 0.1504999953508377,
+		"health": 1350.0,
 		"generateLichTower": true,
 		"missile": {
 			"statusEffectId": "minecraft:slowness",
 			"statusEffectDuration": 120,
 			"statusEffectPotency": 4,
-			"damage": 31.0
+			"damage": 39.0
 		},
 		"comet": {
 			"explosionStrength": 6.5,
@@ -66,11 +66,11 @@
 		}
 	},
 	"obsidilithConfig": {
-		"health": 1050.0,
-		"armor": 22.0,
-		"attack": 41.5,
-		"idleHealingPerTick": 0.4000000059604645,
-		"experienceDrop": 25000,
+		"health": 1650.0,
+		"armor": 24.2,
+		"attack": 45.5,
+		"idleHealingPerTick": 0.2000000059604645,
+		"experienceDrop": 27500,
 		"spawnPillarOnDeath": true,
 		"anvilAttackExplosionStrength": 4.800000190734863,
 		"arenaGeneration": {
@@ -81,14 +81,14 @@
 		}
 	},
 	"gauntletConfig": {
-		"health": 1400.0,
-		"armor": 12.0,
-		"attack": 46.0,
-		"idleHealingPerTick": 0.2199999988079071,
-		"experienceDrop": 25000,
+		"health": 1800.0,
+		"armor": 18.5,
+		"attack": 51.2,
+		"idleHealingPerTick": 0.1499999988079071,
+		"experienceDrop": 29000,
 		"spawnAncientDebrisOnDeath": true,
-		"energizedPunchExplosionSize": 4.8,
-		"normalPunchExplosionMultiplier": 2.2,
+		"energizedPunchExplosionSize": 5.2,
+		"normalPunchExplosionMultiplier": 2.7,
 		"arenaGeneration": {
 			"generationSpacing": 32,
 			"generationSeparation": 24,

@@ -8,7 +8,7 @@
   "allowRingsInInventoryWithThirdPartyMods": false,
   "potions": {
     "magnetism": true,
-    "photosynthesis": true,
+    "photosynthesis": false,
     "crumbling": true,
     "fuse": true,
     "recall": true,
@@ -19,9 +19,9 @@
     "gravity": true,
     "combustion": true,
     "pacifism": true,
-    "shrinking": true,
-    "growing": true,
-    "detection": true,
+    "shrinking": false,
+    "growing": false,
+    "detection": false,
     "piper": true
   }
 }
