@@ -8,6 +8,78 @@
   "waystone_block_hardness": 4,
   "waystone_block_required_mining_level": 4.0,
   "recipes": {
+    "waystone": {
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "SAS",
+        "SES",
+        "SOS"
+      ],
+      "key": {
+        "A": {
+          "item": "waystones:abyss_watcher"
+        },
+        "S": {
+          "item": "minecraft:stone"
+        },
+        "E": {
+          "item": "minecraft:emerald"
+        },
+        "O": {
+          "item": "minecraft:crying_obsidian"
+        }
+      },
+      "result": {
+        "item": "waystones:waystone",
+        "count": 1
+      }
+    },
+    "waystone_scroll": {
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "SPS",
+        "PPP",
+        "SPS"
+      ],
+      "key": {
+        "P": {
+          "item": "minecraft:paper"
+        },
+        "S": {
+          "item": "minecraft:stick"
+        }
+      },
+      "result": {
+        "item": "waystones:waystone_scroll",
+        "count": 1
+      }
+    },
+    "stone_brick_waystone": {
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "SAS",
+        "SES",
+        "SOS"
+      ],
+      "key": {
+        "A": {
+          "item": "waystones:abyss_watcher"
+        },
+        "S": {
+          "tag": "minecraft:stone_bricks"
+        },
+        "E": {
+          "item": "minecraft:emerald"
+        },
+        "O": {
+          "item": "minecraft:crying_obsidian"
+        }
+      },
+      "result": {
+        "item": "waystones:stone_brick_waystone",
+        "count": 1
+      }
+    },
     "abyss_watcher": {
       "type": "minecraft:crafting_shaped",
       "pattern": [
@@ -27,32 +99,6 @@
       },
       "result": {
         "item": "waystones:abyss_watcher",
-        "count": 1
-      }
-    },
-    "waystone_recipe": {
-      "type": "minecraft:crafting_shaped",
-      "pattern": [
-        "SAS",
-        "SES",
-        "SOS"
-      ],
-      "key": {
-        "A": {
-          "item": "waystones:abyss_watcher"
-        },
-        "S": {
-          "item": "minecraft:stone_bricks"
-        },
-        "E": {
-          "item": "minecraft:emerald"
-        },
-        "O": {
-          "item": "minecraft:crying_obsidian"
-        }
-      },
-      "result": {
-        "item": "waystones:waystone",
         "count": 1
       }
     },
@@ -79,23 +125,29 @@
         "count": 1
       }
     },
-    "waystone_scroll": {
+    "desert_waystone": {
       "type": "minecraft:crafting_shaped",
       "pattern": [
-        "SPS",
-        "PPP",
-        "SPS"
+        "SAS",
+        "SES",
+        "SOS"
       ],
       "key": {
-        "P": {
-          "item": "minecraft:paper"
+        "A": {
+          "item": "waystones:abyss_watcher"
         },
         "S": {
-          "item": "minecraft:stick"
+          "item": "minecraft:sandstone"
+        },
+        "E": {
+          "item": "minecraft:emerald"
+        },
+        "O": {
+          "item": "minecraft:crying_obsidian"
         }
       },
       "result": {
-        "item": "waystones:waystone_scroll",
+        "item": "waystones:desert_waystone",
         "count": 1
       }
     },
