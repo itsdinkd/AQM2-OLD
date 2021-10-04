@@ -16,7 +16,7 @@ events.listen("recipes", function (event) {
    event.shapeless('croptopia:salt', ['valley:salt']);
    event.shapeless('valley:salt', ['croptopia:salt']);
    
-  // Gunpowder Block - BLAST will be added on AQM2 2.5.0
+  // Gunpowder Block
  event.remove({ output: "blast:gunpowder_block" });
  event.shaped(item.of("blast:gunpowder_block"), [
   ["minecraft:gunpowder", "minecraft:gunpowder", "minecraft:gunpowder"],

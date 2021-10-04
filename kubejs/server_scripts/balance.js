@@ -34,7 +34,7 @@ events.listen("recipes", function (event) {
     ["minecraft:item_pallet_of_bricks",    "prefab:item_compressed_chest", "prefab:item_pallet_of_bricks"],
   ]);
 
-  // Advvance Farm
+  // Advance Farm
   event.remove({ output: "prefab:item_advanced_farm" });
   event.shaped(item.of("prefab:item_advanced_farm"), [
     ["prefab:block_triple_compressed_stone",  "prefab:block_double_compressed_obsidian",                                   "prefab:block_triple_compressed_stone"],
@@ -44,7 +44,7 @@ events.listen("recipes", function (event) {
 
 
 
-  event.replaceInput({ id: ""}, "", "");
+  // event.replaceInput({ id: ""}, "", "");
 
   // End of Prefab Balancing                                                                                                                                //
   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -211,7 +211,7 @@ events.listen("recipes", function (event) {
     "indrev:iron_chunk"
   );  
 
-  // EXTRA GENERATORS
+  ///////////////////////////////////////////////// EXTRA GENERATORS
 
   // extra generators heavenly
   event.replaceInput(
@@ -294,7 +294,7 @@ events.listen("recipes", function (event) {
     "#c:iron_ingots",
     "techreborn:redstone_plate"
   ); 
-
+  //////////////////////////////////////////////////////////////////////
 
   ////// Bewitchment 
 

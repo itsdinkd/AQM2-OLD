@@ -3,15 +3,15 @@
 ///////////////////////////////
 
 events.listen("recipes", function (event) {
+  // Kibe
   event.remove({output: 'kibe:chunk_loader'});
-  //event.remove({output: 'kibe:angel_ring'});
-  event.remove({output: 'doom:invisiblesphere'});
   event.remove({output: 'kibe:diamond_kibe'});
   event.remove({output: 'kibe:golden_kibe'});
+
+  // Things
   event.remove({output: 'things:moss_necklace'});
   event.remove({output: 'things:hades_crystal'});
   event.remove({output: 'things:hardening_catalyst'});
-  event.remove({output: 'quarryplus:remove_bedrock_module'});
 
   // Kibe -- Removed to make conjuring balanced
   event.remove({output: 'kibe:diamond_lasso'});
@@ -23,12 +23,7 @@ events.listen("recipes", function (event) {
 
   // Doom Daisy 
   event.remove({output: 'doom:daisy'});
-
-  // Night vision (Since Phantom is enabled, this is too OP)
-  event.remove({output: 'agape_space:enhanced_helmet'});
-  event.remove({output: 'things:monocle'});
-  event.remove({output: 'bewitchment:prickly_belt'});
-  event.remove({output: 'bewitchment:specter_bangle'});
+  event.remove({output: 'doom:invisiblesphere'});
 
   // // Simple Grinder OP Food
   event.remove({output: 'simplegrinder:mash_potato'});
@@ -37,6 +32,16 @@ events.listen("recipes", function (event) {
   // Remove Fast ass quarry markers
   event.remove({output: 'quarryplus:flex_marker'});
   event.remove({output: 'quarryplus:marker16'});
+  event.remove({output: 'quarryplus:remove_bedrock_module'});
+
+  // Night vision (Since Phantom is enabled, this is too OP)
+  event.remove({output: 'agape_space:enhanced_helmet'});
+  event.remove({output: 'things:monocle'});
+  event.remove({output: 'bewitchment:prickly_belt'});
+  event.remove({output: 'bewitchment:specter_bangle'});
+
+  // Stripminer removal (due to bug)
+  event.remove({output: 'blast:stripminer'});
 
   // Remove Kibe Generators due to ticking entity crashes
 
