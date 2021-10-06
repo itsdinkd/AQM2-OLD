@@ -157,11 +157,11 @@ events.listen("recipes", function (event) {
     "blast:stripminer",
     "blast:gunpowder_block"
   ); 
-  event.replaceInput(
-    { id: "blast:stripminer" },
-    "minecraft:stonecutter",
-    "minecraft:tnt"
-  );  
+  // event.replaceInput(
+  //   { id: "blast:stripminer" },
+  //   "minecraft:stonecutter",
+  //   "minecraft:tnt"
+  // );  
 
   // blast --dirt bomb
   event.replaceInput(

@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "values": [
+    "bewitchment:salt",
+    "valley:salt",
+    "croptopia:salt"
+  ]
+}

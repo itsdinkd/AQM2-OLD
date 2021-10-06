@@ -1,0 +1,13 @@
+{
+  "type": "simplegrinder:grinder",
+  "ingredient": {
+    "item": "minecraft:deepslate_emerald_ore"
+  },
+  "result": {
+    "item": "minecraft:emerald",
+    "count":2
+  },
+
+  "cookingtime": 150
+
+}

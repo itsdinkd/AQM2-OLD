@@ -1,0 +1,14 @@
+{
+  "type": "simplegrinder:grinder",
+  "ingredient": {
+    "item": "minecraft:nether_gold_ore"
+  },
+   "result": {
+   "item": "simplegrinder:dust_gold",
+   "count":2
+   },
+
+  "count":3,
+  "experience": 0.1,
+  "cookingtime": 150
+}

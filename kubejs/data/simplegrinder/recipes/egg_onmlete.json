@@ -1,0 +1,13 @@
+{
+  "type": "simplegrinder:grinder",
+  "ingredient": {
+    "item": "minecraft:egg"
+  },
+  "result": {
+    "item": "simplegrinder:omlete",
+    "count":2
+  },
+
+  "cookingtime": 150
+
+}

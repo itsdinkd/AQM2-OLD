@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sis",
+    "sms",
+    "ipi"
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:stone"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "p": {
+      "item": "minecraft:piston"
+    },
+    "m": {
+      "item": "simplegrinder:machine_core"
+    }
+  },
+  "result": {
+    "item": "simplegrinder:coal_grinder"
+  }
+}

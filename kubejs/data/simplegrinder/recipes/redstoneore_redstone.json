@@ -1,0 +1,15 @@
+{
+  "type": "simplegrinder:grinder",
+  "ingredient": {
+    "item": "minecraft:redstone_ore"
+  },
+
+  "result": {
+    "item": "minecraft:redstone",
+    "count":12
+  },
+
+
+  "cookingtime": 150
+
+}

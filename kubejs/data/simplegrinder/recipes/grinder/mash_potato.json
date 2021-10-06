@@ -1,0 +1,13 @@
+{
+  "type": "simplegrinder:grinder",
+  "ingredient": {
+    "item": "minecraft:potato"
+  },
+  "result": {
+    "item": "simplegrinder:mash_potato",
+    "count": 2
+  },
+
+  "cookingtime": 150
+
+}

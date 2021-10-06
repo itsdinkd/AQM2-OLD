@@ -1,0 +1,14 @@
+{
+  "type": "simplegrinder:grinder",
+  "ingredient": {
+    "item": "minecraft:nether_quartz_ore"
+  },
+  "result": {
+    "item": "minecraft:quartz",
+    "count":15
+  },
+
+
+  "cookingtime": 150
+
+}

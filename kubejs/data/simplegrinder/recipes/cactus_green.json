@@ -1,0 +1,12 @@
+{
+  "type": "simplegrinder:grinder",
+  "ingredient": {
+    "item": "minecraft:cactus"
+  },
+  "result": {
+    "item": "minecraft:green_dye",
+    "count":5
+  },
+  "cookingtime": 150
+
+}

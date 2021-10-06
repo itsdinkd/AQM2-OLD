@@ -1,0 +1,13 @@
+{
+  "type": "simplegrinder:grinder",
+  "ingredient": {
+    "item": "minecraft:coal_ore"
+  },
+
+  "result": {
+    "item": "minecraft:coal",
+    "count":10
+  },
+  "cookingtime": 150
+
+}

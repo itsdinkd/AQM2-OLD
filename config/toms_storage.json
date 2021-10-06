@@ -4,5 +4,5 @@
   "wirelessRange": 16,
   "invConnectorMaxCables": 2048,
   "multiblockInv": [],
-  "advWirelessRange": 64
+  "advWirelessRange": 128
 }

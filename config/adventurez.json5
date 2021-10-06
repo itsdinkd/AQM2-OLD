@@ -18,6 +18,6 @@
 	"allow_guardian_spawner_spawn": true,
 	"allow_source_stone_tp": true,
 	"disable_armor_bonus": false,
-	"resummoned_ender_dragon_drops_egg": true,
+	"resummoned_ender_dragon_drops_egg": false,
 	"allow_ender_dragon_nether_portal": false
 }
