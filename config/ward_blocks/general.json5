@@ -10,7 +10,7 @@
 	"enableDefenseBlock": true,
 	"enableExpBlock": true,
 	"enableAttackBlock": true,
-	"enableLootBlock": true,
+	"enableLootBlock": false,
 	/* 
 	   
 	   ***********************
