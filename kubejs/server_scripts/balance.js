@@ -211,6 +211,22 @@ events.listen("recipes", function (event) {
     "indrev:iron_chunk"
   );  
 
+  // Custom Portals Infinity Range
+  event.replaceInput(
+    { id: "customportals:infinity_rune" },
+    "minecraft:netherite_ingot",
+    "gobber2:dragon_star"
+  ); 
+
+  // Conjuring Soul Forge
+  event.replaceInput(
+    { id: "conjuring:soulfire_forge" },
+    "minecraft:obsidian",
+    "techreborn:industrial_grinder"
+  ); 
+
+
+
   ///////////////////////////////////////////////// EXTRA GENERATORS
 
   // extra generators heavenly
@@ -386,14 +402,18 @@ events.listen("recipes", function (event) {
 
   // Doom
 
+  // Argent Ingot
+  event.replaceInput(
+    { id: "doom:argent_plate" },
+    "minecraft:iron_ingot",
+    "techreborn:tungstensteel_plate"
+  );
+
   // Tools and Sword
 
   var doom_tools = [
-    "axe",
-    "pickaxe",
     "shovel",
     "hoe",
-    "paxel",
     "sword",
     ]
 
@@ -404,14 +424,6 @@ events.listen("recipes", function (event) {
         "doom:argent_plate"
         );
     });
-
-  // Argent Ingot
-  event.replaceInput(
-    { id: "doom:argent_plate" },
-    "minecraft:iron_ingot",
-    "techreborn:tungstensteel_plate"
-  );
-
 
   ///// Extra Alchemy
 
@@ -427,6 +439,15 @@ events.listen("recipes", function (event) {
     "minecraft:gold_ingot",
     "gobber2:gobber2_ingot_end"
   );
+
+
+  // Quarry Plus
+  event.replaceInput(
+    { id: "quarryplus:quarry" },
+    "minecraft:iron_ingot",
+    "techreborn:iridium_neutron_reflector"
+  );
+
 
   // End single recipe replacements //
   ////////////////////////////////////

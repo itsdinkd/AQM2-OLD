@@ -1,0 +1,326 @@
+{
+  "zone1Start": 100,
+  "zone2Start": 60,
+  "zone3Start": 30,
+  "zone1HardnessModifier": 3,
+  "zone2HardnessModifier": 6,
+  "zone3HardnessModifier": 12,
+  "zone1StoneDarkness": 40,
+  "zone2StoneDarkness": 60,
+  "zone3StoneDarkness": 86,
+  "worldMidHeight": 200,
+  "enableMineshafts": true,
+  "enableLakes": true,
+  "enableCaves": true,
+  "enableCanyons": true,
+  "oreConfigList": [
+    {
+      "block": "minecraft:coal_ore",
+      "size": 17,
+      "count": 30,
+      "minY": 100,
+      "maxY": 255
+    },
+    {
+      "block": "gobber2:gobber2_lucky_block",
+      "size": 1,
+      "count": 20,
+      "minY": 100,
+      "maxY": 255
+    },
+    {
+      "block": "minecraft:iron_ore",
+      "size": 9,
+      "count": 30,
+      "minY": 100,
+      "maxY": 255
+    },
+    {
+      "block": "techreborn:tin_ore",
+      "size": 9,
+      "count": 16,
+      "minY": 100,
+      "maxY": 255
+    },
+    {
+      "block": "techreborn:galena_ore",
+      "size": 9,
+      "count": 16,
+      "minY": 100,
+      "maxY": 255
+    },
+    {
+      "block": "bewitchment:salt_ore",
+      "size": 7,
+      "count": 24,
+      "minY": 100,
+      "maxY": 255
+    },
+    {
+      "block": "valley:mixed_ore",
+      "size": 6,
+      "count": 25,
+      "minY": 100,
+      "maxY": 255
+    },
+    {
+      "block": "minecraft:gold_ore",
+      "size": 9,
+      "count": 2,
+      "minY": 100,
+      "maxY": 140
+    },
+    {
+      "block": "minecraft:redstone_ore",
+      "size": 8,
+      "count": 8,
+      "minY": 100,
+      "maxY": 120
+    },
+    {
+      "block": "minecraft:diamond_ore",
+      "size": 6,
+      "count": 1,
+      "minY": 100,
+      "maxY": 120
+    },
+    {
+      "block": "minecraft:emerald_ore",
+      "size": 5,
+      "count": 1,
+      "minY": 100,
+      "maxY": 120
+    },
+    {
+      "block": "minecraft:coal_ore",
+      "size": 17,
+      "count": 5,
+      "minY": 60,
+      "maxY": 100
+    },
+    {
+      "block": "minecraft:iron_ore",
+      "size": 9,
+      "count": 5,
+      "minY": 60,
+      "maxY": 100
+    },
+    {
+      "block": "minecraft:gold_ore",
+      "size": 7,
+      "count": 3,
+      "minY": 60,
+      "maxY": 100
+    },
+    {
+      "block": "minecraft:redstone_ore",
+      "size": 8,
+      "count": 4,
+      "minY": 60,
+      "maxY": 100
+    },
+    {
+      "block": "minecraft:lapis_ore",
+      "size": 8,
+      "count": 2,
+      "minY": 60,
+      "maxY": 100
+    },
+    {
+      "block": "minecraft:diamond_ore",
+      "size": 8,
+      "count": 2,
+      "minY": 60,
+      "maxY": 100
+    },
+    {
+      "block": "minecraft:emerald_ore",
+      "size": 8,
+      "count": 2,
+      "minY": 60,
+      "maxY": 100
+    },
+    {
+      "block": "techreborn:silver_ore",
+      "size": 16,
+      "count": 6,
+      "minY": 60,
+      "maxY": 100
+    },
+    {
+      "block": "techreborn:bauxite_ore",
+      "size": 12,
+      "count": 4,
+      "minY": 60,
+      "maxY": 100
+    },
+    {
+      "block": "techreborn:lead_ore",
+      "size": 16,
+      "count": 6,
+      "minY": 60,
+      "maxY": 100
+    },
+    {
+      "block": "gobber2:gobber2_ore",
+      "size": 1,
+      "count": 1,
+      "minY": 70,
+      "maxY": 100
+    },
+    {
+      "block": "minecraft:gold_ore",
+      "size": 9,
+      "count": 4,
+      "minY": 30,
+      "maxY": 60
+    },
+    {
+      "block": "minecraft:redstone_ore",
+      "size": 8,
+      "count": 6,
+      "minY": 30,
+      "maxY": 60
+    },
+    {
+      "block": "minecraft:lapis_ore",
+      "size": 8,
+      "count": 4,
+      "minY": 30,
+      "maxY": 60
+    },
+    {
+      "block": "minecraft:diamond_ore",
+      "size": 8,
+      "count": 2,
+      "minY": 30,
+      "maxY": 60
+    },
+    {
+      "block": "minecraft:emerald_ore",
+      "size": 8,
+      "count": 2,
+      "minY": 30,
+      "maxY": 60
+    },
+    {
+      "block": "appliedenergistics2:quartz_ore",
+      "size": 4,
+      "count": 3,
+      "minY": 30,
+      "maxY": 70
+    },
+    {
+      "block": "techreborn:ruby_ore",
+      "size": 6,
+      "count": 4,
+      "minY": 30,
+      "maxY": 70
+    },
+    {
+      "block": "techreborn:sapphire_ore",
+      "size": 6,
+      "count": 4,
+      "minY": 30,
+      "maxY": 70
+    },
+    {
+      "block": "techreborn:iridium_ore",
+      "size": 3,
+      "count": 2,
+      "minY": 30,
+      "maxY": 70
+    },
+    {
+      "block": "indrev:nikolite_ore",
+      "size": 3,
+      "count": 2,
+      "minY": 30,
+      "maxY": 70
+    },
+    {
+      "block": "things:gleaming_ore",
+      "size": 3,
+      "count": 2,
+      "minY": 30,
+      "maxY": 70
+    },
+    {
+      "block": "gobber2:gobber2_ore",
+      "size": 2,
+      "count": 2,
+      "minY": 30,
+      "maxY": 70
+    },
+    {
+      "block": "minecraft:gold_ore",
+      "size": 9,
+      "count": 4,
+      "minY": 0,
+      "maxY": 30
+    },
+    {
+      "block": "minecraft:redstone_ore",
+      "size": 8,
+      "count": 6,
+      "minY": 0,
+      "maxY": 30
+    },
+    {
+      "block": "minecraft:lapis_ore",
+      "size": 8,
+      "count": 4,
+      "minY": 0,
+      "maxY": 30
+    },
+    {
+      "block": "minecraft:diamond_ore",
+      "size": 8,
+      "count": 4,
+      "minY": 0,
+      "maxY": 30
+    },
+    {
+      "block": "minecraft:emerald_ore",
+      "size": 8,
+      "count": 4,
+      "minY": 0,
+      "maxY": 30
+    },
+    {
+      "block": "indrev:nikolite_ore",
+      "size": 6,
+      "count": 4,
+      "minY": 0,
+      "maxY": 30
+    },
+    {
+      "block": "things:gleaming_ore",
+      "size": 6,
+      "count": 4,
+      "minY": 0,
+      "maxY": 30
+    },
+    {
+      "block": "gobber2:gobber2_ore",
+      "size": 4,
+      "count": 3,
+      "minY": 0,
+      "maxY": 30
+    },
+    {
+      "block": "techreborn:iridium_ore",
+      "size": 6,
+      "count": 4,
+      "minY": 0,
+      "maxY": 30
+    },
+    {
+      "block": "appliedenergistics2:quartz_ore",
+      "size": 6,
+      "count": 4,
+      "minY": 0,
+      "maxY": 30
+    }
+  ]
+}

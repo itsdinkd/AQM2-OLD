@@ -10,7 +10,7 @@
 // Reason is because AOF wanted invar,modern to be the main versions of the recipes. tech is ours.
 
 // Set to true to generate the client script for REI unification.
-const GENERATE_REI_SCRIPT = true;
+const GENERATE_REI_SCRIPT = false;
 // List of part tags to unify.
 const PARTS = [
     "c:{}_blocks",
@@ -55,12 +55,12 @@ const MATERIALS = [
 const UNIFICATION_ORDER = [
     "techreborn",
     "indrev",
-//    "modern_industrialization",
+    "appliedenergistics2",
     "bewitchment",
     "charm",
     "agape_space",
     "resourceful_tools",
-    "gobber2"
+    "gobber2",
 ];
 // List of tags NOT to unify
 const UNIFICATION_BLACKLIST = [

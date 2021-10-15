@@ -5,9 +5,9 @@
 	   Portals
 	   ***********************
 	*/
-	"enableMiningPortal": true,
+	"enableMiningPortal": false,
 	"enableHuntingPortal": true,
-	"enableCavingPortal": true,
+	"enableCavingPortal": false,
 	"enableNetheringPortal": false,
 	/* 
 	   
@@ -15,8 +15,8 @@
 	   Portable Teleporters
 	   ***********************
 	*/
-	"enableMiningTeleporter": true,
+	"enableMiningTeleporter": false,
 	"enableHuntingTeleporter": true,
-	"enableCavingTeleporter": true,
+	"enableCavingTeleporter": false,
 	"enableNetheringTeleporter": false
 }

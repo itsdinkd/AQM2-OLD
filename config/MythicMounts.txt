@@ -1,7 +1,7 @@
 Config MOB properties here
 
 Important! Do not modify the value of the config version in this file or the mod may overwrite custom settings.
-[Global] Config Version: 3
+[Global] Config Version: 4
 
 SpawnDebug:
     Helpful when trying out different spawn configs or for testing adjustments to spawn weights.
@@ -51,7 +51,9 @@ Loudness:
 -------------------------------------------------------------
 
 [Global] Print Biomes: false;
-[Global] Command Item: stick;
+[Global] Command Item: carrot;
+[Global] Mounted Flight Enabled: true;
+[Global] Creative Flight: false;
 
 CourierBird ShouldSpawn: true
 CourierBird SpawnDebug: false
@@ -72,6 +74,7 @@ CourierBird FleeFromPlayer: true
 CourierBird PlayerHostile: false
 CourierBird HostileToMobs: none
 CourierBird BattleWithOwner: true
+CourierBird FollowOwner: true
 CourierBird Diet: herbivore
 CourierBird TamingItems:  sweet_berries;
 CourierBird TamingChance:  10
@@ -97,6 +100,7 @@ DireWolf FleeFromPlayer: false
 DireWolf PlayerHostile: false
 DireWolf HostileToMobs: minecraft:sheep; minecraft:skeleton;
 DireWolf BattleWithOwner: true
+DireWolf FollowOwner: true
 DireWolf Diet: carnivore
 DireWolf TamingItems:  bone;
 DireWolf TamingChance:  10
@@ -109,11 +113,12 @@ Dragon SpawnBiomes: All Overworld
 Dragon SpawnYCeiling: -20
 Dragon SpawnYFloor: -50000
 Dragon SpawnBlocks: All
-Dragon SpawnWeight: 20
+Dragon SpawnWeight: 8
 Dragon SpawnRandomChance: 50
 Dragon SpawnType: subterranean
 Dragon MinSpawnGroupSize: 1
 Dragon MaxSpawnGroupSize: 1
+Dragon MaxIn256Region: 1
 Dragon InventorySize: 9
 Dragon Attack: 13
 Dragon Speed: 0.44999998807907104
@@ -140,7 +145,7 @@ Griffon SpawnType: overworld
 Griffon MinSpawnGroupSize: 1
 Griffon MaxSpawnGroupSize: 1
 Griffon InventorySize: 4
-Griffon Attack: 7
+Griffon Attack: 9
 Griffon Speed: 0.44999998807907104
 Griffon Health: 35
 Griffon FleeFromPlayer: false
@@ -157,7 +162,7 @@ GeckotoaLizard ShouldSpawn: true
 GeckotoaLizard SpawnDebug: false
 GeckotoaLizard SpawnBiomes: All Overworld
 GeckotoaLizard SpawnYCeiling: 5000
-GeckotoaLizard SpawnYFloor: 80
+GeckotoaLizard SpawnYFloor: 90
 GeckotoaLizard SpawnBlocks: All
 GeckotoaLizard SpawnWeight: 20
 GeckotoaLizard SpawnRandomChance: 90
@@ -184,9 +189,9 @@ Moth SpawnBiomes: Dark Forest Hills; Dark Forest;
 Moth SpawnYCeiling: 50000
 Moth SpawnYFloor: -50000
 Moth SpawnBlocks: All
-Moth SeekBlocks: minecraft:torch; minecraft:redstone_torch; minecraft:soul_torch; kibe:cursed_dirt;
+Moth SeekBlocks: minecraft:torch; minecraft:redstone_torch; minecraft:soul_torch; 
 Moth SpawnWeight: 10
-Moth SpawnRandomChance: 80
+Moth SpawnRandomChance: 70
 Moth SpawnType: overworld
 Moth MinSpawnGroupSize: 1
 Moth MaxSpawnGroupSize: 1
@@ -214,9 +219,10 @@ NetherBat SpawnWeight: 20
 NetherBat SpawnRandomChance: 100
 NetherBat SpawnType: nether
 NetherBat MinSpawnGroupSize: 1
-NetherBat MaxSpawnGroupSize: 2
+NetherBat MaxSpawnGroupSize: 1
+NetherBat MaxIn256Region: 5
 NetherBat InventorySize: 3
-NetherBat Attack: 5
+NetherBat Attack: 4
 NetherBat Speed: 0.44999998807907104
 NetherBat Health: 25
 NetherBat FleeFromPlayer: false
@@ -227,7 +233,7 @@ NetherBat Diet: omnivore
 NetherBat TamingItems:  porkchop;
 NetherBat TamingChance:  10
 NetherBat BreedingItems: porkchop; apple; rotten_flesh;
-NetherBat Loudness: 80
+NetherBat Loudness: 100
 
 Nudibranch ShouldSpawn: true
 Nudibranch SpawnDebug: false
@@ -240,7 +246,7 @@ Nudibranch SpawnRandomChance: 80
 Nudibranch SpawnType: overworld
 Nudibranch MinSpawnGroupSize: 2
 Nudibranch MaxSpawnGroupSize: 4
-Nudibranch InventorySize: 3
+Nudibranch InventorySize: 4
 Nudibranch Attack: 3
 Nudibranch Health: 25
 Nudibranch Speed: 0.44999998807907104
@@ -278,3 +284,29 @@ RidingLizard TamingItems:  rabbit; chicken;
 RidingLizard TamingChance:  10
 RidingLizard BreedingItems: rabbit; chicken; pumpkin; rotten_flesh;
 RidingLizard Loudness: 100
+
+Nightmare ShouldSpawn: true
+Nightmare SpawnDebug: false
+Nightmare SpawnBiomes: minecraft:basalt_deltas; minecraft:soul_sand_valley;
+Nightmare SpawnYCeiling: 50000
+Nightmare SpawnYFloor: -50000
+Nightmare SpawnBlocks: All
+Nightmare SpawnWeight: 40
+Nightmare SpawnRandomChance: 25
+Nightmare SpawnType: nether
+Nightmare MinSpawnGroupSize: 1
+Nightmare MaxSpawnGroupSize: 2
+Nightmare MaxIn256Region: 5
+Nightmare InventorySize: 4
+Nightmare Attack: 10
+Nightmare Speed: 0.44999998807907104
+Nightmare Health: 35
+Nightmare FleeFromPlayer: false
+Nightmare PlayerHostile: false
+Nightmare HostileToMobs: minecraft:skeleton; minecraft:wither_skeleton;
+Nightmare BattleWithOwner: true
+Nightmare Diet: omnivore
+Nightmare TamingItems:  bone; coal; charcoal;
+Nightmare TamingChance:  3
+Nightmare BreedingItems: blaze_rod; fire_charge;
+Nightmare Loudness: 100

@@ -1,6 +1,6 @@
 {
 	// Should the Lectern Structure Processor run?
-	"doLecternProcessor": false,
+	"doLecternProcessor": true,
 	// Should the Bookshelf Structure Processor run?
 	"doBookshelfProcessor": false,
 	/* Should Stronghold Libraries have Spell Books spawn? (Does
@@ -18,7 +18,7 @@
 	*/
 	"magicColour": "7ecdfb",
 	// The time Mana takes to refill by 1 in ticks before modifiers.
-	"baseManaCooldown": 32,
+	"baseManaCooldown": 20,
 	// The time Burnout takes to reduce by 1 in ticks before modifiers.
 	"baseBurnoutCooldown": 60,
 	// Spells that should be enabled. (Restart Required)

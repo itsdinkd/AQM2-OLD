@@ -6,16 +6,43 @@
 settings.useOriginalRecipeForFilters = true
 events.listen("recipes", function (event) {
 
-   // Charm Barrel
+  // Charm Barrel
    event.remove({ output: "minecraft:barrel" });
 
    event.shapeless('charm:spruce_barrel', ['minecraft:barrel']);
    event.shapeless('minecraft:barrel', ['charm:spruce_barrel']);
 
-   // salt
+  // salt
    event.shapeless('croptopia:salt', ['valley:salt']);
    event.shapeless('valley:salt', ['croptopia:salt']);
-   
+
+
+   event.shapeless('bewitchment:salt', ['valley:salt']);
+   event.shapeless('bewitchment:salt', ['croptopia:salt']);
+   event.shapeless('croptopia:salt', ['bewitchment:salt']);
+   event.shapeless('valley:salt', ['bewitchment:salt']);
+
+  // rice
+   event.shapeless("farmersdelight:rice", ['valley:rice_item']);
+   event.shapeless("farmersdelight:rice", ['croptopia:rice']);
+
+   event.shapeless("valley:rice_item", ['farmersdelight:rice']);
+   event.shapeless("valley:rice_item", ['croptopia:rice']);
+
+   event.shapeless("croptopia:rice", ['farmersdelight:rice']);
+   event.shapeless("croptopia:rice", ['valley:rice_item']);
+
+  // onion
+   event.shapeless("farmersdelight:onion", ['valley:onion']);
+   event.shapeless("farmersdelight:onion", ['croptopia:onion']);
+
+   event.shapeless("valley:onion", ['farmersdelight:onion']);
+   event.shapeless("valley:onion", ['croptopia:onion']);
+
+   event.shapeless("croptopia:onion", ['farmersdelight:onion']);
+   event.shapeless("croptopia:onion", ['valley:onion']);
+
+
   // Gunpowder Block
  event.remove({ output: "blast:gunpowder_block" });
  event.shaped(item.of("blast:gunpowder_block"), [

@@ -43,6 +43,21 @@ events.listen("recipes", function (event) {
   // Stripminer removal (due to bug)
   event.remove({output: 'blast:stripminer'});
 
+  // Doom
+
+  // Tools
+
+      var doom_tools = [
+    "axe",
+    "pickaxe",
+    "paxel",
+    ]
+
+    doom_tools.forEach(function (item, index) {
+      event.remove({output: "doom:argent_" + item});
+    });
+
+
   // Remove Kibe Generators due to ticking entity crashes
 
   var kibe_gen = [

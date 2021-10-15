@@ -219,6 +219,30 @@
           "type": "item",
           "weight": 1,
           "name": "minecraft:enchanted_golden_apple"
+        },
+        {
+          "type": "tag",
+          "weight": 2,
+          "expand": true,
+          "name": "curios:cosmetic_leggings"
+        },
+        {
+          "type": "tag",
+          "weight": 2,
+          "expand": true,
+          "name": "curios:cosmetic_chestplate"
+        },
+        {
+          "type": "tag",
+          "weight": 2,
+          "expand": true,
+          "name": "curios:cosmetic_helmet"
+        },
+        {
+          "type": "tag",
+          "weight": 2,
+          "expand": true,
+          "name": "curios:cosmetic_boots"
         }
       ]
     },

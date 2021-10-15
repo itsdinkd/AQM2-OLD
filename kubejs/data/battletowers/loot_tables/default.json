@@ -110,6 +110,62 @@
     },
     {
       "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "tag",
+          "weight": 10,
+          "expand": true,
+          "name": "nourish:fruit"
+        },
+        {
+          "type": "tag",
+          "weight": 8,
+          "expand": true,
+          "name": "nourish:carbohydrates"
+        },
+        {
+          "type": "tag",
+          "weight": 2,
+          "expand": true,
+          "name": "curios:cosmetic_leggings"
+        },
+        {
+          "type": "tag",
+          "weight": 2,
+          "expand": true,
+          "name": "curios:cosmetic_chestplate"
+        },
+        {
+          "type": "tag",
+          "weight": 2,
+          "expand": true,
+          "name": "curios:cosmetic_helmet"
+        },
+        {
+          "type": "tag",
+          "weight": 2,
+          "expand": true,
+          "name": "curios:cosmetic_boots"
+        },
+        {
+          "type": "tag",
+          "weight": 1,
+          "expand": true,
+          "name": "fabric:bows"
+        },
+        {
+          "type": "tag",
+          "weight": 1,
+          "expand": true,
+          "name": "fabric:crossbows"
+        }
+      ]
+    },
+    {
+      "rolls": {
         "min": 1,
         "max": 4
       },
@@ -195,9 +251,10 @@
           ]
         },
         {
-          "type": "item",
+          "type": "tag",
           "weight": 10,
-          "name": "minecraft:melon_seeds",
+          "expand": true,
+          "name": "c:seeds",
           "functions": [
             {
               "function": "set_count",
@@ -209,23 +266,25 @@
           ]
         },
         {
-          "type": "item",
+          "type": "tag",
           "weight": 10,
-          "name": "minecraft:pumpkin_seeds",
+          "expand": true,
+          "name": "c:saplings",
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 2,
-                "max": 4
+                "min": 1,
+                "max": 3
               }
             }
           ]
         },
         {
-          "type": "item",
+          "type": "tag",
           "weight": 10,
-          "name": "minecraft:beetroot_seeds",
+          "expand": true,
+          "name": "c:crops",
           "functions": [
             {
               "function": "set_count",
@@ -307,7 +366,7 @@
     {
       "rolls": {
         "min": 0,
-        "max": 2
+        "max": 3
       },
       "entries": [
         {

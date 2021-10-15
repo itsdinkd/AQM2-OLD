@@ -1,4 +1,10 @@
 {
+  "misc": {
+    "enable_all_villager_trades": false,
+    "enable_weaponsmith_trades": true,
+    "enable_toolsmith_trades": false,
+    "enable_mason_trades": true
+  },
   "weapons": {
     "crucible_marauder_max_damage": 5,
     "enable_block_breaking": false,
@@ -244,25 +250,25 @@
     "summoner_min_group": 1,
     "summoner_max_group": 2,
     "motherdemon_biomes": [
-      "#nether"
+      ""
     ],
     "motherdemon_spawn_weight": 1,
     "motherdemon_min_group": 1,
     "motherdemon_max_group": 1,
     "maykrdrone_biomes": [
-      "#nether"
+      ""
     ],
     "maykrdrone_spawn_weight": 12,
     "maykrdrone_min_group": 1,
     "maykrdrone_max_group": 2,
     "bloodmaykr_biomes": [
-      "#nether"
+      ""
     ],
     "bloodmaykr_spawn_weight": 6,
     "bloodmaykr_min_group": 1,
     "bloodmaykr_max_group": 2,
     "archmaykr_biomes": [
-      "#nether"
+      ""
     ],
     "archmaykr_spawn_weight": 1,
     "archmaykr_min_group": 1,
@@ -289,9 +295,9 @@
     "cacodemon_health": 120.0,
     "cacodemon_ranged_damage": 14.0,
     "archvile_health": 90.0,
-    "archvile_melee_damage": 13.6,
+    "archvile_ranged_damage": 5.0,
     "summoner_health": 190.0,
-    "summoner_melee_damage": 16.0,
+    "summoner_ranged_damage": 3.0,
     "prowler_health": 15.0,
     "prowler_ranged_damage": 4.6,
     "prowler_melee_damage": 6.0,
@@ -309,7 +315,6 @@
     "mancubus_ranged_damage": 12.5,
     "revenant_health": 70.0,
     "revenant_ranged_damage": 8.0,
-    "revenant_melee_damage": 9.0,
     "spider_mastermind_health": 180.0,
     "spider_mastermind_ranged_damage": 14.0,
     "spider_mastermind_melee_damage": 16.0,
@@ -328,7 +333,9 @@
     "nightmare_ranged_damage": 6.3,
     "chaingunner_health": 14.0,
     "shotgunguy_health": 16.0,
-    "marauder_health": 700.0,
+    "marauder_health": 950.0,
+    "marauder_axe_damage": 30.0,
+    "marauder_ssgdamage": 34.5,
     "pain_health": 130.0,
     "hellknight_health": 140.0,
     "hellknight_ranged_damage": 15.0,
@@ -342,10 +349,8 @@
     "doomhunter_ranged_damage": 18.0,
     "doomhunter_melee_damage": 20.0,
     "whiplash_health": 200.0,
-    "whiplash_ranged_damage": 16.0,
     "whiplash_melee_damage": 17.0,
     "armoredbaron_health": 330.0,
-    "armoredbaron_ranged_damage": 22.2,
     "armoredbaron_melee_damage": 20.3,
     "unwilling_health": 15.0,
     "unwilling_melee_damage": 2.5,

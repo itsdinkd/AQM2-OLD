@@ -325,6 +325,12 @@
               }
             }
           ]
+        },
+        {
+          "type": "tag",
+          "weight": 1,
+          "expand": true,
+          "name": "minecraft:fishes"
         }
       ]
     }
