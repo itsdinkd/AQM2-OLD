@@ -64,17 +64,17 @@
       "type": "minecraft:crafting_shaped",
       "pattern": [
         " A ",
-        "FEF",
-        " A "
+        "PSP",
+        " P "
       ],
       "key": {
         "A": {
           "item:": "minecraft:ender_pearl"
         },
-        "E": {
-          "item": "minecraft:crying_obsidian"
+        "S": {
+          "item": "gobber2:gobber2_ingot"
         },
-        "F": {
+        "P": {
           "item": "minecraft:flint"
         }
       },
