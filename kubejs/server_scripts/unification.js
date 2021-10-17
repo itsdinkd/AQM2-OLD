@@ -55,7 +55,6 @@ const MATERIALS = [
 const UNIFICATION_ORDER = [
     "techreborn",
     "indrev",
-    "appliedenergistics2",
     "bewitchment",
     "charm",
     "agape_space",

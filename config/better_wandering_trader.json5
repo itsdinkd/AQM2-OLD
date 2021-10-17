@@ -1,12 +1,46 @@
 {
 	"trades": {
-		"enable_user_added_traded": false
+		"enable_user_added_traded": true
 	},
 	"invisibleTradeFactory": {
-		"number_of_trades": 1,
-		"trades_to_choose": 1,
+		"number_of_trades": 5,
+		"trades_to_choose": 5,
 		"array": [
-			null
+	{
+		"identifier": "appliedenergistics2:calculation_processor_press",
+		"price": 36,
+		"count": 1,
+		"maxUses": 1,
+		"experience": 1
+	},
+	{
+		"identifier": "appliedenergistics2:engineering_processor_press",
+		"price": 36,
+		"count": 1,
+		"maxUses": 1,
+		"experience": 1
+	},
+	{
+		"identifier": "appliedenergistics2:silicon_press",
+		"price": 36,
+		"count": 1,
+		"maxUses": 1,
+		"experience": 1
+	},
+	{
+		"identifier": "appliedenergistics2:logic_processor_press",
+		"price": 36,
+		"count": 1,
+		"maxUses": 1,
+		"experience": 1
+	},
+	{
+		"identifier": "appliedenergistics2:sky_stone_block",
+		"price": 36,
+		"count": 1,
+		"maxUses": 1,
+		"experience": 1
+	}
 		]
 	},
 	"example": {

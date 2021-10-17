@@ -3,7 +3,7 @@ whitelistedDimensions = "[minecraft:overworld]"
 blacklistedBiomes = "[terralith:dark_ocean, terralith:black_beach, terralith:alpha_islands_beach, terralith:black_beach, terralith:gravel_beach, terralith:red_beach, terralith:zreserved/1/warm_river, terralith:alpha_islands, minecraft:ocean, minecraft:frozen_ocean, minecraft:deep_ocean, minecraft:warm_ocean, minecraft:lukewarm_ocean, minecraft:cold_ocean, minecraft:deep_lukewarm_ocean, minecraft:deep_cold_ocean, minecraft:deep_frozen_ocean, minecraft:beach, minecraft:snowy_beach, minecraft:river, minecraft:frozen_river, lakeside:warm_lake, lakeside:cold_lake, lakeside:jungle_lake, lakeside_mountain_lake, riverredux:carved_river, riverredux:gravelly_river, riverredux:sandy_river, riverredux:tropical_river]"
 
 [betterStrongholds.general]
-strongholdStartMinY = 30
+strongholdStartMinY = -40
 strongholdStartMaxY = 31
 strongholdMaxY = 60
 strongholdSize = 16

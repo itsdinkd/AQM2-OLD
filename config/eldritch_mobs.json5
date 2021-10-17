@@ -8,7 +8,7 @@
 	// Ignore named creatures and monsters
 	"ignoreNamed": true,
 	// Enable Glowing Elite/Ultra/Eldritch Mobs upon discovery
-	"turnOnGlowingMobs": false,
+	"turnOnGlowingMobs": true,
 	// Out of 100 Mobs
 	"EliteSpawnRates": 1.1,
 	// Out of 100 Elites

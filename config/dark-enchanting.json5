@@ -1,18 +1,18 @@
 {
   //All enchantments cost this much to start.
-  "baseCost": 2.5,
+  "baseCost": 3.0,
   //Make enchantments cost more.
-  "costFactor": 1.25,
+  "costFactor": 1.55,
   //How much curses should be multiplied by.
-  "curseFactor": 3.0,
+  "curseFactor": 3.3,
   //How much treasure enchantments should be multiplied by.
-  "treasureFactor": 4.0,
+  "treasureFactor": 5.0,
   //How much the discount should be worth. Cannot be more than 1.0 or it will create a loop. It has been disabled in the code.
-  "discountFactor": 0.6,
+  "discountFactor": 0.4,
   //Makes rare enchantments less cheap. Decrease the value increase the cost of Rare & Very Rare enchantments.
-  "weightDivisor": 1.5,
+  "weightDivisor": 1.2,
   //This number gets multiplied by the repair cost. Increase it to make repair cost more.
-  "repairFactor": 1.3,
+  "repairFactor": 1.6,
   //This is where people can write specific enchantment data for this mod. The following is an example entry. This entry represents an entry for sharpness in its default form. The Id of the enchantments, factors to multiply during enchanting (discount is when taking off enchantments, cost is when putting on),  and activated decides whether the enchantment can be used
   "configEnchantments": [
     {

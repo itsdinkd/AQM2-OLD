@@ -33,7 +33,7 @@
     "mcdw:jungle_poison": 1
   },
   "mcdw:hammer_stormlander": {
-    "mcdw:thundering": 1
+    "mcdw:thundering": 0
   },
   "mcdw:crossbow_lightning_harp_crossbow": {
     "mcdw:ricochet": 1,
@@ -85,6 +85,9 @@
   "mcdw:staff_growing_staff": {
     "mcdw:committed": 1
   },
+  "mcdw:sword_sinister": { 
+   "mcdw:critical_hit": 1
+  }, 
   "mcdw:dagger_swift_striker": {
     "mcdw:echo": 1,
     "mcdw:ambush": 1
@@ -93,7 +96,7 @@
     "minecraft:looting": 1
   },
   "mcdw:bow_call_of_the_void": {
-    "mcdw:void_shot": 1,
+    "mcdw:void_shot": 0,
     "mcdw:fuse_shot": 1
   },
   "mcdw:bow_void_bow": {
@@ -106,7 +109,7 @@
     "mcdw:gravity": 1
   },
   "mcdw:dagger_the_end": {
-    "mcdw:void_strike": 1
+    "mcdw:void_strike": 0
   },
   "mcdw:bow_bonebow": {
     "mcdw:growing": 1
@@ -232,7 +235,7 @@
     "mcdw:prospector": 1
   },
   "mcdw:dagger_void_touched_blade": {
-    "mcdw:void_strike": 1
+    "mcdw:void_strike": 0
   },
   "mcdw:sickle_frost_scythe": {
     "mcdw:freezing": 1

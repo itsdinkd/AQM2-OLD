@@ -1,5 +1,5 @@
 mineshaftSpawnRate = 0.011
-minY = 0
+minY = -40
 maxY = 55
 
 [spawnRates]
