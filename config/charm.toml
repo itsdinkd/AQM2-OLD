@@ -451,7 +451,7 @@
 	#If true, wandering traders will sell maps to structures.
 	"Trade structure maps" = true
 	#If true, makes wandering traders more likely to spawn after one Minecraft day.
-	"Frequent spawning" = true
+	"Frequent spawning" = false
 
 [WitchesDropLuck]
 	#Chance (out of 1.0) of a witch dropping a Potion of Luck when killed by the player.
