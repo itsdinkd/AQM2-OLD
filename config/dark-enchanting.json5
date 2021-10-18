@@ -20,6 +20,12 @@
       "discountFactorEnchantment": 0.125,
       "costFactorEnchantment": 6.0,
       "activated": true
+    },
+    {
+      "enchantmentId": "veinmining:vein_mining",
+      "discountFactorEnchantment": 0.1,
+      "costFactorEnchantment": 8.0,
+      "activated": true
     }
   ]
 }

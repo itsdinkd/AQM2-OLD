@@ -448,6 +448,34 @@ events.listen("recipes", function (event) {
     "techreborn:iridium_neutron_reflector"
   );
 
+  // kibe gliders
+
+    var kibeGlidersX = [
+    "white",
+    "magenta",
+    "orange",
+    "light_blue",
+    "yellow",
+    "green",
+    "pink",
+    "gray",
+    "lime",
+    "blue",
+    "light_gray",
+    "cyan",
+    "purple",
+    "brown",
+    "red",
+    "black"
+  ];
+
+  kibeGlidersX.forEach(function (item, index) {
+    event.replaceInput(
+      { id: "kibe:" + item + "_glider" },
+      "minecraft:iron_ingot",
+      "gobber2:gobber2_rod"
+      )
+    });
 
   // End single recipe replacements //
   ////////////////////////////////////
