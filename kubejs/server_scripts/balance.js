@@ -125,6 +125,13 @@ events.listen("recipes", function (event) {
   // Single item in recipe replace //
 
 
+  // Building Gadgets - Destruction Gadget, end game. its too destructive. 
+  event.replaceInput(
+    { id: "buildinggadgets:gadget_destruction" },
+    "minecraft:lapis_lazuli",
+    "kibe:angel_ring"
+  );
+
   ////// Things 
 
   // Riot Gauntlet
