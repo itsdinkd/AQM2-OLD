@@ -1,7 +1,0 @@
-//Hit F3 + M to edit configs client side in game
-{
-  //What corner of the screen the biome tracker overlay is in [top_left, top_right, bottom_left, bottom_right]
-  "ui_location": "bottom_left",
-  "high_contrast_mode": false,
-  "color": "#000fff"
-}

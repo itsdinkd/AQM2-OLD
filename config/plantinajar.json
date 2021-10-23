@@ -2,15 +2,15 @@
   "dropItems": true,
   "growthTime": 30,
   "perItemGrowthTimes": {
-    "minecraft:bamboo": -1,
-    "bewitchment:mandrake": -1,
-    "bewitchment:garlic": -1,
-    "bewitchment:belladonna": -1,
-    "minecraft:wheat": -1,
-    "minecraft:oak_sapling": -1,
-    "charm:ebony_sapling": -1,
-    "bewitchment:aconite": -1,
-    "minecraft:sugar_cane": -1
+    "minecraft:bamboo": 40,
+    "bewitchment:mandrake": 60,
+    "bewitchment:garlic": 60,
+    "bewitchment:belladonna": 60,
+    "minecraft:wheat": 40,
+    "minecraft:oak_sapling": 30,
+    "charm:ebony_sapling": 80,
+    "bewitchment:aconite": 60,
+    "minecraft:sugar_cane": 40
   },
   "growthModifierRegexPatterns": {}
 }
