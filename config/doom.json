@@ -10,7 +10,7 @@
     "enable_block_breaking": false,
     "enable_noncenter": false,
     "argent_bolt_damage": 12.5,
-    "bfgball_damage": 100.0,
+    "bfgball_damage": 80.0,
     "bfgball_damage_dragon": 30.0,
     "bfgball_damage_aoe": 5.0,
     "bullet_damage": 3.0,

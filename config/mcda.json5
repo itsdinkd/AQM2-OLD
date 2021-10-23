@@ -42,6 +42,41 @@
 		"WATER_BREATHING": true,
 		"WITHERED": true
 	},
+	"maxDropAmounts": {
+		"PHANTOM_SKIN_AND_BONES": 1.0,
+		"OCELOT_PELTS": 1.0,
+		"WOLF_PELTS": 1.0,
+		"FOX_PELTS": 1.0,
+		"GOAT_PELT": 1.0,
+		"FROST_CRYSTAL": 1.0,
+		"EVOCATION_ROBE": 1.0,
+		"SKELETON_SKULL": 1.0
+	},
+	"armorSpawnRates": {
+		"GHOSTLY": 0.05000000074505806,
+		"GHOST_KINDLER": 0.009999999776482582,
+		"GRIM": 0.05000000074505806,
+		"DARK": 0.10000000149011612,
+		"ROYAL": 0.05000000074505806,
+		"TITAN": 0.02500000037252903,
+		"THIEF": 0.10000000149011612,
+		"PLATE": 0.05000000074505806,
+		"FULL_METAL": 0.009999999776482582,
+		"SNOW": 0.029999999329447746,
+		"WOLF": 0.05000000074505806,
+		"FOX": 0.009999999776482582,
+		"REINFORCED": 0.05000000074505806,
+		"STALWART": 0.008999999776482582,
+		"SCALE": 0.05000000074505806,
+		"MERCENARY": 0.05000000074505806,
+		"SPELUNKER": 0.05000000074505806,
+		"CAVE_CRAWLER": 0.008999999776482582,
+		"HERO": 0.10000000149011612,
+		"GILDED": 0.10000000149011612,
+		"TELEPORTATION": 0.10000000149011612,
+		"UNSTABLE": 0.009999999776482582,
+		"MYSTERY": 0.05000000074505806
+	},
 	"armorStats": {
 		"ARCHER": {
 			"protection": {
@@ -115,13 +150,13 @@
 		},
 		"CAVE_CRAWLER": {
 			"protection": {
-				"FEET": 2,
-				"LEGS": 5,
+				"FEET": 3,
+				"LEGS": 6,
 				"CHEST": 6,
-				"HEAD": 2
+				"HEAD": 3
 			},
-			"toughness": 0.0,
-			"knockbackRes": 0.0,
+			"toughness": 0.5,
+			"knockbackRes": 0.1,
 			"attackDamageBoost": 0.0,
 			"attackSpeedBoost": 0.0,
 			"movementSpeedBoost": 0.025,
@@ -507,17 +542,17 @@
 		},
 		"GRIM": {
 			"protection": {
-				"FEET": 2,
+				"FEET": 3,
 				"LEGS": 4,
 				"CHEST": 6,
-				"HEAD": 2
+				"HEAD": 3
 			},
 			"toughness": 0.0,
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0375,
 			"attackSpeedBoost": 0.0,
-			"movementSpeedBoost": 0.0,
-			"durabilityMultiplier": 25
+			"movementSpeedBoost": 0.025,
+			"durabilityMultiplier": 22
 		},
 		"WITHER": {
 			"protection": {
@@ -675,17 +710,17 @@
 		},
 		"STALWART_MAIL": {
 			"protection": {
-				"FEET": 3,
-				"LEGS": 5,
+				"FEET": 5,
+				"LEGS": 6,
 				"CHEST": 7,
-				"HEAD": 3
+				"HEAD": 5
 			},
-			"toughness": 1.0,
+			"toughness": 2.0,
 			"knockbackRes": 0.0,
 			"attackDamageBoost": 0.0,
 			"attackSpeedBoost": 0.0,
 			"movementSpeedBoost": 0.0,
-			"durabilityMultiplier": 30
+			"durabilityMultiplier": 35
 		},
 		"GUARDS": {
 			"protection": {
@@ -829,10 +864,10 @@
 		},
 		"TITAN": {
 			"protection": {
-				"FEET": 3,
+				"FEET": 4,
 				"LEGS": 6,
-				"CHEST": 8,
-				"HEAD": 3
+				"CHEST": 9,
+				"HEAD": 4
 			},
 			"toughness": 0.5,
 			"knockbackRes": 0.0,
@@ -1024,43 +1059,6 @@
 			"durabilityMultiplier": 36
 		}
 	},
-	// Controlled Teleportation for Teleportation and Unstable Robes
-	"controlledTeleportation": false,
-	// Drop Rates
-	"phantomBones": 0.25,
-	"phantomSkin": 0.10000000149011612,
-	"ocelotPelt": 0.25,
-	"blackOcelotPelt": 0.15000000596046448,
-	"skeletonSkull": 0.05000000074505806,
-	"wolfPelt": 0.25,
-	"blackWolfPelt": 0.10000000149011612,
-	"foxPelt": 0.25,
-	"arcticFoxPelt": 0.10000000149011612,
-	"goatPelt": 0.30000001192092896,
-	"evocationRobe": 0.10000000149011612,
-	"frostCrystal": 0.05000000074505806,
-	// Armor Set Spawn Rates
-	"ghostlyArmor": 0.05000000074505806,
-	"ghostlyKindler": 0.009999999776482582,
-	"grimArmor": 0.05000000074505806,
-	"darkArmor": 0.10000000149011612,
-	"thiefArmor": 0.10000000149011612,
-	"royalArmor": 0.05000000074505806,
-	"titansShroud": 0.02500000037252903,
-	"plateArmor": 0.05000000074505806,
-	"fullMetalArmor": 0.009999999776482582,
-	"snowArmor": 0.029999999329447746,
-	"wolfArmor": 0.05000000074505806,
-	"foxArmor": 0.009999999776482582,
-	"reinforcedMail": 0.05000000074505806,
-	"stalwartMail": 0.009999999776482582,
-	"scaleMail": 0.05000000074505806,
-	"mercenaryArmor": 0.05000000074505806,
-	"spelunkerArmor": 0.05000000074505806,
-	"caveCrawler": 0.009999999776482582,
-	"heroArmor": 0.10000000149011612,
-	"gildedArmor": 0.10000000149011612,
-	"teleportationRobes": 0.10000000149011612,
-	"unstableRobes": 0.009999999776482582,
-	"mysteryArmors": 0.05000000074505806
+	// Controlled Teleportation for Teleportation and Unstable Robes, default = false
+	"controlledTeleportation": false
 }

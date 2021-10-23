@@ -1,0 +1,13 @@
+//Hit F3 + M to edit configs client side in game
+{
+  //The farthest distance the biome locator will look to try and find the target biome [min: 0, max: 25.60k]
+  "max_biome_distance": 6400,
+  //Use the /advancement command for help with advancement ids
+  "required_advancement": "minecraft:none",
+  //The chance of the biome locator appearing in loot chests [min: 0, max: 1]
+  "chance_as_loot": 0.10,
+  //The list of biomes that are hidden from the biome locator
+  "blacklisted_biomes": [
+      "appliedenergistics2:spatial_storage"
+    ]
+}

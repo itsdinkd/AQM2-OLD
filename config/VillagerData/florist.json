@@ -1,0 +1,94 @@
+[
+    [
+        {
+            "max_uses": 16,
+            "price": 3,
+            "buy": "minecraft:flower_pot",
+            "experience": 2,
+            "type": "BuyForOneEmeraldFactory"
+        },
+        {
+            "max_uses": 16,
+            "price": 3,
+            "multiplier": 0.05,
+            "sell": "minecraft:honeycomb",
+            "count": 1,
+            "experience": 1,
+            "type": "SellItemFactory"
+        }
+    ],
+    [
+        {
+            "max_uses": 16,
+            "price": 24,
+            "buy": "minecraft:vine",
+            "experience": 10,
+            "type": "BuyForOneEmeraldFactory"
+        },
+        {
+            "max_uses": 16,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:glow_berries",
+            "count": 2,
+            "experience": 5,
+            "type": "SellItemFactory"
+        }
+    ],
+    [
+        {
+            "max_uses": 16,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:small_dripleaf",
+            "count": 2,
+            "experience": 10,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 16,
+            "price": 6,
+            "multiplier": 0.05,
+            "sell": "minecraft:honey_bottle",
+            "count": 1,
+            "experience": 10,
+            "type": "SellItemFactory"
+        }
+    ],
+    [
+        {
+            "max_uses": 16,
+            "price": 32,
+            "buy": "minecraft:moss_block",
+            "experience": 30,
+            "type": "BuyForOneEmeraldFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 13,
+            "iconType": "BANNER_GREEN",
+            "experience": 15,
+            "type": "SellMapFactory",
+            "structure": "minecraft:swamp_hut"
+        }
+    ],
+    [
+        {
+            "max_uses": 12,
+            "price": 6,
+            "multiplier": 0.05,
+            "sell": "minecraft:bee_nest",
+            "count": 1,
+            "experience": 30,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 15,
+            "iconType": "BANNER_LIME",
+            "experience": 30,
+            "type": "SellMapFactory",
+            "structure": "minecraft:jungle_pyramid"
+        }
+    ]
+]

@@ -8,7 +8,7 @@
   //How much treasure enchantments should be multiplied by.
   "treasureFactor": 5.0,
   //How much the discount should be worth. Cannot be more than 1.0 or it will create a loop. It has been disabled in the code.
-  "discountFactor": 0.4,
+  "discountFactor": 0.5,
   //Makes rare enchantments less cheap. Decrease the value increase the cost of Rare & Very Rare enchantments.
   "weightDivisor": 1.2,
   //This number gets multiplied by the repair cost. Increase it to make repair cost more.

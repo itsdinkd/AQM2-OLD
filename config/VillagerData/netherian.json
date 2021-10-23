@@ -1,0 +1,81 @@
+[
+    [
+        {
+            "max_uses": 16,
+            "price": 24,
+            "buy": "minecraft:basalt",
+            "experience": 2,
+            "type": "BuyForOneEmeraldFactory"
+        },
+        {
+            "max_uses": 16,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:nether_brick",
+            "count": 10,
+            "experience": 1,
+            "type": "SellItemFactory"
+        }
+    ],
+    [
+        {
+            "max_uses": 16,
+            "price": 24,
+            "buy": "minecraft:blackstone",
+            "experience": 10,
+            "type": "BuyForOneEmeraldFactory"
+        },
+        {
+            "max_uses": 16,
+            "price": 4,
+            "multiplier": 0.05,
+            "sell": "minecraft:nether_quartz_ore",
+            "count": 1,
+            "experience": 5,
+            "type": "SellItemFactory"
+        }
+    ],
+    [
+        {
+            "max_uses": 16,
+            "price": 4,
+            "buy": "minecraft:obsidian",
+            "experience": 20,
+            "type": "BuyForOneEmeraldFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 13,
+            "iconType": "BANNER_RED",
+            "experience": 10,
+            "type": "SellMapFactory",
+            "structure": "minecraft:fortress"
+        }
+    ],
+    [
+        {
+            "max_uses": 16,
+            "price": 4,
+            "buy": "minecraft:gold_ingot",
+            "experience": 30,
+            "type": "BuyForOneEmeraldFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 14,
+            "iconType": "BANNER_YELLOW",
+            "experience": 15,
+            "type": "SellMapFactory",
+            "structure": "minecraft:bastion_remnant"
+        }
+    ],
+    [{
+        "max_uses": 12,
+        "price": 20,
+        "multiplier": 0.05,
+        "sell": "minecraft:music_disc_pigstep",
+        "count": 1,
+        "experience": 30,
+        "type": "SellItemFactory"
+    }]
+]

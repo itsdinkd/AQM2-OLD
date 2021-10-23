@@ -1,0 +1,416 @@
+[
+    [
+        {
+            "max_uses": 16,
+            "price": 10,
+            "buy": "minecraft:clay_ball",
+            "experience": 2,
+            "type": "BuyForOneEmeraldFactory"
+        },
+        {
+            "max_uses": 16,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:brick",
+            "count": 10,
+            "experience": 1,
+            "type": "SellItemFactory"
+        },
+        {"type": "unknown"},
+        {"type": "unknown"}
+    ],
+    [
+        {
+            "max_uses": 16,
+            "price": 20,
+            "buy": "minecraft:stone",
+            "experience": 10,
+            "type": "BuyForOneEmeraldFactory"
+        },
+        {
+            "max_uses": 16,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:chiseled_stone_bricks",
+            "count": 4,
+            "experience": 5,
+            "type": "SellItemFactory"
+        }
+    ],
+    [
+        {
+            "max_uses": 16,
+            "price": 16,
+            "buy": "minecraft:granite",
+            "experience": 20,
+            "type": "BuyForOneEmeraldFactory"
+        },
+        {
+            "max_uses": 16,
+            "price": 16,
+            "buy": "minecraft:andesite",
+            "experience": 20,
+            "type": "BuyForOneEmeraldFactory"
+        },
+        {
+            "max_uses": 16,
+            "price": 16,
+            "buy": "minecraft:diorite",
+            "experience": 20,
+            "type": "BuyForOneEmeraldFactory"
+        },
+        {
+            "max_uses": 16,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:dripstone_block",
+            "count": 4,
+            "experience": 10,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 16,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:polished_andesite",
+            "count": 4,
+            "experience": 10,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 16,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:polished_diorite",
+            "count": 4,
+            "experience": 10,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 16,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:polished_granite",
+            "count": 4,
+            "experience": 10,
+            "type": "SellItemFactory"
+        }
+    ],
+    [
+        {
+            "max_uses": 12,
+            "price": 12,
+            "buy": "minecraft:quartz",
+            "experience": 30,
+            "type": "BuyForOneEmeraldFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:orange_terracotta",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:white_terracotta",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:blue_terracotta",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:light_blue_terracotta",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:gray_terracotta",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:light_gray_terracotta",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:black_terracotta",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:red_terracotta",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:pink_terracotta",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:magenta_terracotta",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:lime_terracotta",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:green_terracotta",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:cyan_terracotta",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:purple_terracotta",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:yellow_terracotta",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:brown_terracotta",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:orange_glazed_terracotta",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:white_glazed_terracotta",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:blue_glazed_terracotta",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:light_blue_glazed_terracotta",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:gray_glazed_terracotta",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:light_gray_glazed_terracotta",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:black_glazed_terracotta",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:red_glazed_terracotta",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:pink_glazed_terracotta",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:magenta_glazed_terracotta",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:lime_glazed_terracotta",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:green_glazed_terracotta",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:cyan_glazed_terracotta",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:purple_glazed_terracotta",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:yellow_glazed_terracotta",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:brown_glazed_terracotta",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        }
+    ],
+    [
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:quartz_pillar",
+            "count": 1,
+            "experience": 30,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:quartz_block",
+            "count": 1,
+            "experience": 30,
+            "type": "SellItemFactory"
+        }
+    ]
+]

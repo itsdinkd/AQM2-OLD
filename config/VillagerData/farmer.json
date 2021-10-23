@@ -1,0 +1,236 @@
+[
+    [
+        {
+            "max_uses": 16,
+            "price": 20,
+            "buy": "minecraft:wheat",
+            "experience": 2,
+            "type": "BuyForOneEmeraldFactory"
+        },
+        {
+            "max_uses": 16,
+            "price": 26,
+            "buy": "minecraft:potato",
+            "experience": 2,
+            "type": "BuyForOneEmeraldFactory"
+        },
+        {
+            "max_uses": 16,
+            "price": 22,
+            "buy": "minecraft:carrot",
+            "experience": 2,
+            "type": "BuyForOneEmeraldFactory"
+        },
+        {
+            "max_uses": 16,
+            "price": 15,
+            "buy": "minecraft:beetroot",
+            "experience": 2,
+            "type": "BuyForOneEmeraldFactory"
+        },
+        {
+            "max_uses": 16,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:bread",
+            "count": 6,
+            "experience": 1,
+            "type": "SellItemFactory"
+        },
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"}
+    ],
+    [
+        {
+            "max_uses": 12,
+            "price": 6,
+            "buy": "minecraft:pumpkin",
+            "experience": 10,
+            "type": "BuyForOneEmeraldFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:pumpkin_pie",
+            "count": 4,
+            "experience": 5,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 16,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:apple",
+            "count": 4,
+            "experience": 5,
+            "type": "SellItemFactory"
+        }
+    ],
+    [
+        {
+            "max_uses": 12,
+            "price": 3,
+            "multiplier": 0.05,
+            "sell": "minecraft:cookie",
+            "count": 18,
+            "experience": 10,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 4,
+            "buy": "minecraft:melon",
+            "experience": 20,
+            "type": "BuyForOneEmeraldFactory"
+        }
+    ],
+    [
+        {
+            "max_uses": 12,
+            "price": 1,
+            "multiplier": 0.05,
+            "sell": "minecraft:cake",
+            "count": 1,
+            "experience": 15,
+            "type": "SellItemFactory"
+        },
+        {
+            "duration": 100,
+            "multiplier": 0.05,
+            "effect": "minecraft:night_vision",
+            "experience": 15,
+            "type": "SellSuspiciousStewFactory"
+        },
+        {
+            "duration": 160,
+            "multiplier": 0.05,
+            "effect": "minecraft:jump_boost",
+            "experience": 15,
+            "type": "SellSuspiciousStewFactory"
+        },
+        {
+            "duration": 140,
+            "multiplier": 0.05,
+            "effect": "minecraft:weakness",
+            "experience": 15,
+            "type": "SellSuspiciousStewFactory"
+        },
+        {
+            "duration": 120,
+            "multiplier": 0.05,
+            "effect": "minecraft:blindness",
+            "experience": 15,
+            "type": "SellSuspiciousStewFactory"
+        },
+        {
+            "duration": 280,
+            "multiplier": 0.05,
+            "effect": "minecraft:poison",
+            "experience": 15,
+            "type": "SellSuspiciousStewFactory"
+        },
+        {
+            "duration": 7,
+            "multiplier": 0.05,
+            "effect": "minecraft:saturation",
+            "experience": 15,
+            "type": "SellSuspiciousStewFactory"
+        },
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"},
+        {"type": "unknown"}
+    ],
+    [
+        {
+            "max_uses": 12,
+            "price": 3,
+            "multiplier": 0.05,
+            "sell": "minecraft:golden_carrot",
+            "count": 3,
+            "experience": 30,
+            "type": "SellItemFactory"
+        },
+        {
+            "max_uses": 12,
+            "price": 4,
+            "multiplier": 0.05,
+            "sell": "minecraft:glistering_melon_slice",
+            "count": 3,
+            "experience": 30,
+            "type": "SellItemFactory"
+        }
+    ]
+]

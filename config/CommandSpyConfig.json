@@ -1,0 +1,25 @@
+{
+  "logging": {
+    "logPlayerCommands": true,
+    "logCommandBlockCommands": true,
+    "logSignCommands": true,
+    "logToConsole": true,
+    "logToOps": false
+  },
+  "messages": {
+    "commandBlockMessageStyle": "Command block in: ${dimension} at X: ${x} Y: ${y} Z: ${z} executed command: ${command}",
+    "playerMessageStyle": "[CS] ${playername}: ${command}",
+    "signMessageStyle": "Sign in: ${dimension} at X: ${x} Y: ${y} Z: ${z} executed command: ${command}"
+  },
+  "blacklistedCommands": [
+    "msg",
+    "testCommandThatShouldNotBeLogged",
+    "ledger",
+    "spawn",
+    "profile",
+    "info",
+    "tick",
+    "ticks",
+    "view"
+  ]
+}

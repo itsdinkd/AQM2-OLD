@@ -31,7 +31,7 @@ worldBlacklist = []
 # Blacklists objects (Items, Mobs, Blocks). Ex: "minecraft:cobblestone", "minecraft:blaze"
 objectBlacklist = []
 # Blacklists sources. Ex: "lava", "gravity", "fire", "fall"
-sourceBlacklist = []
+sourceBlacklist = ["gravity"]
 
 [networking]
 # This section relates to Ledger's ability to interact with client mods for ease of use
