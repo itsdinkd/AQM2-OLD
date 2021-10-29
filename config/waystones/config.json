@@ -2,9 +2,9 @@
   "generate_in_villages": true,
   "consume_infinite_knowledge_scroll_on_use": false,
   "can_owners_redeem_payments": true,
-  "cost_amount": 2,
+  "cost_amount": 1,
   "cost_type": "item",
-  "cost_item": "gobber2:gobber2_glob",
+  "cost_item": "gobber2:gobber2_globette",
   "waystone_block_hardness": 6,
   "waystone_block_required_mining_level": 4.0,
   "recipes": {
