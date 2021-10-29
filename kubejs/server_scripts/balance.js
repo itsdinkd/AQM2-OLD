@@ -279,7 +279,7 @@ events.listen("recipes", function (event) {
   event.replaceInput(
     { id: "extragenerators:teleport_generator" },
     "#c:iron_ingots",
-    "waystones:abyss_watcher"
+    "minecraft:beacon"
   );  
     // extra generators scalding
   event.replaceInput(
@@ -452,7 +452,7 @@ events.listen("recipes", function (event) {
   event.replaceInput(
     { id: "quarryplus:quarry" },
     "minecraft:iron_ingot",
-    "techreborn:iridium_neutron_reflector"
+    "techreborn:hot_tungstensteel_ingot"
   );
 
   // kibe gliders
