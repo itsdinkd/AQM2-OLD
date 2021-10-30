@@ -6,7 +6,7 @@
 	   ***********************
 	*/
 	"enableRingAbove": true,
-	"enableRingAirWalking": true,
+	"enableRingAirWalking": false,
 	"enableRingAscent": true,
 	"enableRingAttraction": true,
 	"enableRingBlink": true,
@@ -21,7 +21,7 @@
 	"enableRingRepair": true,
 	"enableRingReturn": true,
 	"enableRingStealth": false,
-	"enableRingSunshine": true,
+	"enableRingSunshine": false,
 	"enableRingSwiftness": true,
 	"enableRingTeleport": true,
 	"enableRingTraveler": true,
@@ -35,7 +35,7 @@
 	*/
 	"enableStaffClearing": true,
 	"enableStaffEnsnarement": true,
-	"enableStaffFarmer": true,
+	"enableStaffFarmer": false,
 	"enableStaffNature": true,
 	"enableStaffSniper": true,
 	"enableStaffStars": true,
@@ -71,17 +71,28 @@
 	"ringExplorerUsePlayerPos": false,
 	"ringExplorerMin": 5000,
 	"ringExplorerMax": 10000,
-	"ringFarmerHorizRange": 12,
+	"ringFarmerHorizRange": 9,
 	"ringFarmerVertRange": 6,
-	"ringFarmerInterval": 160,
-	"ringFarmerIntervalCactus": 40,
-	"ringAboveCooldown": 180,
-	"ringRepairInterval": 90,
+	"ringFarmerInterval": 200,
+	"ringFarmerIntervalCactus": 60,
+	"ringAboveCooldown": 240,
+	"ringRepairInterval": 180,
 	"ringDismissalRange": 8.0,
 	"ringDismissalVelocity": 0.2,
 	"ringDismissalLift": 1.5,
 	"ringTravelerLaunch": 3.2,
 	"ringTravelerCruising": 0.3,
+	/* 
+	   
+	   ***********************
+	   Effect Setting
+	   -used with optimization mods
+	   that break things
+	   Value of 300 works
+	   ***********************
+	*/
+	"effectDuration": 8,
+	"effectDurationKnowledge": 120,
 	/* 
 	   
 	   ***********************
@@ -114,7 +125,7 @@
 	   Tool Settings
 	   ***********************
 	*/
-	"swordSniperCooldoown": 120,
+	"swordSniperCooldoown": 140,
 	"enableEndHammer5x5": true,
 	"enableEndExcavator5x5": true,
 	"enableTreeAxe": true,
@@ -142,7 +153,7 @@
 	"gobberDurability": 3800,
 	"gobberMiningSpeed": 9.0,
 	"gobberAttackDamage": 7.0,
-	"gobberSwordAttackSpeed": 1.7,
+	"gobberSwordAttackSpeed": 1.7000000476837158,
 	"gobberMiningLevel": 4,
 	"gobberEnchantability": 19,
 	/* 
@@ -155,7 +166,7 @@
 	"gobberNetherDurability": 5200,
 	"gobberNetherMiningSpeed": 11.0,
 	"gobberNetherAttackDamage": 8.0,
-	"gobberNetherSwordAttackSpeed": 1.900000047683716,
+	"gobberNetherSwordAttackSpeed": 1.9000000953674316,
 	"gobberNetherMiningLevel": 5,
 	"gobberNetherEnchantability": 21,
 	/* 
@@ -169,7 +180,7 @@
 	"gobberEndDurability": 9001,
 	"gobberEndMiningSpeed": 13.0,
 	"gobberEndAttackDamage": 9.0,
-	"gobberEndSwordAttackSpeed": 2.2000000953674316,
+	"gobberEndSwordAttackSpeed": 2.200000047683716,
 	"gobberEndMiningLevel": 6,
 	"gobberEndEnchantability": 23,
 	/* 
@@ -188,6 +199,7 @@
 	"enableEndHealthPerks": false,
 	"gobberEndArmorHealingPoints": 3,
 	"unbreakableEndArmor": false,
+	"enableEndArmorGliding": true,
 	"enablePhantomProtection": true,
 	"enableDragonArmorWithoutFlight": true,
 	"enableDragonArmorWithFlight": false,

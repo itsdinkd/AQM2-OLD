@@ -416,6 +416,50 @@ events.listen("recipes", function (event) {
     "techreborn:tungstensteel_plate"
   );
 
+  // dim doors - gold
+  event.replaceInput(
+    { id: "dimdoors:gold_dimensional_door" },
+    "minecraft:ender_pearl",
+    "compress:compressed_gold_block_4"
+  );
+
+  // dim doors - iron
+  event.replaceInput(
+    { id: "dimdoors:iron_dimensional_door" },
+    "minecraft:ender_pearl",
+    "gobber2:dragon_star"
+  );
+
+  // dim doors - oak
+  event.replaceInput(
+    { id: "dimdoors:oak_dimensional_door" },
+    "minecraft:ender_pearl",
+    "conjuring:scope_charm"
+  );
+
+  // dim doors - quartz
+  event.replaceInput(
+    { id: "dimdoors:quartz_dimensional_door" },
+    "minecraft:ender_pearl",
+    "gobber2:gobber2_ingot_nether"
+  );
+
+  // dim doors - stab rift sig
+  event.replaceInput(
+    { id: "dimdoors:stablized_rift_signature" },
+    "minecraft:iron_ingot",
+    "gobber2:gobber2_rod_nether"
+  );
+
+  // dim doors - rift sig
+  event.replaceInput(
+    { id: "dimdoors:rift_signature" },
+    "minecraft:ender_pearl",
+    "gobber2:gobber2_rod_nether"
+  );
+
+
+
   // Tools and Sword
 
   var doom_tools = [
@@ -449,11 +493,11 @@ events.listen("recipes", function (event) {
 
 
   // Quarry Plus
-  event.replaceInput(
-    { id: "quarryplus:quarry" },
-    "minecraft:iron_ingot",
-    "techreborn:hot_tungstensteel_ingot"
-  );
+  // event.replaceInput(
+  //   { id: "quarryplus:quarry" },
+  //   "minecraft:iron_ingot",
+  //   "techreborn:hot_tungstensteel_ingot"
+  // );
 
   // kibe gliders
 

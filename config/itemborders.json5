@@ -1,0 +1,12 @@
+{
+	// If the hotbar should display item borders.
+	"hotBar": false,
+	// If item borders should show for common items.
+	"showForCommon": false,
+	// If the borders should have square corners.
+	"squareCorners": false,
+	// If automatic borders (based on item rarity) should be enabled.
+	"automaticBorders": true,
+	// Custom border colors for specific items.  Format: { "<color>" = ["list of item names or tags"] }.  Example: { "FCC040" = ["minecraft:stick", "torch"] }
+	"manualBorders": { }
+}

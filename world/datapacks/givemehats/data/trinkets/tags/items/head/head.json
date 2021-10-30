@@ -1,5 +1,5 @@
 {
-  "replace": true,
+  "replace": "true",
   "values": [
     "givemehats:bowler_hat",
     "givemehats:bunny_ears",
@@ -19,7 +19,6 @@
     "givemehats:russian_hat",
     "givemehats:woolrus_hat",
     "givemehats:tater_hat",
-    "givemehats:bunny_space_helmet",
     "givemehats:golem_bucket",
     "givemehats:jojo_hat",
     "givemehats:wolf_ears",

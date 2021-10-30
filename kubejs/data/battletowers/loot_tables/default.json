@@ -118,13 +118,31 @@
           "type": "tag",
           "weight": 10,
           "expand": true,
-          "name": "nourish:fruit"
+          "name": "nourish:fruit",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
         },
         {
           "type": "tag",
           "weight": 8,
           "expand": true,
-          "name": "nourish:carbohydrates"
+          "name": "nourish:carbohydrates",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
         },
         {
           "type": "tag",
@@ -142,7 +160,7 @@
           "type": "tag",
           "weight": 2,
           "expand": true,
-          "name": "curios:cosmetic_helmet"
+          "name": "fabric:helmets"
         },
         {
           "type": "tag",

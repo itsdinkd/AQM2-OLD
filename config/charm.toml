@@ -41,7 +41,7 @@
 #Chickens randomly drop feathers.
 "ChickensDropFeathers Enabled" = true
 #Add amethyst shards to item frames to make them invisible.
-"ClearItemFrames Enabled" = true
+"ClearItemFrames Enabled" = false
 #Tools with the Collection enchantment automatically pick up drops.
 "CollectionEnchantment Enabled" = false
 #Allows bundles to be dyed.

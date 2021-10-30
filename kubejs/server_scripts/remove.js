@@ -29,10 +29,10 @@ events.listen("recipes", function (event) {
   event.remove({output: 'simplegrinder:mash_potato'});
   event.remove({output: 'simplegrinder:mash_carrot'});
 
-  // Remove Fast ass quarry markers
-  event.remove({output: 'quarryplus:flex_marker'});
-  event.remove({output: 'quarryplus:marker16'});
-  event.remove({output: 'quarryplus:remove_bedrock_module'});
+  // Remove Fast ass quarry markers [mod removed 2.9.3]
+  // event.remove({output: 'quarryplus:flex_marker'});
+  // event.remove({output: 'quarryplus:marker16'});
+  // event.remove({output: 'quarryplus:remove_bedrock_module'});
 
   // Night vision (Since Phantom is enabled, this is too OP)
   event.remove({output: 'agape_space:enhanced_helmet'});
@@ -42,7 +42,7 @@ events.listen("recipes", function (event) {
 
   // Stripminer removal (due to bug)
   event.remove({output: 'blast:stripminer'});
-
+  event.remove({output: 'blast:cold_digger'});
   // Doom
 
   // Tools

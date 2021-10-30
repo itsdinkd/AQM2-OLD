@@ -103,8 +103,8 @@
 		"holidayDrops": {
 			"drop": true,
 			"requirePlayer": true,
-			"standardChance": 0.009999999776482582,
-			"creativeFlightChance": 0.0029999997932463884,
+			"standardChance": 0.000001999776482582,
+			"creativeFlightChance": 0.0,
 			"lootingMultiplier": 0.004999999888241291
 		},
 		"enderdragonDropsHeartOfTheSky": false

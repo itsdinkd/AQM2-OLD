@@ -11,7 +11,13 @@
     "sampleSpaceModifierComment": "biomeSize * sampleSpaceModifier = sampleSpace. Lowering this value will increase search accuracy but will make the process more resource intensive.",
     "sampleSpaceModifier": 16,
     "biomeBlacklistComment": "A list of biomes that the compass will not be able to search for, specified by resource location. The wildcard character * can be used to match any number of characters, and ? can be used to match one character. Ex (ignore backslashes): [\"minecraft:savanna\", \"minecraft:desert\", \"minecraft:*ocean*\"]",
-    "biomeBlacklist": []
+    "biomeBlacklist": [
+      "appliedenergistics2:spatial_storage",
+      "dimdoors:black_void",
+      "dimdoors:dangerous_black_void",
+      "dimdoors:white_void",
+      "dimdoors:limbo"
+    ]
   },
   "client": {
     "displayWithChatOpenComment": "Displays Nature's Compass information even while chat is open.",
@@ -21,6 +27,6 @@
     "overlayLineOffsetComment": "The line offset for information rendered on the HUD.",
     "overlayLineOffset": 1,
     "overlaySideComment": "The side for information rendered on the HUD. Ex: LEFT, RIGHT",
-    "overlaySide": "RIGHT"
+    "overlaySide": "LEFT"
   }
 }

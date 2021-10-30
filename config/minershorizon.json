@@ -3,65 +3,65 @@
   "zone2Start": 60,
   "zone3Start": 30,
   "zone1HardnessModifier": 3,
-  "zone2HardnessModifier": 6,
-  "zone3HardnessModifier": 12,
+  "zone2HardnessModifier": 9,
+  "zone3HardnessModifier": 20,
   "zone1StoneDarkness": 40,
   "zone2StoneDarkness": 60,
   "zone3StoneDarkness": 86,
   "worldMidHeight": 200,
-  "enableMineshafts": true,
-  "enableLakes": true,
-  "enableCaves": true,
-  "enableCanyons": true,
+  "enableMineshafts": false,
+  "enableLakes": false,
+  "enableCaves": false,
+  "enableCanyons": false,
   "oreConfigList": [
     {
       "block": "minecraft:coal_ore",
       "size": 17,
-      "count": 30,
+      "count": 20,
       "minY": 100,
-      "maxY": 255
+      "maxY": 170
     },
     {
       "block": "gobber2:gobber2_lucky_block",
       "size": 1,
-      "count": 20,
+      "count": 10,
       "minY": 100,
-      "maxY": 255
+      "maxY": 170
     },
     {
       "block": "minecraft:iron_ore",
       "size": 9,
-      "count": 30,
+      "count": 20,
       "minY": 100,
-      "maxY": 255
+      "maxY": 170
     },
     {
       "block": "techreborn:tin_ore",
       "size": 9,
-      "count": 16,
+      "count": 9,
       "minY": 100,
-      "maxY": 255
+      "maxY": 170
     },
     {
       "block": "techreborn:galena_ore",
       "size": 9,
-      "count": 16,
+      "count": 9,
       "minY": 100,
-      "maxY": 255
+      "maxY": 170
     },
     {
       "block": "bewitchment:salt_ore",
       "size": 7,
-      "count": 24,
+      "count": 9,
       "minY": 100,
-      "maxY": 255
+      "maxY": 170
     },
     {
       "block": "valley:mixed_ore",
       "size": 6,
-      "count": 25,
+      "count": 16,
       "minY": 100,
-      "maxY": 255
+      "maxY": 170
     },
     {
       "block": "minecraft:gold_ore",
@@ -163,7 +163,7 @@
     },
     {
       "block": "gobber2:gobber2_ore",
-      "size": 1,
+      "size": 2,
       "count": 1,
       "minY": 70,
       "maxY": 100
@@ -173,6 +173,13 @@
       "size": 9,
       "count": 4,
       "minY": 30,
+      "maxY": 60
+    },
+    {
+      "block": "appliedenergistics2:sky_stone_block",
+      "size": 3,
+      "count": 10,
+      "minY": 0,
       "maxY": 60
     },
     {
@@ -208,49 +215,49 @@
       "size": 4,
       "count": 3,
       "minY": 30,
-      "maxY": 70
+      "maxY": 60
     },
     {
       "block": "techreborn:ruby_ore",
       "size": 6,
       "count": 4,
       "minY": 30,
-      "maxY": 70
+      "maxY": 60
     },
     {
       "block": "techreborn:sapphire_ore",
       "size": 6,
       "count": 4,
       "minY": 30,
-      "maxY": 70
+      "maxY": 60
     },
     {
       "block": "techreborn:iridium_ore",
-      "size": 3,
+      "size": 2,
       "count": 2,
       "minY": 30,
-      "maxY": 70
+      "maxY": 60
     },
     {
       "block": "indrev:nikolite_ore",
       "size": 3,
       "count": 2,
       "minY": 30,
-      "maxY": 70
+      "maxY": 60
     },
     {
       "block": "things:gleaming_ore",
       "size": 3,
       "count": 2,
       "minY": 30,
-      "maxY": 70
+      "maxY": 60
     },
     {
       "block": "gobber2:gobber2_ore",
       "size": 2,
       "count": 2,
       "minY": 30,
-      "maxY": 70
+      "maxY": 60
     },
     {
       "block": "minecraft:gold_ore",

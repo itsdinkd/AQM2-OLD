@@ -236,7 +236,7 @@
           "type": "tag",
           "weight": 2,
           "expand": true,
-          "name": "curios:cosmetic_helmet"
+          "name": "fabric:helmets"
         },
         {
           "type": "tag",
