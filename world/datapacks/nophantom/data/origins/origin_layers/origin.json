@@ -1,0 +1,17 @@
+{
+  "replace": true,
+  "origins": [
+	"libra:libra",
+	"libra:libra_arachnid",
+	"libra:libra_avian",
+	"libra:libra_elytrian",
+	"libra:libra_enderian",
+	"libra:libra_feline",
+	"libra:libra_human",
+	"libra:libra_merling",
+	"libra:libra_shulk",
+	"libra:wolf",
+	"libra:libra_wolf",
+	"libra:refractor"
+  ]
+}

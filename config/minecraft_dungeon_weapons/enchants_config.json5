@@ -48,5 +48,7 @@
   "anima": true,
   "soul_siphon": true,
   "enable_op_mixing": false,
-  "fuse_shot": true
+  "fuse_shot": true,
+  "cobweb_shot": true,
+  "phantoms_mark": false
 }

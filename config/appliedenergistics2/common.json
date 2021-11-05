@@ -3,8 +3,8 @@
     "__comment": "Enables the ability of Tiny TNT to break blocks.",
     "removeCrashingItemsOnLoad": false,
     "unsupportedDeveloperTools": false,
-    "matterCannonBlockDamage": true,
-    "tinyTntBlockDamage": true
+    "matterCannonBlockDamage": false,
+    "tinyTntBlockDamage": false
   },
   "automation": {
     "formationPlaneEntityLimit": 128
@@ -20,7 +20,7 @@
     "__comment": "Enable the recipes for disassembling storage cells and crafting units.",
     "inWorldSingularity": true,
     "inWorldFluix": true,
-    "inWorldPurification": true,
+    "inWorldCrystalGrowth": true,
     "disassemblyCrafting": true
   },
   "spatialio": {
@@ -48,8 +48,7 @@
     "spawnChargedChance": 0.08,
     "generateMeteorites": true,
     "__comment": "Biome IDs in which quartz ores should NOT be generated (i.e. minecraft:plains).",
-    "meteoriteBiomeBlacklist": [
-    ],
+    "meteoriteBiomeBlacklist": [],
     "spawnPressesInMeteorites": true,
     "generateQuartzOre": true,
     "quartzOresPerCluster": 4,
@@ -114,7 +113,7 @@
     "PressureTunnelMin": 1,
     "PressureTunnelMax": 120
   },
-  "inWorldPurification": {
+  "inWorldCrystalGrowth": {
     "__comment": "The speed multiplier to use when the crystals are submerged in the improved fluid.",
     "improvedFluidTag": "",
     "improvedFluidMultiplier": 2.0

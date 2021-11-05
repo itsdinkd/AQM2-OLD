@@ -13,5 +13,6 @@
 	},
 	"order": 1,
 	"impact": 3,
-	"unchoosable": true
+	"unchoosable": true,
+	"loading_priority": 100
 }

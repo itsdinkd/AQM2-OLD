@@ -14,7 +14,7 @@
 	"enableRingDismissal": true,
 	"enableRingEnderchest": true,
 	"enableRingExplorer": true,
-	"enableRingFarmer": true,
+	"enableRingFarmer": false,
 	"enableRingHaste": true,
 	"enableRingMiner": true,
 	"enableRingPhoenix": true,
@@ -80,7 +80,7 @@
 	"ringDismissalRange": 8.0,
 	"ringDismissalVelocity": 0.2,
 	"ringDismissalLift": 1.5,
-	"ringTravelerLaunch": 3.2,
+	"ringTravelerLaunch": 3.0,
 	"ringTravelerCruising": 0.3,
 	/* 
 	   
@@ -111,7 +111,7 @@
 	   ***********************
 	*/
 	"staffTransformationDurability": 825,
-	"staffClearingRange": 11,
+	"staffClearingRange": 7,
 	"staffSniperCooldown": 200,
 	"staffFarmerHorizRange": 12,
 	"staffFarmerVertRange": 6,

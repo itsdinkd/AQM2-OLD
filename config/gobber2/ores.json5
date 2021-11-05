@@ -18,7 +18,7 @@
 	"netherGobberEnable": true,
 	"netherGobberVeinSize": 4,
 	"netherGobberMaxLevel": 120,
-	"netherGobberPerChunk": 16,
+	"netherGobberPerChunk": 15,
 	/* 
 	   
 	   ***********************
@@ -36,9 +36,24 @@
 	   ***********************
 	*/
 	"luckyEnable": true,
-	"luckyVeinSize": 4,
+	"luckyVeinSize": 2,
 	"luckyMaxLevel": 120,
-	"luckyPerChunk": 15,
-	"enableExtraLoot": true,
-	"enableFortune": true
+	"luckyPerChunk": 12,
+	/* 
+	   
+	   ***********************
+	   Lucky Block - Drops
+	   - only use values between .01 to .99
+	   - values cannot overlap
+	   - values should be in decending order from
+	   cutoff, common, uncommon, and rare
+	   - values above cutoff threshold get nothing
+	   ***********************
+	*/
+	"enableExtraLoot": false,
+	"enableFortune": true,
+	"cutoffThreshold": 0.2,
+	"commonThreshold": 0.1,
+	"uncommonThreshold": 0.04,
+	"rareThreshold": 0.01
 }

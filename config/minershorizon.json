@@ -2,9 +2,9 @@
   "zone1Start": 100,
   "zone2Start": 60,
   "zone3Start": 30,
-  "zone1HardnessModifier": 3,
-  "zone2HardnessModifier": 9,
-  "zone3HardnessModifier": 20,
+  "zone1HardnessModifier": 5,
+  "zone2HardnessModifier": 10,
+  "zone3HardnessModifier": 25,
   "zone1StoneDarkness": 40,
   "zone2StoneDarkness": 60,
   "zone3StoneDarkness": 86,
@@ -233,14 +233,14 @@
     },
     {
       "block": "techreborn:iridium_ore",
-      "size": 2,
+      "size": 1,
       "count": 2,
       "minY": 30,
       "maxY": 60
     },
     {
       "block": "indrev:nikolite_ore",
-      "size": 3,
+      "size": 2,
       "count": 2,
       "minY": 30,
       "maxY": 60
@@ -296,8 +296,8 @@
     },
     {
       "block": "indrev:nikolite_ore",
-      "size": 6,
-      "count": 4,
+      "size": 3,
+      "count": 3,
       "minY": 0,
       "maxY": 30
     },
@@ -317,8 +317,8 @@
     },
     {
       "block": "techreborn:iridium_ore",
-      "size": 6,
-      "count": 4,
+      "size": 3,
+      "count": 3,
       "minY": 0,
       "maxY": 30
     },

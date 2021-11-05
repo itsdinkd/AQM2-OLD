@@ -8,9 +8,9 @@
   //Starting attack stat (generic.attack_damage) of spawned Tower Guardian entities.
   "bossAttack": 28,
   //Maximum distance, in chunks, between Battle Tower spawn attempts.
-  "towerSpacing": 46,
+  "towerSpacing": 62,
   //Minimum distance, in chunks, between Battle Tower spawn attempts.
-  "towerSeparation": 28,
+  "towerSeparation": 32,
   //Maximum height for towers to generate at to avoid clipping at 256.
   "maxHeight": 150
 }

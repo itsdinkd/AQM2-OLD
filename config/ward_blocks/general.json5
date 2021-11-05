@@ -14,19 +14,11 @@
 	/* 
 	   
 	   ***********************
-	   Exp Ward
-	   ***********************
-	*/
-	"expRadius": 9,
-	"expLevel": 1,
-	/* 
-	   
-	   ***********************
 	   Growth Ward
 	   ***********************
 	*/
-	"growthHoriz": 10,
-	"growthHeight": 5,
+	"growthHorizRadius": 8,
+	"growthVertRadius": 4,
 	"baseTickDelay": 70,
 	"cactusTickDelay": 20,
 	/* 
@@ -35,18 +27,21 @@
 	   Health Ward
 	   ***********************
 	*/
-	"healthRadius": 10,
+	"healthHorizRadius": 8,
+	"healthVertRadius": 4,
 	"healthLevel": 0,
 	"enableYellowHearts": true,
-	"healthYellowHearts": 10.0,
-	"effectTickInterval": 14,
+	"healthYellowHearts": 6.0,
+	"yellowHeartDelay": 20,
+	"effectTickInterval": 20,
 	/* 
 	   
 	   ***********************
 	   Defense Ward
 	   ***********************
 	*/
-	"defenseRadius": 12,
+	"defenseHorizRadius": 8,
+	"defenseVertRadius": 6,
 	"defenseLevel": 1,
 	/* 
 	   
@@ -54,14 +49,32 @@
 	   Attack Ward
 	   ***********************
 	*/
-	"attackRadius": 16,
+	"attackHorizRadius": 8,
+	"attackVertRadius": 6,
 	"damageAmount": 3,
+	/* 
+	   
+	   ***********************
+	   Exp Ward
+	   ***********************
+	*/
+	"expHorizRadius": 6,
+	"expVertRadius": 4,
+	"expLevel": 1,
 	/* 
 	   
 	   ***********************
 	   Loot Ward
 	   ***********************
 	*/
-	"lootRadius": 16,
-	"skipNamedEndermite": false
+	"lootHorizRadius": 10,
+	"lootVertRadius": 4,
+	"skipNamedEndermite": false,
+	/* 
+	   
+	   ***********************
+	   Additional Mobs
+	   ***********************
+	*/
+	"firstAdditional": "minecraft:sheep"
 }

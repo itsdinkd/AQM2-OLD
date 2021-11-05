@@ -12,8 +12,8 @@
     "minecraft:mossy_stone_brick_wall[east=low,west=low,north=none,up=true,south=none,waterlogged=false]"
   ],
   "isProtected": true,
-  "protectionTime": 1728000,
-  "breakingTime": 5184000,
+  "protectionTime": 86400,
+  "breakingTime": 172800,
   "breakEmptyGraves": true,
   "xpStorageType": "percent_points",
   "xpPercentTypeValue": 80.0,

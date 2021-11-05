@@ -29,6 +29,12 @@
 	*/
 	"ReplaceVanillaWorldgenChests": true,
 	"ReplaceVanillaWorldgenChestsDimensionsBlacklist": [
-		"spectrum:deeper_down"
+		"spectrum:deeper_down",
+		"voidz:void",
+		"dimdoors:limbo",
+		"dimdoors:dungeon_pockets",
+		"dimdoors:personal_pockets",
+		"dimdoors:public_pockets",
+		"appliedenergistics2:spatial_storage"
 	]
 }

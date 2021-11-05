@@ -5,6 +5,12 @@
   "mcdw:gauntlet_soul_fists": {
     "mcdw:enigma_resonator": 1
   },
+  "mcdw:bow_web_bow": {
+    "mcdw:cobweb_shot": 1
+  },
+  "mcdw:spear_cackling_broom": {
+    "mcdw:smiting": 1
+  },
   "mcdw:bow_red_snake": {
     "mcdw:fuse_shot": 1
   },
@@ -33,7 +39,7 @@
     "mcdw:jungle_poison": 1
   },
   "mcdw:hammer_stormlander": {
-    "mcdw:thundering": 0
+    "mcdw:thundering": 1
   },
   "mcdw:crossbow_lightning_harp_crossbow": {
     "mcdw:ricochet": 1,
@@ -85,9 +91,9 @@
   "mcdw:staff_growing_staff": {
     "mcdw:committed": 1
   },
-  "mcdw:sword_sinister": { 
-   "mcdw:critical_hit": 1
-  }, 
+  "mcdw:sword_sinister": {
+    "mcdw:critical_hit": 1
+  },
   "mcdw:dagger_swift_striker": {
     "mcdw:echo": 1,
     "mcdw:ambush": 1
@@ -96,11 +102,11 @@
     "minecraft:looting": 1
   },
   "mcdw:bow_call_of_the_void": {
-    "mcdw:void_shot": 0,
+    "mcdw:void_shot": 1,
     "mcdw:fuse_shot": 1
   },
   "mcdw:bow_void_bow": {
-    "mcdw:ambush": 1
+    "mcdw:void_shot": 1
   },
   "mcdw:sickle_last_laugh_gold": {
     "mcdw:prospector": 1
@@ -108,8 +114,12 @@
   "mcdw:crossbow_imploding_crossbow": {
     "mcdw:gravity": 1
   },
+  "mcdw:bow_phantom_bow": {
+    "mcdw:phantoms_mark": 0,
+    "minecraft:power": 1
+  },
   "mcdw:dagger_the_end": {
-    "mcdw:void_strike": 0
+    "mcdw:void_strike": 1
   },
   "mcdw:bow_bonebow": {
     "mcdw:growing": 1
@@ -195,6 +205,9 @@
   "mcdw:dagger_fangs_of_frost": {
     "mcdw:freezing": 1
   },
+  "mcdw:sickle_skull_scythe": {
+    "mcdw:freezing": 1
+  },
   "mcdw:bow_masters_bow": {
     "minecraft:power": 1
   },
@@ -235,7 +248,7 @@
     "mcdw:prospector": 1
   },
   "mcdw:dagger_void_touched_blade": {
-    "mcdw:void_strike": 0
+    "mcdw:void_strike": 1
   },
   "mcdw:sickle_frost_scythe": {
     "mcdw:freezing": 1

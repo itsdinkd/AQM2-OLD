@@ -26,6 +26,14 @@ events.listen("recipes", function (event) {
     ["minecraft:white_wool",    "minecraft:water_bucket", "minecraft:white_wool"],
   ]);
 
+  event.remove({ output: "prefab:item_starter_farm" });
+  event.shaped(item.of("prefab:item_starter_farm"), [
+    ["minecraft:wheat_seeds",  "croptopia:corn_seed",                                   "minecraft:wheat_seeds"],
+    ["prefab:item_bundle_of_timber", "prefab:block_compressed_dirt",                      "prefab:item_bundle_of_timber"],
+    ["minecraft:white_wool",    "minecraft:water_bucket", "minecraft:white_wool"],
+  ]);
+
+
   // Moderate Farm
   event.remove({ output: "prefab:item_moderate_farm" });
   event.shaped(item.of("prefab:item_moderate_farm"), [
@@ -42,7 +50,12 @@ events.listen("recipes", function (event) {
     ["minecraft:item_coil_of_lanterns",    "inmis:withered_backpack", "prefab:item_pallet_of_bricks"],
   ]);
 
-
+  //snowblock to ice -> packed ice -> blue ice
+  event.shaped(item.of("minecraft:ice"), [
+    ["minecraft:snow_block",  "minecraft:snow_block",                                   "minecraft:snow_block"],
+    ["minecraft:snow_block", "minecraft:snow_block",                      "minecraft:snow_block"],
+    ["minecraft:snow_block",    "minecraft:snow_block", "minecraft:snow_block"],
+  ]);
 
   // event.replaceInput({ id: ""}, "", "");
 
@@ -80,7 +93,7 @@ events.listen("recipes", function (event) {
   // Gobber Vision Ring
   event.remove({ output: "gobber2:gobber2_ring_vision" });
   event.shaped(item.of("gobber2:gobber2_ring_vision"), [
-   ['bewitchment:demon_heart',            "indrev:netherite_scrap_purified_ore", 'artofalchemy:materia_omega'],
+   ['bewitchment:demon_heart',            "indrev:netherite_scrap_purified_ore", "magicfungi:magical_fungi_alloy"],
    ["gobber2:dragon_star", "gobber2:gobber2_ring_end",                             "gobber2:dragon_star"],
    ['bewitchment:demon_horn',            "indrev:netherite_scrap_purified_ore", 'bewitchment:harbinger'],
  ]);
@@ -325,13 +338,6 @@ events.listen("recipes", function (event) {
   event.replaceInput(
     { id: "bewitchment:juniper_broom" },
     "bewitchment:juniper_log",
-    "artofalchemy:materia_omega"
-  );
-
-  // Juniper Brooms pt2
-  event.replaceInput(
-    { id: "bewitchment:juniper_broom" },
-    "bewitchment:demon_heart",
     "dml-refabricated:glitch_ingot"
   );
 
@@ -339,13 +345,6 @@ events.listen("recipes", function (event) {
   event.replaceInput(
     { id: "bewitchment:cypress_broom" },
     "bewitchment:cypress_log",
-    "artofalchemy:materia_omega"
-  );
-
-  // Cypress Brooms pt2
-  event.replaceInput(
-    { id: "bewitchment:cypress_broom" },
-    "bewitchment:demon_heart",
     "dml-refabricated:glitch_ingot"
   );
 
@@ -353,13 +352,6 @@ events.listen("recipes", function (event) {
   event.replaceInput(
     { id: "bewitchment:elder_broom" },
     "bewitchment:elder_log",
-    "artofalchemy:materia_omega"
-  );
-
-  // Elder Broom pt2
-  event.replaceInput(
-    { id: "bewitchment:elder_broom" },
-    "bewitchment:demon_heart",
     "dml-refabricated:glitch_ingot"
   );
 
@@ -367,13 +359,6 @@ events.listen("recipes", function (event) {
   event.replaceInput(
     { id: "bewitchment:dragons_blood_broom" },
     "bewitchment:dragons_blood_log",
-    "artofalchemy:materia_omega"
-  );
-
-  // Dragon Blood Broom
-  event.replaceInput(
-    { id: "bewitchment:dragons_blood_broom" },
-    "bewitchment:demon_heart",
     "dml-refabricated:glitch_ingot"
   );
 
@@ -444,19 +429,22 @@ events.listen("recipes", function (event) {
     "gobber2:gobber2_ingot_nether"
   );
 
-  // dim doors - stab rift sig
-  event.replaceInput(
-    { id: "dimdoors:stablized_rift_signature" },
-    "minecraft:iron_ingot",
-    "gobber2:gobber2_rod_nether"
-  );
+
+  // Dim Doors - stab  rift signature
+  event.remove({ output: "dimdoors:stabilized_rift_signature" });
+  event.shaped(item.of("dimdoors:stabilized_rift_signature"), [
+    ["",  "gobber2:gobber2_rod_end",                                   ""],
+    ["gobber2:gobber2_rod_end", "dimdoors:rift_signature",                      "gobber2:gobber2_rod_end"],
+    ["",    "gobber2:gobber2_rod_end", ""],
+  ]);
 
   // dim doors - rift sig
-  event.replaceInput(
-    { id: "dimdoors:rift_signature" },
-    "minecraft:ender_pearl",
-    "gobber2:gobber2_rod_nether"
-  );
+  event.remove({ output: "dimdoors:rift_signature" });
+  event.shaped(item.of("dimdoors:rift_signature"), [
+    ["",  "gobber2:gobber2_rod_nether",                                   ""],
+    ["gobber2:gobber2_rod_nether", "dimdoors:stable_fabric",                      "gobber2:gobber2_rod_nether"],
+    ["",    "gobber2:gobber2_rod_nether", ""],
+  ]);
 
 
 

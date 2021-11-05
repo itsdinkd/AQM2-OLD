@@ -26,7 +26,7 @@
 		// Should Lunge be enabled? (Restart Required)
 		"enableLunge": true,
 		// Should Dream Warp be enabled? (Restart Required)
-		"enableDreamWarp": true,
+		"enableDreamWarp": false,
 		// Should Magic Missile be enabled? (Restart Required)
 		"enableMagicMissile": true,
 		// Should Telekinetic Shock be enabled? (Restart Required)
@@ -42,21 +42,21 @@
 		// The Mana costs for all the spells.
 		"manaCosts": {
 			// The Mana cost for the Lunge spell.
-			"lungeCastingCost": 7,
+			"lungeCastingCost": 5,
 			// The Mana cost for the Dream Warp spell.
 			"dreamWarpCastingCost": 15,
 			// The Mana cost for the Magic Missile spell.
-			"magicMissileCastingCost": 5,
+			"magicMissileCastingCost": 4,
 			// The Mana cost for the Telekinetic Shock spell.
-			"telekinesisCastingCost": 6,
+			"telekinesisCastingCost": 5,
 			// The Mana cost for the Heal spell.
-			"healCastingCost": 14,
+			"healCastingCost": 10,
 			// The Mana cost for the Discombobulate spell.
-			"discombobulateCastingCost": 16,
+			"discombobulateCastingCost": 10,
 			// The Mana cost for the Solar Strike spell.
-			"solarStrikeCastingCost": 22,
+			"solarStrikeCastingCost": 27,
 			// The Mana cost for the Arcane Barrier spell.
-			"arcaneBarrierCastingCost": 7
+			"arcaneBarrierCastingCost": 4
 		}
 	},
 	/* A list of structure paths that have Bookshelves to be replaced

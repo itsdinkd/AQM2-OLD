@@ -9,16 +9,16 @@
     "crucible_marauder_max_damage": 5,
     "enable_block_breaking": false,
     "enable_noncenter": false,
-    "argent_bolt_damage": 12.5,
+    "argent_bolt_damage": 14.0,
     "bfgball_damage": 80.0,
     "bfgball_damage_dragon": 30.0,
     "bfgball_damage_aoe": 5.0,
-    "bullet_damage": 3.3,
-    "chaingun_bullet_damage": 2.9,
-    "energycell_damage": 1.2,
+    "bullet_damage": 3.6,
+    "chaingun_bullet_damage": 3.2,
+    "energycell_damage": 1.4,
     "rocket_damage": 15.0,
-    "shotgun_damage": 12.9,
-    "unmaykr_damage": 1.6
+    "shotgun_damage": 13.5,
+    "unmaykr_damage": 1.7
   },
   "spawn": {
     "imp_biomes": [
