@@ -1,6 +1,21 @@
 {
   "replace": false,
   "values": [
-	"minecraft:wooden_shovel"
+  "minecraft:wooden_shovel",
+  "doom:axe_marauder_open",
+  "minecraft:elytra",
+  "kibe:blue_glider",
+  "gobber2:gobber2_staff_transformation",
+  "resourceful_tools:diamond_crack_hammer",
+  "resourceful_tools:crack_hammer",
+  "resourceful_tools:hook_knife",
+  "resourceful_tools:hook_knife_copper",
+  "resourceful_tools:tree_trimmer",
+  "resourceful_tools:tree_trimmer_copper",
+  "resourceful_tools:hand_tiller",
+  "resourceful_tools:clam_digger",
+  "resourceful_tools:hand_pick",
+  "resourceful_tools:glass_placer"
+
   ]
 }
