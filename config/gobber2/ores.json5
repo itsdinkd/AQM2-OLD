@@ -16,9 +16,9 @@
 	   ***********************
 	*/
 	"netherGobberEnable": true,
-	"netherGobberVeinSize": 4,
+	"netherGobberVeinSize": 3,
 	"netherGobberMaxLevel": 120,
-	"netherGobberPerChunk": 15,
+	"netherGobberPerChunk": 11,
 	/* 
 	   
 	   ***********************
@@ -26,9 +26,9 @@
 	   ***********************
 	*/
 	"endGobberEnable": true,
-	"endGobberVeinSize": 3,
+	"endGobberVeinSize": 2,
 	"endGobberMaxLevel": 180,
-	"endGobberPerChunk": 13,
+	"endGobberPerChunk": 9,
 	/* 
 	   
 	   ***********************
