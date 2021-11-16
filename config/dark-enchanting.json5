@@ -17,8 +17,8 @@
   "configEnchantments": [
     {
       "enchantmentId": "minecraft:silktouch",
-      "discountFactorEnchantment": 0.125,
-      "costFactorEnchantment": 6.0,
+      "discountFactorEnchantment": 0.2,
+      "costFactorEnchantment": 5.0,
       "activated": true
     },
     {

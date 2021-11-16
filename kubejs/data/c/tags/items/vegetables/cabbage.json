@@ -1,6 +1,7 @@
 {
-  "replace": true,
+  "replace": false,
   "values": [
-    "farmersdelight:cabbage"
+    "farmersdelight:cabbage",
+    "croptopia:cabbage"
   ]
 }

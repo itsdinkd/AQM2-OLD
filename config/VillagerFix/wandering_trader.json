@@ -1,0 +1,1466 @@
+[
+  [
+    {
+      "sell": {
+        "id": "minecraft:sea_pickle",
+        "count": 1
+      },
+      "price": 2,
+      "count": 1,
+      "maxUses": 5,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:slime_ball",
+        "count": 1
+      },
+      "price": 4,
+      "count": 1,
+      "maxUses": 5,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:glowstone",
+        "count": 1
+      },
+      "price": 2,
+      "count": 1,
+      "maxUses": 5,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:nautilus_shell",
+        "count": 1
+      },
+      "price": 5,
+      "count": 1,
+      "maxUses": 5,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:fern",
+        "count": 1
+      },
+      "price": 1,
+      "count": 1,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:sugar_cane",
+        "count": 1
+      },
+      "price": 1,
+      "count": 1,
+      "maxUses": 8,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:pumpkin",
+        "count": 1
+      },
+      "price": 1,
+      "count": 1,
+      "maxUses": 4,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:kelp",
+        "count": 1
+      },
+      "price": 3,
+      "count": 1,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:cactus",
+        "count": 1
+      },
+      "price": 3,
+      "count": 1,
+      "maxUses": 8,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:dandelion",
+        "count": 1
+      },
+      "price": 1,
+      "count": 1,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:poppy",
+        "count": 1
+      },
+      "price": 1,
+      "count": 1,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:blue_orchid",
+        "count": 1
+      },
+      "price": 1,
+      "count": 1,
+      "maxUses": 8,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:allium",
+        "count": 1
+      },
+      "price": 1,
+      "count": 1,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:azure_bluet",
+        "count": 1
+      },
+      "price": 1,
+      "count": 1,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:red_tulip",
+        "count": 1
+      },
+      "price": 1,
+      "count": 1,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:orange_tulip",
+        "count": 1
+      },
+      "price": 1,
+      "count": 1,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:white_tulip",
+        "count": 1
+      },
+      "price": 1,
+      "count": 1,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:pink_tulip",
+        "count": 1
+      },
+      "price": 1,
+      "count": 1,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:oxeye_daisy",
+        "count": 1
+      },
+      "price": 1,
+      "count": 1,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:cornflower",
+        "count": 1
+      },
+      "price": 1,
+      "count": 1,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:lily_of_the_valley",
+        "count": 1
+      },
+      "price": 1,
+      "count": 1,
+      "maxUses": 7,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:wheat_seeds",
+        "count": 1
+      },
+      "price": 1,
+      "count": 1,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:beetroot_seeds",
+        "count": 1
+      },
+      "price": 1,
+      "count": 1,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:pumpkin_seeds",
+        "count": 1
+      },
+      "price": 1,
+      "count": 1,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:melon_seeds",
+        "count": 1
+      },
+      "price": 1,
+      "count": 1,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:acacia_sapling",
+        "count": 1
+      },
+      "price": 5,
+      "count": 1,
+      "maxUses": 8,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:birch_sapling",
+        "count": 1
+      },
+      "price": 5,
+      "count": 1,
+      "maxUses": 8,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:dark_oak_sapling",
+        "count": 1
+      },
+      "price": 5,
+      "count": 1,
+      "maxUses": 8,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:jungle_sapling",
+        "count": 1
+      },
+      "price": 5,
+      "count": 1,
+      "maxUses": 8,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:oak_sapling",
+        "count": 1
+      },
+      "price": 5,
+      "count": 1,
+      "maxUses": 8,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:spruce_sapling",
+        "count": 1
+      },
+      "price": 5,
+      "count": 1,
+      "maxUses": 8,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:red_dye",
+        "count": 1
+      },
+      "price": 1,
+      "count": 3,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:white_dye",
+        "count": 1
+      },
+      "price": 1,
+      "count": 3,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:blue_dye",
+        "count": 1
+      },
+      "price": 1,
+      "count": 3,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:pink_dye",
+        "count": 1
+      },
+      "price": 1,
+      "count": 3,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:black_dye",
+        "count": 1
+      },
+      "price": 1,
+      "count": 3,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:green_dye",
+        "count": 1
+      },
+      "price": 1,
+      "count": 3,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:light_gray_dye",
+        "count": 1
+      },
+      "price": 1,
+      "count": 3,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:magenta_dye",
+        "count": 1
+      },
+      "price": 1,
+      "count": 3,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:yellow_dye",
+        "count": 1
+      },
+      "price": 1,
+      "count": 3,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:gray_dye",
+        "count": 1
+      },
+      "price": 1,
+      "count": 3,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:purple_dye",
+        "count": 1
+      },
+      "price": 1,
+      "count": 3,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:light_blue_dye",
+        "count": 1
+      },
+      "price": 1,
+      "count": 3,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:lime_dye",
+        "count": 1
+      },
+      "price": 1,
+      "count": 3,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:orange_dye",
+        "count": 1
+      },
+      "price": 1,
+      "count": 3,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:brown_dye",
+        "count": 1
+      },
+      "price": 1,
+      "count": 3,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:cyan_dye",
+        "count": 1
+      },
+      "price": 1,
+      "count": 3,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:brain_coral_block",
+        "count": 1
+      },
+      "price": 3,
+      "count": 1,
+      "maxUses": 8,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:bubble_coral_block",
+        "count": 1
+      },
+      "price": 3,
+      "count": 1,
+      "maxUses": 8,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:fire_coral_block",
+        "count": 1
+      },
+      "price": 3,
+      "count": 1,
+      "maxUses": 8,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:horn_coral_block",
+        "count": 1
+      },
+      "price": 3,
+      "count": 1,
+      "maxUses": 8,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:tube_coral_block",
+        "count": 1
+      },
+      "price": 3,
+      "count": 1,
+      "maxUses": 8,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:vine",
+        "count": 1
+      },
+      "price": 1,
+      "count": 1,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:brown_mushroom",
+        "count": 1
+      },
+      "price": 1,
+      "count": 1,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:red_mushroom",
+        "count": 1
+      },
+      "price": 1,
+      "count": 1,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:lily_pad",
+        "count": 1
+      },
+      "price": 1,
+      "count": 2,
+      "maxUses": 5,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:small_dripleaf",
+        "count": 1
+      },
+      "price": 1,
+      "count": 2,
+      "maxUses": 5,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:sand",
+        "count": 1
+      },
+      "price": 1,
+      "count": 8,
+      "maxUses": 8,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:red_sand",
+        "count": 1
+      },
+      "price": 1,
+      "count": 4,
+      "maxUses": 6,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:pointed_dripstone",
+        "count": 1
+      },
+      "price": 1,
+      "count": 2,
+      "maxUses": 5,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:rooted_dirt",
+        "count": 1
+      },
+      "price": 1,
+      "count": 2,
+      "maxUses": 5,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:moss_block",
+        "count": 1
+      },
+      "price": 1,
+      "count": 2,
+      "maxUses": 5,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sapling": {
+        "id": "blockus:white_oak_sapling",
+        "count": 1
+      },
+      "type": "SellSaplingFactory"
+    },
+    {
+      "type": "StructureMapForEmeraldsTrade"
+    },
+    {
+      "type": "StructureMapForEmeraldsTrade"
+    },
+    {
+      "type": "StructureMapForEmeraldsTrade"
+    },
+    {
+      "type": "GolemsGalore$$Lambda$6556/0x0000000801e7ecb0"
+    },
+    {
+      "trade": {
+        "firstBuyItem": {
+          "id": "minecraft:emerald",
+          "count": 64
+        },
+        "secondBuyItem": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "sellItem": {
+          "id": "mcda:entertainer_garb_helmet",
+          "count": 1,
+          "tag": "{Damage:0}"
+        },
+        "uses": 0,
+        "maxUses": 1,
+        "rewardingPlayerExperience": true,
+        "specialPrice": 0,
+        "demandBonus": 0,
+        "priceMultiplier": 0.0,
+        "merchantExperience": 2,
+        "disabled": false
+      },
+      "type": "BasicTradeFactory"
+    },
+    {
+      "trade": {
+        "firstBuyItem": {
+          "id": "minecraft:emerald",
+          "count": 64
+        },
+        "secondBuyItem": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "sellItem": {
+          "id": "mcda:entertainer_garb_chestplate",
+          "count": 1,
+          "tag": "{Damage:0}"
+        },
+        "uses": 0,
+        "maxUses": 1,
+        "rewardingPlayerExperience": true,
+        "specialPrice": 0,
+        "demandBonus": 0,
+        "priceMultiplier": 0.0,
+        "merchantExperience": 2,
+        "disabled": false
+      },
+      "type": "BasicTradeFactory"
+    },
+    {
+      "trade": {
+        "firstBuyItem": {
+          "id": "minecraft:emerald",
+          "count": 64
+        },
+        "secondBuyItem": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "sellItem": {
+          "id": "mcda:entertainer_garb_leggings",
+          "count": 1,
+          "tag": "{Damage:0}"
+        },
+        "uses": 0,
+        "maxUses": 1,
+        "rewardingPlayerExperience": true,
+        "specialPrice": 0,
+        "demandBonus": 0,
+        "priceMultiplier": 0.0,
+        "merchantExperience": 2,
+        "disabled": false
+      },
+      "type": "BasicTradeFactory"
+    },
+    {
+      "trade": {
+        "firstBuyItem": {
+          "id": "minecraft:emerald",
+          "count": 64
+        },
+        "secondBuyItem": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "sellItem": {
+          "id": "mcda:entertainer_garb_boots",
+          "count": 1,
+          "tag": "{Damage:0}"
+        },
+        "uses": 0,
+        "maxUses": 1,
+        "rewardingPlayerExperience": true,
+        "specialPrice": 0,
+        "demandBonus": 0,
+        "priceMultiplier": 0.0,
+        "merchantExperience": 2,
+        "disabled": false
+      },
+      "type": "BasicTradeFactory"
+    },
+    {
+      "sell": {
+        "id": "ratsmischief:rat_mask",
+        "count": 1,
+        "tag": "{Damage:0}"
+      },
+      "price": 40,
+      "count": 1,
+      "maxUses": 3,
+      "experience": 40,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    }
+  ],
+  [
+    {
+      "sell": {
+        "id": "minecraft:tropical_fish_bucket",
+        "count": 1
+      },
+      "price": 5,
+      "count": 1,
+      "maxUses": 4,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:pufferfish_bucket",
+        "count": 1
+      },
+      "price": 5,
+      "count": 1,
+      "maxUses": 4,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:packed_ice",
+        "count": 1
+      },
+      "price": 3,
+      "count": 1,
+      "maxUses": 6,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:blue_ice",
+        "count": 1
+      },
+      "price": 6,
+      "count": 1,
+      "maxUses": 6,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:gunpowder",
+        "count": 1
+      },
+      "price": 1,
+      "count": 1,
+      "maxUses": 8,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:podzol",
+        "count": 1
+      },
+      "price": 3,
+      "count": 3,
+      "maxUses": 6,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "trade": {
+        "firstBuyItem": {
+          "id": "minecraft:emerald",
+          "count": 2
+        },
+        "secondBuyItem": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "sellItem": {
+          "id": "architects_palette:sunstone",
+          "count": 6
+        },
+        "uses": 0,
+        "maxUses": 16,
+        "rewardingPlayerExperience": true,
+        "specialPrice": 0,
+        "demandBonus": 0,
+        "priceMultiplier": 0.0,
+        "merchantExperience": 2,
+        "disabled": false
+      },
+      "type": "BasicTradeFactory"
+    },
+    {
+      "trade": {
+        "firstBuyItem": {
+          "id": "minecraft:emerald",
+          "count": 2
+        },
+        "secondBuyItem": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "sellItem": {
+          "id": "architects_palette:moonstone",
+          "count": 6
+        },
+        "uses": 0,
+        "maxUses": 16,
+        "rewardingPlayerExperience": true,
+        "specialPrice": 0,
+        "demandBonus": 0,
+        "priceMultiplier": 0.0,
+        "merchantExperience": 2,
+        "disabled": false
+      },
+      "type": "BasicTradeFactory"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:artichoke_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:asparagus_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:bellpepper_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:blackbean_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:blackberry_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:blueberry_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:broccoli_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:cabbage_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:cantaloupe_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:cauliflower_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:celery_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:coffee_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:corn_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:cranberry_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:cucumber_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:currant_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:eggplant_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:elderberry_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:garlic_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:grape_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:greenbean_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:greenonion_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:honeydew_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:hops_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:kale_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:kiwi_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:leek_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:lettuce_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:olive_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:onion_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:peanut_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:pineapple_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:radish_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:raspberry_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:rhubarb_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:rice_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:rutabaga_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:saguaro_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:spinach_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:squash_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:strawberry_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:sweetpotato_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:tomatillo_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:tomato_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:turnip_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:yam_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:zucchini_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:mustard_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:chile_pepper_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 2,
+      "arg$2": "croptopia:turmeric_seed",
+      "arg$3": 4,
+      "arg$4": 16,
+      "arg$5": 1,
+      "arg$6": 0.5,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "price": 38,
+      "structure": "repurposed_structures:bastion_underground",
+      "iconType": "BANNER_GRAY",
+      "maxUses": 1,
+      "experience": 100,
+      "type": "SellMapFactory"
+    }
+  ]
+]

@@ -1,6 +1,6 @@
 {
 	"enchantment": {
-		// The rarity of the enchantment
+		// The rarity of the enchantment ("COMMON", "UNCOMMON", "RARE", "VERY_RARE")
 		"rarity": "VERY_RARE",
 		// The number of levels of the enchantment
 		"levels": 3,
@@ -44,7 +44,7 @@
 		"playerExhaustionMultiplier": 120.0,
 		// Whether or not to stop vein mining when the tool can no longer be used
 		"limitedByDurability": true,
-		// Whether to activate vein mining by standing, crouching, or holding down the keybind
+		// Whether to activate vein mining by standing, crouching, or holding down the keybind ("STANDING", "CROUCHING", "KEYBINDING")
 		"activationState": "KEYBINDING",
 		// List of whitelisted/blacklisted blocks or block tags
 		"blocks": [
@@ -135,7 +135,7 @@
 			"pipe:servo",
 			"adorn:trading_station"
 		],
-		// Whether the blocks configuration is a whitelist or a blacklist
+		// Whether the blocks configuration is a whitelist or a blacklist ("WHITELIST", "BLACKLIST")
 		"blocksPermission": "BLACKLIST",
 		// List of groupings by block IDs or block tags, comma-separated
 		"groups": [

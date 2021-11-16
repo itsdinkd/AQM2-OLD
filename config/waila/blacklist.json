@@ -1,0 +1,21 @@
+{
+  "blocks": [
+    "minecraft:barrier",
+    "minecraft:structure_void"
+  ],
+  "blockEntityTypes": [],
+  "entityTypes": [
+    "minecraft:area_effect_cloud",
+    "minecraft:experience_orb",
+    "minecraft:fireball",
+    "minecraft:firework_rocket",
+    "minecraft:snowball",
+    "dimdoors:black_fabric"
+  ],
+  "configVersion": 0,
+  "pluginHash": [
+    1510828157,
+    0,
+    1532117445
+  ]
+}

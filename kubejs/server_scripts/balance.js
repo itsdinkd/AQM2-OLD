@@ -12,9 +12,6 @@ events.listen("recipes", function (event) {
   //   ["",    "", ""],
   // ]);
 
-  // Heart of the Sky (Creative Flight Recipe item requirement)
-  event.remove({ output: "winged:heart_of_the_sky" });
-
   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   // Prefabs Balancing                                                                                                                                      //
 
@@ -72,15 +69,6 @@ events.listen("recipes", function (event) {
     ["techreborn:data_storage_chip",    "techreborn:iridium_neutron_reflector", "techreborn:data_storage_chip"],
   ]);
 
-  // Angel Ring
-  event.remove({ output: "kibe:angel_ring" });
-  event.shaped(item.of("kibe:angel_ring"), [
-    ['bosses_of_mass_destruction:blazing_eye',  'gobber2:gobber2_chestplate_dragon_no_flight',                        'bosses_of_mass_destruction:obsidian_heart'],
-    ['techreborn:interdimensional_su', 'bosses_of_mass_destruction:ancient_anima', 'techreborn:interdimensional_su'],
-    ['techreborn:iridium_neutron_reflector',          'dml-refabricated:glitch_ingot',    'minecraft:dragon_breath'],
-  ]);
-
-
   // Light Ring
   event.remove({ output: "kibe:light_ring" });
   event.shaped(item.of("kibe:light_ring"), [
@@ -99,12 +87,108 @@ events.listen("recipes", function (event) {
  ]);
 
 
+  // OLD RECIPE -- Angel Ring
+  // event.remove({ output: "kibe:angel_ring" });
+  // event.shaped(item.of("kibe:angel_ring"), [
+  //   ['bosses_of_mass_destruction:blazing_eye',  'gobber2:gobber2_chestplate_dragon_no_flight',                        'bosses_of_mass_destruction:obsidian_heart'],
+  //   ['techreborn:interdimensional_su', 'bosses_of_mass_destruction:ancient_anima', 'techreborn:interdimensional_su'],
+  //   ['techreborn:iridium_neutron_reflector',          'dml-refabricated:glitch_ingot',    'minecraft:dragon_breath'],
+  // ]);
+
+  // Abyss Watcher
+  event.remove({output: 'waystones:abyss_watcher'});
+  event.custom({
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "FEF"
+      ],
+      "key": {
+        "E": {
+          "item": "minecraft:ender_pearl"
+        },
+        "F": {
+          "item": "gobber2:gobber2_ingot"
+        }
+      },
+      "result": {
+        "item": "waystones:abyss_watcher",
+        "count": 1
+      }
+    });
+
+  // Pocket Wormhole
+  event.remove({output: 'waystones:pocket_wormhole'});
+  event.custom({
+          "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " A ",
+        "PSP",
+        " P "
+      ],
+      "key": {
+        "P": {
+          "item": "gobber2:dragon_star"
+        },
+        "A": {
+          "item": "waystones:abyss_watcher"
+        },
+        "S": {
+          "item": "gobber2:dragon_star"
+        }
+      },
+      "result": {
+        "item": "waystones:pocket_wormhole",
+        "count": 1
+      }
+    });
+
+
+  // Angel Ring
+   event.remove({output: 'kibe:angel_ring'});
+  event.custom({
+    "type": "lacrimis:infusion_shaped",
+    "pattern": [
+      "ABC",
+      "DEF",
+      "GHI"
+    ],
+    "key": {
+      "A": {
+        "item": "bosses_of_mass_destruction:blazing_eye"
+      },
+      "B": {
+        "item": "gobber2:gobber2_chestplate_dragon_no_flight"
+      },
+      "C": {
+        "item": "bosses_of_mass_destruction:obsidian_heart"
+      },
+      "D": {
+        "item": "techreborn:interdimensional_su"
+      },
+      "E": {
+        "item": "bosses_of_mass_destruction:ancient_anima"
+      },
+      "F": {
+        "item": "techreborn:interdimensional_su"
+      },
+      "G": {
+        "item": "techreborn:nak_coolant_cell_360k"
+      },
+      "H": {
+        "item": "dml-refabricated:glitch_ingot"
+      },
+      "I": {
+        "item": "kibe:light_ring"
+      }
+    },
+    "result": {
+      "item": "kibe:angel_ring",
+      "count": 1
+    },
+    "tears": 9999
+    });
 
   ///// Kibe Removal since other tiered items give resistance and water breathing
-
-  // Underwater Breathing and Fire Resistance
-  event.remove({ output: "kibe:water_ring"});
-  event.remove({ output: "kibe:magma_ring"});
 
 
 
@@ -119,9 +203,7 @@ events.listen("recipes", function (event) {
 
   // Tech Reborn Gem Tools & Gear - Useless
   var gems = [
-    "ruby",
-    "sapphire",
-    "peridot",
+    "ruby"
   ];
 
   gems.forEach(function (item, index) {
@@ -154,6 +236,13 @@ events.listen("recipes", function (event) {
     "techreborn:hot_tungstensteel_ingot"
   );
 
+   // Riot Gauntlet
+  event.replaceInput(
+    { id: "things:mining_gloves" },
+    "minecraft:leather",
+    "dimdoors:rift_signature"
+  );
+
   // Enchanted Wax Gland
   event.replaceInput(
     { id: "things:enchanted_wax_gland" },
@@ -161,75 +250,60 @@ events.listen("recipes", function (event) {
     "gobber2:gobber2_medallion_sea"
   );
 
-
-  // SimpleGrinder
-  
-  event.replaceInput(
-    { id: "simplegrinder:machine_core" },
-    "minecraft:redstone",
-    "indrev:pulverizer_mk1"
+ // Compress Ruby Block
+   event.replaceInput(
+    { id: "compress:compressed_ruby_block_1" },
+    "compress:ruby_block",
+    "betternether:nether_ruby_block"
   );
 
- // Blast
-  
-  event.replaceInput(
-    { id: "blast:cold_digger" },
-    "blast:stripminer",
-    "blast:gunpowder_block"
-  ); 
+  // // blast --dirt bomb
   // event.replaceInput(
-  //   { id: "blast:stripminer" },
-  //   "minecraft:stonecutter",
-  //   "minecraft:tnt"
+  //   { id: "blast:dirt_bomb" },
+  //   "minecraft:dirt",
+  //   "prefab:block_compressed_dirt"
+  // );  
+  // event.replaceInput(
+  //   { id: "blast:dirt_trigger_bomb" },
+  //   "minecraft:dirt",
+  //   "prefab:block_compressed_dirt"
   // );  
 
-  // blast --dirt bomb
-  event.replaceInput(
-    { id: "blast:dirt_bomb" },
-    "minecraft:dirt",
-    "prefab:block_compressed_dirt"
-  );  
-  event.replaceInput(
-    { id: "blast:dirt_trigger_bomb" },
-    "minecraft:dirt",
-    "prefab:block_compressed_dirt"
-  );  
+  // // blast --diamond bomb
+  // event.replaceInput(
+  //   { id: "blast:diamond_bomb" },
+  //   "minecraft:diamond",
+  //   "magicfungi:magical_fungi_alloy"
+  // );  
+  // event.replaceInput(
+  //   { id: "blast:diamond_trigger_bomb" },
+  //   "minecraft:diamond",
+  //   "magicfungi:magical_fungi_alloy"
+  // );  
 
-  // blast --diamond bomb
-  event.replaceInput(
-    { id: "blast:diamond_bomb" },
-    "minecraft:diamond",
-    "magicfungi:magical_fungi_alloy"
-  );  
-  event.replaceInput(
-    { id: "blast:diamond_trigger_bomb" },
-    "minecraft:diamond",
-    "magicfungi:magical_fungi_alloy"
-  );  
+  // // blast --gold bomb
+  // event.replaceInput(
+  //   { id: "blast:golden_bomb" },
+  //   "minecraft:gold_ingot",
+  //   "indrev:gold_chunk"
+  // );  
+  // event.replaceInput(
+  //   { id: "blast:golden_trigger_bomb" },
+  //   "minecraft:gold_ingot",
+  //   "indrev:gold_chunk"
+  // );  
 
-  // blast --gold bomb
-  event.replaceInput(
-    { id: "blast:golden_bomb" },
-    "minecraft:gold_ingot",
-    "indrev:gold_chunk"
-  );  
-  event.replaceInput(
-    { id: "blast:golden_trigger_bomb" },
-    "minecraft:gold_ingot",
-    "indrev:gold_chunk"
-  );  
-
-  // blast --bomb
-  event.replaceInput(
-    { id: "blast:bomb" },
-    "minecraft:iron_ingot",
-    "indrev:iron_chunk"
-  );  
-  event.replaceInput(
-    { id: "blast:trigger_bomb" },
-    "minecraft:iron_ingot",
-    "indrev:iron_chunk"
-  );  
+  // // blast --bomb
+  // event.replaceInput(
+  //   { id: "blast:bomb" },
+  //   "minecraft:iron_ingot",
+  //   "indrev:iron_chunk"
+  // );  
+  // event.replaceInput(
+  //   { id: "blast:trigger_bomb" },
+  //   "minecraft:iron_ingot",
+  //   "indrev:iron_chunk"
+  // );  
 
   // Custom Portals Infinity Range
   event.replaceInput(
@@ -338,28 +412,28 @@ events.listen("recipes", function (event) {
   event.replaceInput(
     { id: "bewitchment:juniper_broom" },
     "bewitchment:juniper_log",
-    "dml-refabricated:glitch_ingot"
+    "magicfungi:magical_fungi_alloy"
   );
 
   // Cypress Brooms
   event.replaceInput(
     { id: "bewitchment:cypress_broom" },
     "bewitchment:cypress_log",
-    "dml-refabricated:glitch_ingot"
+    "magicfungi:magical_fungi_alloy"
   );
 
   // Elder Broom
   event.replaceInput(
     { id: "bewitchment:elder_broom" },
     "bewitchment:elder_log",
-    "dml-refabricated:glitch_ingot"
+    "magicfungi:magical_fungi_alloy"
   );
 
   // Dragon Blood Broom
   event.replaceInput(
     { id: "bewitchment:dragons_blood_broom" },
     "bewitchment:dragons_blood_log",
-    "dml-refabricated:glitch_ingot"
+    "magicfungi:magical_fungi_alloy"
   );
 
   ////// Gobber2
@@ -429,7 +503,6 @@ events.listen("recipes", function (event) {
     "gobber2:gobber2_ingot_nether"
   );
 
-
   // Dim Doors - stab  rift signature
   event.remove({ output: "dimdoors:stabilized_rift_signature" });
   event.shaped(item.of("dimdoors:stabilized_rift_signature"), [
@@ -446,6 +519,184 @@ events.listen("recipes", function (event) {
     ["",    "gobber2:gobber2_rod_nether", ""],
   ]);
 
+    // Slime Boots
+  event.replaceInput(
+    { id: "kibe:slime_boots" },
+    "minecraft:slime_ball",
+    "gofish:slimefish"
+  );
+
+    // Slime Sling
+  event.replaceInput(
+    { id: "kibe:slime_sling" },
+    "minecraft:slime_ball",
+    "gofish:slimefish"
+  );
+
+    // Gobber2 - Ring of haste
+  event.replaceInput(
+    { id: "gobber2:gobber2_ring_haste" },
+    "minecraft:emerald",
+    "magicfungi:heart_of_vivifica"
+  );
+
+    // Gobber2 - Medallion healing lesser
+  event.replaceInput(
+    { id: "gobber2:gobber2_medallion_healing" },
+    "minecraft:rabbit_foot",
+    "magicfungi:sanctificare_glyph"
+  );
+
+    // Gobber2 - Medallion healing lesser 2
+  event.replaceInput(
+    { id: "gobber2:gobber2_medallion_healing2" },
+    "minecraft:weeping_vines",
+    "betternether:willow_leaves"
+  );
+
+    // Gobber2 - Medallion healing lesser 3
+  event.replaceInput(
+    { id: "gobber2:gobber2_medallion_healing3" },
+    "minecraft:nether_star",
+    "adventurez:warthog_shell_piece"
+  );
+
+      // Gobber2 - Ring of Void
+  event.replaceInput(
+    { id: "gobber2:gobber2_ring_void" },
+    "minecraft:ender_eye",
+    "minecraft:shulker_shell"
+  );
+
+      // Gobber2 - Ring of Above
+  event.replaceInput(
+    { id: "gobber2:gobber2_ring_above" },
+    "minecraft:emerald",
+    "winged:bat_wing"
+  );
+
+      // Gobber2 - Ring of Above pt2
+  event.replaceInput(
+    { id: "gobber2:gobber2_ring_above" },
+    "minecraft:lapis_lazuli",
+    "winged:black_feather"
+  );
+
+        // Gobber2 - Ring of Explorer
+  event.replaceInput(
+    { id: "gobber2:gobber2_ring_explorer" },
+    "gobber2:gobber2_ring_return",
+    "bosses_of_mass_destruction:void_thorn"
+  );
+
+  //  Gobber2 - Swiftness
+  event.remove({ output: "gobber2:gobber2_ring_swiftness" });
+  event.shaped(item.of("gobber2:gobber2_ring_swiftness"), [
+    ["",  "mcdar:boots_of_swiftness", ""],
+    ["magicfungi:vivifica_mushroom",  "gobber2:gobber2_ring",  "magicfungi:vivifica_mushroom"],
+    ["",  "magicfungi:vivifica_mushroom", ""],
+  ]);
+
+  // Kibe Escape Rope
+  event.replaceInput(
+    { id: "kibe:escape_rope" },
+    "minecraft:iron_ingot",
+    "lacrimis:tear_ingot"
+  );
+
+
+  // Croptosis Watering Cans
+  event.remove({output: 'croptosis:iron_watering_can'});
+  event.custom({
+    "type": "lacrimis:infusion_shaped",
+    "pattern": [
+      "AAA",
+      "D  ",
+      "   "
+    ],
+    "key": {
+      "A": {
+        "item": "gobber2:gobber2_rod"
+      },
+      "D": {
+        "item": "minecraft:bucket"
+      }
+    },
+    "result": {
+      "item": "croptosis:iron_watering_can",
+      "count": 1
+    },
+    "tears": 150
+    });
+
+  event.remove({output: 'croptosis:gold_watering_can'});
+  event.custom({
+    "type": "lacrimis:infusion_shaped",
+    "pattern": [
+      "AAA",
+      "D  ",
+      "   "
+    ],
+    "key": {
+      "A": {
+        "item": "gobber2:gobber2_rod_nether"
+      },
+      "D": {
+        "item": "croptosis:iron_watering_can"
+      }
+    },
+    "result": {
+      "item": "croptosis:gold_watering_can",
+      "count": 1
+    },
+    "tears": 250
+    });
+
+  event.remove({output: 'croptosis:diamond_watering_can'});
+  event.custom({
+    "type": "lacrimis:infusion_shaped",
+    "pattern": [
+      "AAA",
+      "D  ",
+      "   "
+    ],
+    "key": {
+      "A": {
+        "item": "gobber2:gobber2_rod_end"
+      },
+      "D": {
+        "item": "croptosis:gold_watering_can"
+      }
+    },
+    "result": {
+      "item": "croptosis:diamond_watering_can",
+      "count": 1
+    },
+    "tears": 500
+    });
+
+  event.remove({output: 'croptosis:netherite_watering_can'});
+  event.custom({
+    "type": "lacrimis:infusion_shaped",
+    "pattern": [
+      "AAA",
+      "D  ",
+      "   "
+    ],
+    "key": {
+      "A": {
+        "item": "gobber2:dragon_star"
+      },
+      "D": {
+        "item": "croptosis:diamond_watering_can"
+      }
+    },
+    "result": {
+      "item": "croptosis:netherite_watering_can",
+      "count": 1
+    },
+    "tears": 1000
+    });
 
 
   // Tools and Sword

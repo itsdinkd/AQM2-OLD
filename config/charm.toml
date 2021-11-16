@@ -101,7 +101,7 @@
 #Mooblooms are cow-like mobs that come in a variety of flower types. They spawn flowers where they walk and can be milked for suspicious stew.
 "Mooblooms Enabled" = true
 #Crying obsidian can be used to construct nether portal frames.
-"MorePortalFrames Enabled" = true
+"MorePortalFrames Enabled" = false
 #Villages can spawn in swamps and jungles.
 "MoreVillageBiomes Enabled" = true
 #Playing a record in a jukebox stops background music from playing at the same.

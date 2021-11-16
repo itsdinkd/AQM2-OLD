@@ -1,0 +1,85 @@
+[
+  [
+    {
+      "in": "minecraft:air",
+      "out": "minecraft:emerald",
+      "inCount": 1,
+      "outCount": 1,
+      "maxUses": 20,
+      "experience": 2,
+      "multiplier": 0.05,
+      "type": "EmeraldsForFlowers"
+    },
+    {
+      "in": "minecraft:air",
+      "out": "minecraft:emerald",
+      "inCount": 1,
+      "outCount": 1,
+      "maxUses": 20,
+      "experience": 2,
+      "multiplier": 0.05,
+      "type": "BottlesForEmerald"
+    }
+  ],
+  [
+    {
+      "in": "minecraft:air",
+      "out": "minecraft:emerald",
+      "inCount": 1,
+      "outCount": 1,
+      "maxUses": 20,
+      "experience": 2,
+      "multiplier": 0.05,
+      "type": "EmeraldsForCharcoal"
+    },
+    {
+      "in": "minecraft:air",
+      "out": "minecraft:emerald",
+      "inCount": 1,
+      "outCount": 1,
+      "maxUses": 20,
+      "experience": 2,
+      "multiplier": 0.05,
+      "type": "CandlesForEmeralds"
+    }
+  ],
+  [
+    {
+      "in": "minecraft:air",
+      "out": "minecraft:emerald",
+      "inCount": 1,
+      "outCount": 1,
+      "maxUses": 20,
+      "experience": 2,
+      "multiplier": 0.05,
+      "type": "EmeraldsForHoneycomb"
+    },
+    {
+      "in": "minecraft:air",
+      "out": "minecraft:emerald",
+      "inCount": 1,
+      "outCount": 1,
+      "maxUses": 20,
+      "experience": 2,
+      "multiplier": 0.05,
+      "type": "CampfireForEmerald"
+    }
+  ],
+  [
+    {
+      "in": "minecraft:air",
+      "out": "minecraft:emerald",
+      "inCount": 1,
+      "outCount": 1,
+      "maxUses": 20,
+      "experience": 2,
+      "multiplier": 0.05,
+      "type": "LeadForEmeralds"
+    }
+  ],
+  [
+    {
+      "type": "PopulatedBeehiveForEmeralds"
+    }
+  ]
+]

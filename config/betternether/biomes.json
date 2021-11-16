@@ -18,12 +18,45 @@
               "naga": {
                 "weight[def: 20]": 20,
                 "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
+                "max_group_size[def: 4]": 4,
+                "weight[def: 6]": 6
               },
               "hydrogen_jellyfish": {
                 "weight[def: 5]": 5,
                 "min_group_size[def: 2]": 2,
                 "max_group_size[def: 5]": 5
+              }
+            },
+            "minecraft": {
+              "ghast": {
+                "weight[def: 50]": 50,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "zombified_piglin": {
+                "weight[def: 100]": 100,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "magma_cube": {
+                "weight[def: 2]": 2,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "enderman": {
+                "weight[def: 1]": 1,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "piglin": {
+                "weight[def: 15]": 15,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "strider": {
+                "weight[def: 60]": 60,
+                "min_group_size[def: 1]": 1,
+                "max_group_size[def: 2]": 2
               }
             }
           },
@@ -104,12 +137,45 @@
               "naga": {
                 "weight[def: 20]": 20,
                 "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
+                "max_group_size[def: 4]": 4,
+                "weight[def: 6]": 6
               },
               "hydrogen_jellyfish": {
                 "weight[def: 5]": 5,
                 "min_group_size[def: 2]": 2,
                 "max_group_size[def: 5]": 5
+              }
+            },
+            "minecraft": {
+              "ghast": {
+                "weight[def: 50]": 50,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "zombified_piglin": {
+                "weight[def: 100]": 100,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "magma_cube": {
+                "weight[def: 2]": 2,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "enderman": {
+                "weight[def: 1]": 1,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "piglin": {
+                "weight[def: 15]": 15,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "strider": {
+                "weight[def: 60]": 60,
+                "min_group_size[def: 1]": 1,
+                "max_group_size[def: 2]": 2
               }
             }
           },
@@ -190,12 +256,45 @@
               "naga": {
                 "weight[def: 20]": 20,
                 "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
+                "max_group_size[def: 4]": 4,
+                "weight[def: 6]": 6
               },
               "hydrogen_jellyfish": {
                 "weight[def: 5]": 5,
                 "min_group_size[def: 2]": 2,
                 "max_group_size[def: 5]": 5
+              }
+            },
+            "minecraft": {
+              "ghast": {
+                "weight[def: 50]": 50,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "zombified_piglin": {
+                "weight[def: 100]": 100,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "magma_cube": {
+                "weight[def: 2]": 2,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "enderman": {
+                "weight[def: 1]": 1,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "piglin": {
+                "weight[def: 15]": 15,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "strider": {
+                "weight[def: 60]": 60,
+                "min_group_size[def: 1]": 1,
+                "max_group_size[def: 2]": 2
               }
             }
           },
@@ -276,12 +375,45 @@
               "naga": {
                 "weight[def: 20]": 20,
                 "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
+                "max_group_size[def: 4]": 4,
+                "weight[def: 6]": 6
               },
               "hydrogen_jellyfish": {
                 "weight[def: 5]": 5,
                 "min_group_size[def: 2]": 2,
                 "max_group_size[def: 5]": 5
+              }
+            },
+            "minecraft": {
+              "ghast": {
+                "weight[def: 50]": 50,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "zombified_piglin": {
+                "weight[def: 100]": 100,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "magma_cube": {
+                "weight[def: 2]": 2,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "enderman": {
+                "weight[def: 1]": 1,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "piglin": {
+                "weight[def: 15]": 15,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "strider": {
+                "weight[def: 60]": 60,
+                "min_group_size[def: 1]": 1,
+                "max_group_size[def: 2]": 2
               }
             }
           },
@@ -471,12 +603,45 @@
               "naga": {
                 "weight[def: 20]": 20,
                 "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
+                "max_group_size[def: 4]": 4,
+                "weight[def: 6]": 6
               },
               "hydrogen_jellyfish": {
                 "weight[def: 5]": 5,
                 "min_group_size[def: 2]": 2,
                 "max_group_size[def: 5]": 5
+              }
+            },
+            "minecraft": {
+              "ghast": {
+                "weight[def: 50]": 50,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "zombified_piglin": {
+                "weight[def: 100]": 100,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "magma_cube": {
+                "weight[def: 2]": 2,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "enderman": {
+                "weight[def: 1]": 1,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "piglin": {
+                "weight[def: 15]": 15,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "strider": {
+                "weight[def: 60]": 60,
+                "min_group_size[def: 1]": 1,
+                "max_group_size[def: 2]": 2
               }
             }
           },
@@ -579,7 +744,8 @@
               "naga": {
                 "weight[def: 20]": 20,
                 "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
+                "max_group_size[def: 4]": 4,
+                "weight[def: 6]": 6
               },
               "hydrogen_jellyfish": {
                 "weight[def: 5]": 5,
@@ -753,12 +919,45 @@
               "naga": {
                 "weight[def: 20]": 20,
                 "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
+                "max_group_size[def: 4]": 4,
+                "weight[def: 6]": 6
               },
               "hydrogen_jellyfish": {
                 "weight[def: 5]": 5,
                 "min_group_size[def: 2]": 2,
                 "max_group_size[def: 5]": 5
+              }
+            },
+            "minecraft": {
+              "ghast": {
+                "weight[def: 50]": 50,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "zombified_piglin": {
+                "weight[def: 100]": 100,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "magma_cube": {
+                "weight[def: 2]": 2,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "enderman": {
+                "weight[def: 1]": 1,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "piglin": {
+                "weight[def: 15]": 15,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "strider": {
+                "weight[def: 60]": 60,
+                "min_group_size[def: 1]": 1,
+                "max_group_size[def: 2]": 2
               }
             }
           },
@@ -868,12 +1067,45 @@
               "naga": {
                 "weight[def: 20]": 20,
                 "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
+                "max_group_size[def: 4]": 4,
+                "weight[def: 6]": 6
               },
               "hydrogen_jellyfish": {
                 "weight[def: 5]": 5,
                 "min_group_size[def: 2]": 2,
                 "max_group_size[def: 5]": 5
+              }
+            },
+            "minecraft": {
+              "ghast": {
+                "weight[def: 50]": 50,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "zombified_piglin": {
+                "weight[def: 100]": 100,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "magma_cube": {
+                "weight[def: 2]": 2,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "enderman": {
+                "weight[def: 1]": 1,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "piglin": {
+                "weight[def: 15]": 15,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "strider": {
+                "weight[def: 60]": 60,
+                "min_group_size[def: 1]": 1,
+                "max_group_size[def: 2]": 2
               }
             }
           },
@@ -1007,12 +1239,45 @@
               "naga": {
                 "weight[def: 20]": 20,
                 "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
+                "max_group_size[def: 4]": 4,
+                "weight[def: 6]": 6
               },
               "hydrogen_jellyfish": {
                 "weight[def: 5]": 5,
                 "min_group_size[def: 2]": 2,
                 "max_group_size[def: 5]": 5
+              }
+            },
+            "minecraft": {
+              "ghast": {
+                "weight[def: 50]": 50,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "zombified_piglin": {
+                "weight[def: 100]": 100,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "magma_cube": {
+                "weight[def: 2]": 2,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "enderman": {
+                "weight[def: 1]": 1,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "piglin": {
+                "weight[def: 15]": 15,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "strider": {
+                "weight[def: 60]": 60,
+                "min_group_size[def: 1]": 1,
+                "max_group_size[def: 2]": 2
               }
             }
           },
@@ -1142,12 +1407,45 @@
               "naga": {
                 "weight[def: 20]": 20,
                 "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
+                "max_group_size[def: 4]": 4,
+                "weight[def: 6]": 6
               },
               "hydrogen_jellyfish": {
                 "weight[def: 5]": 5,
                 "min_group_size[def: 2]": 2,
                 "max_group_size[def: 5]": 5
+              }
+            },
+            "minecraft": {
+              "ghast": {
+                "weight[def: 50]": 50,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "zombified_piglin": {
+                "weight[def: 100]": 100,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "magma_cube": {
+                "weight[def: 2]": 2,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "enderman": {
+                "weight[def: 1]": 1,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "piglin": {
+                "weight[def: 15]": 15,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "strider": {
+                "weight[def: 60]": 60,
+                "min_group_size[def: 1]": 1,
+                "max_group_size[def: 2]": 2
               }
             }
           },
@@ -1254,12 +1552,45 @@
               "naga": {
                 "weight[def: 20]": 20,
                 "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
+                "max_group_size[def: 4]": 4,
+                "weight[def: 6]": 6
               },
               "hydrogen_jellyfish": {
                 "weight[def: 5]": 5,
                 "min_group_size[def: 2]": 2,
                 "max_group_size[def: 5]": 5
+              }
+            },
+            "minecraft": {
+              "ghast": {
+                "weight[def: 50]": 50,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "zombified_piglin": {
+                "weight[def: 100]": 100,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "magma_cube": {
+                "weight[def: 2]": 2,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "enderman": {
+                "weight[def: 1]": 1,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "piglin": {
+                "weight[def: 15]": 15,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "strider": {
+                "weight[def: 60]": 60,
+                "min_group_size[def: 1]": 1,
+                "max_group_size[def: 2]": 2
               }
             }
           },
@@ -1357,12 +1688,45 @@
               "naga": {
                 "weight[def: 20]": 20,
                 "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
+                "max_group_size[def: 4]": 4,
+                "weight[def: 6]": 6
               },
               "hydrogen_jellyfish": {
                 "weight[def: 5]": 5,
                 "min_group_size[def: 2]": 2,
                 "max_group_size[def: 5]": 5
+              }
+            },
+            "minecraft": {
+              "ghast": {
+                "weight[def: 50]": 50,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "zombified_piglin": {
+                "weight[def: 100]": 100,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "magma_cube": {
+                "weight[def: 2]": 2,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "enderman": {
+                "weight[def: 1]": 1,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "piglin": {
+                "weight[def: 15]": 15,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "strider": {
+                "weight[def: 60]": 60,
+                "min_group_size[def: 1]": 1,
+                "max_group_size[def: 2]": 2
               }
             }
           },
@@ -1464,12 +1828,45 @@
               "naga": {
                 "weight[def: 20]": 20,
                 "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
+                "max_group_size[def: 4]": 4,
+                "weight[def: 6]": 6
               },
               "hydrogen_jellyfish": {
                 "weight[def: 5]": 5,
                 "min_group_size[def: 2]": 2,
                 "max_group_size[def: 5]": 5
+              }
+            },
+            "minecraft": {
+              "ghast": {
+                "weight[def: 50]": 50,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "zombified_piglin": {
+                "weight[def: 100]": 100,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "magma_cube": {
+                "weight[def: 2]": 2,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "enderman": {
+                "weight[def: 1]": 1,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "piglin": {
+                "weight[def: 15]": 15,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "strider": {
+                "weight[def: 60]": 60,
+                "min_group_size[def: 1]": 1,
+                "max_group_size[def: 2]": 2
               }
             }
           },
@@ -1567,12 +1964,45 @@
               "naga": {
                 "weight[def: 20]": 20,
                 "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
+                "max_group_size[def: 4]": 4,
+                "weight[def: 6]": 6
               },
               "hydrogen_jellyfish": {
                 "weight[def: 5]": 5,
                 "min_group_size[def: 2]": 2,
                 "max_group_size[def: 5]": 5
+              }
+            },
+            "minecraft": {
+              "ghast": {
+                "weight[def: 50]": 50,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "zombified_piglin": {
+                "weight[def: 100]": 100,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "magma_cube": {
+                "weight[def: 2]": 2,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "enderman": {
+                "weight[def: 1]": 1,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "piglin": {
+                "weight[def: 15]": 15,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "strider": {
+                "weight[def: 60]": 60,
+                "min_group_size[def: 1]": 1,
+                "max_group_size[def: 2]": 2
               }
             }
           },
@@ -1706,7 +2136,8 @@
               "naga": {
                 "weight[def: 20]": 20,
                 "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
+                "max_group_size[def: 4]": 4,
+                "weight[def: 6]": 6
               },
               "hydrogen_jellyfish": {
                 "weight[def: 5]": 5,
@@ -1861,7 +2292,8 @@
               "naga": {
                 "weight[def: 20]": 20,
                 "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
+                "max_group_size[def: 4]": 4,
+                "weight[def: 6]": 6
               },
               "hydrogen_jellyfish": {
                 "weight[def: 5]": 5,
@@ -2004,12 +2436,45 @@
               "naga": {
                 "weight[def: 20]": 20,
                 "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
+                "max_group_size[def: 4]": 4,
+                "weight[def: 6]": 6
               },
               "hydrogen_jellyfish": {
                 "weight[def: 5]": 5,
                 "min_group_size[def: 2]": 2,
                 "max_group_size[def: 5]": 5
+              }
+            },
+            "minecraft": {
+              "ghast": {
+                "weight[def: 50]": 50,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "zombified_piglin": {
+                "weight[def: 100]": 100,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "magma_cube": {
+                "weight[def: 2]": 2,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "enderman": {
+                "weight[def: 1]": 1,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "piglin": {
+                "weight[def: 15]": 15,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "strider": {
+                "weight[def: 60]": 60,
+                "min_group_size[def: 1]": 1,
+                "max_group_size[def: 2]": 2
               }
             }
           },
@@ -2111,12 +2576,45 @@
               "naga": {
                 "weight[def: 20]": 20,
                 "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
+                "max_group_size[def: 4]": 4,
+                "weight[def: 6]": 6
               },
               "hydrogen_jellyfish": {
                 "weight[def: 5]": 5,
                 "min_group_size[def: 2]": 2,
                 "max_group_size[def: 5]": 5
+              }
+            },
+            "minecraft": {
+              "ghast": {
+                "weight[def: 50]": 50,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "zombified_piglin": {
+                "weight[def: 100]": 100,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "magma_cube": {
+                "weight[def: 2]": 2,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "enderman": {
+                "weight[def: 1]": 1,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "piglin": {
+                "weight[def: 15]": 15,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "strider": {
+                "weight[def: 60]": 60,
+                "min_group_size[def: 1]": 1,
+                "max_group_size[def: 2]": 2
               }
             }
           },
@@ -2219,12 +2717,50 @@
               "naga": {
                 "weight[def: 20]": 20,
                 "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
+                "max_group_size[def: 4]": 4,
+                "weight[def: 6]": 6
               },
               "hydrogen_jellyfish": {
                 "weight[def: 5]": 5,
                 "min_group_size[def: 2]": 2,
                 "max_group_size[def: 5]": 5
+              }
+            },
+            "minecraft": {
+              "hoglin": {
+                "weight[def: 9]": 9,
+                "min_group_size[def: 1]": 1,
+                "max_group_size[def: 2]": 2
+              },
+              "ghast": {
+                "weight[def: 50]": 50,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "zombified_piglin": {
+                "weight[def: 100]": 100,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "magma_cube": {
+                "weight[def: 2]": 2,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "enderman": {
+                "weight[def: 1]": 1,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "piglin": {
+                "weight[def: 15]": 15,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "strider": {
+                "weight[def: 60]": 60,
+                "min_group_size[def: 1]": 1,
+                "max_group_size[def: 2]": 2
               }
             }
           },
@@ -2354,7 +2890,8 @@
               "naga": {
                 "weight[def: 20]": 20,
                 "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
+                "max_group_size[def: 4]": 4,
+                "weight[def: 6]": 6
               },
               "hydrogen_jellyfish": {
                 "weight[def: 5]": 5,
@@ -2470,12 +3007,50 @@
               "naga": {
                 "weight[def: 20]": 20,
                 "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
+                "max_group_size[def: 4]": 4,
+                "weight[def: 6]": 6
               },
               "hydrogen_jellyfish": {
                 "weight[def: 5]": 5,
                 "min_group_size[def: 2]": 2,
                 "max_group_size[def: 5]": 5
+              }
+            },
+            "minecraft": {
+              "hoglin": {
+                "weight[def: 9]": 9,
+                "min_group_size[def: 2]": 2,
+                "max_group_size[def: 5]": 5
+              },
+              "ghast": {
+                "weight[def: 50]": 50,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "zombified_piglin": {
+                "weight[def: 100]": 100,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "magma_cube": {
+                "weight[def: 2]": 2,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "enderman": {
+                "weight[def: 1]": 1,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "piglin": {
+                "weight[def: 15]": 15,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "strider": {
+                "weight[def: 60]": 60,
+                "min_group_size[def: 1]": 1,
+                "max_group_size[def: 2]": 2
               }
             }
           },
@@ -2593,12 +3168,45 @@
               "naga": {
                 "weight[def: 20]": 20,
                 "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
+                "max_group_size[def: 4]": 4,
+                "weight[def: 6]": 6
               },
               "hydrogen_jellyfish": {
                 "weight[def: 5]": 5,
                 "min_group_size[def: 2]": 2,
                 "max_group_size[def: 5]": 5
+              }
+            },
+            "minecraft": {
+              "ghast": {
+                "weight[def: 50]": 50,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "zombified_piglin": {
+                "weight[def: 100]": 100,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "magma_cube": {
+                "weight[def: 2]": 2,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "enderman": {
+                "weight[def: 1]": 1,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "piglin": {
+                "weight[def: 15]": 15,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "strider": {
+                "weight[def: 60]": 60,
+                "min_group_size[def: 1]": 1,
+                "max_group_size[def: 2]": 2
               }
             }
           },
@@ -2720,12 +3328,45 @@
               "naga": {
                 "weight[def: 20]": 20,
                 "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
+                "max_group_size[def: 4]": 4,
+                "weight[def: 6]": 6
               },
               "hydrogen_jellyfish": {
                 "weight[def: 5]": 5,
                 "min_group_size[def: 2]": 2,
                 "max_group_size[def: 5]": 5
+              }
+            },
+            "minecraft": {
+              "ghast": {
+                "weight[def: 50]": 50,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "zombified_piglin": {
+                "weight[def: 100]": 100,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "magma_cube": {
+                "weight[def: 2]": 2,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "enderman": {
+                "weight[def: 1]": 1,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "piglin": {
+                "weight[def: 15]": 15,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "strider": {
+                "weight[def: 60]": 60,
+                "min_group_size[def: 1]": 1,
+                "max_group_size[def: 2]": 2
               }
             }
           },
@@ -2811,12 +3452,45 @@
               "naga": {
                 "weight[def: 20]": 20,
                 "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
+                "max_group_size[def: 4]": 4,
+                "weight[def: 6]": 6
               },
               "hydrogen_jellyfish": {
                 "weight[def: 5]": 5,
                 "min_group_size[def: 2]": 2,
                 "max_group_size[def: 5]": 5
+              }
+            },
+            "minecraft": {
+              "ghast": {
+                "weight[def: 50]": 50,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "zombified_piglin": {
+                "weight[def: 100]": 100,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "magma_cube": {
+                "weight[def: 2]": 2,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "enderman": {
+                "weight[def: 1]": 1,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "piglin": {
+                "weight[def: 15]": 15,
+                "min_group_size[def: 4]": 4,
+                "max_group_size[def: 4]": 4
+              },
+              "strider": {
+                "weight[def: 60]": 60,
+                "min_group_size[def: 1]": 1,
+                "max_group_size[def: 2]": 2
               }
             }
           },
@@ -2925,7 +3599,8 @@
               "naga": {
                 "weight[def: 20]": 20,
                 "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
+                "max_group_size[def: 4]": 4,
+                "weight[def: 6]": 6
               },
               "hydrogen_jellyfish": {
                 "weight[def: 5]": 5,
@@ -3140,2160 +3815,6 @@
           "noise_density[def: 0.35]": 0.35
         },
         "new_nether_wastes": {
-          "mobs": {
-            "betternether": {
-              "firefly": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 6]": 6
-              },
-              "skull": {
-                "weight[def: 2]": 2,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "naga": {
-                "weight[def: 20]": 20,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "hydrogen_jellyfish": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 5]": 5
-              }
-            }
-          },
-          "procedural": {
-            "wall": {
-              "cap_gen": {
-                "density[def: 0.8]": 0.8,
-                "limit[def: true]": true
-              }
-            },
-            "floor": {
-              "netherrack_stalactite": {
-                "density[def: 0.05]": 0.05,
-                "limit[def: true]": true
-              },
-              "glowstone_stalactite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              }
-            },
-            "ceil": {
-              "netherrack_stalagmite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              },
-              "glowstone_stalagmite": {
-                "density[def: 0.005]": 0.005,
-                "limit[def: true]": true
-              }
-            }
-          },
-          "plants_and_structures_density[def: 1.0]": 1.0,
-          "schematics": [
-            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
-            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
-            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
-            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
-            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
-            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
-            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
-            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
-            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
-          ],
-          "noise_density[def: 0.35]": 0.35
-        }
-      },
-      "starmute": {
-        "basalt_deltas_cooled": {
-          "mobs": {
-            "betternether": {
-              "firefly": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 6]": 6
-              },
-              "skull": {
-                "weight[def: 2]": 2,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "naga": {
-                "weight[def: 20]": 20,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "hydrogen_jellyfish": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 5]": 5
-              }
-            }
-          },
-          "procedural": {
-            "wall": {
-              "cap_gen": {
-                "density[def: 0.8]": 0.8,
-                "limit[def: true]": true
-              }
-            },
-            "floor": {
-              "netherrack_stalactite": {
-                "density[def: 0.05]": 0.05,
-                "limit[def: true]": true
-              },
-              "glowstone_stalactite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              }
-            },
-            "ceil": {
-              "netherrack_stalagmite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              },
-              "glowstone_stalagmite": {
-                "density[def: 0.005]": 0.005,
-                "limit[def: true]": true
-              }
-            }
-          },
-          "plants_and_structures_density[def: 1.0]": 1.0,
-          "schematics": [
-            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
-            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
-            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
-            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
-            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
-            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
-            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
-            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
-            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
-          ],
-          "noise_density[def: 0.35]": 0.35
-        },
-        "basalt_deltas_ex": {
-          "mobs": {
-            "betternether": {
-              "firefly": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 6]": 6
-              },
-              "skull": {
-                "weight[def: 2]": 2,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "naga": {
-                "weight[def: 20]": 20,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "hydrogen_jellyfish": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 5]": 5
-              }
-            }
-          },
-          "procedural": {
-            "wall": {
-              "cap_gen": {
-                "density[def: 0.8]": 0.8,
-                "limit[def: true]": true
-              }
-            },
-            "floor": {
-              "netherrack_stalactite": {
-                "density[def: 0.05]": 0.05,
-                "limit[def: true]": true
-              },
-              "glowstone_stalactite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              }
-            },
-            "ceil": {
-              "netherrack_stalagmite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              },
-              "glowstone_stalagmite": {
-                "density[def: 0.005]": 0.005,
-                "limit[def: true]": true
-              }
-            }
-          },
-          "plants_and_structures_density[def: 1.0]": 1.0,
-          "schematics": [
-            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
-            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
-            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
-            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
-            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
-            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
-            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
-            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
-            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
-          ],
-          "noise_density[def: 0.35]": 0.35
-        },
-        "crimson_forest_s": {
-          "mobs": {
-            "betternether": {
-              "firefly": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 6]": 6
-              },
-              "skull": {
-                "weight[def: 2]": 2,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "naga": {
-                "weight[def: 20]": 20,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "hydrogen_jellyfish": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 5]": 5
-              }
-            }
-          },
-          "procedural": {
-            "wall": {
-              "cap_gen": {
-                "density[def: 0.8]": 0.8,
-                "limit[def: true]": true
-              }
-            },
-            "floor": {
-              "netherrack_stalactite": {
-                "density[def: 0.05]": 0.05,
-                "limit[def: true]": true
-              },
-              "glowstone_stalactite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              }
-            },
-            "ceil": {
-              "netherrack_stalagmite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              },
-              "glowstone_stalagmite": {
-                "density[def: 0.005]": 0.005,
-                "limit[def: true]": true
-              }
-            }
-          },
-          "plants_and_structures_density[def: 1.0]": 1.0,
-          "schematics": [
-            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
-            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
-            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
-            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
-            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
-            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
-            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
-            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
-            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
-          ],
-          "noise_density[def: 0.35]": 0.35
-        },
-        "crimson_forest_z": {
-          "mobs": {
-            "betternether": {
-              "firefly": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 6]": 6
-              },
-              "skull": {
-                "weight[def: 2]": 2,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "naga": {
-                "weight[def: 20]": 20,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "hydrogen_jellyfish": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 5]": 5
-              }
-            }
-          },
-          "procedural": {
-            "wall": {
-              "cap_gen": {
-                "density[def: 0.8]": 0.8,
-                "limit[def: true]": true
-              }
-            },
-            "floor": {
-              "netherrack_stalactite": {
-                "density[def: 0.05]": 0.05,
-                "limit[def: true]": true
-              },
-              "glowstone_stalactite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              }
-            },
-            "ceil": {
-              "netherrack_stalagmite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              },
-              "glowstone_stalagmite": {
-                "density[def: 0.005]": 0.005,
-                "limit[def: true]": true
-              }
-            }
-          },
-          "plants_and_structures_density[def: 1.0]": 1.0,
-          "schematics": [
-            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
-            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
-            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
-            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
-            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
-            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
-            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
-            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
-            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
-          ],
-          "noise_density[def: 0.35]": 0.35
-        },
-        "cursed_forest": {
-          "mobs": {
-            "betternether": {
-              "firefly": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 6]": 6
-              },
-              "skull": {
-                "weight[def: 2]": 2,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "naga": {
-                "weight[def: 20]": 20,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "hydrogen_jellyfish": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 5]": 5
-              }
-            }
-          },
-          "procedural": {
-            "wall": {
-              "cap_gen": {
-                "density[def: 0.8]": 0.8,
-                "limit[def: true]": true
-              }
-            },
-            "floor": {
-              "netherrack_stalactite": {
-                "density[def: 0.05]": 0.05,
-                "limit[def: true]": true
-              },
-              "glowstone_stalactite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              }
-            },
-            "ceil": {
-              "netherrack_stalagmite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              },
-              "glowstone_stalagmite": {
-                "density[def: 0.005]": 0.005,
-                "limit[def: true]": true
-              }
-            }
-          },
-          "plants_and_structures_density[def: 1.0]": 1.0,
-          "schematics": [
-            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
-            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
-            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
-            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
-            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
-            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
-            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
-            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
-            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
-          ],
-          "noise_density[def: 0.35]": 0.35
-        },
-        "infernal_dunes": {
-          "mobs": {
-            "betternether": {
-              "firefly": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 6]": 6
-              },
-              "skull": {
-                "weight[def: 2]": 2,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "naga": {
-                "weight[def: 20]": 20,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "hydrogen_jellyfish": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 5]": 5
-              }
-            }
-          },
-          "procedural": {
-            "wall": {
-              "cap_gen": {
-                "density[def: 0.8]": 0.8,
-                "limit[def: true]": true
-              }
-            },
-            "floor": {
-              "netherrack_stalactite": {
-                "density[def: 0.05]": 0.05,
-                "limit[def: true]": true
-              },
-              "glowstone_stalactite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              }
-            },
-            "ceil": {
-              "netherrack_stalagmite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              },
-              "glowstone_stalagmite": {
-                "density[def: 0.005]": 0.005,
-                "limit[def: true]": true
-              }
-            }
-          },
-          "plants_and_structures_density[def: 1.0]": 1.0,
-          "schematics": [
-            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
-            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
-            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
-            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
-            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
-            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
-            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
-            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
-            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
-          ],
-          "noise_density[def: 0.35]": 0.35
-        },
-        "nether_wart_valley": {
-          "mobs": {
-            "betternether": {
-              "firefly": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 6]": 6
-              },
-              "skull": {
-                "weight[def: 2]": 2,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "naga": {
-                "weight[def: 20]": 20,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "hydrogen_jellyfish": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 5]": 5
-              }
-            }
-          },
-          "procedural": {
-            "wall": {
-              "cap_gen": {
-                "density[def: 0.8]": 0.8,
-                "limit[def: true]": true
-              }
-            },
-            "floor": {
-              "netherrack_stalactite": {
-                "density[def: 0.05]": 0.05,
-                "limit[def: true]": true
-              },
-              "glowstone_stalactite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              }
-            },
-            "ceil": {
-              "netherrack_stalagmite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              },
-              "glowstone_stalagmite": {
-                "density[def: 0.005]": 0.005,
-                "limit[def: true]": true
-              }
-            }
-          },
-          "plants_and_structures_density[def: 1.0]": 1.0,
-          "schematics": [
-            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
-            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
-            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
-            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
-            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
-            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
-            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
-            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
-            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
-          ],
-          "noise_density[def: 0.35]": 0.35
-        },
-        "polluted_dunes": {
-          "mobs": {
-            "betternether": {
-              "firefly": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 6]": 6
-              },
-              "skull": {
-                "weight[def: 2]": 2,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "naga": {
-                "weight[def: 20]": 20,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "hydrogen_jellyfish": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 5]": 5
-              }
-            }
-          },
-          "procedural": {
-            "wall": {
-              "cap_gen": {
-                "density[def: 0.8]": 0.8,
-                "limit[def: true]": true
-              }
-            },
-            "floor": {
-              "netherrack_stalactite": {
-                "density[def: 0.05]": 0.05,
-                "limit[def: true]": true
-              },
-              "glowstone_stalactite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              }
-            },
-            "ceil": {
-              "netherrack_stalagmite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              },
-              "glowstone_stalagmite": {
-                "density[def: 0.005]": 0.005,
-                "limit[def: true]": true
-              }
-            }
-          },
-          "plants_and_structures_density[def: 1.0]": 1.0,
-          "schematics": [
-            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
-            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
-            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
-            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
-            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
-            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
-            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
-            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
-            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
-          ],
-          "noise_density[def: 0.35]": 0.35
-        },
-        "purified_dunes": {
-          "mobs": {
-            "betternether": {
-              "firefly": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 6]": 6
-              },
-              "skull": {
-                "weight[def: 2]": 2,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "naga": {
-                "weight[def: 20]": 20,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "hydrogen_jellyfish": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 5]": 5
-              }
-            }
-          },
-          "procedural": {
-            "wall": {
-              "cap_gen": {
-                "density[def: 0.8]": 0.8,
-                "limit[def: true]": true
-              }
-            },
-            "floor": {
-              "netherrack_stalactite": {
-                "density[def: 0.05]": 0.05,
-                "limit[def: true]": true
-              },
-              "glowstone_stalactite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              }
-            },
-            "ceil": {
-              "netherrack_stalagmite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              },
-              "glowstone_stalagmite": {
-                "density[def: 0.005]": 0.005,
-                "limit[def: true]": true
-              }
-            }
-          },
-          "plants_and_structures_density[def: 1.0]": 1.0,
-          "schematics": [
-            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
-            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
-            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
-            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
-            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
-            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
-            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
-            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
-            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
-          ],
-          "noise_density[def: 0.35]": 0.35
-        },
-        "quartz_flats": {
-          "mobs": {
-            "betternether": {
-              "firefly": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 6]": 6
-              },
-              "skull": {
-                "weight[def: 2]": 2,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "naga": {
-                "weight[def: 20]": 20,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "hydrogen_jellyfish": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 5]": 5
-              }
-            }
-          },
-          "procedural": {
-            "wall": {
-              "cap_gen": {
-                "density[def: 0.8]": 0.8,
-                "limit[def: true]": true
-              }
-            },
-            "floor": {
-              "netherrack_stalactite": {
-                "density[def: 0.05]": 0.05,
-                "limit[def: true]": true
-              },
-              "glowstone_stalactite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              }
-            },
-            "ceil": {
-              "netherrack_stalagmite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              },
-              "glowstone_stalagmite": {
-                "density[def: 0.005]": 0.005,
-                "limit[def: true]": true
-              }
-            }
-          },
-          "plants_and_structures_density[def: 1.0]": 1.0,
-          "schematics": [
-            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
-            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
-            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
-            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
-            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
-            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
-            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
-            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
-            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
-          ],
-          "noise_density[def: 0.35]": 0.35
-        },
-        "quartz_hills": {
-          "mobs": {
-            "betternether": {
-              "firefly": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 6]": 6
-              },
-              "skull": {
-                "weight[def: 2]": 2,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "naga": {
-                "weight[def: 20]": 20,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "hydrogen_jellyfish": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 5]": 5
-              }
-            }
-          },
-          "procedural": {
-            "wall": {
-              "cap_gen": {
-                "density[def: 0.8]": 0.8,
-                "limit[def: true]": true
-              }
-            },
-            "floor": {
-              "netherrack_stalactite": {
-                "density[def: 0.05]": 0.05,
-                "limit[def: true]": true
-              },
-              "glowstone_stalactite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              }
-            },
-            "ceil": {
-              "netherrack_stalagmite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              },
-              "glowstone_stalagmite": {
-                "density[def: 0.005]": 0.005,
-                "limit[def: true]": true
-              }
-            }
-          },
-          "plants_and_structures_density[def: 1.0]": 1.0,
-          "schematics": [
-            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
-            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
-            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
-            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
-            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
-            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
-            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
-            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
-            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
-          ],
-          "noise_density[def: 0.35]": 0.35
-        },
-        "soul_sand_valley_d": {
-          "mobs": {
-            "betternether": {
-              "firefly": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 6]": 6
-              },
-              "skull": {
-                "weight[def: 2]": 2,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "naga": {
-                "weight[def: 20]": 20,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "hydrogen_jellyfish": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 5]": 5
-              }
-            }
-          },
-          "procedural": {
-            "wall": {
-              "cap_gen": {
-                "density[def: 0.8]": 0.8,
-                "limit[def: true]": true
-              }
-            },
-            "floor": {
-              "netherrack_stalactite": {
-                "density[def: 0.05]": 0.05,
-                "limit[def: true]": true
-              },
-              "glowstone_stalactite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              }
-            },
-            "ceil": {
-              "netherrack_stalagmite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              },
-              "glowstone_stalagmite": {
-                "density[def: 0.005]": 0.005,
-                "limit[def: true]": true
-              }
-            }
-          },
-          "plants_and_structures_density[def: 1.0]": 1.0,
-          "schematics": [
-            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
-            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
-            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
-            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
-            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
-            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
-            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
-            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
-            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
-          ],
-          "noise_density[def: 0.35]": 0.35
-        },
-        "toxic_heap": {
-          "mobs": {
-            "betternether": {
-              "firefly": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 6]": 6
-              },
-              "skull": {
-                "weight[def: 2]": 2,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "naga": {
-                "weight[def: 20]": 20,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "hydrogen_jellyfish": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 5]": 5
-              }
-            }
-          },
-          "procedural": {
-            "wall": {
-              "cap_gen": {
-                "density[def: 0.8]": 0.8,
-                "limit[def: true]": true
-              }
-            },
-            "floor": {
-              "netherrack_stalactite": {
-                "density[def: 0.05]": 0.05,
-                "limit[def: true]": true
-              },
-              "glowstone_stalactite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              }
-            },
-            "ceil": {
-              "netherrack_stalagmite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              },
-              "glowstone_stalagmite": {
-                "density[def: 0.005]": 0.005,
-                "limit[def: true]": true
-              }
-            }
-          },
-          "plants_and_structures_density[def: 1.0]": 1.0,
-          "schematics": [
-            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
-            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
-            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
-            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
-            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
-            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
-            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
-            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
-            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
-          ],
-          "noise_density[def: 0.35]": 0.35
-        },
-        "toxic_springs": {
-          "mobs": {
-            "betternether": {
-              "firefly": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 6]": 6
-              },
-              "skull": {
-                "weight[def: 2]": 2,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "naga": {
-                "weight[def: 20]": 20,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "hydrogen_jellyfish": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 5]": 5
-              }
-            }
-          },
-          "procedural": {
-            "wall": {
-              "cap_gen": {
-                "density[def: 0.8]": 0.8,
-                "limit[def: true]": true
-              }
-            },
-            "floor": {
-              "netherrack_stalactite": {
-                "density[def: 0.05]": 0.05,
-                "limit[def: true]": true
-              },
-              "glowstone_stalactite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              }
-            },
-            "ceil": {
-              "netherrack_stalagmite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              },
-              "glowstone_stalagmite": {
-                "density[def: 0.005]": 0.005,
-                "limit[def: true]": true
-              }
-            }
-          },
-          "plants_and_structures_density[def: 1.0]": 1.0,
-          "schematics": [
-            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
-            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
-            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
-            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
-            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
-            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
-            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
-            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
-            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
-          ],
-          "noise_density[def: 0.35]": 0.35
-        },
-        "voltaic_heap": {
-          "mobs": {
-            "betternether": {
-              "firefly": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 6]": 6
-              },
-              "skull": {
-                "weight[def: 2]": 2,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "naga": {
-                "weight[def: 20]": 20,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "hydrogen_jellyfish": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 5]": 5
-              }
-            }
-          },
-          "procedural": {
-            "wall": {
-              "cap_gen": {
-                "density[def: 0.8]": 0.8,
-                "limit[def: true]": true
-              }
-            },
-            "floor": {
-              "netherrack_stalactite": {
-                "density[def: 0.05]": 0.05,
-                "limit[def: true]": true
-              },
-              "glowstone_stalactite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              }
-            },
-            "ceil": {
-              "netherrack_stalagmite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              },
-              "glowstone_stalagmite": {
-                "density[def: 0.005]": 0.005,
-                "limit[def: true]": true
-              }
-            }
-          },
-          "plants_and_structures_density[def: 1.0]": 1.0,
-          "schematics": [
-            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
-            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
-            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
-            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
-            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
-            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
-            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
-            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
-            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
-          ],
-          "noise_density[def: 0.35]": 0.35
-        },
-        "warped_forest_d": {
-          "mobs": {
-            "betternether": {
-              "firefly": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 6]": 6
-              },
-              "skull": {
-                "weight[def: 2]": 2,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "naga": {
-                "weight[def: 20]": 20,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "hydrogen_jellyfish": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 5]": 5
-              }
-            }
-          },
-          "procedural": {
-            "wall": {
-              "cap_gen": {
-                "density[def: 0.8]": 0.8,
-                "limit[def: true]": true
-              }
-            },
-            "floor": {
-              "netherrack_stalactite": {
-                "density[def: 0.05]": 0.05,
-                "limit[def: true]": true
-              },
-              "glowstone_stalactite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              }
-            },
-            "ceil": {
-              "netherrack_stalagmite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              },
-              "glowstone_stalagmite": {
-                "density[def: 0.005]": 0.005,
-                "limit[def: true]": true
-              }
-            }
-          },
-          "plants_and_structures_density[def: 1.0]": 1.0,
-          "schematics": [
-            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
-            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
-            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
-            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
-            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
-            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
-            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
-            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
-            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
-          ],
-          "noise_density[def: 0.35]": 0.35
-        },
-        "warped_plains": {
-          "mobs": {
-            "betternether": {
-              "firefly": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 6]": 6
-              },
-              "skull": {
-                "weight[def: 2]": 2,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "naga": {
-                "weight[def: 20]": 20,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "hydrogen_jellyfish": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 5]": 5
-              }
-            }
-          },
-          "procedural": {
-            "wall": {
-              "cap_gen": {
-                "density[def: 0.8]": 0.8,
-                "limit[def: true]": true
-              }
-            },
-            "floor": {
-              "netherrack_stalactite": {
-                "density[def: 0.05]": 0.05,
-                "limit[def: true]": true
-              },
-              "glowstone_stalactite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              }
-            },
-            "ceil": {
-              "netherrack_stalagmite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              },
-              "glowstone_stalagmite": {
-                "density[def: 0.005]": 0.005,
-                "limit[def: true]": true
-              }
-            }
-          },
-          "plants_and_structures_density[def: 1.0]": 1.0,
-          "schematics": [
-            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
-            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
-            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
-            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
-            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
-            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
-            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
-            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
-            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
-          ],
-          "noise_density[def: 0.35]": 0.35
-        },
-        "withered_forest": {
-          "mobs": {
-            "betternether": {
-              "firefly": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 6]": 6
-              },
-              "skull": {
-                "weight[def: 2]": 2,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "naga": {
-                "weight[def: 20]": 20,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "hydrogen_jellyfish": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 5]": 5
-              }
-            }
-          },
-          "procedural": {
-            "wall": {
-              "cap_gen": {
-                "density[def: 0.8]": 0.8,
-                "limit[def: true]": true
-              }
-            },
-            "floor": {
-              "netherrack_stalactite": {
-                "density[def: 0.05]": 0.05,
-                "limit[def: true]": true
-              },
-              "glowstone_stalactite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              }
-            },
-            "ceil": {
-              "netherrack_stalagmite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              },
-              "glowstone_stalagmite": {
-                "density[def: 0.005]": 0.005,
-                "limit[def: true]": true
-              }
-            }
-          },
-          "plants_and_structures_density[def: 1.0]": 1.0,
-          "schematics": [
-            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
-            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
-            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
-            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
-            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
-            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
-            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
-            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
-            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
-          ],
-          "noise_density[def: 0.35]": 0.35
-        },
-        "withered_forest_a": {
-          "mobs": {
-            "betternether": {
-              "firefly": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 6]": 6
-              },
-              "skull": {
-                "weight[def: 2]": 2,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "naga": {
-                "weight[def: 20]": 20,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "hydrogen_jellyfish": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 5]": 5
-              }
-            }
-          },
-          "procedural": {
-            "wall": {
-              "cap_gen": {
-                "density[def: 0.8]": 0.8,
-                "limit[def: true]": true
-              }
-            },
-            "floor": {
-              "netherrack_stalactite": {
-                "density[def: 0.05]": 0.05,
-                "limit[def: true]": true
-              },
-              "glowstone_stalactite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              }
-            },
-            "ceil": {
-              "netherrack_stalagmite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              },
-              "glowstone_stalagmite": {
-                "density[def: 0.005]": 0.005,
-                "limit[def: true]": true
-              }
-            }
-          },
-          "plants_and_structures_density[def: 1.0]": 1.0,
-          "schematics": [
-            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
-            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
-            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
-            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
-            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
-            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
-            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
-            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
-            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
-          ],
-          "noise_density[def: 0.35]": 0.35
-        },
-        "z_nether_caverns": {
-          "mobs": {
-            "betternether": {
-              "firefly": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 6]": 6
-              },
-              "skull": {
-                "weight[def: 2]": 2,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "naga": {
-                "weight[def: 20]": 20,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "hydrogen_jellyfish": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 5]": 5
-              }
-            }
-          },
-          "procedural": {
-            "wall": {
-              "cap_gen": {
-                "density[def: 0.8]": 0.8,
-                "limit[def: true]": true
-              }
-            },
-            "floor": {
-              "netherrack_stalactite": {
-                "density[def: 0.05]": 0.05,
-                "limit[def: true]": true
-              },
-              "glowstone_stalactite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              }
-            },
-            "ceil": {
-              "netherrack_stalagmite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              },
-              "glowstone_stalagmite": {
-                "density[def: 0.005]": 0.005,
-                "limit[def: true]": true
-              }
-            }
-          },
-          "plants_and_structures_density[def: 1.0]": 1.0,
-          "schematics": [
-            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
-            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
-            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
-            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
-            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
-            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
-            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
-            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
-            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
-          ],
-          "noise_density[def: 0.35]": 0.35
-        }
-      },
-      "promenade": {
-        "achromatopsian_gallery": {
-          "mobs": {
-            "betternether": {
-              "firefly": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 6]": 6
-              },
-              "skull": {
-                "weight[def: 2]": 2,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "naga": {
-                "weight[def: 20]": 20,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "hydrogen_jellyfish": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 5]": 5
-              }
-            }
-          },
-          "procedural": {
-            "wall": {
-              "cap_gen": {
-                "density[def: 0.8]": 0.8,
-                "limit[def: true]": true
-              }
-            },
-            "floor": {
-              "netherrack_stalactite": {
-                "density[def: 0.05]": 0.05,
-                "limit[def: true]": true
-              },
-              "glowstone_stalactite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              }
-            },
-            "ceil": {
-              "netherrack_stalagmite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              },
-              "glowstone_stalagmite": {
-                "density[def: 0.005]": 0.005,
-                "limit[def: true]": true
-              }
-            }
-          },
-          "plants_and_structures_density[def: 1.0]": 1.0,
-          "schematics": [
-            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
-            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
-            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
-            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
-            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
-            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
-            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
-            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
-            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
-          ],
-          "noise_density[def: 0.35]": 0.35
-        },
-        "tritanopian_gallery": {
-          "mobs": {
-            "betternether": {
-              "firefly": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 6]": 6
-              },
-              "skull": {
-                "weight[def: 2]": 2,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "naga": {
-                "weight[def: 20]": 20,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "hydrogen_jellyfish": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 5]": 5
-              }
-            }
-          },
-          "procedural": {
-            "wall": {
-              "cap_gen": {
-                "density[def: 0.8]": 0.8,
-                "limit[def: true]": true
-              }
-            },
-            "floor": {
-              "netherrack_stalactite": {
-                "density[def: 0.05]": 0.05,
-                "limit[def: true]": true
-              },
-              "glowstone_stalactite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              }
-            },
-            "ceil": {
-              "netherrack_stalagmite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              },
-              "glowstone_stalagmite": {
-                "density[def: 0.005]": 0.005,
-                "limit[def: true]": true
-              }
-            }
-          },
-          "plants_and_structures_density[def: 1.0]": 1.0,
-          "schematics": [
-            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
-            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
-            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
-            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
-            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
-            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
-            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
-            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
-            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
-          ],
-          "noise_density[def: 0.35]": 0.35
-        },
-        "tall_warped_forest": {
-          "mobs": {
-            "betternether": {
-              "firefly": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 6]": 6
-              },
-              "skull": {
-                "weight[def: 2]": 2,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "naga": {
-                "weight[def: 20]": 20,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "hydrogen_jellyfish": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 5]": 5
-              }
-            }
-          },
-          "procedural": {
-            "wall": {
-              "cap_gen": {
-                "density[def: 0.8]": 0.8,
-                "limit[def: true]": true
-              }
-            },
-            "floor": {
-              "netherrack_stalactite": {
-                "density[def: 0.05]": 0.05,
-                "limit[def: true]": true
-              },
-              "glowstone_stalactite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              }
-            },
-            "ceil": {
-              "netherrack_stalagmite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              },
-              "glowstone_stalagmite": {
-                "density[def: 0.005]": 0.005,
-                "limit[def: true]": true
-              }
-            }
-          },
-          "plants_and_structures_density[def: 1.0]": 1.0,
-          "schematics": [
-            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
-            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
-            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
-            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
-            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
-            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
-            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
-            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
-            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
-          ],
-          "noise_density[def: 0.35]": 0.35
-        },
-        "protanopian_gallery": {
-          "mobs": {
-            "betternether": {
-              "firefly": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 6]": 6
-              },
-              "skull": {
-                "weight[def: 2]": 2,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "naga": {
-                "weight[def: 20]": 20,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 4]": 4
-              },
-              "hydrogen_jellyfish": {
-                "weight[def: 5]": 5,
-                "min_group_size[def: 2]": 2,
-                "max_group_size[def: 5]": 5
-              }
-            }
-          },
-          "procedural": {
-            "wall": {
-              "cap_gen": {
-                "density[def: 0.8]": 0.8,
-                "limit[def: true]": true
-              }
-            },
-            "floor": {
-              "netherrack_stalactite": {
-                "density[def: 0.05]": 0.05,
-                "limit[def: true]": true
-              },
-              "glowstone_stalactite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              }
-            },
-            "ceil": {
-              "netherrack_stalagmite": {
-                "density[def: 0.01]": 0.01,
-                "limit[def: true]": true
-              },
-              "glowstone_stalagmite": {
-                "density[def: 0.005]": 0.005,
-                "limit[def: true]": true
-              }
-            }
-          },
-          "plants_and_structures_density[def: 1.0]": 1.0,
-          "schematics": [
-            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
-            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
-            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
-            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
-            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
-            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
-            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
-            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
-            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
-            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
-            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
-            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
-            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
-            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
-            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
-            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
-          ],
-          "noise_density[def: 0.35]": 0.35
-        },
-        "tall_crimson_forest": {
           "mobs": {
             "betternether": {
               "firefly": {

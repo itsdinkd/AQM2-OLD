@@ -103,7 +103,7 @@
 		"holidayDrops": {
 			"drop": true,
 			"requirePlayer": true,
-			"standardChance": 0.000001999776482582,
+			"standardChance": 1.9997764866275247E-6,
 			"creativeFlightChance": 0.0,
 			"lootingMultiplier": 0.004999999888241291
 		},

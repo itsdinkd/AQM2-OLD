@@ -1,0 +1,861 @@
+[
+  [
+    {
+      "buy": "minecraft:wheat",
+      "price": 20,
+      "maxUses": 16,
+      "experience": 2,
+      "multiplier": 0.05,
+      "type": "BuyForOneEmeraldFactory"
+    },
+    {
+      "buy": "minecraft:potato",
+      "price": 26,
+      "maxUses": 16,
+      "experience": 2,
+      "multiplier": 0.05,
+      "type": "BuyForOneEmeraldFactory"
+    },
+    {
+      "buy": "minecraft:carrot",
+      "price": 22,
+      "maxUses": 16,
+      "experience": 2,
+      "multiplier": 0.05,
+      "type": "BuyForOneEmeraldFactory"
+    },
+    {
+      "buy": "minecraft:beetroot",
+      "price": 15,
+      "maxUses": 16,
+      "experience": 2,
+      "multiplier": 0.05,
+      "type": "BuyForOneEmeraldFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:bread",
+        "count": 1
+      },
+      "price": 1,
+      "count": 6,
+      "maxUses": 16,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "arg$1": "croptopia:artichoke",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:asparagus",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:barley",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:bellpepper",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:blackbean",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:blackberry",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:blueberry",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:broccoli",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:cabbage",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:cantaloupe",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:cauliflower",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:celery",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:coffee_beans",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:corn",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:cranberry",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:cucumber",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:currant",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:eggplant",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:elderberry",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:garlic",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:grape",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:greenbean",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:greenonion",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:honeydew",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:hops",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:kale",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:kiwi",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:leek",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:lettuce",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:oat",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:olive",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:onion",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:peanut",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:pineapple",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:radish",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:raspberry",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:rhubarb",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:rice",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:rutabaga",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:saguaro",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:soybean",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:spinach",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:squash",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:strawberry",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:sweetpotato",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:tomatillo",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:tomato",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:turnip",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:yam",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    },
+    {
+      "arg$1": "croptopia:zucchini",
+      "arg$2": 26,
+      "arg$3": 16,
+      "arg$4": 2,
+      "arg$5": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5673/0x0000000801cbc118"
+    }
+  ],
+  [
+    {
+      "buy": "minecraft:pumpkin",
+      "price": 6,
+      "maxUses": 12,
+      "experience": 10,
+      "multiplier": 0.05,
+      "type": "BuyForOneEmeraldFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:pumpkin_pie",
+        "count": 1
+      },
+      "price": 1,
+      "count": 4,
+      "maxUses": 12,
+      "experience": 5,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:apple",
+        "count": 1
+      },
+      "price": 1,
+      "count": 4,
+      "maxUses": 16,
+      "experience": 5,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    }
+  ],
+  [
+    {
+      "sell": {
+        "id": "minecraft:cookie",
+        "count": 1
+      },
+      "price": 3,
+      "count": 18,
+      "maxUses": 12,
+      "experience": 10,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "buy": "minecraft:melon",
+      "price": 4,
+      "maxUses": 12,
+      "experience": 20,
+      "multiplier": 0.05,
+      "type": "BuyForOneEmeraldFactory"
+    }
+  ],
+  [
+    {
+      "sell": {
+        "id": "minecraft:cake",
+        "count": 1
+      },
+      "price": 1,
+      "count": 1,
+      "maxUses": 12,
+      "experience": 15,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "effect": {
+        "attributeModifiers": {},
+        "category": "BENEFICIAL",
+        "color": 2039713
+      },
+      "duration": 100,
+      "experience": 15,
+      "multiplier": 0.05,
+      "type": "SellSuspiciousStewFactory"
+    },
+    {
+      "effect": {
+        "attributeModifiers": {},
+        "category": "BENEFICIAL",
+        "color": 2293580
+      },
+      "duration": 160,
+      "experience": 15,
+      "multiplier": 0.05,
+      "type": "SellSuspiciousStewFactory"
+    },
+    {
+      "effect": {
+        "modifier": -4.0,
+        "attributeModifiers": {
+          "net.minecraft.class_1329@3f114f13": {
+            "value": 0.0,
+            "operation": "ADDITION",
+            "nameGetter": {},
+            "uuid": "22653b89-116e-49dc-9b6b-9971489b5be5"
+          }
+        },
+        "category": "HARMFUL",
+        "color": 4738376
+      },
+      "duration": 140,
+      "experience": 15,
+      "multiplier": 0.05,
+      "type": "SellSuspiciousStewFactory"
+    },
+    {
+      "effect": {
+        "attributeModifiers": {},
+        "category": "HARMFUL",
+        "color": 2039587
+      },
+      "duration": 120,
+      "experience": 15,
+      "multiplier": 0.05,
+      "type": "SellSuspiciousStewFactory"
+    },
+    {
+      "effect": {
+        "attributeModifiers": {},
+        "category": "HARMFUL",
+        "color": 5149489
+      },
+      "duration": 280,
+      "experience": 15,
+      "multiplier": 0.05,
+      "type": "SellSuspiciousStewFactory"
+    },
+    {
+      "effect": {
+        "attributeModifiers": {},
+        "category": "BENEFICIAL",
+        "color": 16262179
+      },
+      "duration": 7,
+      "experience": 15,
+      "multiplier": 0.05,
+      "type": "SellSuspiciousStewFactory"
+    },
+    {
+      "arg$1": 4,
+      "arg$2": "croptopia:apple_sapling",
+      "arg$3": 1,
+      "arg$4": 12,
+      "arg$5": 15,
+      "arg$6": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 4,
+      "arg$2": "croptopia:banana_sapling",
+      "arg$3": 1,
+      "arg$4": 12,
+      "arg$5": 15,
+      "arg$6": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 4,
+      "arg$2": "croptopia:orange_sapling",
+      "arg$3": 1,
+      "arg$4": 12,
+      "arg$5": 15,
+      "arg$6": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 4,
+      "arg$2": "croptopia:persimmon_sapling",
+      "arg$3": 1,
+      "arg$4": 12,
+      "arg$5": 15,
+      "arg$6": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 4,
+      "arg$2": "croptopia:plum_sapling",
+      "arg$3": 1,
+      "arg$4": 12,
+      "arg$5": 15,
+      "arg$6": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 4,
+      "arg$2": "croptopia:cherry_sapling",
+      "arg$3": 1,
+      "arg$4": 12,
+      "arg$5": 15,
+      "arg$6": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 4,
+      "arg$2": "croptopia:lemon_sapling",
+      "arg$3": 1,
+      "arg$4": 12,
+      "arg$5": 15,
+      "arg$6": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 4,
+      "arg$2": "croptopia:grapefruit_sapling",
+      "arg$3": 1,
+      "arg$4": 12,
+      "arg$5": 15,
+      "arg$6": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 4,
+      "arg$2": "croptopia:kumquat_sapling",
+      "arg$3": 1,
+      "arg$4": 12,
+      "arg$5": 15,
+      "arg$6": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 4,
+      "arg$2": "croptopia:peach_sapling",
+      "arg$3": 1,
+      "arg$4": 12,
+      "arg$5": 15,
+      "arg$6": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 4,
+      "arg$2": "croptopia:coconut_sapling",
+      "arg$3": 1,
+      "arg$4": 12,
+      "arg$5": 15,
+      "arg$6": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 4,
+      "arg$2": "croptopia:nutmeg_sapling",
+      "arg$3": 1,
+      "arg$4": 12,
+      "arg$5": 15,
+      "arg$6": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 4,
+      "arg$2": "croptopia:fig_sapling",
+      "arg$3": 1,
+      "arg$4": 12,
+      "arg$5": 15,
+      "arg$6": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 4,
+      "arg$2": "croptopia:nectarine_sapling",
+      "arg$3": 1,
+      "arg$4": 12,
+      "arg$5": 15,
+      "arg$6": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 4,
+      "arg$2": "croptopia:mango_sapling",
+      "arg$3": 1,
+      "arg$4": 12,
+      "arg$5": 15,
+      "arg$6": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 4,
+      "arg$2": "croptopia:dragonfruit_sapling",
+      "arg$3": 1,
+      "arg$4": 12,
+      "arg$5": 15,
+      "arg$6": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 4,
+      "arg$2": "croptopia:starfruit_sapling",
+      "arg$3": 1,
+      "arg$4": 12,
+      "arg$5": 15,
+      "arg$6": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 4,
+      "arg$2": "croptopia:avocado_sapling",
+      "arg$3": 1,
+      "arg$4": 12,
+      "arg$5": 15,
+      "arg$6": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 4,
+      "arg$2": "croptopia:apricot_sapling",
+      "arg$3": 1,
+      "arg$4": 12,
+      "arg$5": 15,
+      "arg$6": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 4,
+      "arg$2": "croptopia:pear_sapling",
+      "arg$3": 1,
+      "arg$4": 12,
+      "arg$5": 15,
+      "arg$6": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 4,
+      "arg$2": "croptopia:lime_sapling",
+      "arg$3": 1,
+      "arg$4": 12,
+      "arg$5": 15,
+      "arg$6": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 4,
+      "arg$2": "croptopia:date_sapling",
+      "arg$3": 1,
+      "arg$4": 12,
+      "arg$5": 15,
+      "arg$6": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 4,
+      "arg$2": "croptopia:almond_sapling",
+      "arg$3": 1,
+      "arg$4": 12,
+      "arg$5": 15,
+      "arg$6": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 4,
+      "arg$2": "croptopia:cashew_sapling",
+      "arg$3": 1,
+      "arg$4": 12,
+      "arg$5": 15,
+      "arg$6": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 4,
+      "arg$2": "croptopia:pecan_sapling",
+      "arg$3": 1,
+      "arg$4": 12,
+      "arg$5": 15,
+      "arg$6": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 4,
+      "arg$2": "croptopia:walnut_sapling",
+      "arg$3": 1,
+      "arg$4": 12,
+      "arg$5": 15,
+      "arg$6": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    },
+    {
+      "arg$1": 4,
+      "arg$2": "croptopia:cinnamon_sapling",
+      "arg$3": 1,
+      "arg$4": 12,
+      "arg$5": 15,
+      "arg$6": 0.1,
+      "type": "CroptopiaVillagerTrades$$Lambda$5675/0x0000000801cbc560"
+    }
+  ],
+  [
+    {
+      "sell": {
+        "id": "minecraft:golden_carrot",
+        "count": 1
+      },
+      "price": 3,
+      "count": 3,
+      "maxUses": 12,
+      "experience": 30,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:glistering_melon_slice",
+        "count": 1
+      },
+      "price": 4,
+      "count": 3,
+      "maxUses": 12,
+      "experience": 30,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    }
+  ]
+]

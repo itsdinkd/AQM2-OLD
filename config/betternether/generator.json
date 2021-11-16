@@ -41,14 +41,14 @@
     "betternether": {
       "main": {
         "gravel_desert_chance[def: 1.0]": 1.0,
-        "nether_jungle_chance[def: 1.0]": 1.1,
+        "nether_jungle_chance[def: 1.0]": 1.0,
         "wart_forest_chance[def: 1.0]": 1.0,
         "nether_grasslands_chance[def: 1.0]": 1.0,
         "nether_mushroom_forest_chance[def: 1.0]": 1.0,
         "bone_reef_chance[def: 1.0]": 1.0,
-        "nether_swampland_chance[def: 1.0]": 1.1,
+        "nether_swampland_chance[def: 1.0]": 1.0,
         "magma_land_chance[def: 1.0]": 1.0,
-        "upside_down_forest_chance[def: 1.0]": 1.2
+        "upside_down_forest_chance[def: 1.0]": 1.0
       },
       "edge": {
         "nether_mushroom_forest_edge_size[def: 2.0]": 2.0,
@@ -65,45 +65,6 @@
         "old_fungiwoods_chance[def: 0.3]": 0.3,
         "flooded_deltas_chance[def: 1.0]": 1.0,
         "old_swampland_chance[def: 1.0]": 1.0
-      }
-    },
-    "mining_dims": {
-      "main": {
-        "new_basalt_deltas_chance[def: 1.0]": 0.0,
-        "new_nether_wastes_chance[def: 1.0]": 0.0
-      }
-    },
-    "starmute": {
-      "main": {
-        "basalt_deltas_cooled_chance[def: 1.0]": 0.0,
-        "basalt_deltas_ex_chance[def: 1.0]": 0.0,
-        "crimson_forest_s_chance[def: 1.0]": 0.0,
-        "crimson_forest_z_chance[def: 1.0]": 0.0,
-        "cursed_forest_chance[def: 1.0]": 0.0,
-        "infernal_dunes_chance[def: 1.0]": 0.0,
-        "nether_wart_valley_chance[def: 1.0]": 0.0,
-        "polluted_dunes_chance[def: 1.0]": 0.0,
-        "purified_dunes_chance[def: 1.0]": 0.0,
-        "quartz_flats_chance[def: 1.0]": 0.0,
-        "quartz_hills_chance[def: 1.0]": 0.0,
-        "soul_sand_valley_d_chance[def: 1.0]": 0.0,
-        "toxic_heap_chance[def: 1.0]": 0.0,
-        "toxic_springs_chance[def: 1.0]": 0.0,
-        "voltaic_heap_chance[def: 1.0]": 0.0,
-        "warped_forest_d_chance[def: 1.0]": 0.0,
-        "warped_plains_chance[def: 1.0]": 0.0,
-        "withered_forest_chance[def: 1.0]": 0.0,
-        "withered_forest_a_chance[def: 1.0]": 0.0,
-        "z_nether_caverns_chance[def: 1.0]": 0.0
-      }
-    },
-    "promenade": {
-      "main": {
-        "tall_crimson_forest_chance[def: 1.0]": 0.0,
-        "tall_warped_forest_chance[def: 1.0]": 0.0,
-        "tritanopian_gallery_chance[def: 1.0]": 0.0,
-        "achromatopsian_gallery_chance[def: 1.0]": 0.0,
-        "protanopian_gallery_chance[def: 1.0]": 0.0
       }
     }
   }

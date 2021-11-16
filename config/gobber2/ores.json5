@@ -17,7 +17,7 @@
 	*/
 	"netherGobberEnable": true,
 	"netherGobberVeinSize": 3,
-	"netherGobberMaxLevel": 120,
+	"netherGobberMaxLevel": 110,
 	"netherGobberPerChunk": 11,
 	/* 
 	   
@@ -26,9 +26,9 @@
 	   ***********************
 	*/
 	"endGobberEnable": true,
-	"endGobberVeinSize": 2,
-	"endGobberMaxLevel": 180,
-	"endGobberPerChunk": 9,
+	"endGobberVeinSize": 3,
+	"endGobberMaxLevel": 160,
+	"endGobberPerChunk": 11,
 	/* 
 	   
 	   ***********************
@@ -37,7 +37,7 @@
 	*/
 	"luckyEnable": true,
 	"luckyVeinSize": 2,
-	"luckyMaxLevel": 120,
+	"luckyMaxLevel": 100,
 	"luckyPerChunk": 12,
 	/* 
 	   

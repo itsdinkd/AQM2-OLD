@@ -23,8 +23,12 @@
 	"world": {
 		"clusterGenChance": 20000.0,
 		"gatewayGenChance": 100,
-		"clusterDimBlacklist": [],
-		"gatewayDimBlacklist": []
+		"clusterDimBlacklist": [
+			"the_aether:the_aether"
+		],
+		"gatewayDimBlacklist": [
+			"the_aether:the_aether"
+		]
 	},
 	"dungeons": {
 		"maxDungeonDepth": 50
@@ -35,7 +39,7 @@
 	},
 	"limbo": {
 		"universalLimbo": false,
-		"hardcoreLimbo": false,
+		"hardcoreLimbo": true,
 		"decaySpreadChance": 1.0,
 		"limboBlocksCorruptingOverworldAmount": 5.0
 	},
@@ -46,7 +50,7 @@
 		"riftJitter": 1.0
 	},
 	"doors": {
-		"closeDoorBehind": false,
+		"closeDoorBehind": true,
 		"doorList": {
 			"mode": "DISABLE",
 			"doors": []

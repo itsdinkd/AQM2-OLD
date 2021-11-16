@@ -45,7 +45,7 @@
   "illagers_bane": true,
   "void_shot": false,
   "gravity": true,
-  "anima": true,
+  "anima": false,
   "soul_siphon": true,
   "enable_op_mixing": false,
   "fuse_shot": true,

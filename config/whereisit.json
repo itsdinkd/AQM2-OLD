@@ -6,7 +6,8 @@
     "rainbowMode": false,
     "disableSlotHighlight": false,
     "forceSimpleRender": false,
-    "textSizeModifier": 100
+    "textSizeModifier": 100,
+    "maximumResults": 50
   },
   "serverOptions": {
     "searchRadius": 16,

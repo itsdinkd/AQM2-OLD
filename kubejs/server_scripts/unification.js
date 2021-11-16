@@ -55,6 +55,9 @@ const MATERIALS = [
 const UNIFICATION_ORDER = [
     "techreborn",
     "indrev",
+    "mythicmetals",
+    "appliedenergistics2",
+    "betternether",
     "bewitchment",
     "charm",
     "agape_space",
@@ -195,21 +198,21 @@ events.listen("recipes", event => {
     }
     
     // TR recipes
-    autoremove("techreborn:{}_storage_block", "techreborn:crafting_table/storage_block/{}_storage_block");
-    autoremove("techreborn:{}_block", "techreborn:crafting_table/ingot/{}_ingot_from_block");
-    autoremove("techreborn:{}_block", "techreborn:crafting_table/ingot/{}_ingot_from_storage_block");
-    autoremove("techreborn:{}_ingot", "techreborn:crafting_table/ingot/{}_ingot_from_block");
-    autoremove("techreborn:{}_ingot", "techreborn:crafting_table/ingot/{}_ingot_from_nugget");
-    autoremove("techreborn:{}_ingot", "techreborn:crafting_table/ingot/{}_nugget_from_nugget");
-    autoremove("techreborn:{}_dust", "techreborn:crafting_table/small_dust/{}_small_dust");
-    autoremove("techreborn:{}_dust", "techreborn:crafting_table/dust/{}_dust");
-    autoremove("techreborn:{}_nugget", "techreborn:crafting_table/nugget/{}_nugget");
-    autoremove("techreborn:{}_ore", "techreborn:smelting/{}_ingot_from_ore");
-    autoremove("techreborn:{}_ingot", "techreborn:smelting/{}_ingot_from_raw");
-    autoremove("techreborn:{}_ingot", "techreborn:smelting/{}_ingot_from_raw_exported_mi_furnace");
-    autoremove("techreborn:{}_ingot", "techreborn:smelting/{}_ingot_from_dust");
-    autoremove("techreborn:{}_ore", "techreborn:blasting/{}_ingot_from_ore");
-    autoremove("techreborn:{}_ingot", "techreborn:blasting/{}_ingot_from_dust");
+    // autoremove("techreborn:{}_storage_block", "techreborn:crafting_table/storage_block/{}_storage_block");
+    // autoremove("techreborn:{}_block", "techreborn:crafting_table/ingot/{}_ingot_from_block");
+    // autoremove("techreborn:{}_block", "techreborn:crafting_table/ingot/{}_ingot_from_storage_block");
+    // autoremove("techreborn:{}_ingot", "techreborn:crafting_table/ingot/{}_ingot_from_block");
+    // autoremove("techreborn:{}_ingot", "techreborn:crafting_table/ingot/{}_ingot_from_nugget");
+    // autoremove("techreborn:{}_ingot", "techreborn:crafting_table/ingot/{}_nugget_from_nugget");
+    // autoremove("techreborn:{}_dust", "techreborn:crafting_table/small_dust/{}_small_dust");
+    // autoremove("techreborn:{}_dust", "techreborn:crafting_table/dust/{}_dust");
+    // autoremove("techreborn:{}_nugget", "techreborn:crafting_table/nugget/{}_nugget");
+    // autoremove("techreborn:{}_ore", "techreborn:smelting/{}_ingot_from_ore");
+    // autoremove("techreborn:{}_ingot", "techreborn:smelting/{}_ingot_from_raw");
+    // autoremove("techreborn:{}_ingot", "techreborn:smelting/{}_ingot_from_raw_exported_mi_furnace");
+    // autoremove("techreborn:{}_ingot", "techreborn:smelting/{}_ingot_from_dust");
+    // autoremove("techreborn:{}_ore", "techreborn:blasting/{}_ingot_from_ore");
+    // autoremove("techreborn:{}_ingot", "techreborn:blasting/{}_ingot_from_dust");
     // Some duplicate MI recipes (normally untagged).
     autoremove("modern_industrialization:generated/materials/{}/smelting/ore_deepslate_to_ingot_smelting");
     autoremove("modern_industrialization:generated/materials/{}/smelting/ore_deepslate_to_ingot_blasting");

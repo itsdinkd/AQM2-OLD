@@ -1,0 +1,17 @@
+{
+  "nether": {
+    "biomeMap": {
+      "biomeSize [default: 256]": 256
+    }
+  },
+  "end": {
+    "biomeMap": {
+      "biomeSizeLand [default: 256]": 256,
+      "biomeSizeVoid [default: 256]": 256
+    }
+  },
+  "options": {
+    "customNetherBiomeSource [default: true]": true,
+    "customEndBiomeSource [default: true]": true
+  }
+}

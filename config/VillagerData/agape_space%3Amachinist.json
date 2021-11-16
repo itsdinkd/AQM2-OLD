@@ -1,0 +1,70 @@
+[
+  [
+    {
+      "buy": "minecraft:copper_ingot",
+      "price": 1,
+      "maxUses": 32,
+      "experience": 8,
+      "multiplier": 0.05,
+      "type": "BuyForOneEmeraldFactory"
+    },
+    {
+      "sell": {
+        "id": "agape_space:iron_gear",
+        "count": 1
+      },
+      "price": 7,
+      "count": 1,
+      "maxUses": 8,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "agape_space:copper_wire",
+        "count": 1
+      },
+      "price": 4,
+      "count": 1,
+      "maxUses": 8,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    }
+  ],
+  [
+    {
+      "buy": "minecraft:gold_ingot",
+      "price": 1,
+      "maxUses": 32,
+      "experience": 4,
+      "multiplier": 0.05,
+      "type": "BuyForOneEmeraldFactory"
+    },
+    {
+      "sell": {
+        "id": "agape_space:gear_template",
+        "count": 1
+      },
+      "price": 64,
+      "count": 1,
+      "maxUses": 4,
+      "experience": 12,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "agape_space:wire_template",
+        "count": 1
+      },
+      "price": 64,
+      "count": 1,
+      "maxUses": 4,
+      "experience": 12,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    }
+  ]
+]

@@ -42,6 +42,10 @@
       "comment": " This value indicates when the furnace should \u0027overload\u0027 and spit out the xp stored. \n Default: 10, Recipes",
       "value": 10
     },
+    "cache_capacity": {
+      "comment": " Size of recipe cache. \n Default: 10",
+      "value": 10
+    },
     "furnaceXPDropValue2": {
       "comment": " This value indicates when the furnace should \u0027overload\u0027 and spit out the xp stored. \n Default: 100000, Single recipe uses",
       "value": 100000

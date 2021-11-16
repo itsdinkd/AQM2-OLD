@@ -384,6 +384,13 @@
 		/* 
 		   
 		   
+		   Only make supports downward if there is land below.
+		   (Helps make structure look better in floating island worlds instead of support going down to void at world bottom)
+		*/
+		"pillarOnlyToLand": true,
+		/* 
+		   
+		   
 		   How rare are Birch Mansions in Birch biomes.
 		   1 for spawning in most chunks and 1001 for none.
 		*/
@@ -1231,7 +1238,14 @@
 			   How rare are Warped Village in Warped Forest biomes.
 			   1 for spawning in most chunks and 1001 for none.
 			*/
-			"warpedVillageAverageChunkDistance": 30
+			"warpedVillageAverageChunkDistance": 30,
+			/* 
+			   
+			   
+			   How rare are Mushroom Villages.
+			   1 for spawning in most chunks and 10001 for none.
+			*/
+			"villageMushroomAverageChunkDistance": 24
 		},
 		"size": {
 			/* 
@@ -1270,6 +1284,12 @@
 			   Size of the village. This is how many pieces long a path can be from the start piece.
 			*/
 			"mountainsVillageSize": 6,
+			/* 
+			   
+			   
+			   Size of the village. This is how many pieces long a path can be from the start piece.
+			*/
+			"mushroomVillageSize": 8,
 			/* 
 			   
 			   

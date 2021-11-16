@@ -1,0 +1,137 @@
+[
+  [
+    {
+      "buy": "minecraft:chicken",
+      "price": 14,
+      "maxUses": 16,
+      "experience": 2,
+      "multiplier": 0.05,
+      "type": "BuyForOneEmeraldFactory"
+    },
+    {
+      "buy": "minecraft:porkchop",
+      "price": 7,
+      "maxUses": 16,
+      "experience": 2,
+      "multiplier": 0.05,
+      "type": "BuyForOneEmeraldFactory"
+    },
+    {
+      "buy": "minecraft:rabbit",
+      "price": 4,
+      "maxUses": 16,
+      "experience": 2,
+      "multiplier": 0.05,
+      "type": "BuyForOneEmeraldFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:rabbit_stew",
+        "count": 1
+      },
+      "price": 1,
+      "count": 1,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    }
+  ],
+  [
+    {
+      "buy": "minecraft:coal",
+      "price": 15,
+      "maxUses": 16,
+      "experience": 2,
+      "multiplier": 0.05,
+      "type": "BuyForOneEmeraldFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:cooked_porkchop",
+        "count": 1
+      },
+      "price": 1,
+      "count": 5,
+      "maxUses": 16,
+      "experience": 5,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:cooked_chicken",
+        "count": 1
+      },
+      "price": 1,
+      "count": 8,
+      "maxUses": 16,
+      "experience": 5,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "trade": {
+        "firstBuyItem": {
+          "id": "minecraft:emerald",
+          "count": 1
+        },
+        "secondBuyItem": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "sellItem": {
+          "id": "architects_palette:entrails",
+          "count": 4
+        },
+        "uses": 0,
+        "maxUses": 8,
+        "rewardingPlayerExperience": true,
+        "specialPrice": 0,
+        "demandBonus": 0,
+        "priceMultiplier": 0.0,
+        "merchantExperience": 4,
+        "disabled": false
+      },
+      "type": "BasicTradeFactory"
+    }
+  ],
+  [
+    {
+      "buy": "minecraft:mutton",
+      "price": 7,
+      "maxUses": 16,
+      "experience": 20,
+      "multiplier": 0.05,
+      "type": "BuyForOneEmeraldFactory"
+    },
+    {
+      "buy": "minecraft:beef",
+      "price": 10,
+      "maxUses": 16,
+      "experience": 20,
+      "multiplier": 0.05,
+      "type": "BuyForOneEmeraldFactory"
+    }
+  ],
+  [
+    {
+      "buy": "minecraft:dried_kelp_block",
+      "price": 10,
+      "maxUses": 12,
+      "experience": 30,
+      "multiplier": 0.05,
+      "type": "BuyForOneEmeraldFactory"
+    }
+  ],
+  [
+    {
+      "buy": "minecraft:sweet_berries",
+      "price": 10,
+      "maxUses": 12,
+      "experience": 30,
+      "multiplier": 0.05,
+      "type": "BuyForOneEmeraldFactory"
+    }
+  ]
+]

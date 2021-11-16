@@ -21,16 +21,18 @@
 	"desert_rhino_well_spawn_chance": 1,
 	"shaman_spawn_weight": 1,
 	"deer_spawn_weight": 6,
+	"enderwarthog_spawn_weight": 1,
 	"allow_stone_golem_summoning": true,
 	"allow_the_eye_summoning": true,
 	"allow_dragon_hatching": true,
 	"allow_guardian_spawner_spawn": true,
-	"allow_source_stone_tp": true,
+	"allow_source_stone_tp": false,
 	"disable_armor_bonus": false,
 	"resummoned_ender_dragon_drops_egg": false,
 	"allow_ender_dragon_nether_portal": false,
 	"heavy_dragon_flight": true,
 	"allow_special_enchant_loot": true,
 	"allow_extra_tooltips": true,
-	"allow_all_items_on_holder": false
+	"allow_all_items_on_holder": false,
+	"warthog_rare_chance": 0.009999999776482582
 }

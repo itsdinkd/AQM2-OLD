@@ -1,0 +1,116 @@
+[
+  [
+    {
+      "buy": "minecraft:end_stone",
+      "price": 24,
+      "maxUses": 16,
+      "experience": 2,
+      "multiplier": 0.05,
+      "type": "BuyForOneEmeraldFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:end_rod",
+        "count": 1
+      },
+      "price": 4,
+      "count": 3,
+      "maxUses": 16,
+      "experience": 1,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    }
+  ],
+  [
+    {
+      "buy": "minecraft:popped_chorus_fruit",
+      "price": 20,
+      "maxUses": 16,
+      "experience": 10,
+      "multiplier": 0.05,
+      "type": "BuyForOneEmeraldFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:phantom_membrane",
+        "count": 1
+      },
+      "price": 5,
+      "count": 1,
+      "maxUses": 16,
+      "experience": 5,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    }
+  ],
+  [
+    {
+      "buy": "minecraft:ender_pearl",
+      "price": 14,
+      "maxUses": 16,
+      "experience": 20,
+      "multiplier": 0.05,
+      "type": "BuyForOneEmeraldFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:firework_rocket",
+        "count": 1
+      },
+      "price": 3,
+      "count": 8,
+      "maxUses": 16,
+      "experience": 10,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    }
+  ],
+  [
+    {
+      "sell": {
+        "id": "minecraft:dragon_breath",
+        "count": 1
+      },
+      "price": 6,
+      "count": 2,
+      "maxUses": 12,
+      "experience": 15,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "price": 14,
+      "structure": "minecraft:endcity",
+      "iconType": "BANNER_PURPLE",
+      "maxUses": 12,
+      "experience": 15,
+      "type": "SellMapFactory"
+    }
+  ],
+  [
+    {
+      "sell": {
+        "id": "minecraft:shulker_shell",
+        "count": 1
+      },
+      "price": 12,
+      "count": 1,
+      "maxUses": 8,
+      "experience": 30,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:dragon_head",
+        "count": 1
+      },
+      "price": 20,
+      "count": 1,
+      "maxUses": 2,
+      "experience": 30,
+      "multiplier": 0.05,
+      "type": "SellItemFactory"
+    }
+  ]
+]

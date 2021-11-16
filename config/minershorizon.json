@@ -162,13 +162,6 @@
       "maxY": 100
     },
     {
-      "block": "gobber2:gobber2_ore",
-      "size": 2,
-      "count": 1,
-      "minY": 70,
-      "maxY": 100
-    },
-    {
       "block": "minecraft:gold_ore",
       "size": 9,
       "count": 4,
@@ -184,8 +177,8 @@
     },
     {
       "block": "minecraft:redstone_ore",
-      "size": 8,
-      "count": 6,
+      "size": 6,
+      "count": 4,
       "minY": 30,
       "maxY": 60
     },
@@ -241,20 +234,13 @@
     {
       "block": "indrev:nikolite_ore",
       "size": 2,
-      "count": 2,
+      "count": 1,
       "minY": 30,
       "maxY": 60
     },
     {
       "block": "things:gleaming_ore",
       "size": 3,
-      "count": 2,
-      "minY": 30,
-      "maxY": 60
-    },
-    {
-      "block": "gobber2:gobber2_ore",
-      "size": 2,
       "count": 2,
       "minY": 30,
       "maxY": 60
@@ -290,14 +276,14 @@
     {
       "block": "minecraft:emerald_ore",
       "size": 8,
-      "count": 4,
+      "count": 2,
       "minY": 0,
       "maxY": 30
     },
     {
       "block": "indrev:nikolite_ore",
       "size": 3,
-      "count": 3,
+      "count": 2,
       "minY": 0,
       "maxY": 30
     },
@@ -310,22 +296,22 @@
     },
     {
       "block": "gobber2:gobber2_ore",
-      "size": 4,
-      "count": 3,
+      "size": 2,
+      "count": 2,
       "minY": 0,
       "maxY": 30
     },
     {
       "block": "techreborn:iridium_ore",
       "size": 3,
-      "count": 3,
+      "count": 2,
       "minY": 0,
       "maxY": 30
     },
     {
       "block": "appliedenergistics2:quartz_ore",
       "size": 6,
-      "count": 4,
+      "count": 3,
       "minY": 0,
       "maxY": 30
     }

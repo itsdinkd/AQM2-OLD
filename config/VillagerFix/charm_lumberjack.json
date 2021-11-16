@@ -1,0 +1,145 @@
+[
+  [
+    {
+      "in": "minecraft:air",
+      "out": "minecraft:emerald",
+      "inCount": 1,
+      "outCount": 1,
+      "maxUses": 20,
+      "experience": 2,
+      "multiplier": 0.05,
+      "type": "EmeraldsForOverworldLogs"
+    },
+    {
+      "in": "minecraft:air",
+      "out": "minecraft:emerald",
+      "inCount": 1,
+      "outCount": 1,
+      "maxUses": 20,
+      "experience": 2,
+      "multiplier": 0.05,
+      "type": "CommonSaplingsForEmeralds"
+    },
+    {
+      "in": "minecraft:air",
+      "out": "minecraft:emerald",
+      "inCount": 1,
+      "outCount": 1,
+      "maxUses": 20,
+      "experience": 2,
+      "multiplier": 0.05,
+      "type": "LaddersForEmeralds"
+    }
+  ],
+  [
+    {
+      "in": "minecraft:air",
+      "out": "minecraft:emerald",
+      "inCount": 1,
+      "outCount": 1,
+      "maxUses": 20,
+      "experience": 2,
+      "multiplier": 0.05,
+      "type": "EmeraldsForBones"
+    },
+    {
+      "in": "minecraft:air",
+      "out": "minecraft:emerald",
+      "inCount": 1,
+      "outCount": 1,
+      "maxUses": 20,
+      "experience": 2,
+      "multiplier": 0.05,
+      "type": "BedForEmeralds"
+    },
+    {
+      "in": "minecraft:air",
+      "out": "minecraft:emerald",
+      "inCount": 1,
+      "outCount": 1,
+      "maxUses": 20,
+      "experience": 2,
+      "multiplier": 0.05,
+      "type": "FencesForEmeralds"
+    }
+  ],
+  [
+    {
+      "type": "BarkForLogs"
+    },
+    {
+      "in": "minecraft:air",
+      "out": "minecraft:emerald",
+      "inCount": 1,
+      "outCount": 1,
+      "maxUses": 20,
+      "experience": 2,
+      "multiplier": 0.05,
+      "type": "EmeraldsForStems"
+    },
+    {
+      "in": "minecraft:air",
+      "out": "minecraft:emerald",
+      "inCount": 1,
+      "outCount": 1,
+      "maxUses": 20,
+      "experience": 2,
+      "multiplier": 0.05,
+      "type": "DoorsForEmeralds"
+    },
+    {
+      "in": "minecraft:air",
+      "out": "minecraft:emerald",
+      "inCount": 1,
+      "outCount": 1,
+      "maxUses": 20,
+      "experience": 2,
+      "multiplier": 0.05,
+      "type": "UncommonSaplingsForEmeralds"
+    }
+  ],
+  [
+    {
+      "in": "minecraft:air",
+      "out": "minecraft:emerald",
+      "inCount": 1,
+      "outCount": 1,
+      "maxUses": 20,
+      "experience": 2,
+      "multiplier": 0.05,
+      "type": "BarrelForEmeralds"
+    },
+    {
+      "in": "minecraft:air",
+      "out": "minecraft:emerald",
+      "inCount": 1,
+      "outCount": 1,
+      "maxUses": 20,
+      "experience": 2,
+      "multiplier": 0.05,
+      "type": "MusicBlocksForLogs"
+    }
+  ],
+  [
+    {
+      "in": "minecraft:air",
+      "out": "minecraft:emerald",
+      "inCount": 1,
+      "outCount": 1,
+      "maxUses": 20,
+      "experience": 2,
+      "multiplier": 0.05,
+      "type": "BookcaseForEmeralds"
+    },
+    {
+      "in": "minecraft:air",
+      "out": "minecraft:emerald",
+      "inCount": 1,
+      "outCount": 1,
+      "maxUses": 20,
+      "experience": 2,
+      "multiplier": 0.05,
+      "type": "WorkstationForEmeralds"
+    }
+  ]
+]

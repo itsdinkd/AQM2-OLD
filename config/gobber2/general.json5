@@ -17,8 +17,8 @@
 	"enableRingFarmer": false,
 	"enableRingHaste": true,
 	"enableRingMiner": true,
-	"enableRingPhoenix": true,
-	"enableRingRepair": true,
+	"enableRingPhoenix": false,
+	"enableRingRepair": false,
 	"enableRingReturn": true,
 	"enableRingStealth": false,
 	"enableRingSunshine": false,
@@ -60,17 +60,18 @@
 	   Ring Settings
 	   ***********************
 	*/
-	"ringAttractionRange": 8,
+	"ringAttractionRange": 4,
 	"ringMinerCooldown": 40,
 	"ringMinerRange": 5,
 	"ringMinerVerticalRange": 5,
 	"ringMinerDelayedBreak": false,
 	"ringBlinkDistance": 40,
 	"ringBlinkCooldown": 160,
+	"ringCuringCooldown": 500,
 	"ringExplorerCooldown": 1200,
 	"ringExplorerUsePlayerPos": false,
-	"ringExplorerMin": 5000,
-	"ringExplorerMax": 10000,
+	"ringExplorerMin": 1000,
+	"ringExplorerMax": 8000,
 	"ringFarmerHorizRange": 9,
 	"ringFarmerVertRange": 6,
 	"ringFarmerInterval": 200,
@@ -80,8 +81,8 @@
 	"ringDismissalRange": 8.0,
 	"ringDismissalVelocity": 0.2,
 	"ringDismissalLift": 1.5,
-	"ringTravelerLaunch": 3.0,
-	"ringTravelerCruising": 0.3,
+	"ringTravelerLaunch": 1.95,
+	"ringTravelerCruising": 0.11,
 	/* 
 	   
 	   ***********************
@@ -300,7 +301,7 @@
 	   Loot Chests
 	   ***********************
 	*/
-	"lootEnable": true,
+	"lootEnable": false,
 	"lootChance": 0.03999999910593033,
 	/* 
 	   
@@ -326,10 +327,10 @@
 	   ***********************
 	*/
 	"enableNemesis": true,
-	"dropChanceNemesis": 0.1,
-	"attackDamageNemesis": 7.0,
-	"healthNemesis": 20.0,
-	"movementSpeedNemesis": 0.35,
-	"attackKnockbackNemesis": 0.6,
-	"knockbackResistanceNemesis": 1.4
+	"dropChanceNemesis": 0.05,
+	"attackDamageNemesis": 13.5,
+	"healthNemesis": 38.0,
+	"movementSpeedNemesis": 0.32,
+	"attackKnockbackNemesis": 1.0,
+	"knockbackResistanceNemesis": 1.7
 }

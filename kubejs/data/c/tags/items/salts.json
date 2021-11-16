@@ -1,8 +1,9 @@
 {
-  "replace": true,
+  "replace": false,
   "values": [
     "bewitchment:salt",
     "valley:salt",
-    "croptopia:salt"
+    "croptopia:salt",
+    "sandwichable:salt"
   ]
 }

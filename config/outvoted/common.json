@@ -7,31 +7,15 @@
         "minecraft:nether_wastes",
         "minecraft:basalt_deltas",
         "minecraft:crimson_forest",
-        "minecraft:soul_sand_valley",
-        "starmute:crimson_forest_z",
-        "starmute:cursed_forest",
-        "starmute:infernal_dunes",
-        "starmute:toxic_heap",
-        "starmute:crimson_forest_s",
-        "starmute:basalt_deltas_ex",
-        "starmute:basalt_deltas_cooled",
-        "starmute:toxic_springs",
-        "starmute:soul_sand_valley_d",
-        "betternether:magma_land",
-        "betternether:nether_jungle",
-        "betternether:gravel_desert",
-        "betternether:soul_plain",
-        "betternether:flooded_deltas",
-        "betternether:sulfuric_bone_reef",
-        "betternether:poor_nether_grasslands"
+        "minecraft:soul_sand_valley"
       ],
-      "health": 75.0,
+      "health": 70.0,
       "attacking": {
-        "fireballCount": 17,
+        "fireballCount": 19,
         "offsetAngle": 4.0,
         "maxDepressAngle": 50.0,
         "doFireballExplosion": false,
-        "fireballExplosionPower": 0.5
+        "fireballExplosionPower": 0.3
       }
     },
     "glutton": {
@@ -46,7 +30,7 @@
       "health": 20.0,
       "stealEnchants": true,
       "capEnchants": true,
-      "maxEnchants": 3
+      "maxEnchants": 5
     },
     "barnacle": {
       "spawn": true,
@@ -59,30 +43,13 @@
       ],
       "health": 40.0
     },
-    "meerkat": {
-      "spawn": false,
-      "burrowRate": 60,
-      "biomes": [
-        "#desert"
-      ],
-      "health": 10.0
-    },
-    "ostrich": {
-      "spawn": true,
-      "rate": 2,
-      "biomes": [
-        "#savanna"
-      ],
-      "health": 15.0
+    "coppergolem": {
+      "health": 35.0,
+      "oxidationRate": 0.0015
     }
   },
-  "generation": {
-    "genPalmTrees": true,
-    "genBaobabTrees": true,
-    "baobabType": 0
-  },
   "misc": {
-    "helmetPenalty": 40,
-    "givePatchouliBookOnLogin": false
+    "helmetPenalty": 403,
+    "givePatchouliBookOnLogin": true
   }
 }

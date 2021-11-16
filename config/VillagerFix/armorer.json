@@ -1,0 +1,298 @@
+[
+  [
+    {
+      "buy": "minecraft:coal",
+      "price": 15,
+      "maxUses": 16,
+      "experience": 2,
+      "multiplier": 0.05,
+      "type": "BuyForOneEmeraldFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:iron_leggings",
+        "count": 1,
+        "tag": "{Damage:0}"
+      },
+      "price": 7,
+      "count": 1,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.2,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:iron_boots",
+        "count": 1,
+        "tag": "{Damage:0}"
+      },
+      "price": 4,
+      "count": 1,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.2,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:iron_helmet",
+        "count": 1,
+        "tag": "{Damage:0}"
+      },
+      "price": 5,
+      "count": 1,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.2,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:iron_chestplate",
+        "count": 1,
+        "tag": "{Damage:0}"
+      },
+      "price": 9,
+      "count": 1,
+      "maxUses": 12,
+      "experience": 1,
+      "multiplier": 0.2,
+      "type": "SellItemFactory"
+    }
+  ],
+  [
+    {
+      "buy": "minecraft:iron_ingot",
+      "price": 4,
+      "maxUses": 12,
+      "experience": 10,
+      "multiplier": 0.05,
+      "type": "BuyForOneEmeraldFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:bell",
+        "count": 1
+      },
+      "price": 36,
+      "count": 1,
+      "maxUses": 12,
+      "experience": 5,
+      "multiplier": 0.2,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:chainmail_boots",
+        "count": 1,
+        "tag": "{Damage:0}"
+      },
+      "price": 1,
+      "count": 1,
+      "maxUses": 12,
+      "experience": 5,
+      "multiplier": 0.2,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:chainmail_leggings",
+        "count": 1,
+        "tag": "{Damage:0}"
+      },
+      "price": 3,
+      "count": 1,
+      "maxUses": 12,
+      "experience": 5,
+      "multiplier": 0.2,
+      "type": "SellItemFactory"
+    },
+    {
+      "trade": {
+        "firstBuyItem": {
+          "id": "minecraft:emerald",
+          "count": 3
+        },
+        "secondBuyItem": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "sellItem": {
+          "id": "architects_palette:plating_block",
+          "count": 12
+        },
+        "uses": 0,
+        "maxUses": 6,
+        "rewardingPlayerExperience": true,
+        "specialPrice": 0,
+        "demandBonus": 0,
+        "priceMultiplier": 0.1,
+        "merchantExperience": 4,
+        "disabled": false
+      },
+      "type": "BasicTradeFactory"
+    }
+  ],
+  [
+    {
+      "buy": "minecraft:lava_bucket",
+      "price": 1,
+      "maxUses": 12,
+      "experience": 20,
+      "multiplier": 0.05,
+      "type": "BuyForOneEmeraldFactory"
+    },
+    {
+      "buy": "minecraft:diamond",
+      "price": 1,
+      "maxUses": 12,
+      "experience": 20,
+      "multiplier": 0.05,
+      "type": "BuyForOneEmeraldFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:chainmail_helmet",
+        "count": 1,
+        "tag": "{Damage:0}"
+      },
+      "price": 1,
+      "count": 1,
+      "maxUses": 12,
+      "experience": 10,
+      "multiplier": 0.2,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:chainmail_chestplate",
+        "count": 1,
+        "tag": "{Damage:0}"
+      },
+      "price": 4,
+      "count": 1,
+      "maxUses": 12,
+      "experience": 10,
+      "multiplier": 0.2,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "minecraft:shield",
+        "count": 1,
+        "tag": "{Damage:0}"
+      },
+      "price": 5,
+      "count": 1,
+      "maxUses": 12,
+      "experience": 10,
+      "multiplier": 0.2,
+      "type": "SellItemFactory"
+    }
+  ],
+  [
+    {
+      "tool": {
+        "id": "minecraft:diamond_leggings",
+        "count": 1,
+        "tag": "{Damage:0}"
+      },
+      "basePrice": 14,
+      "maxUses": 3,
+      "experience": 15,
+      "multiplier": 0.2,
+      "type": "SellEnchantedToolFactory"
+    },
+    {
+      "tool": {
+        "id": "minecraft:diamond_boots",
+        "count": 1,
+        "tag": "{Damage:0}"
+      },
+      "basePrice": 8,
+      "maxUses": 3,
+      "experience": 15,
+      "multiplier": 0.2,
+      "type": "SellEnchantedToolFactory"
+    }
+  ],
+  [
+    {
+      "tool": {
+        "id": "minecraft:diamond_helmet",
+        "count": 1,
+        "tag": "{Damage:0}"
+      },
+      "basePrice": 8,
+      "maxUses": 3,
+      "experience": 30,
+      "multiplier": 0.2,
+      "type": "SellEnchantedToolFactory"
+    },
+    {
+      "tool": {
+        "id": "minecraft:diamond_chestplate",
+        "count": 1,
+        "tag": "{Damage:0}"
+      },
+      "basePrice": 16,
+      "maxUses": 3,
+      "experience": 30,
+      "multiplier": 0.2,
+      "type": "SellEnchantedToolFactory"
+    },
+    {
+      "sell": {
+        "id": "mcda:champions_armor_helmet",
+        "count": 1,
+        "tag": "{Damage:0}"
+      },
+      "price": 64,
+      "count": 1,
+      "maxUses": 1,
+      "experience": 30,
+      "multiplier": 0.2,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "mcda:champions_armor_chestplate",
+        "count": 1,
+        "tag": "{Damage:0}"
+      },
+      "price": 64,
+      "count": 1,
+      "maxUses": 1,
+      "experience": 30,
+      "multiplier": 0.2,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "mcda:champions_armor_leggings",
+        "count": 1,
+        "tag": "{Damage:0}"
+      },
+      "price": 64,
+      "count": 1,
+      "maxUses": 1,
+      "experience": 30,
+      "multiplier": 0.2,
+      "type": "SellItemFactory"
+    },
+    {
+      "sell": {
+        "id": "mcda:champions_armor_boots",
+        "count": 1,
+        "tag": "{Damage:0}"
+      },
+      "price": 64,
+      "count": 1,
+      "maxUses": 1,
+      "experience": 30,
+      "multiplier": 0.2,
+      "type": "SellItemFactory"
+    }
+  ]
+]
