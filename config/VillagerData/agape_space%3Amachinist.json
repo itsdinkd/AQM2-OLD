@@ -66,5 +66,19 @@
       "multiplier": 0.05,
       "type": "SellItemFactory"
     }
+  ],
+  [
+    {
+      "buy": "agape_space:gold_wire",
+      "sell": "agape_space:component_coil",
+      "count": 16,
+      "type": "CustomBuy"
+    },
+    {
+      "buy": "agape_space:token_gold",
+      "sell": "agape_space:transport_duct",
+      "count": 1,
+      "type": "CustomBuy"
+    }
   ]
 ]

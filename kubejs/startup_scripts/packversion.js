@@ -1,1 +1,1 @@
-console.info('Loading Another Quality Modpack 2 v2.9.4a')
+console.info('Loading Another Quality Modpack 2 v2.10')

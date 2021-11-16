@@ -767,6 +767,40 @@ events.listen("recipes", function (event) {
       )
     });
 
+
+  // Tanks
+  event.replaceInput(
+    { id: "fluidtank:tank_copper" },
+    "minecraft:copper_ingot",
+    "techreborn:copper_plate"
+  );
+  event.replaceInput(
+    { id: "fluidtank:tank_iron" },
+    "minecraft:iron_ingot",
+    "techreborn:refined_iron_plate"
+  );
+  event.replaceInput(
+    { id: "fluidtank:tank_diamond" },
+    "minecraft:diamond",
+    "techreborn:diamond_plate"
+  );
+  event.replaceInput(
+    { id: "fluidtank:tank_emerald" },
+    "minecraft:emerald",
+    "techreborn:emerald_plate"
+  );
+  event.replaceInput(
+    { id: "fluidtank:tank_star" },
+    "minecraft:nether_star",
+    "techreborn:industrial_tank_unit"
+  );
+  event.replaceInput(
+    { id: "fluidtank:tank_gold" },
+    "minecraft:gold_ingot",
+    "indrev:gold_chunk"
+  );
+
+
   // End single recipe replacements //
   ////////////////////////////////////
 

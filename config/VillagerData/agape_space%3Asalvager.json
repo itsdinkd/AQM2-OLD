@@ -3,25 +3,25 @@
     {
       "buy": "agape_space:scrap_circuit",
       "sell": "agape_space:component_display",
-      "count": 8,
+      "count": 4,
       "type": "CustomBuy"
     },
     {
       "buy": "agape_space:scrap_amplifier",
       "sell": "agape_space:component_capacitor",
-      "count": 8,
+      "count": 4,
       "type": "CustomBuy"
     },
     {
       "buy": "agape_space:scrap_magnet",
       "sell": "agape_space:component_redstone_magnet",
-      "count": 8,
+      "count": 4,
       "type": "CustomBuy"
     },
     {
       "buy": "agape_space:scrap_disk",
       "sell": "agape_space:component_coil",
-      "count": 8,
+      "count": 4,
       "type": "CustomBuy"
     }
   ],
@@ -29,7 +29,13 @@
     {
       "buy": "agape_space:scrap_isotope",
       "sell": "agape_space:component_isotope_battery",
-      "count": 32,
+      "count": 16,
+      "type": "CustomBuy"
+    },
+    {
+      "buy": "agape_space:token_pink",
+      "sell": "agape_space:disc_log_1",
+      "count": 4,
       "type": "CustomBuy"
     }
   ]

@@ -1,28 +1,6 @@
 [
   [
     {
-      "buy": "minecraft:rotten_flesh",
-      "price": 32,
-      "maxUses": 16,
-      "experience": 2,
-      "multiplier": 0.05,
-      "type": "BuyForOneEmeraldFactory"
-    },
-    {
-      "sell": {
-        "id": "minecraft:redstone",
-        "count": 1
-      },
-      "price": 1,
-      "count": 2,
-      "maxUses": 12,
-      "experience": 1,
-      "multiplier": 0.05,
-      "type": "SellItemFactory"
-    }
-  ],
-  [
-    {
       "buy": "minecraft:gold_ingot",
       "price": 3,
       "maxUses": 12,
