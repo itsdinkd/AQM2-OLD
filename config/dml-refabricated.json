@@ -1,9 +1,9 @@
 {
   "trial": {
-    "maxMobsInArena": 8,
+    "maxMobsInArena": 10,
     "postEndTimeout": 60,
     "arenaRadius": 12,
-    "warmupTime": 60,
+    "warmupTime": 30,
     "maxTime": 24000,
     "allowStartInWrongTerrain": false,
     "allowPlayersLeavingArena": false,
@@ -16,13 +16,13 @@
   },
   "lootFabricator": {
     "pristineExchangeRate": 12,
-    "processTime": 360
+    "processTime": 390
   },
   "dataModel": {
     "basicDataRequired": 12,
     "advancedDataRequired": 24,
     "superiorDataRequired": 48,
-    "selfAwareDataRequired": 80
+    "selfAwareDataRequired": 96
   },
   "systemGlitch": {
     "teleportChance": 0.05,
@@ -72,7 +72,7 @@
       "shulkerFriendly": 0.2,
       "teleports": 1.5,
       "soulVision": 10.0,
-      "nightVision": 0.025,
+      "nightVision": 0.035,
       "fly": 0.20,
       "underwaterHaste": 0.03,
       "depthStrider": 0.03,

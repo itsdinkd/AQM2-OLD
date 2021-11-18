@@ -1,7 +1,7 @@
 {
-  "replace":"true",
+  "replace":"false",
     "values": [
-      "minecraft:axolotl"
-    ] 
-
+      "minecraft:axolotl",
+      "minecraft:wither"
+    ]
 }

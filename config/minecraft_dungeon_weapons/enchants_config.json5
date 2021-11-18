@@ -33,7 +33,7 @@
   "custom_fire_aspect": true,
   "radiance": true,
   "rushdown": true,
-  "committed": true,
+  "committed": false,
   "charge": true,
   "refreshment": true,
   "aoe_dont_affect_players": true,

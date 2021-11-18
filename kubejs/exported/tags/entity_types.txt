@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Aug 14, 2021, 7:50:22 PM
+To refresh this file, delete it and run /reload command again! Last updated: Oct 2, 2021, 12:43:26 AM
 
 #minecraft:axolotl_always_hostiles
 - minecraft:drowned
@@ -29,26 +29,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Aug
 
 #waila:blacklist
 - minecraft:experience_orb
-- minecraft:area_effect_cloud
-
-#shulker_bullet_utility:invalid_targets
-- minecraft:item
-- minecraft:item_frame
-- minecraft:leash_knot
-- minecraft:painting
-- minecraft:shulker_bullet
-- minecraft:experience_orb
-- minecraft:experience_bottle
-- minecraft:arrow
-- minecraft:spectral_arrow
-- minecraft:minecart
-- minecraft:chest_minecart
-- minecraft:furnace_minecart
-- minecraft:hopper_minecart
-- minecraft:tnt_minecart
-- minecraft:command_block_minecart
-- minecraft:spawner_minecart
-- minecraft:potion
 - minecraft:area_effect_cloud
 
 #requiem:inventory/inventory_carriers
@@ -94,6 +74,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Aug
 - minecraft:piglin
 - minecraft:zombified_piglin
 
+#farmersdelight:horse_feed_users
+- minecraft:horse
+- minecraft:skeleton_horse
+- minecraft:zombie_horse
+- minecraft:donkey
+- minecraft:mule
+- minecraft:llama
+
 #requiem:inventory/armor_users
 - ratsmischief:rat
 
@@ -111,73 +99,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Aug
 - minecraft:silverfish
 - minecraft:fox
 
-#starmute:mobs
-- minecraft:player
-- minecraft:bat
-- minecraft:chicken
-- minecraft:cod
-- minecraft:cow
-- minecraft:donkey
-- minecraft:fox
-- minecraft:horse
-- minecraft:mooshroom
-- minecraft:mule
-- minecraft:ocelot
-- minecraft:panda
-- minecraft:parrot
-- minecraft:pig
-- minecraft:rabbit
-- minecraft:sheep
-- minecraft:skeleton_horse
-- minecraft:salmon
-- minecraft:squid
-- minecraft:strider
-- minecraft:turtle
-- minecraft:tropical_fish
-- minecraft:villager
-- minecraft:wandering_trader
-- minecraft:bee
-- minecraft:dolphin
-- minecraft:polar_bear
-- minecraft:wolf
-- minecraft:cave_spider
-- minecraft:enderman
-- minecraft:iron_golem
-- minecraft:spider
-- minecraft:zombified_piglin
-- minecraft:llama
-- minecraft:trader_llama
-- minecraft:pufferfish
-- minecraft:blaze
-- minecraft:creeper
-- minecraft:drowned
-- minecraft:elder_guardian
-- minecraft:ender_dragon
-- minecraft:evoker
-- minecraft:ghast
-- minecraft:guardian
-- minecraft:hoglin
-- minecraft:husk
-- minecraft:magma_cube
-- minecraft:phantom
-- minecraft:piglin
-- minecraft:piglin_brute
-- minecraft:pillager
-- minecraft:ravager
-- minecraft:shulker
-- minecraft:silverfish
-- minecraft:skeleton
-- minecraft:slime
-- minecraft:stray
-- minecraft:vex
-- minecraft:vindicator
-- minecraft:witch
-- minecraft:wither
-- minecraft:wither_skeleton
-- minecraft:zoglin
-- minecraft:zombie
-- minecraft:zombie_villager
-
 #minecraft:axolotl_hunt_targets
 - minecraft:tropical_fish
 - minecraft:pufferfish
@@ -186,9 +107,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Aug
 - minecraft:squid
 - minecraft:glow_squid
 
-#starmute:sentry_targets
-- minecraft:player
-- minecraft:armor_stand
+#farmersdelight:dog_food_users
+- minecraft:wolf
 
 #requiem:humans
 - bewitchment:vampire
@@ -278,72 +198,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Aug
 - minecraft:witch
 - minecraft:spider
 
-#starmute:mobs_no_player
-- minecraft:bat
-- minecraft:chicken
-- minecraft:cod
-- minecraft:cow
-- minecraft:donkey
-- minecraft:fox
-- minecraft:horse
-- minecraft:mooshroom
-- minecraft:mule
-- minecraft:ocelot
-- minecraft:panda
-- minecraft:parrot
-- minecraft:pig
-- minecraft:rabbit
-- minecraft:sheep
-- minecraft:skeleton_horse
-- minecraft:salmon
-- minecraft:squid
-- minecraft:strider
-- minecraft:turtle
-- minecraft:tropical_fish
-- minecraft:villager
-- minecraft:wandering_trader
-- minecraft:bee
-- minecraft:dolphin
-- minecraft:polar_bear
-- minecraft:wolf
-- minecraft:cave_spider
-- minecraft:enderman
-- minecraft:iron_golem
-- minecraft:spider
-- minecraft:zombified_piglin
-- minecraft:llama
-- minecraft:trader_llama
-- minecraft:pufferfish
-- minecraft:blaze
-- minecraft:creeper
-- minecraft:drowned
-- minecraft:elder_guardian
-- minecraft:ender_dragon
-- minecraft:evoker
-- minecraft:ghast
-- minecraft:guardian
-- minecraft:hoglin
-- minecraft:husk
-- minecraft:magma_cube
-- minecraft:phantom
-- minecraft:piglin
-- minecraft:piglin_brute
-- minecraft:pillager
-- minecraft:ravager
-- minecraft:shulker
-- minecraft:silverfish
-- minecraft:skeleton
-- minecraft:slime
-- minecraft:stray
-- minecraft:vex
-- minecraft:vindicator
-- minecraft:witch
-- minecraft:wither
-- minecraft:wither_skeleton
-- minecraft:zoglin
-- minecraft:zombie
-- minecraft:zombie_villager
-
 #minecraft:freeze_hurts_extra_types
 - minecraft:strider
 - minecraft:blaze
@@ -355,21 +209,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Aug
 - minecraft:creeper
 - minecraft:witch
 
-#starmute:ghastling_enemy
-- minecraft:ghast
-- minecraft:fireball
-
 #dml-refabricated:slimy_mobs
 - minecraft:slime
 - minecraft:magma_cube
 
 #eldritch_mobs:eldritch_blacklist
-
-#starmute:wither
-- minecraft:wither
-- minecraft:wither_skeleton
-- minecraft:skeleton
-- minecraft:zombified_piglin
+- minecraft:axolotl
 
 #libra:passive
 - minecraft:ocelot
@@ -408,7 +253,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Aug
 
 #eldritch_mobs:eldritch_allowed
 - minecraft:zombie
-- minecraft:skeleton
 - minecraft:creeper
 - minecraft:blaze
 - minecraft:drowned
@@ -424,6 +268,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Aug
 - minecraft:shulker
 - minecraft:silverfish
 - minecraft:slime
+- minecraft:skeleton
 - minecraft:stray
 - minecraft:vex
 - minecraft:vindicator
@@ -442,13 +287,40 @@ To refresh this file, delete it and run /reload command again! Last updated: Aug
 - minecraft:piglin
 - minecraft:zombified_piglin
 - minecraft:polar_bear
-- minecraft:llama
 - minecraft:bee
 - minecraft:panda
 - minecraft:ender_dragon
 - minecraft:wither
 - minecraft:piglin_brute
-- ratsmischief:rat
+- adventurez:piglin_beast
+- adventurez:blaze_guardian
+- adventurez:necromancer
+- adventurez:wither_puppet
+- adventurez:skeleton_vanguard
+- adventurez:void_shade
+- gobber2:nemesis
+- adventurez:orc
+- adventurez:stone_golem
+- doom:imp
+- doom:imp2016
+- doom:blood_maykr
+- doom:chaingunner
+- doom:dreadknight
+- doom:shotgunguy
+- doom:mechazombie
+- doom:hellknight
+- doom:zombieman
+- doom:stone_imp
+- doom:unwilling
+- doom:gargoyle
+- doom:revenant
+- doom:revenant2016
+- doom:maykr_drone
+- doom:lost_soul
+- doom:pinky
+- doom:possessed_worker
+- doom:possessed_scientist
+- doom:possessed_soldier
 
 #dml-refabricated:ghost_mobs
 - minecraft:ghast

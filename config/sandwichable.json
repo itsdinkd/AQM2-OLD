@@ -43,7 +43,7 @@
     "maxGenHeight": 128
   },
   "shrubGenOptions": {
-    "spawnTries": 0
+    "spawnTries": 6
   },
   "saltPoolGenOptions": {
     "saltPools": true,

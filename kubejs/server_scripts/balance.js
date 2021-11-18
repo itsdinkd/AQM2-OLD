@@ -767,6 +767,23 @@ events.listen("recipes", function (event) {
       )
     });
 
+  // End single recipe replacements //
+  ////////////////////////////////////
+
+    // Remove Doom OP items 
+  event.remove({output: 'doom:daisy'});
+  event.remove({output: 'doom:soulcube'});
+
+  // Origins Orb
+  event.shaped(item.of('origins:orb_of_origin', 1), [
+    ['doom:argent_energy', 'bewitchment:cleansing_balm', 'winged:dipped_ceremonial_knife'],
+    ]);
+  
+  // QoL Sticks 
+  event.shaped(item.of("minecraft:stick", 16), [
+    ["#minecraft:logs"],
+    ["#minecraft:logs"],
+  ]);
 
   // Tanks
   event.replaceInput(
@@ -800,23 +817,25 @@ events.listen("recipes", function (event) {
     "indrev:gold_chunk"
   );
 
+  // Magic Fungi impetus_sword
+  event.replaceInput(
+    { id: "magicfungi:impetus_sword" },
+    "magicfungi:impetus_essence",
+    "magicfungi:morbus_essence"
+  );
 
-  // End single recipe replacements //
-  ////////////////////////////////////
+    // Magic Fungi impetus_sword 2
+  event.replaceInput(
+    { id: "mythicmetals:metallurgium_sword" },
+    "minecraft:netherite_sword",
+    "mythicmetals:metallurgium_sword"
+  );
 
-    // Remove Doom OP items 
-  event.remove({output: 'doom:daisy'});
-  event.remove({output: 'doom:soulcube'});
-
-  // Origins Orb
-  event.shaped(item.of('origins:orb_of_origin', 1), [
-    ['doom:argent_energy', 'bewitchment:cleansing_balm', 'winged:dipped_ceremonial_knife'],
-    ]);
-  
-  // QoL Sticks 
-  event.shaped(item.of("minecraft:stick", 16), [
-    ["#minecraft:logs"],
-    ["#minecraft:logs"],
-  ]);
+      // Magic Fungi impetus_sword 3
+  event.replaceInput(
+    { id: "mythicmetals:metallurgium_sword" },
+    "minecraft:nether_star",
+    "bosses_of_mass_destruction:obsidian_heart"
+  );
 
 })

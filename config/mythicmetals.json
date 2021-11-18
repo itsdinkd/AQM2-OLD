@@ -145,8 +145,8 @@
     "enabled": true,
     "veinSize": 4,
     "perChunk": 1,
-    "bottom": 50,
-    "top": 100,
+    "bottom": 40,
+    "top": 99,
     "discardChance": 0.25,
     "veinSizeVariant": 7,
     "perChunkVariant": 2,
@@ -187,6 +187,6 @@
   },
   "configVersion": 0,
   "blacklist": [
-    "bronze"
+    "minershorizon:rocky_plains"
   ]
 }

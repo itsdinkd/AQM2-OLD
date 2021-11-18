@@ -193,9 +193,9 @@
     "mcdw:critical_hit": 1
   },
   "mcdw:bow_call_of_the_void": {
-    "mcdw:bonus_shot": 1,
     "mcdw:void_shot": 1,
-    "mcdw:fuse_shot": 1
+    "mcdw:fuse_shot": 1,
+    "minecraft:bonus_shot": 1
   },
   "mythicaddons:red_aegis_sword": {
     "minecraft:fire_aspect": 3
