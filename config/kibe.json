@@ -7,8 +7,8 @@
     "xpShowerSpeedMultiplier": 1.0
   },
   "chunkLoaderModule": {
-    "checkForPlayer": false,
-    "maxPerPlayer": 1,
-    "maxOfflineTime": 10
+    "checkForPlayer": true,
+    "maxPerPlayer": 0,
+    "maxOfflineTime": 1
   }
 }

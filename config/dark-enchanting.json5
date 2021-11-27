@@ -17,12 +17,12 @@
   "configEnchantments": [
     {
       "enchantmentId": "minecraft:silktouch",
-      "personalFactor": 0.0,
+      "personalFactor": 5.0,
       "activated": true
     },
     {
       "enchantmentId": "veinmining:vein_mining",
-      "personalFactor": 0.0,
+      "personalFactor": 7.0,
       "activated": true
     }
   ]
