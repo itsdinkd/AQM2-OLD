@@ -9,16 +9,16 @@
     "crucible_marauder_max_damage": 5,
     "enable_block_breaking": false,
     "enable_noncenter": false,
-    "argent_bolt_damage": 14.0,
+    "argent_bolt_damage": 12.5,
     "bfgball_damage": 80.0,
     "bfgball_damage_dragon": 30.0,
     "bfgball_damage_aoe": 5.0,
-    "bullet_damage": 3.6,
-    "chaingun_bullet_damage": 3.2,
-    "energycell_damage": 1.4,
+    "bullet_damage": 3.3,
+    "chaingun_bullet_damage": 2.9,
+    "energycell_damage": 1.2,
     "rocket_damage": 15.0,
-    "shotgun_damage": 13.5,
-    "unmaykr_damage": 1.7
+    "shotgun_damage": 12.9,
+    "unmaykr_damage": 1.6
   },
   "spawn": {
     "imp_biomes": [
@@ -272,7 +272,13 @@
     ],
     "archmaykr_spawn_weight": 1,
     "archmaykr_min_group": 1,
-    "archmaykr_max_group": 1
+    "archmaykr_max_group": 1,
+    "gladiator_biomes": [
+      "#nether"
+    ],
+    "gladiator_spawn_weight": 1,
+    "gladiator_min_group": 1,
+    "gladiator_max_group": 1
   },
   "stats": {
     "motherdemon_health": 1100.0,
@@ -310,6 +316,9 @@
     "baron_health": 310.0,
     "baron_ranged_damage": 24.2,
     "baron_melee_damage": 25.0,
+    "gladiator_health": 240.0,
+    "gladiator_ranged_damage": 6.0,
+    "gladiator_melee_damage": 7.0,
     "mancubus_health": 140.0,
     "mancubus_melee_damage": 18.5,
     "mancubus_ranged_damage": 15.0,

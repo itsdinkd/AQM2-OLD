@@ -1,0 +1,85 @@
+[
+  {
+    "name": "Crap",
+    "colour": "RED",
+    "weights": [
+      50,
+      50,
+      50,
+      5,
+      0
+    ],
+    "groups": [
+      {
+        "id": "877d4cd3-b11d-4c06-a3a6-408853230c55",
+        "limit": 1,
+        "items": [
+          {
+            "id": "gobber2:gobber2_gooey_apple",
+            "Count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Plain",
+    "colour": "GRAY",
+    "weights": [
+      50,
+      50,
+      50,
+      30,
+      10
+    ],
+    "groups": []
+  },
+  {
+    "name": "Common",
+    "colour": "LIME",
+    "weights": [
+      20,
+      30,
+      40,
+      30,
+      20
+    ],
+    "groups": []
+  },
+  {
+    "name": "Uncommon",
+    "colour": "BLUE",
+    "weights": [
+      5,
+      10,
+      15,
+      20,
+      25
+    ],
+    "groups": []
+  },
+  {
+    "name": "Rare",
+    "colour": "MAGENTA",
+    "weights": [
+      3,
+      6,
+      12,
+      18,
+      21
+    ],
+    "groups": []
+  },
+  {
+    "name": "Unique",
+    "colour": "ORANGE",
+    "weights": [
+      1,
+      2,
+      3,
+      4,
+      30
+    ],
+    "groups": []
+  }
+]

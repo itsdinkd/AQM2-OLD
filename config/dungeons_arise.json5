@@ -157,6 +157,18 @@
 	"heavenlyRiderSize": 20,
 	/* 
 	   
+	   [Aviary Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"aviaryGenerates": true,
+	// Base distance between Aviary (in chunks). Must be higher than separation.
+	"aviarySpacing": 200,
+	// Base distance between Aviary (in chunks)
+	"aviarySeparation": 160,
+	// Number of Jigsaw iterations when generating a structure
+	"aviarySize": 20,
+	/* 
+	   
 	   [Lighthouses Spawning Settings]
 	   Basic configuration options for this structure
 	*/
@@ -359,6 +371,18 @@
 	"wishingWellSeparation": 30,
 	// Number of Jigsaw iterations when generating a structure
 	"wishingWellSize": 10,
+	/* 
+	   
+	   [Illager Windmills Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"illagerWindmillGenerates": true,
+	// Base distance between Illager Windmills (in chunks). Must be higher than separation.
+	"illagerWindmillSpacing": 40,
+	// Base distance between Illager Windmills (in chunks)
+	"illagerWindmillSeparation": 30,
+	// Number of Jigsaw iterations when generating a structure
+	"illagerWindmillSize": 5,
 	/* 
 	   
 	   [Foundries Spawning Settings]

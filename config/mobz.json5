@@ -8,7 +8,7 @@
 	"BoarSpawn": true,
 	"BossSkeletonSpawn": true,
 	"BossZombieSpawn": true,
-	"BowmanSpawn": true,
+	"BowmanSpawn": false,
 	"BrownBearSpawn": true,
 	"CookieCreeperSpawn": true,
 	"DirtyBoarSpawn": true,

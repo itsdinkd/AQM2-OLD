@@ -3,8 +3,8 @@
     "enabled [default: true]": true,
     "acceptConfigs [default: true]": true,
     "acceptFiles [default: true]": true,
-    "acceptMods [default: false]": false,
-    "displayModInfo [default: true]": true,
+    "acceptMods [default: false]": true,
+    "displayModInfo [default: true]": false,
     "debugHashes [default: false]": false
   }
 }

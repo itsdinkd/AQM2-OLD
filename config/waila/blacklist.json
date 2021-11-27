@@ -9,8 +9,7 @@
     "minecraft:experience_orb",
     "minecraft:fireball",
     "minecraft:firework_rocket",
-    "minecraft:snowball",
-    "dimdoors:black_fabric"
+    "minecraft:snowball"
   ],
   "configVersion": 0,
   "pluginHash": [

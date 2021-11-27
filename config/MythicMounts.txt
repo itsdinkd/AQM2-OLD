@@ -49,7 +49,7 @@ Loudness:
     Controls the volume of mod sounds. Values range from 0-100, where 0 = silent, and 100 = full volume.
 
 -------------------------------------------------------------
-w
+
 [Global] Print Biomes: false;
 [Global] Command Item: carrot;
 [Global] Mounted Flight Enabled: true;

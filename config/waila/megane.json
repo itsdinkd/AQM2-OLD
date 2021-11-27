@@ -33,18 +33,14 @@
     "enabled": true,
     "expandWhenSneak": false,
     "colors": {
-      "megane:default": 855385
+      "megane:default": 855385,
+      "minecraft:water": 4159204
     },
     "blacklist": []
   },
   "progress": {
     "enabled": true,
     "showWhenZero": false,
-    "blacklist": []
-  },
-  "petOwner": {
-    "enabled": true,
-    "offline": true,
     "blacklist": []
   },
   "effect": {

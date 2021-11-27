@@ -57,16 +57,17 @@ const UNIFICATION_ORDER = [
     "indrev",
     "mythicmetals",
     "appliedenergistics2",
+    "gobber2",
     "betternether",
     "bewitchment",
     "charm",
     "agape_space",
-    "resourceful_tools",
-    "gobber2"
+    "resourceful_tools"
 ];
 // List of tags NOT to unify
 const UNIFICATION_BLACKLIST = [
     "c:quartz_blocks",
+    "c:aluminum_ores"
 ];
 // Map of removed item -> unified variant.
 const itemIdToUnified = {};

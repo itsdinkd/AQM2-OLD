@@ -20,9 +20,11 @@
 		"SWIFTFOOTED": true
 	},
 	"enableArmorEffect": {
+		"CAULDRONS_OVERFLOW": true,
 		"FIRE_RESISTANCE": true,
 		"FLUID_FREEZING": true,
 		"FROST_BITE_EFFECT": true,
+		"GOURDIANS_HATRED": true,
 		"HASTE": true,
 		"HERO_OF_THE_VILLAGE": true,
 		"HUNGER": true,
@@ -40,6 +42,7 @@
 		"TITAN_SHROUD_EFFECTS": true,
 		"UNSTABLE_ROBES_EFFECT": true,
 		"WATER_BREATHING": true,
+		"WEB_WALKING": true,
 		"WITHERED": true
 	},
 	"maxDropAmounts": {
@@ -1057,6 +1060,34 @@
 			"attackSpeedBoost": 0.0,
 			"movementSpeedBoost": 0.0,
 			"durabilityMultiplier": 36
+		},
+		"CAULDRON": {
+			"protection": {
+				"FEET": 4,
+				"LEGS": 7,
+				"CHEST": 9,
+				"HEAD": 4
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.05,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": -0.025,
+			"durabilityMultiplier": 36
+		},
+		"GOURDIAN": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 5,
+				"CHEST": 7,
+				"HEAD": 3
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0,
+			"attackDamageBoost": 0.0375,
+			"attackSpeedBoost": 0.0,
+			"movementSpeedBoost": 0.0,
+			"durabilityMultiplier": 25
 		}
 	},
 	// Controlled Teleportation for Teleportation and Unstable Robes, default = false

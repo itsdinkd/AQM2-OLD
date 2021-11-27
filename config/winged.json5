@@ -101,7 +101,7 @@
 			"lootingMultiplier": 0.02499999850988388
 		},
 		"holidayDrops": {
-			"drop": true,
+			"drop": false,
 			"requirePlayer": true,
 			"standardChance": 1.9997764866275247E-6,
 			"creativeFlightChance": 0.0,

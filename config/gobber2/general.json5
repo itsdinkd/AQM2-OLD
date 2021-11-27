@@ -156,7 +156,7 @@
 	"gobberAttackDamage": 7.0,
 	"gobberSwordAttackSpeed": 1.7000000476837158,
 	"gobberMiningLevel": 4,
-	"gobberEnchantability": 19,
+	"gobberEnchantability": 16,
 	/* 
 	   
 	   
@@ -169,7 +169,7 @@
 	"gobberNetherAttackDamage": 8.0,
 	"gobberNetherSwordAttackSpeed": 1.9000000953674316,
 	"gobberNetherMiningLevel": 5,
-	"gobberNetherEnchantability": 21,
+	"gobberNetherEnchantability": 18,
 	/* 
 	   
 	   
@@ -183,7 +183,7 @@
 	"gobberEndAttackDamage": 9.0,
 	"gobberEndSwordAttackSpeed": 2.200000047683716,
 	"gobberEndMiningLevel": 6,
-	"gobberEndEnchantability": 23,
+	"gobberEndEnchantability": 22,
 	/* 
 	   
 	   ***********************

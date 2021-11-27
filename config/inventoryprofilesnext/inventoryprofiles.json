@@ -1,0 +1,31 @@
+{
+    "ModSettings": {
+        "tool_damage_threshold": 7,
+        "auto_refill_wait_tick": 15,
+        "add_interval_between_clicks": true,
+        "interval_between_clicks_ms": 5,
+        "first_run": false
+    },
+    "GuiSettings": {
+        "enable_profiles_ui": false,
+        "enable_inventory_buttons": false,
+        "treat_unknown_screens_as_containers": true
+    },
+    "Hotkeys": {
+        "sort_inventory": {
+            "main": {
+                "keys": "BUTTON_3"
+            }
+        },
+        "sort_inventory_in_columns": {
+            "main": {
+                "keys": "LEFT_CONTROL,BUTTON_3"
+            }
+        },
+        "sort_inventory_in_rows": {
+            "main": {
+                "keys": "LEFT_SHIFT,BUTTON_3"
+            }
+        }
+    }
+}

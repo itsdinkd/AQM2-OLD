@@ -30,14 +30,14 @@ events.listen("recipes", function (event) {
   // Winged
   event.remove({output: "winged:wing_random"});
   event.remove({output: "winged:wing_random_creative_flight"});
-  event.remove({output: "winged:heart_of_the_sky"})
+  event.remove({output: "winged:heart_of_the_sky"});
 
   // Lacrimis
   event.remove({output:'lacrimis:rune/spawner'});
 
  // Croptosis
-  event.remove({ output: 'croptosis:feather_meal'})
-  event.remove({ output: 'croptosis:rotten_pile'})
+  event.remove({ output: 'croptosis:feather_meal'});
+  event.remove({ output: 'croptosis:rotten_pile'});
   // Doom Daisy 
   event.remove({output: 'doom:daisy'});
   event.remove({output: 'doom:invisiblesphere'});
@@ -59,9 +59,28 @@ events.listen("recipes", function (event) {
 
   // Boss Key (Destroy spawners to get)
   event.remove({ output: "battletowers:boss_key" });
-  
   // Antimatter cannon
-  event.remove({output: 'appliedenergistics2:matter_cannon'})
+  event.remove({output: 'appliedenergistics2:matter_cannon'});
+
+  // Botania
+  event.remove({output: 'botania:blood_pendant'});
+  event.remove({output: 'botania:balance_cloak'});
+  event.remove({output: 'botania:flight_tiara'});
+  event.remove({output: 'botania:flight_tiara_0'});
+  event.remove({output: 'botania:spawner_claw'});
+  event.remove({output: 'botania:fel_pumpkin'});
+  event.remove({output: 'botania:cocoon'});
+  event.remove({output: 'botania:laputa_shard'});
+  event.remove({output: 'botania:water_ring'});
+  event.remove({output: 'botania:super_lava_pendant'});
+  event.remove({output: 'botania:diving_rod'});
+  event.remove({output: 'botania:missile_rod'});
+  event.remove({output: 'botania:smelt_rod'});
+  event.remove({output: 'botania:terraform_rod'});
+  event.remove({output: 'botania:tornado_rod'});
+
+  // MCDW
+  event.remove({output: 'mcdw:sword_the_starless_night'});
   // Doom
 
   // Tools
@@ -70,11 +89,11 @@ events.listen("recipes", function (event) {
     "axe",
     "pickaxe",
     "paxel",
-    ]
+    ];
 
     doom_tools.forEach(function (item, index) {
       event.remove({output: "doom:argent_" + item});
-    })
+    });
 
 
   // Remove Kibe Generators due to ticking entity crashes
@@ -85,12 +104,12 @@ events.listen("recipes", function (event) {
     "mk3",
     "mk4",
     "mk5",
-    ]
+    ];
 
-  kibe_gen.forEach(function(item, index) { 
+  kibe_gen.forEach(function(item, index) {
     event.remove({output: 'kibe:cobblestone_generator_' + item})
     event.remove({output: 'kibe:basalt_generator_' + item})
-  })
+  });
 
   // Bewitchment Boats (Crashes due to TerraForm API)
     var bwBoats = [

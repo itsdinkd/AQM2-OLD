@@ -1,4 +1,6 @@
 {
+  "disabledPoppets": [],
+  "enableCurses": false,
   "silverSize": 6,
   "silverMaxHeight": 48,
   "silverCount": 5,
