@@ -50,6 +50,6 @@
   },
   "misc": {
     "helmetPenalty": 403,
-    "givePatchouliBookOnLogin": true
+    "givePatchouliBookOnLogin": false
   }
 }

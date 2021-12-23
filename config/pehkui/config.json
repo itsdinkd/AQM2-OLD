@@ -3,7 +3,7 @@
 	"keepAllScalesOnRespawn": false,
 	"scalesKeptOnRespawn": [],
 	"accurateNetherPortals": true,
-	"largeScaleCollisionThreshold": 26.0,
+	"enableCommands": true,
 	"enableDebugCommands": false,
 	"scaledFallDamage": true,
 	"scaledMotion": true,
@@ -65,5 +65,6 @@
 	"projectiles.minimum": 1.401298464324817E-45,
 	"projectiles.maximum": 3.4028234663852886E38,
 	"explosions.minimum": 1.401298464324817E-45,
-	"explosions.maximum": 3.4028234663852886E38
+	"explosions.maximum": 3.4028234663852886E38,
+	"largeScaleCollisionThreshold": 26.0
 }

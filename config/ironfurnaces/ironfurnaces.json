@@ -22,7 +22,7 @@
     },
     "netherite_furnace_speed": {
       "comment": " Number of ticks to complete one smelting operation.\n 200 ticks is what a regular furnace takes.\n Default: 5",
-      "value": 5
+      "value": 10
     },
     "gold_furnace_speed": {
       "comment": " Number of ticks to complete one smelting operation.\n 200 ticks is what a regular furnace takes.\n Default: 120",

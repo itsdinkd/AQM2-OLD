@@ -1,0 +1,857 @@
+{
+  "name": "The Basics",
+  "quests": [
+    {
+      "uuid": "8f7ac091-0aed-4f39-b3f7-3263357ab595",
+      "name": "Manually Deliver Quest",
+      "description": "Now you understand how to use the QDS for returning items. Did you know you can also deliver w/o a QDS from this book?\n\nSince you have the required items to proceed, on the bottom right of the book, click \"Select Task\" and then \"Manual Submit\u0027. This will consume the required items and complete the quest. Some quests might allow this method.",
+      "x": 95,
+      "y": 14,
+      "icon": {
+        "id": "gofish:wooden_crate",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "If the quest allows it, and most consume quests will, you can manually submit here to complete. On the bottom of this page, click the \"Manual Submit\" button.",
+          "items": [
+            {
+              "item": {
+                "id": "teenycoal:teeny_coal",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "teenycoal:teeny_stick",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "4881f4d8-a6e5-49d5-828f-fbef8f3f9dca"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "gofish:wooden_crate",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dd202971-a26c-4317-a5c4-2e55e2cb0075",
+      "name": "Place Quest Delivery System",
+      "description": "Nice going! Now it\u0027s time to place your newly rewarded Quest Delivery System (QDS for short) next to your hopper, making sure they are connected. \n\nThis is how you will turn in items for Consume Quests",
+      "x": 41,
+      "y": 14,
+      "icon": {
+        "id": "hardcorequesting:item_barrel",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "items": [
+            {
+              "item": {
+                "id": "hardcorequesting:item_barrel",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b06797d2-be5d-434e-b5b9-65bd1bfc33e2"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:stick",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:coal",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2f338efd-b8f8-4f47-ac91-03a50ac177cc",
+      "name": "Find Gobber Globettes*",
+      "description": "Gobber Gobber Gobber... If this pack were a human body, Gobber would be the spine. Paxels, Tree Axes, 5x5 Hammers, Rings, Medallions, It\u0027s got it all, but very rare to find the ore. Go find some Gobber Ore and mine it with atleast a diamond pick axe \n\nDo note; a lot of recipes in AQM2 require gobber materials due to gobber ore being very rare. \n\nOnce this task is completed, it will unlock more gobber quests in a different category outside of The Basics",
+      "x": 13,
+      "y": 102,
+      "icon": {
+        "id": "gobber2:gobber2_globette",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_BREAK",
+          "description": "Mine Gobber Ore",
+          "longDescription": "Go out and find a gobber ore block and break it with a diamond or higher pickaxe.",
+          "blocks": [
+            {
+              "item": {
+                "id": "gobber2:gobber2_ore",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Deliver Gobber Globette",
+          "longDescription": "All you need to do for this quest is Obtain a Gobber Globette and Deliver it to QDS. Once delivered, you will open up the Gobber questline.\n\nGlobettes open up a world of recipes for you outside of gobber. Gobber is a very in-demand material for recipes.",
+          "items": [
+            {
+              "item": {
+                "id": "gobber2:gobber2_globette",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "gobber2:gobber2_goo",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": [
+        "/w @p Good Job @p, now your adventure begins."
+      ]
+    },
+    {
+      "uuid": "0553327b-2460-4d2e-b661-f05c0e3d968e",
+      "name": "How Seasons affect Crops",
+      "description": "Another Quality Modpack utilizes the seasons mod, similar to Serene Seasons. Seasons affect growth times. During winter, most crops will be reduced down to 20% growth time, with spring being at 100%. \n\nThere are 28 days in a season.",
+      "x": 66,
+      "y": 72,
+      "icon": {
+        "id": "mcdar:wonderful_wheat",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "CHECKBOX",
+          "longDescription": "Check the box to complete the quest."
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "croptopia:olive",
+          "Count": 1
+        },
+        {
+          "id": "croptopia:blueberry",
+          "Count": 1
+        },
+        {
+          "id": "croptopia:coffee_beans",
+          "Count": 1
+        },
+        {
+          "id": "croptopia:peanut",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cb2808d7-209e-43a1-a933-75b743187c55",
+      "name": "How to Sort",
+      "description": "Sort is a necessity in any modpack, and this one is no different. \n\nTo sort, Middle Mousewheel click a empty slot. \n\nThere\u0027s a lot you can do with your scroll wheel also. Press I + C in game for the menu for that.",
+      "x": 122,
+      "y": 42,
+      "icon": {
+        "id": "minecraft:lead",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CHECKBOX",
+          "longDescription": "- Middle Mouse button empty slot to sort \n- I + C in game to open Item Scroller Menu (which shows all hotkeys for scroll sorting)\n- R + C in game to open Inventory Profiles menu which also goes over hot keys + tweaks."
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "03586b0d-dd66-4f1d-b058-89b7c0ec4e47",
+      "name": "How Waystones Work",
+      "description": "Waypoints are one of the more common ways to get around the world here in AQM. \n\nYou can claim waypoints that do not have a owner, and retrieve payments.\n\nThe payment item to use a waypoint is 1 Gobber Globette.\n\nOwners can Sneak + Right click a waypoint to retrieve the payments others paid to use.\n\nYou can break waypoints but not with just any tool. You need a Level 4 Harvesting level tool to do this. (Diamond+)",
+      "x": 14,
+      "y": 131,
+      "icon": {
+        "id": "waystones:nether_brick_waystone",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CHECKBOX",
+          "longDescription": "This is more for awareness than an actual quest. Check the box to \u0027Complete\u0027 the quest. "
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "23449a12-20de-4cf9-844a-6c1b093bc735",
+      "name": "How to Use Keybind Filter",
+      "description": "Just Enough Keys is powerful. You can filter searching to find what you need quickly. Check out the checkbox task to learn how to use it",
+      "x": 40,
+      "y": 42,
+      "icon": {
+        "id": "minecraft:slime_ball",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CHECKBOX",
+          "longDescription": "How to use the search box in Controls\n\nFind Conflicts using: ^c\n\nFind Controls by mod/category: @c Mod\n\nFind Unbound Controls by: ^u key\nnote: key is optional \n\nFind Key Name by: @k key\n\n\nexample: ^c @c Movement\nwill find all conflicts in the movement category"
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "gofish:wooden_crate",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "233a9288-4ee4-485c-bfec-c36e7475f553",
+      "name": "Loot All Artifacts",
+      "description": "We got Effect Hats, Artifacts, Magic Spells (Found on Lecterns and Bookshelves), Enchantments, and more that can only be found in dungeon chests.\n\nTo complete this quest, you must find all the MC Dungeon Artifacts.",
+      "x": 14,
+      "y": 160,
+      "icon": {
+        "id": "mcdar:boots_of_swiftness",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Obtain Boots of Swiftness",
+          "longDescription": "Find the Swift boots and once in your inventory, this task will be completeable. If you have it in your inventory and it doesn\u0027t show as complete, hit the Manual Detection button.",
+          "items": [
+            {
+              "item": {
+                "id": "mcdar:boots_of_swiftness",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Obtain Wonderful Wheat",
+          "longDescription": "Cut Crops?",
+          "items": [
+            {
+              "item": {
+                "id": "mcdar:wonderful_wheat",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Obtain Tasty Bone",
+          "longDescription": "I wonder what this will summon..",
+          "items": [
+            {
+              "item": {
+                "id": "mcdar:tasty_bone",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Obtain Enchanted Grass",
+          "longDescription": "Call in the mighty sheep",
+          "items": [
+            {
+              "item": {
+                "id": "mcdar:enchanted_grass",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Obtain Buzzy Nest",
+          "longDescription": "The Buzzy Nest allows you to spawn in soldier bees to help attack your enemies",
+          "items": [
+            {
+              "item": {
+                "id": "mcdar:buzzy_nest",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Obtain Satchel of Elements",
+          "longDescription": "Summon elements",
+          "items": [
+            {
+              "item": {
+                "id": "mcdar:satchel_of_elements",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Obtain Updraft Tome",
+          "longDescription": "Its a mystery",
+          "items": [
+            {
+              "item": {
+                "id": "mcdar:updraft_tome",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Obtain Deathcap Mushroom",
+          "longDescription": "Put your enemies in a frenzy",
+          "items": [
+            {
+              "item": {
+                "id": "mcdar:death_cap_mushroom",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Obtain Ghost Cloak",
+          "longDescription": "Temporary Invisibility",
+          "items": [
+            {
+              "item": {
+                "id": "mcdar:ghost_cloak",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Obtain Iron Hide Armor",
+          "longDescription": "Get some nice armor",
+          "items": [
+            {
+              "item": {
+                "id": "mcdar:iron_hide_amulet",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Obtain Wind Horn",
+          "longDescription": "Call in a storm to blow your enemies away",
+          "items": [
+            {
+              "item": {
+                "id": "mcdar:wind_horn",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "givemehats:santa_hat",
+          "Count": 1
+        },
+        {
+          "id": "givemehats:cowboy_hat",
+          "Count": 1
+        },
+        {
+          "id": "givemehats:cat_ears",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "302a6897-e8c7-4735-967a-6fec011d5d6b",
+      "name": "Silk Touch a Spawner",
+      "description": "I wonder what you can do with this..",
+      "x": 292,
+      "y": 13,
+      "icon": {
+        "id": "minecraft:spawner",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Silktouch Spawner",
+          "longDescription": "Get Silk Touch enchantment and do your thing",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:spawner",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:cat_spawn_egg",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0436a8b3-eb0e-4405-a56e-1048504b8b11",
+      "name": "Use Auto Run",
+      "description": "In AQM, you can run automatically. Go to the Checklist task to see how exactly you can do that.",
+      "x": 13,
+      "y": 42,
+      "icon": {
+        "id": "minecraft:clock",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CHECKBOX",
+          "longDescription": "The way to auto run is as follows; \n\nPress \u0027ESC\n-\u003e Go into Options\n--\u003e Go into Controls\n---\u003e Keybind for Autorun\n\nPress the key and you will run automatically. Check the box once finished."
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "gofish:wooden_crate",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cd9426db-ff8a-4142-a468-3588ca2a263e",
+      "name": "Zoom Zoom",
+      "description": "Zoom with the \"V\" key! ",
+      "x": 95,
+      "y": 42,
+      "icon": {
+        "id": "additionaladditions:crossbow_with_spyglass",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "CHECKBOX",
+          "longDescription": "Use the \"V\" key to Zoom\n\nAlso, take this crossbow with a spyglass just because you\u0027re awesome."
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "additionaladditions:crossbow_with_spyglass",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "64e4d4b0-31ec-49a4-9d09-8e184c711ba8",
+      "name": "How to Find Items in All Chests",
+      "description": "Misplaced something and have a lot of chests early game? \n\nUse the Chest Tracker! It\u0027s the icon in your inventory on the top right of the Interface, click it. It will highlight whatever chest has the item you selected, and it remembers every item you encountered in chests. ",
+      "x": 149,
+      "y": 41,
+      "icon": {
+        "id": "minecraft:chest",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CHECKBOX",
+          "longDescription": "Chest Tracker is the small icon in your inventory on the top right. Click it to see all the items you can find in your chests."
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8b1bfb00-73c4-422e-af66-cfeae6a86280",
+      "name": "Craft a Baby Backpack",
+      "description": "Minecraft 101... You need a backpack. Its essential. \n\nSo, Go ahead and craft a inmis Baby Backpack! After that, work on getting higher tiers of the backpacks as you get so much more storage space.",
+      "x": 14,
+      "y": 189,
+      "icon": {
+        "id": "inmis:baby_backpack",
+        "Count": 1,
+        "tag": {}
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "inmis:baby_backpack",
+                "Count": 1,
+                "tag": {}
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "inmis:frayed_backpack",
+          "Count": 1,
+          "tag": {}
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "67c042b9-0de0-4ee7-a5d1-9c2807a7c556",
+      "name": "Claim Land",
+      "description": "Okay you\u0027re in a server or playing with randoms and want your land protected. We got you! ",
+      "x": 67,
+      "y": 42,
+      "icon": {
+        "id": "minecraft:golden_hoe",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "CHECKBOX",
+          "longDescription": "With land claims, you can use the command /flan\nor you can use a golden hoe. \n\nYou get a new claim block every 900 ticks, so the longer you play, the more claim blocks you receive. \n\nSelect a starting block via the tool or where you are standing, and then select the end point with the tool or where you are standing (or exact coordinates can be typed).\n\n/help flan\nwill give you a list of available commands, like adding players to your claim, promoting them to do or not do certain things, and so much more. "
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:golden_hoe",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "93afab1d-7d23-425f-acdd-916710875bc4",
+      "name": "Locate Biomes",
+      "description": "Want to find biomes fast? Then you\u0027ll need Nature\u0027s Compass! This handy necessity gives you the coordinates, and a compass to show you the direction you need to follow for your targeted biome.",
+      "x": 122,
+      "y": 13,
+      "icon": {
+        "id": "naturescompass:naturescompass",
+        "Count": 1,
+        "tag": {}
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Craft Nature\u0027s Compass",
+          "longDescription": "Simple Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "naturescompass:naturescompass",
+                "Count": 1,
+                "tag": {}
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "gofish:wooden_crate",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "00adde47-adc2-4e33-97bc-371f4b64f567",
+      "name": "Change Your Skin",
+      "description": "You can change your skin two different ways.\n\nThe first way is using the keybind to open up the skin menu, which you can find under Controls using the filtered search, type\n\n@c Tailor\n\nThis will bring up the mod category (Tailor) and display all keybinds related to it.\n\nThe second way is by using the /skin   command. You can change skin by URL (get the image url), a file on your computer, or even another players name.  ",
+      "x": 13,
+      "y": 72,
+      "icon": {
+        "id": "entitybanners:entity_banner",
+        "Count": 1,
+        "tag": {
+          "BlockEntityTag": {
+            "Bannerpp_LoomPatterns": [
+              {
+                "Pattern": "mobz:fast_banner",
+                "Index": 0,
+                "Color": 15
+              }
+            ],
+            "entitybanners_Entity": "mobz:fast",
+            "Patterns": [
+              {
+                "Pattern": "tts",
+                "Color": 10
+              },
+              {
+                "Pattern": "bts",
+                "Color": 10
+              },
+              {
+                "Pattern": "bo",
+                "Color": 10
+              },
+              {
+                "Pattern": "cs",
+                "Color": 15
+              }
+            ]
+          }
+        }
+      },
+      "tasks": [
+        {
+          "type": "CHECKBOX",
+          "longDescription": "Type /skin and whatever argument after (URL, player, local) following the value OR open the skin menu. \n\nOnce you change your skin (not mandatory), come back here and toggle the box, if desired. "
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "gofish:wooden_crate",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b06797d2-be5d-434e-b5b9-65bd1bfc33e2",
+      "name": "How to Turn in Quest Items",
+      "description": "The hopper is what you will need to connect to the delivery system in order to turn in your consume type quest items. Place one down \nThe big size text under this are your tasks, click it to see what you need to do.\n\nNot all quests will be turn in quests, most are going to be crafting or obtaining. ",
+      "x": 14,
+      "y": 14,
+      "icon": {
+        "id": "minecraft:hopper",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "longDescription": "Place your hopper down and make sure there is enough room for another block to be connected to it, the QDS (Quest Delivery System)",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:hopper",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:item_barrel",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4881f4d8-a6e5-49d5-828f-fbef8f3f9dca",
+      "name": "Deliver Your Torch",
+      "description": "Great! You placed the hopper down, connected it to the QDS, and now you\u0027re ready to turn in a item. \n\nWith your last reward, craft a torch, and drop it in the hopper. Make sure you Select the task, and then Sneak + Right click your QDS with your quest book to bind it.\n\nAfter this, you can manually submit items through the quest book on these type of quests.",
+      "x": 68,
+      "y": 14,
+      "icon": {
+        "id": "teenycoal:teeny_coal",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME_QDS",
+          "longDescription": "With this Task Selected (If you\u0027re seeing this, it is selected) Sneak + Right Click the QDS while holding your quest book to bind it for consumption. You will need to do this for any quest where you need to deliver the item. \n\nRemember; These kind of quests consume your item, you will not get it back.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:torch",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "dd202971-a26c-4317-a5c4-2e55e2cb0075"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "teenycoal:teeny_coal",
+          "Count": 6
+        },
+        {
+          "id": "teenycoal:teeny_stick",
+          "Count": 6
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "61e83542-c5ae-46a2-a5d6-3a1d4f4360b3",
+      "name": "Carry Things",
+      "description": "With a Carrier Glove, you can move lots of different blocks like Crafting Tables, Expanded Storages, Cables, Smithing Tables, and so much more (NO Spawners or Vanilla Chests)\n\nCraft a Carrier Glove and Sneak + Rightclick to carry it. Do know that this will cost you some hunger and slow you down until its placed with Right Click.",
+      "x": 40,
+      "y": 72,
+      "icon": {
+        "id": "carrier:glove",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "carrier:glove",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "gofish:wooden_crate",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "The Basics.... pretty much go over some features AQM2 has to offer. I highly suggest going through this questline. Especially completing the gobber quest"
+}

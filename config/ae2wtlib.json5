@@ -1,7 +1,7 @@
 {
-	"chargeRate": 8000.0,
-	"wutChargeRateMultiplier": 1.0,
-	"outOfRangePowerMultiplier": 2.0,
+	"wutChargeRateMultiplier": 1.4,
+	"wutBatterySizeMultiplier": 3.0,
+	"outOfRangePowerMultiplier": 2.5,
 	"magnetCardRange": 16.0,
 	"enableTrinket": true
 }

@@ -16,11 +16,13 @@
 	"enableRingExplorer": true,
 	"enableRingFarmer": false,
 	"enableRingHaste": true,
+	"enableRingLuck": true,
 	"enableRingMiner": true,
 	"enableRingPhoenix": false,
 	"enableRingRepair": false,
 	"enableRingReturn": true,
 	"enableRingStealth": false,
+	"enableRingStrength": false,
 	"enableRingSunshine": false,
 	"enableRingSwiftness": true,
 	"enableRingTeleport": true,
@@ -54,20 +56,24 @@
 	"enableMedallionExp": true,
 	"enableMedallionHero": true,
 	"enableMedallionSea": true,
+	"enableMedallionShielding": false,
+	"enableMedallionSuffering": false,
 	/* 
 	   
 	   ***********************
 	   Ring Settings
 	   ***********************
 	*/
+	"ringAboveCooldown": 240,
+	"enableAirWalkingPlaceGlass": true,
 	"ringAttractionRange": 4,
-	"ringMinerCooldown": 40,
-	"ringMinerRange": 5,
-	"ringMinerVerticalRange": 5,
-	"ringMinerDelayedBreak": false,
 	"ringBlinkDistance": 40,
 	"ringBlinkCooldown": 160,
+	"enableCuringAlwaysOn": false,
 	"ringCuringCooldown": 500,
+	"ringDismissalRange": 8.0,
+	"ringDismissalVelocity": 0.2,
+	"ringDismissalLift": 1.5,
 	"ringExplorerCooldown": 1200,
 	"ringExplorerUsePlayerPos": false,
 	"ringExplorerMin": 1000,
@@ -76,11 +82,17 @@
 	"ringFarmerVertRange": 6,
 	"ringFarmerInterval": 200,
 	"ringFarmerIntervalCactus": 60,
-	"ringAboveCooldown": 240,
+	"ringPhoenixHealAmount": 5,
+	"ringHasteLevel": 2,
+	"ringLuckLevel": 4,
+	"ringMinerCooldown": 40,
+	"ringMinerRange": 5,
+	"ringMinerVerticalRange": 5,
+	"ringMinerDelayedBreak": false,
 	"ringRepairInterval": 180,
-	"ringDismissalRange": 8.0,
-	"ringDismissalVelocity": 0.2,
-	"ringDismissalLift": 1.5,
+	"ringStrengthLevel": 2,
+	"ringStrengthResistenceLevel": 1,
+	"ringSwiftnessLevel": 1,
 	"ringTravelerLaunch": 1.95,
 	"ringTravelerCruising": 0.11,
 	/* 
@@ -90,6 +102,7 @@
 	   -used with optimization mods
 	   that break things
 	   Value of 300 works
+	   - only needed if there is a problem
 	   ***********************
 	*/
 	"effectDuration": 8,
@@ -104,7 +117,11 @@
 	"medallionLesserHealingAmount": 1,
 	"medallionHealingAmount": 2,
 	"medallionGreaterHealingAmount": 3,
-	"medallionBreathingWaterCheck": true,
+	"medallionShieldingHorizRange": 3,
+	"medallionShieldingVertRange": 2,
+	"medallionShieldingAgainstWither": false,
+	"medallionSufferingRange": 6,
+	"medallionSufferingDamage": 2,
 	/* 
 	   
 	   ***********************
@@ -112,7 +129,9 @@
 	   ***********************
 	*/
 	"staffTransformationDurability": 825,
-	"staffClearingRange": 7,
+	"staffClearingHorizRange": 6,
+	"staffClearingVertRange": 3,
+	"staffClearingCooldown": 180,
 	"staffSniperCooldown": 200,
 	"staffFarmerHorizRange": 12,
 	"staffFarmerVertRange": 6,
@@ -156,7 +175,7 @@
 	"gobberAttackDamage": 7.0,
 	"gobberSwordAttackSpeed": 1.7000000476837158,
 	"gobberMiningLevel": 4,
-	"gobberEnchantability": 16,
+	"gobberEnchantability": 8,
 	/* 
 	   
 	   
@@ -169,7 +188,7 @@
 	"gobberNetherAttackDamage": 8.0,
 	"gobberNetherSwordAttackSpeed": 1.9000000953674316,
 	"gobberNetherMiningLevel": 5,
-	"gobberNetherEnchantability": 18,
+	"gobberNetherEnchantability": 11,
 	/* 
 	   
 	   
@@ -183,33 +202,7 @@
 	"gobberEndAttackDamage": 9.0,
 	"gobberEndSwordAttackSpeed": 2.200000047683716,
 	"gobberEndMiningLevel": 6,
-	"gobberEndEnchantability": 22,
-	/* 
-	   
-	   ***********************
-	   Armor Settings
-	   ***********************
-	*/
-	"enableGobberAllPerks": false,
-	"enableGobberHealthPerks": false,
-	"gobberGobberArmorHealingPoints": 2,
-	"enableNetherAllPerks": false,
-	"enableNetherHealthPerks": false,
-	"gobberNetherArmorHealingPoints": 2,
-	"enableEndAllPerks": false,
-	"enableEndHealthPerks": false,
-	"gobberEndArmorHealingPoints": 3,
-	"unbreakableEndArmor": false,
-	"enableEndArmorGliding": true,
-	"enablePhantomProtection": true,
-	"enableDragonArmorWithoutFlight": true,
-	"enableDragonArmorWithFlight": false,
-	"enableDragonAllPerks": true,
-	"enableDragonHealthPerks": false,
-	"gobberDragonArmorHealingPoints": 0,
-	"enableDragonProtectiveEffects": true,
-	"enableDragonNoFallDamage": false,
-	"unbreakableDragonArmor": true,
+	"gobberEndEnchantability": 14,
 	/* 
 	   
 	   
@@ -218,7 +211,7 @@
 	   ******************************
 	*/
 	"gobberDurabilityMultiplier": 68,
-	"gobberArmorEnchantability": 15,
+	"gobberArmorEnchantability": 9,
 	"gobberToughness": 2.0,
 	"gobberKnockbackResistance": 0.10000000149011612,
 	"gobberHeadProtection": 7,
@@ -233,7 +226,7 @@
 	   ******************************
 	*/
 	"gobberNetherDurabilityMultiplier": 83,
-	"gobberNetherArmorEnchantability": 19,
+	"gobberNetherArmorEnchantability": 11,
 	"gobberNetherToughness": 2.25,
 	"gobberNetherKnockbackResistance": 0.10000000149011612,
 	"netherHeadProtection": 9,
@@ -248,7 +241,7 @@
 	   ******************************
 	*/
 	"gobberEndDurabilityMultiplier": 120,
-	"gobberEndArmorEnchantability": 23,
+	"gobberEndArmorEnchantability": 13,
 	"gobberEndToughness": 2.5,
 	"gobberEndKnockbackResistance": 0.11249999701976776,
 	"endHeadProtection": 10,
@@ -263,7 +256,7 @@
 	   ******************************
 	*/
 	"gobberDragonDurabilityMultiplier": 130,
-	"gobberDragonArmorEnchantability": 25,
+	"gobberDragonArmorEnchantability": 15,
 	"gobberDragonToughness": 2.700000047683716,
 	"gobberDragonKnockbackResistance": 0.11874999850988388,
 	"dragonHeadProtection": 10,
@@ -273,21 +266,87 @@
 	/* 
 	   
 	   ***********************
+	   Gobber Armor Features
+	   ***********************
+	*/
+	"enableGobberBreathing": false,
+	"enableGobberHealthPerks": false,
+	"healingPointsGobberArmor": 2,
+	/* 
+	   
+	   ***********************
+	   Nether Armor Features
+	   ***********************
+	*/
+	"enableNetherFirePerk": false,
+	"enableNetherHealthPerks": false,
+	"healingPointsNetherArmor": 2,
+	/* 
+	   
+	   ***********************
+	   End Armor Features
+	   ***********************
+	*/
+	"unbreakableEndArmor": false,
+	"enableEndBreathing": false,
+	"enableEndFirePerk": false,
+	"enableEndHealthPerks": false,
+	"healingPointsEndArmor": 3,
+	"enableEndNoFallDamage": false,
+	"enableGlidingEndArmor": true,
+	/* 
+	   
+	   ***********************
+	   Dragon Armor Features
+	   ***********************
+	*/
+	"unbreakableDragonArmor": true,
+	"enableDragonArmorWithoutFlight": true,
+	"enableDragonArmorWithFlight": false,
+	"enableDragonBreathing": true,
+	"enableDragonFirePerk": false,
+	"enableDragonHealthPerks": false,
+	"healingPointsDragonArmor": 4,
+	"enableDragonCuring": false,
+	"enableDragonNoFallDamage": true,
+	"enableGlidingDragonArmor": true,
+	/* 
+	   
+	   ***********************
 	   Enchantments
 	   ***********************
 	*/
 	"enableSmithblade": true,
-	"smithbladeAttackAmount": 1,
-	"smithbladeMaxLevel": 4,
 	"enableRebuffing": true,
-	"rebuffingMaxLevel": 2,
 	"enableFasterObsidian": true,
 	"enableUntouchable": true,
-	"untouchableDamage": 5,
-	"untouchableMaxLevel": 2,
 	"enableQuickUse": false,
 	"enableBlinders": true,
 	"enableSolidFooting": true,
+	"enableApotropaic": true,
+	"enableFluidMaster": true,
+	"enableSummoner": false,
+	"enableSummonerBonusStats": false,
+	"summonerGoldGear": true,
+	"summonerMobLifespan": 120,
+	/* 
+	   
+	   ***********************
+	   Enchantment Settings
+	   ***********************
+	*/
+	"smithbladeAttackAmount": 1,
+	"smithbladeMaxLevel": 4,
+	"rebuffingMaxLevel": 2,
+	"untouchableDamage": 5,
+	"untouchableMaxLevel": 2,
+	"summonerHealthBonus": 30.0,
+	"summonerAttackBonus": 10.0,
+	"summonerMovementBonus": 0.6,
+	"summonerArmorBonus": 20.0,
+	"enableRingEnchanting": false,
+	"enableStaffEnchanting": false,
+	"enableMedallionEnchanting": false,
 	/* 
 	   
 	   ***********************
@@ -322,6 +381,16 @@
 	/* 
 	   
 	   ***********************
+	   Fuel (Foo) Settings
+	   
+	   ***********************
+	*/
+	"fooBurntime": 9000,
+	"fooNetherBurntime": 18000,
+	"fooEndBurntime": 24000,
+	/* 
+	   
+	   ***********************
 	   Nemesis Settings
 	   
 	   ***********************
@@ -330,7 +399,7 @@
 	"dropChanceNemesis": 0.05,
 	"attackDamageNemesis": 13.5,
 	"healthNemesis": 38.0,
-	"movementSpeedNemesis": 0.32,
+	"movementSpeedNemesis": 0.36,
 	"attackKnockbackNemesis": 1.0,
 	"knockbackResistanceNemesis": 1.7
 }

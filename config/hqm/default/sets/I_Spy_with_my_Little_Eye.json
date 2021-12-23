@@ -1,0 +1,94 @@
+{
+  "name": "I Spy with my Little Eye",
+  "quests": [
+    {
+      "uuid": "0d6ec0ab-f760-412c-8dbb-c4c6a11bd9ff",
+      "name": "Mining Dimension",
+      "description": "We have 4 dimensions that you can visit to mine, hunt, climb, or cave (weird). \n\nCheck out the tasks to learn how to visit them",
+      "x": 16,
+      "y": 13,
+      "icon": {
+        "id": "spectrum:end_portal_cracker",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "LOCATION",
+          "description": "Mining Dimension",
+          "longDescription": "Mining Dimension\n\nA dimension with two biomes (desert and plains) and is always noon; same ores and structures as Overworld; made using the vanilla portal method but with deepslate and lit with flint-n-steel. ",
+          "locations": [
+            {
+              "name": "Visit Mining Dim",
+              "x": 1,
+              "y": 1,
+              "z": 1,
+              "dim": "mining_dims:mining_dim",
+              "radius": -1,
+              "visible": "FULL"
+            }
+          ]
+        },
+        {
+          "type": "LOCATION",
+          "description": "Caving Dimension",
+          "longDescription": "- Caving Dim: A safe haven dimension of Mushroom biome caves; same ores as Overworld; made with tuff and lit with flint-n-steel; ",
+          "locations": [
+            {
+              "name": "Visit Caving Dim",
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "dim": "mining_dims:caving_dim",
+              "radius": -1,
+              "visible": "LOCATION"
+            }
+          ]
+        },
+        {
+          "type": "LOCATION",
+          "description": "Climbing Dimension",
+          "longDescription": "- Climbing Dim: A dimensions with two biomes (badlands and wind-swept hills) and is always noon; same ores and structures as Overworld; made with snow blocks and lit with flint-n-steel.",
+          "locations": [
+            {
+              "name": "Visit Climbing Dim",
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "dim": "mining_dims:climbing_dim",
+              "radius": -1,
+              "visible": "LOCATION"
+            }
+          ]
+        },
+        {
+          "type": "LOCATION",
+          "description": "Hunting Dimension",
+          "longDescription": "- Hunting Dim: A dimension with just plains, always dark, and full of juiced up, armored mobs; only vanilla ores; made with oak logs and lit with flint-n-steel; seriously, the mobs are tough and you will likely die!\n\nHowever, you get good loot from slaying those mobs.",
+          "locations": [
+            {
+              "name": "Visit Hunting Dim",
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "dim": "mining_dims:hunting_dim",
+              "radius": -1,
+              "visible": "LOCATION"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "gobber2:gobber2_globette",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "All about exploring"
+}

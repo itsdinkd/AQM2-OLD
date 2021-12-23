@@ -55,6 +55,9 @@
   "mcdw:spear_fortune": {
     "minecraft:looting": 1
   },
+  "mythicmetals:white_aegis_sword": {
+    "minecraft:smite": 6
+  },
   "mcdw:bow_bonebow": {
     "mcdw:growing": 1
   },
@@ -75,6 +78,9 @@
   },
   "mcdw:sword_dancers_sword": {
     "mcdw:rampaging": 1
+  },
+  "mythicmetals:red_aegis_sword": {
+    "minecraft:fire_aspect": 3
   },
   "mcdw:gauntlet_maulers": {
     "mcdw:rampaging": 1

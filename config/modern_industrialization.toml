@@ -1,0 +1,9 @@
+generateOres = true
+blacklistedOres = ["lead", "tin", "silver", "salt", "bauxite", "iridium", "tungsten"]
+spawnWithGuideBook = true
+respawnWithGuideBook = false
+disableFuelTooltips = true
+disableItemTagTooltips = true
+newVersionMessage = false
+colorWaterLava = true
+enableDebugCommands = false

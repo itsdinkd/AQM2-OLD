@@ -1,0 +1,635 @@
+{
+  "name": "Gotta Catch Em All",
+  "quests": [
+    {
+      "uuid": "47e06828-d54a-4e1f-88c4-e93c46ecfbe8",
+      "name": "Summon a Rooster",
+      "description": "Summon a rooster using a bowl of seed.",
+      "x": 123,
+      "y": 9,
+      "icon": {
+        "id": "guardiansgalore:bowl_of_seed",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "items": [
+            {
+              "item": {
+                "id": "guardiansgalore:bowl_of_seed",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aae21450-07e1-4301-b410-bdbffbeca0b7"
+      ],
+      "optionlinks": [
+        "ad3eef2f-3bf1-4f01-856a-5bc81413fdd2",
+        "d294629b-cbdf-4f4e-b497-3561e3058c36",
+        "6841f47f-236c-40af-aa55-47d27c10520b",
+        "23586591-90bc-484e-bf95-53cc2bbf62f9",
+        "c37896e4-6945-4611-b887-ad4b43db0835",
+        "811ecc86-4192-49fa-9460-2e0627e78ddf",
+        "ec8ffc31-fbf1-49ad-a96e-6a001e021cbd",
+        "94941088-4ba6-4cd8-a4ab-2f13dbabd50c"
+      ],
+      "reward": [
+        {
+          "id": "culinaire:sandwich",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6841f47f-236c-40af-aa55-47d27c10520b",
+      "name": "Summon a Toad",
+      "description": "Summon a toad using a bowl of toadstools.",
+      "x": 201,
+      "y": 9,
+      "icon": {
+        "id": "guardiansgalore:bowl_of_toadstools",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "items": [
+            {
+              "item": {
+                "id": "guardiansgalore:bowl_of_toadstools",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aae21450-07e1-4301-b410-bdbffbeca0b7"
+      ],
+      "optionlinks": [
+        "ad3eef2f-3bf1-4f01-856a-5bc81413fdd2",
+        "d294629b-cbdf-4f4e-b497-3561e3058c36",
+        "23586591-90bc-484e-bf95-53cc2bbf62f9",
+        "811ecc86-4192-49fa-9460-2e0627e78ddf",
+        "ec8ffc31-fbf1-49ad-a96e-6a001e021cbd",
+        "94941088-4ba6-4cd8-a4ab-2f13dbabd50c"
+      ],
+      "reward": [
+        {
+          "id": "culinaire:sandwich",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ad3eef2f-3bf1-4f01-856a-5bc81413fdd2",
+      "name": "Summon a Tortoise",
+      "description": "ummon a tortoise using a bowl of watermelon.",
+      "x": 149,
+      "y": 10,
+      "icon": {
+        "id": "guardiansgalore:bowl_of_toadstools",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "items": [
+            {
+              "item": {
+                "id": "guardiansgalore:bowl_of_watermelon",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aae21450-07e1-4301-b410-bdbffbeca0b7"
+      ],
+      "optionlinks": [
+        "d294629b-cbdf-4f4e-b497-3561e3058c36",
+        "c37896e4-6945-4611-b887-ad4b43db0835"
+      ],
+      "reward": [
+        {
+          "id": "culinaire:sandwich",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "23586591-90bc-484e-bf95-53cc2bbf62f9",
+      "name": "Summon a Raven",
+      "description": "Summon a raven using a bowl of wheat.",
+      "x": 253,
+      "y": 9,
+      "icon": {
+        "id": "guardiansgalore:bowl_of_wheat",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "items": [
+            {
+              "item": {
+                "id": "guardiansgalore:bowl_of_wheat",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aae21450-07e1-4301-b410-bdbffbeca0b7"
+      ],
+      "optionlinks": [
+        "ad3eef2f-3bf1-4f01-856a-5bc81413fdd2",
+        "d294629b-cbdf-4f4e-b497-3561e3058c36",
+        "811ecc86-4192-49fa-9460-2e0627e78ddf",
+        "94941088-4ba6-4cd8-a4ab-2f13dbabd50c"
+      ],
+      "reward": [
+        {
+          "id": "culinaire:sandwich",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f914b3d1-c95a-4a20-80c0-8ea8027e896d",
+      "name": "Summon a Dove",
+      "description": "Summon a dove using a bowl of mixed seeds.",
+      "x": 178,
+      "y": 38,
+      "icon": {
+        "id": "guardiansgalore:bowl_of_mixed_seed",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "items": [
+            {
+              "item": {
+                "id": "guardiansgalore:bowl_of_mixed_seed",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aae21450-07e1-4301-b410-bdbffbeca0b7"
+      ],
+      "optionlinks": [
+        "ad3eef2f-3bf1-4f01-856a-5bc81413fdd2",
+        "d294629b-cbdf-4f4e-b497-3561e3058c36",
+        "47e06828-d54a-4e1f-88c4-e93c46ecfbe8",
+        "6841f47f-236c-40af-aa55-47d27c10520b",
+        "23586591-90bc-484e-bf95-53cc2bbf62f9",
+        "0286d31b-489f-4cc3-9c23-b427427e64dc",
+        "c37896e4-6945-4611-b887-ad4b43db0835",
+        "811ecc86-4192-49fa-9460-2e0627e78ddf",
+        "ec8ffc31-fbf1-49ad-a96e-6a001e021cbd",
+        "94941088-4ba6-4cd8-a4ab-2f13dbabd50c",
+        "7cfee50c-d438-411e-aba1-ef53b78d48d4"
+      ],
+      "reward": [
+        {
+          "id": "culinaire:sandwich",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "aae21450-07e1-4301-b410-bdbffbeca0b7",
+      "name": "The Pets that Stop Mob Spawns",
+      "description": "Guardian Pets, once set up, will prevent mobs from spawning. Be gone, creep...er.\n\nThere\u0027s 12 pets, each with 4-7 skin variations, and they will rest at the anchor until you get back and then move around.",
+      "x": 15,
+      "y": 9,
+      "icon": {
+        "id": "guardiansgalore:guardian_block",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "These blocks are used to summon different kinds of guardians and serve as their home base. Summoned animals will wander nearby once summoned, and will teleport back to their anchor stone if they roam too far from it. Anchor stones also control the how far the guardian’s protective range extends. Use blaze bells on anchor stones to increase the despawn range, or right-click them with an empty hand to decrease the range and remove bells. There are four varieties: stone, sandstone, granite, and diorite.\n\n",
+          "items": [
+            {
+              "item": {
+                "id": "guardiansgalore:guardian_block",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "BLOCK_PLACE",
+          "longDescription": "You crafted it, now its time to place it.",
+          "items": [
+            {
+              "item": {
+                "id": "guardiansgalore:guardian_block",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0286d31b-489f-4cc3-9c23-b427427e64dc",
+      "name": "Summon a Liondog",
+      "description": "Summon a liondog using a bowl of emeralds.\n\n",
+      "x": 140,
+      "y": 37,
+      "icon": {
+        "id": "guardiansgalore:bowl_of_emeralds",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "items": [
+            {
+              "item": {
+                "id": "guardiansgalore:bowl_of_emeralds",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aae21450-07e1-4301-b410-bdbffbeca0b7"
+      ],
+      "optionlinks": [
+        "ad3eef2f-3bf1-4f01-856a-5bc81413fdd2",
+        "d294629b-cbdf-4f4e-b497-3561e3058c36",
+        "47e06828-d54a-4e1f-88c4-e93c46ecfbe8",
+        "6841f47f-236c-40af-aa55-47d27c10520b",
+        "23586591-90bc-484e-bf95-53cc2bbf62f9",
+        "c37896e4-6945-4611-b887-ad4b43db0835",
+        "811ecc86-4192-49fa-9460-2e0627e78ddf",
+        "ec8ffc31-fbf1-49ad-a96e-6a001e021cbd",
+        "94941088-4ba6-4cd8-a4ab-2f13dbabd50c",
+        "7cfee50c-d438-411e-aba1-ef53b78d48d4"
+      ],
+      "reward": [
+        {
+          "id": "culinaire:sandwich",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c37896e4-6945-4611-b887-ad4b43db0835",
+      "name": "Summon a Wolf",
+      "description": "Summon a wolf using a bowl of bones.",
+      "x": 174,
+      "y": 9,
+      "icon": {
+        "id": "guardiansgalore:bowl_of_bones",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "items": [
+            {
+              "item": {
+                "id": "guardiansgalore:bowl_of_bones",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aae21450-07e1-4301-b410-bdbffbeca0b7"
+      ],
+      "optionlinks": [
+        "d294629b-cbdf-4f4e-b497-3561e3058c36",
+        "6841f47f-236c-40af-aa55-47d27c10520b",
+        "23586591-90bc-484e-bf95-53cc2bbf62f9",
+        "811ecc86-4192-49fa-9460-2e0627e78ddf",
+        "ec8ffc31-fbf1-49ad-a96e-6a001e021cbd",
+        "94941088-4ba6-4cd8-a4ab-2f13dbabd50c"
+      ],
+      "reward": [
+        {
+          "id": "culinaire:sandwich",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0a71741b-0cf1-452f-8d98-a906b439dcb8",
+      "name": "Extend Despawn Range",
+      "description": "With this bell, shift right click a anchor stone with a pet on it and you can extend the despawn range, going even further. \n\nTo decrease the range, empty hand and shift right click. ",
+      "x": 17,
+      "y": 39,
+      "icon": {
+        "id": "guardiansgalore:blaze_bell",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "guardiansgalore:blaze_bell",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aae21450-07e1-4301-b410-bdbffbeca0b7"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "811ecc86-4192-49fa-9460-2e0627e78ddf",
+      "name": "Summon a Boar",
+      "description": "Summon a boar using a bowl of potatoes.",
+      "x": 305,
+      "y": 8,
+      "icon": {
+        "id": "guardiansgalore:bowl_of_potatoes",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "items": [
+            {
+              "item": {
+                "id": "guardiansgalore:bowl_of_potatoes",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aae21450-07e1-4301-b410-bdbffbeca0b7"
+      ],
+      "optionlinks": [
+        "ad3eef2f-3bf1-4f01-856a-5bc81413fdd2",
+        "d294629b-cbdf-4f4e-b497-3561e3058c36"
+      ],
+      "reward": [
+        {
+          "id": "culinaire:sandwich",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ec8ffc31-fbf1-49ad-a96e-6a001e021cbd",
+      "name": "Summon a Bear",
+      "description": "Summon a bear using a bowl of apples.",
+      "x": 227,
+      "y": 9,
+      "icon": {
+        "id": "guardiansgalore:bowl_of_apples",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "items": [
+            {
+              "item": {
+                "id": "guardiansgalore:bowl_of_apples",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aae21450-07e1-4301-b410-bdbffbeca0b7"
+      ],
+      "optionlinks": [
+        "ad3eef2f-3bf1-4f01-856a-5bc81413fdd2",
+        "d294629b-cbdf-4f4e-b497-3561e3058c36",
+        "23586591-90bc-484e-bf95-53cc2bbf62f9",
+        "811ecc86-4192-49fa-9460-2e0627e78ddf",
+        "94941088-4ba6-4cd8-a4ab-2f13dbabd50c"
+      ],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d294629b-cbdf-4f4e-b497-3561e3058c36",
+      "name": "Summon a Dragon",
+      "description": "Summon a dragon using a bowl of gold.\n\n ",
+      "x": 69,
+      "y": 9,
+      "icon": {
+        "id": "guardiansgalore:bowl_of_gold",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "description": "Place Bowl on Anchor",
+          "items": [
+            {
+              "item": {
+                "id": "guardiansgalore:bowl_of_gold",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aae21450-07e1-4301-b410-bdbffbeca0b7"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "culinaire:sandwich",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b2e75df3-0fa5-4d5e-85b4-bf510a5cc8ab",
+      "name": "Summon a Fox",
+      "description": "Summon a fox using a bowl of berries.",
+      "x": 42,
+      "y": 9,
+      "icon": {
+        "id": "guardiansgalore:bowl_of_berries",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "description": "Place Bowl on Anchor",
+          "items": [
+            {
+              "item": {
+                "id": "guardiansgalore:bowl_of_berries",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aae21450-07e1-4301-b410-bdbffbeca0b7"
+      ],
+      "optionlinks": [
+        "ad3eef2f-3bf1-4f01-856a-5bc81413fdd2",
+        "f914b3d1-c95a-4a20-80c0-8ea8027e896d",
+        "d294629b-cbdf-4f4e-b497-3561e3058c36",
+        "47e06828-d54a-4e1f-88c4-e93c46ecfbe8",
+        "6841f47f-236c-40af-aa55-47d27c10520b",
+        "23586591-90bc-484e-bf95-53cc2bbf62f9",
+        "0286d31b-489f-4cc3-9c23-b427427e64dc",
+        "c37896e4-6945-4611-b887-ad4b43db0835",
+        "811ecc86-4192-49fa-9460-2e0627e78ddf",
+        "ec8ffc31-fbf1-49ad-a96e-6a001e021cbd",
+        "94941088-4ba6-4cd8-a4ab-2f13dbabd50c",
+        "7cfee50c-d438-411e-aba1-ef53b78d48d4"
+      ],
+      "reward": [
+        {
+          "id": "culinaire:sandwich",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "94941088-4ba6-4cd8-a4ab-2f13dbabd50c",
+      "name": "Summon a Rabbit",
+      "description": "Summon a rabbit using a bowl of carrots.",
+      "x": 280,
+      "y": 8,
+      "icon": {
+        "id": "guardiansgalore:bowl_of_carrots",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "items": [
+            {
+              "item": {
+                "id": "guardiansgalore:bowl_of_carrots",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aae21450-07e1-4301-b410-bdbffbeca0b7"
+      ],
+      "optionlinks": [
+        "ad3eef2f-3bf1-4f01-856a-5bc81413fdd2",
+        "d294629b-cbdf-4f4e-b497-3561e3058c36",
+        "811ecc86-4192-49fa-9460-2e0627e78ddf"
+      ],
+      "reward": [
+        {
+          "id": "culinaire:sandwich",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7cfee50c-d438-411e-aba1-ef53b78d48d4",
+      "name": "Summon a Deer",
+      "description": "Summon a deer using a bowl of hay.",
+      "x": 96,
+      "y": 9,
+      "icon": {
+        "id": "guardiansgalore:bowl_of_hay",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "description": "Place Bowl on Anchor",
+          "items": [
+            {
+              "item": {
+                "id": "guardiansgalore:bowl_of_hay",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aae21450-07e1-4301-b410-bdbffbeca0b7"
+      ],
+      "optionlinks": [
+        "ad3eef2f-3bf1-4f01-856a-5bc81413fdd2",
+        "d294629b-cbdf-4f4e-b497-3561e3058c36",
+        "47e06828-d54a-4e1f-88c4-e93c46ecfbe8",
+        "6841f47f-236c-40af-aa55-47d27c10520b",
+        "23586591-90bc-484e-bf95-53cc2bbf62f9",
+        "c37896e4-6945-4611-b887-ad4b43db0835",
+        "811ecc86-4192-49fa-9460-2e0627e78ddf",
+        "ec8ffc31-fbf1-49ad-a96e-6a001e021cbd",
+        "94941088-4ba6-4cd8-a4ab-2f13dbabd50c"
+      ],
+      "reward": [
+        {
+          "id": "culinaire:sandwich",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

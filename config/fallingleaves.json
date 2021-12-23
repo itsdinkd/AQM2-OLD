@@ -412,6 +412,94 @@
     "betternether:lucis_spore": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
+    },
+    "betternether:eyeball_small": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "betternether:eyeball": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "twm:mangrove_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:magenta_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:green_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:orange_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:purple_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:light_gray_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:blue_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:brown_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:white_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "valley:apple_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:black_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:red_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:pink_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:spirit_sallow_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:light_blue_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "valley:apple_leaves_empty": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:cyan_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:gray_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:lime_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:yellow_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
     }
   }
 }

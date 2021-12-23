@@ -343,7 +343,7 @@
   "chunk_loader": {
     "ChunkLoaderMaxRadius": {
       "comment": "Chunk Loader Max Radius",
-      "value": 1
+      "value": 0
     }
   },
   "industrial_grinder": {

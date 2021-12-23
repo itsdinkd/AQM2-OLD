@@ -5,7 +5,8 @@
 		"rowCount": 6,
 		"columnCount": 9,
 		"hideDeleteButton": false,
-		"enableButton": true
+		"enableButton": true,
+		"hideDatabaseInfo": false
 	},
 	"databaseOptions": {
 		"destroyedMemoryCheckInterval": 20,

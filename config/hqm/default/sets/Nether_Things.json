@@ -1,0 +1,67 @@
+{
+  "name": "Nether Things",
+  "quests": [
+    {
+      "uuid": "3225eb56-8e18-45f3-acbf-5c43c65a37de",
+      "name": "Run from Mother Demon",
+      "description": "Just kidding. Slay the beast. Good luck!",
+      "x": 294,
+      "y": 183,
+      "icon": {
+        "id": "doom:motherdemon_spawn_egg",
+        "Count": 1
+      },
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 1,
+      "tasks": [
+        {
+          "type": "KILL",
+          "longDescription": "Kill it, get rewarded.",
+          "mobs": [
+            {
+              "name": "Mother Demon",
+              "mob": "doom:motherdemon",
+              "kills": 1
+            }
+          ]
+        },
+        {
+          "type": "LOCATION",
+          "locations": [
+            {
+              "name": "Visit Nether",
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "dim": "minecraft:the_nether",
+              "radius": -1,
+              "visible": "LOCATION"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "doom:jump_pad",
+          "Count": 1
+        },
+        {
+          "id": "doom:shotgun",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "doom:shotgun_shells",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

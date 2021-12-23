@@ -5,14 +5,15 @@
 	"waxGlandMultiplier": 7.0,
 	// The base durability of the infernal scepter
 	"infernalScepterDurability": 64,
-	// The momentum level the mining glove produces
-	"miningGloveMomentumLevel": 2,
 	// Whether Things should prevent beacons from giving someone haste when they already have momentum
 	"nerfBeaconsWithMomentum": true,
 	// Globally disables Things trinket rendering
 	"renderTrinkets": true,
 	// Only disables trinket rendering for apples
 	"renderAppleTrinket": true,
-	// Whether players should receive a Things guide when they first enter a world
-	"giveGuideOnWorldEntry": false
+	"effectLevels": {
+		"mossNecklaceRegen": 2,
+		"miningGloveMomentum": 2,
+		"riotGauntletStrength": 1
+	}
 }

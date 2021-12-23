@@ -36,6 +36,7 @@
 			"enableLv25Buff": true
 		},
 		"mining": {
+			// At what Y level does the lv50 effect trigger?
 			"effectLevelTrigger": 40,
 			"enableLv50Buff": true,
 			"enableLv25Buff": true

@@ -5,12 +5,8 @@
 // AOF 4 unification script - MIT licensed. //
 //////////////////////////////////////////////
 
-// GO THROUGH LOGS ON 8/29/21 : 4:45PM-ISH 
-// All items that switch to tech reborn need to be placed in the client version of unification to be removed. Right now we're removing the tech reborn versions, needs to be switched. 
-// Reason is because AOF wanted invar,modern to be the main versions of the recipes. tech is ours.
-
 // Set to true to generate the client script for REI unification.
-const GENERATE_REI_SCRIPT = true;
+const GENERATE_REI_SCRIPT = false;
 // List of part tags to unify.
 const PARTS = [
     "c:{}_blocks",
@@ -49,21 +45,21 @@ const MATERIALS = [
     "sulfur",
     "tin",
     "titanium",
-    "tungsten",
+    "tungsten"
 ];
+
 // Order of mods to unify
 const UNIFICATION_ORDER = [
     "techreborn",
-    "indrev",
+    "modern_industrialization",
     "mythicmetals",
     "appliedenergistics2",
     "gobber2",
-    "betternether",
     "bewitchment",
-    "charm",
     "agape_space",
     "resourceful_tools"
 ];
+
 // List of tags NOT to unify
 const UNIFICATION_BLACKLIST = [
     "c:quartz_blocks",
@@ -116,7 +112,7 @@ function findTagUnification(event, tagName) {
     else return "" + unifyTargetId; // Convert to string
 }
 // Unify common tags
-events.listen("items.tags", event => {
+onEvent("items.tags", event => {
     // Regular parts
     MATERIALS.forEach(material => {
         PARTS.forEach(partTagTemplate => {
@@ -167,7 +163,7 @@ events.listen("items.tags", event => {
         });
     });
 })
-events.listen("recipes", event => {
+onEvent('recipes', event => {
     // Replace inputs and outputs with unified items.
     for (let id in itemIdToUnified) {
         let unified = itemIdToUnified[id];
@@ -197,23 +193,23 @@ events.listen("recipes", event => {
             }
         });
     }
-    
+
     // TR recipes
-    // autoremove("techreborn:{}_storage_block", "techreborn:crafting_table/storage_block/{}_storage_block");
-    // autoremove("techreborn:{}_block", "techreborn:crafting_table/ingot/{}_ingot_from_block");
-    // autoremove("techreborn:{}_block", "techreborn:crafting_table/ingot/{}_ingot_from_storage_block");
-    // autoremove("techreborn:{}_ingot", "techreborn:crafting_table/ingot/{}_ingot_from_block");
-    // autoremove("techreborn:{}_ingot", "techreborn:crafting_table/ingot/{}_ingot_from_nugget");
-    // autoremove("techreborn:{}_ingot", "techreborn:crafting_table/ingot/{}_nugget_from_nugget");
-    // autoremove("techreborn:{}_dust", "techreborn:crafting_table/small_dust/{}_small_dust");
-    // autoremove("techreborn:{}_dust", "techreborn:crafting_table/dust/{}_dust");
-    // autoremove("techreborn:{}_nugget", "techreborn:crafting_table/nugget/{}_nugget");
-    // autoremove("techreborn:{}_ore", "techreborn:smelting/{}_ingot_from_ore");
-    // autoremove("techreborn:{}_ingot", "techreborn:smelting/{}_ingot_from_raw");
-    // autoremove("techreborn:{}_ingot", "techreborn:smelting/{}_ingot_from_raw_exported_mi_furnace");
-    // autoremove("techreborn:{}_ingot", "techreborn:smelting/{}_ingot_from_dust");
-    // autoremove("techreborn:{}_ore", "techreborn:blasting/{}_ingot_from_ore");
-    // autoremove("techreborn:{}_ingot", "techreborn:blasting/{}_ingot_from_dust");
+    autoremove("techreborn:{}_storage_block", "techreborn:crafting_table/storage_block/{}_storage_block");
+    autoremove("techreborn:{}_block", "techreborn:crafting_table/ingot/{}_ingot_from_block");
+    autoremove("techreborn:{}_block", "techreborn:crafting_table/ingot/{}_ingot_from_storage_block");
+    autoremove("techreborn:{}_ingot", "techreborn:crafting_table/ingot/{}_ingot_from_block");
+    autoremove("techreborn:{}_ingot", "techreborn:crafting_table/ingot/{}_ingot_from_nugget");
+    autoremove("techreborn:{}_ingot", "techreborn:crafting_table/ingot/{}_nugget_from_nugget");
+    autoremove("techreborn:{}_dust", "techreborn:crafting_table/small_dust/{}_small_dust");
+    autoremove("techreborn:{}_dust", "techreborn:crafting_table/dust/{}_dust");
+    autoremove("techreborn:{}_nugget", "techreborn:crafting_table/nugget/{}_nugget");
+    autoremove("techreborn:{}_ore", "techreborn:smelting/{}_ingot_from_ore");
+    autoremove("techreborn:{}_ingot", "techreborn:smelting/{}_ingot_from_raw");
+    autoremove("techreborn:{}_ingot", "techreborn:smelting/{}_ingot_from_raw_exported_mi_furnace");
+    autoremove("techreborn:{}_ingot", "techreborn:smelting/{}_ingot_from_dust");
+    autoremove("techreborn:{}_ore", "techreborn:blasting/{}_ingot_from_ore");
+    autoremove("techreborn:{}_ingot", "techreborn:blasting/{}_ingot_from_dust");
     // Some duplicate MI recipes (normally untagged).
     autoremove("modern_industrialization:generated/materials/{}/smelting/ore_deepslate_to_ingot_smelting");
     autoremove("modern_industrialization:generated/materials/{}/smelting/ore_deepslate_to_ingot_blasting");
@@ -230,9 +226,6 @@ events.listen("recipes", event => {
     autoremove("indrev:raw_{}", "indrev:blasting/{}_ingot_from_raw_ores");
     autoremove("indrev:{}_ore", "indrev:blasting/{}_ingot_from_ore");
     autoremove("indrev:{}_dust", "indrev:blasting/{}_ingot_from_smelting");
-    // Charm
-    autoremove("charm:extra_nuggets/{}_ingot_from_nuggets");
-    autoremove("charm:extra_nuggets/{}_nuggets_from_ingot");
 
     if (GENERATE_REI_SCRIPT) {
         generateReiScript(itemIdToUnified);
@@ -253,8 +246,3 @@ events.listen("kjsextras_rei", event => {
     console.log("Generated REI unification script. Disable by setting GENERATE_REI_SCRIPT to false.");
     console.log(script);
 }
-
-events.listen("recipes.serializer.special.flag", event => {
-    // Fix indrev recipe types
-    ["compress", "pulverize"].forEach(id => event.ignoreSpecialFlag("indrev:" + id));
-});

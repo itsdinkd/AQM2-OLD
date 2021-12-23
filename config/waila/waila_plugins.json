@@ -1,34 +1,43 @@
 {
+  "waila": {
+    "show_blocks": true,
+    "show_fluids": true,
+    "show_entities": true,
+    "show_item": true,
+    "show_mod_name": true,
+    "show_registry": false,
+    "show_entity_hp": true,
+    "show_states": false,
+    "show_pos": false
+  },
   "minecraft": {
-    "hide_infestations": true,
-    "hide_trapped_chest": true,
-    "jukebox": true,
-    "lever": true,
-    "note_block": true,
-    "honey_level": true,
-    "crop_progress": true,
-    "comparator": true,
-    "display_furnace_contents": true,
-    "note_block_flat": false,
-    "player_head_name": true,
-    "hide_powder_snow": true,
-    "composter_level": true,
+    "item_entity": true,
+    "override.infested": true,
+    "override.trapped_chest": true,
+    "override.powder_snow": true,
+    "pet.owner": true,
+    "furnace_contents": true,
     "spawner_type": true,
-    "redstone": true,
-    "repeater": true
+    "crop_progress": true,
+    "redstone.lever": true,
+    "redstone.repeater": true,
+    "redstone.comparator": true,
+    "redstone.level": true,
+    "jukebox.record": true,
+    "player_head.name": true,
+    "level.composter": true,
+    "level.honey": true,
+    "note_block.type": true,
+    "note_block.note": "SHARP",
+    "note_block.int_value": false,
+    "pet.hide_unknown_owner": false
+  },
+  "fluidtank": {
+    "fluidtank.waila.tank_info": true,
+    "fluidtank.waila.short_info": true
   },
   "horseinfo": {
-    "enabled": true
-  },
-  "waila": {
-    "show_pos": false,
-    "show_blocks": true,
-    "show_registry": false,
-    "show_mod_name": true,
-    "show_fluids": false,
-    "show_entity_hp": true,
-    "show_states": true,
-    "show_item": true,
-    "show_entities": true
+    "enabled": true,
+    "ignore_mount": false
   }
 }

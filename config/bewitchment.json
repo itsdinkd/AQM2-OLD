@@ -1,12 +1,9 @@
 {
   "disabledPoppets": [],
   "enableCurses": false,
-  "silverSize": 6,
-  "silverMaxHeight": 48,
-  "silverCount": 5,
-  "saltSize": 12,
-  "saltMaxHeight": 96,
-  "saltCount": 6,
+  "altarDistributionRadius": 24,
+  "generateSilver": true,
+  "generateSalt": true,
   "owlBiomeCategories": [
     "taiga",
     "forest"

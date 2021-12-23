@@ -1,10 +1,6 @@
 {
   "replace": false,
   "values": [
-    "sandwichable:lettuce_seeds",
-    "sandwichable:tomato_seeds",
-    "sandwichable:cucumber_seeds",
-    "sandwichable:onion_seeds",
     "farmersdelight:tomato_seeds",
     "farmersdelight:cabbage_seeds"
   ]

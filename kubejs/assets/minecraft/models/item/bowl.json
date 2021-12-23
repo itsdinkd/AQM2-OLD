@@ -1,0 +1,230 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/bowl"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "item/sword/blank_tablet_balanced"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "item/sword/blank_tablet_empty"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "item/sword/blank_tablet"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 4
+            },
+            "model": "item/sword/blessing_tablet_bladeborn"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 5
+            },
+            "model": "item/sword/blessing_tablet_charisma"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6
+            },
+            "model": "item/sword/blessing_tablet_constitution"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7
+            },
+            "model": "item/sword/blessing_tablet_dexterity"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 8
+            },
+            "model": "item/sword/blessing_tablet_enderian"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9
+            },
+            "model": "item/sword/blessing_tablet_hexblade"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10
+            },
+            "model": "item/sword/blessing_tablet_humanity"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 11
+            },
+            "model": "item/sword/blessing_tablet_revenant"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 12
+            },
+            "model": "item/sword/blessing_tablet_sylvan"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 13
+            },
+            "model": "item/sword/curse_tablet_arachnid"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14
+            },
+            "model": "item/sword/curse_tablet_avian"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 15
+            },
+            "model": "item/sword/curse_tablet_blazeborn"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 16
+            },
+            "model": "item/sword/curse_tablet_divoc"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 17
+            },
+            "model": "item/sword/curse_tablet_dwarf"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18
+            },
+            "model": "item/sword/curse_tablet_elytrian"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 19
+            },
+            "model": "item/sword/curse_tablet_enderian"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20
+            },
+            "model": "item/sword/curse_tablet_feline"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 21
+            },
+            "model": "item/sword/curse_tablet_giant"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 22
+            },
+            "model": "item/sword/curse_tablet_golem"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 23
+            },
+            "model": "item/sword/curse_tablet_libra"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 24
+            },
+            "model": "item/sword/curse_tablet_merling"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 25
+            },
+            "model": "item/sword/curse_tablet_myconoid"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 26
+            },
+            "model": "item/sword/curse_tablet_nature"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 27
+            },
+            "model": "item/sword/curse_tablet_phantom"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 28
+            },
+            "model": "item/sword/curse_tablet_pride"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 29
+            },
+            "model": "item/sword/curse_tablet_shulk"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 30
+            },
+            "model": "item/sword/curse_tablet_villager"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 31
+            },
+            "model": "item/sword/curse_tablet_witchling"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 32
+            },
+            "model": "item/sword/curse_tablet_breathing"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 33
+            },
+            "model": "item/sword/blessing_tablet_necromancer"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 34
+            },
+            "model": "item/sword/refractor_mirror"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 35
+            },
+            "model": "item/sword/refractor_mirror_broken"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 36
+            },
+            "model": "item/sword/refractor_mirror_blessed"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 37
+            },
+            "model": "item/sword/curse_tablet_reiteration"
+        }
+    ]
+}

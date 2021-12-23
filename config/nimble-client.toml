@@ -1,0 +1,7 @@
+enable = true
+transitionSpeed = 1.0
+nimbleMounting = true
+nimbleElytra = true
+elytraRollScreen = true
+elytraTickDelay = 10
+frontKeyToggleMode = false

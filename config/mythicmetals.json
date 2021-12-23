@@ -13,8 +13,8 @@
     "enabled": true,
     "veinSize": 9,
     "perChunk": 4,
-    "bottom": 9,
-    "top": 39,
+    "bottom": 39,
+    "top": 69,
     "discardChance": 0.0
   },
   "banglum": {
@@ -37,13 +37,13 @@
     "enabled": true,
     "veinSize": 3,
     "perChunk": 1,
-    "bottom": -42,
-    "top": -18,
+    "bottom": 2,
+    "top": 50,
     "discardChance": 0.5,
     "veinSizeVariant": 15,
     "perChunkVariant": 40,
-    "bottomVariant": 4,
-    "topVariant": 56
+    "bottomVariant": -62,
+    "topVariant": 40
   },
   "manganese": {
     "enabled": true,
@@ -59,15 +59,15 @@
     "perChunk": 7,
     "bottom": 10,
     "top": 128,
-    "discardChance": 0.15
+    "discardChance": 0.25
   },
   "mythril": {
     "enabled": true,
     "veinSize": 4,
     "perChunk": 1,
     "bottom": -48,
-    "top": -16,
-    "discardChance": 0.125
+    "top": 6,
+    "discardChance": 0.2
   },
   "orichalcum": {
     "enabled": true,
@@ -75,7 +75,7 @@
     "perChunk": 1,
     "bottom": -8,
     "top": 9,
-    "discardChance": 0.125
+    "discardChance": 0.15
   },
   "osmium": {
     "enabled": true,
@@ -97,9 +97,9 @@
     "enabled": true,
     "veinSize": 4,
     "perChunk": 2,
-    "bottom": -30,
-    "top": -8,
-    "discardChance": 0.0
+    "bottom": -62,
+    "top": -35,
+    "discardChance": 0.15
   },
   "platinum": {
     "enabled": true,
@@ -112,10 +112,10 @@
   "prometheum": {
     "enabled": true,
     "veinSize": 6,
-    "perChunk": 4,
+    "perChunk": 3,
     "bottom": 10,
     "top": 28,
-    "discardChance": 0.25
+    "discardChance": 0.0
   },
   "quadrillum": {
     "enabled": true,
@@ -129,8 +129,8 @@
     "enabled": true,
     "veinSize": 3,
     "perChunk": 2,
-    "bottom": -39,
-    "top": -9,
+    "bottom": -9,
+    "top": 21,
     "discardChance": 0.125
   },
   "silver": {
@@ -143,31 +143,31 @@
   },
   "starrite": {
     "enabled": true,
-    "veinSize": 4,
+    "veinSize": 3,
     "perChunk": 1,
-    "bottom": 40,
-    "top": 99,
-    "discardChance": 0.25,
-    "veinSizeVariant": 7,
+    "bottom": 30,
+    "top": 50,
+    "discardChance": 0.6,
+    "veinSizeVariant": 3,
     "perChunkVariant": 2,
-    "bottomVariant": 40,
-    "topVariant": 20
+    "bottomVariant": 70,
+    "topVariant": 100
   },
   "stormyx": {
     "enabled": true,
-    "veinSize": 8,
+    "veinSize": 7,
     "perChunk": 2,
     "bottom": 34,
     "top": 136,
-    "discardChance": 0.125
+    "discardChance": 0.1
   },
   "unobtainium": {
     "enabled": true,
     "veinSize": 3,
     "perChunk": 1,
-    "bottom": -60,
-    "top": 12,
-    "discardChance": 0.5
+    "bottom": -63,
+    "top": -5,
+    "discardChance": 0.45
   },
   "tin": {
     "enabled": false,
@@ -185,8 +185,12 @@
     "top": 108,
     "discardChance": 0.25
   },
-  "configVersion": 0,
+  "configVersion": 2,
   "blacklist": [
-    "minershorizon:rocky_plains"
+    "minershorizon:rocky_plains",
+    "mining_dims:mining_dim",
+    "mining_dims:caving_dim",
+    "mining_dims:climbing_dim",
+    "mining_dims:nethering_dim"
   ]
 }
