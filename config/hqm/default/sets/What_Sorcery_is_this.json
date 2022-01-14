@@ -88,6 +88,7 @@
         "id": "ae2:logic_processor_press",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
@@ -139,7 +140,7 @@
         }
       ],
       "prerequisites": [
-        "5b651881-eb61-4e15-8c0b-81c4363125ca"
+        "89be870f-df38-4617-b7f5-3bf9a0414176"
       ],
       "optionlinks": [],
       "reward": [
@@ -155,14 +156,13 @@
       "uuid": "5b651881-eb61-4e15-8c0b-81c4363125ca",
       "name": "Craft AE2 Sky Blocks",
       "description": "We\u0027re differnt. We require Sky Blocks to be crafted using Botania\u0027s Mana Pool.\n\nGet your mana pool setup, view the Sky Block recipe in REI to learn what you need.",
-      "x": 16,
+      "x": 15,
       "y": 10,
       "icon": {
         "id": "ae2:smooth_sky_stone_block",
         "Count": 1
       },
-      "trigger": "TASK_TRIGGER",
-      "triggertasks": 1,
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
@@ -178,7 +178,9 @@
           ]
         }
       ],
-      "prerequisites": [],
+      "prerequisites": [
+        "89be870f-df38-4617-b7f5-3bf9a0414176"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -301,10 +303,10 @@
     },
     {
       "uuid": "c54fd481-d6a2-401f-b8f9-410e24df9127",
-      "name": "Craft a Arcanus Wand",
-      "description": "Craft a Arcanus wand. With this wand you can use spells. \n\nSearch the world for lecterns or bookshelves in dungeons, villages, or strongholds and you might come across a spellbook that teaches you a new spell, which you use with your Arcanus Wand ",
-      "x": 16,
-      "y": 42,
+      "name": "Craft an Arcanus Wand",
+      "description": "Craft an Arcanus wand. With this wand you can use spells. \n\nSearch the world for lecterns or bookshelves in dungeons, villages, or strongholds and you might come across a spellbook that teaches you a new spell, which you use with your Arcanus Wand ",
+      "x": 15,
+      "y": 70,
       "icon": {
         "id": "arcanus:initiate_wand",
         "Count": 1,
@@ -379,6 +381,204 @@
         {
           "id": "additionaladditions:mysterious_bundle",
           "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "89be870f-df38-4617-b7f5-3bf9a0414176",
+      "name": "Infusion Catalysts",
+      "description": "Some infusions require a catalyst to be underneath the mana pool. This quest will have you create an alchemical catalyst.",
+      "x": 75,
+      "y": 40,
+      "icon": {
+        "id": "botania:alchemy_catalyst",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Mana Pearl",
+          "longDescription": "Throw an ender pearl into a mana pool to get a mana pearl.",
+          "items": [
+            {
+              "item": {
+                "id": "botania:mana_pearl",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Alchemical Catalyst",
+          "items": [
+            {
+              "item": {
+                "id": "botania:alchemy_catalyst",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "973bf07f-e3b6-41fb-b65a-0aae09cca43d"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "973bf07f-e3b6-41fb-b65a-0aae09cca43d",
+      "name": "Your First Mana",
+      "description": "Mana is essential in Botania, this quest goes over creating, storing, and moving mana.",
+      "x": 45,
+      "y": 40,
+      "icon": {
+        "id": "botania:mana_pool",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Creating Mana",
+          "longDescription": "Endoflames are the best way to get mana when you first start Botania. Simply throw some fuel on the ground near one and it will begin to create mana.",
+          "items": [
+            {
+              "item": {
+                "id": "botania:endoflame",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Storing Mana",
+          "longDescription": "Mana can be stored in a Mana pool. Mana pools are useful for infusing items into new items. \n",
+          "items": [
+            {
+              "item": {
+                "id": "botania:mana_pool",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Moving Mana",
+          "longDescription": "Mana can be moved around with a mana spreader. Using a wand of the forest, shift click on the spreader and then on the mana pool to link them. The same can be done to link the Endoflames to the mana spreader. ",
+          "items": [
+            {
+              "item": {
+                "id": "botania:twig_wand",
+                "Count": 1,
+                "tag": {
+                  "color1": 0,
+                  "color2": 0
+                }
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "botania:mana_spreader",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1862a345-e638-4164-8667-f0ba30d0fad8"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:endoflame",
+          "Count": 3
+        },
+        {
+          "id": "minecraft:coal",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },{
+      "uuid": "1862a345-e638-4164-8667-f0ba30d0fad8",
+      "name": "Starting Botania",
+      "description": "Flowers are the core of Botania. This quest will have you craft and use your first flower.",
+      "x": 15,
+      "y": 40,
+      "icon": {
+        "id": "botania:apothecary_default",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Craft Petal Apothecary",
+          "longDescription": "The Petal Apothecary is used to create Botania\u0027s flowers",
+          "items": [
+            {
+              "item": {
+                "id": "botania:apothecary_default",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Craft Pure Daisy",
+          "longDescription": "To craft a pure daisy fill the Petal Apothecary with water, toss in 4 white petals, and a seed. ",
+          "items": [
+            {
+              "item": {
+                "id": "botania:pure_daisy",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Livingwood and Livingrock",
+          "longDescription": "Place logs on the ground around a pure daisy and wait for them to be transformed into livingwood. Repeat with stone to create livingrock.",
+          "items": [
+            {
+              "item": {
+                "id": "botania:livingwood",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:livingrock",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "botania:livingwood",
+          "Count": 16
+        },
+        {
+          "id": "botania:livingrock",
+          "Count": 16
         }
       ],
       "rewardchoice": [],
