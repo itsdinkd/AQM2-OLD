@@ -1,10 +1,13 @@
 {
   "auto_sync": {
-    "enabled [default: true]": true,
+    "enabled [default: true]": false,
     "acceptConfigs [default: true]": true,
     "acceptFiles [default: true]": true,
-    "acceptMods [default: false]": true,
+    "acceptMods [default: false]": false,
     "displayModInfo [default: true]": false,
     "debugHashes [default: false]": false
+  },
+  "ui": {
+    "suppressExperimentalDialogOnLoad [default: false]": false
   }
 }

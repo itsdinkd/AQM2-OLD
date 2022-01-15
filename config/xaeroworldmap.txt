@@ -10,7 +10,7 @@ updateChunks:true
 terrainSlopes:2
 terrainDepth:true
 footsteps:true
-flowers:true
+flowers:false
 compression:false
 coordinates:true
 biomeColorsVanillaMode:false

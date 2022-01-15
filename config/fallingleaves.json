@@ -412,6 +412,326 @@
     "betternether:lucis_spore": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
+    },
+    "betternether:eyeball_small": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "betternether:eyeball": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "twm:mangrove_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:magenta_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:green_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:orange_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:purple_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:light_gray_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:blue_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:brown_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:white_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "valley:apple_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:black_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:red_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:pink_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:spirit_sallow_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:light_blue_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "valley:apple_leaves_empty": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:cyan_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:gray_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:lime_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:yellow_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:green_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "minecraft:azalea": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "croptopia:lime_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "croptopia:pear_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "croptopia:nectarine_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "croptopia:pecan_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "croptopia:dragonfruit_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:purple_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "croptopia:apple_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "croptopia:grapefruit_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:orange_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "croptopia:starfruit_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:lime_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:yellow_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "minecraft:dark_oak_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "croptopia:nutmeg_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "bewitchment:elder_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "croptopia:persimmon_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "minecraft:spruce_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "valley:apple_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "croptopia:banana_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:brown_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "croptopia:cherry_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:pink_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:red_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "minecraft:jungle_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "croptopia:plum_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "minecraft:birch_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:light_blue_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "croptopia:fig_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "croptopia:cashew_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:cyan_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "croptopia:avocado_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:black_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:magenta_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "croptopia:mango_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "minecraft:oak_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "croptopia:peach_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "minecraft:flowering_azalea": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:gray_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:white_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "croptopia:apricot_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "croptopia:kumquat_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "bewitchment:cypress_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "croptopia:coconut_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "bewitchment:juniper_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "croptopia:orange_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:blue_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "croptopia:lemon_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "croptopia:almond_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "minecraft:acacia_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "croptopia:walnut_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "architects_palette:twisted_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:light_gray_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "bewitchment:dragons_blood_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "croptopia:date_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "techreborn:rubber_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "blockus:white_oak_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
     }
   }
 }

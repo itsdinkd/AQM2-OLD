@@ -18,7 +18,7 @@
     "displayNameWhenIconFails": false,
     "entityNumber": 100.0,
     "alwaysDisplayNametags": false,
-    "dotSize": 1.0,
+    "dotSize": 2.0,
     "icons": 1.0,
     "iconScale": 0.25
   },

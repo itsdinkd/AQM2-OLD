@@ -6,6 +6,9 @@
     "megane-industrial-revolution": {
       "badasintended.megane.impl.IndustrialRevolution": true
     },
+    "megane-modern-industrialization": {
+      "badasintended.megane.impl.ModernIndustrialization": true
+    },
     "megane-fast-transfer-lib": {
       "badasintended.megane.impl.FastTransferLib": true
     },

@@ -114,9 +114,9 @@
 	*/
 	"shirazPalaceGenerates": true,
 	// Base distance between Shiraz Palaces (in chunks). Must be higher than separation.
-	"shirazPalaceSpacing": 160,
+	"shirazPalaceSpacing": 200,
 	// Base distance between Shiraz Palaces (in chunks)
-	"shirazPalaceSeparation": 145,
+	"shirazPalaceSeparation": 155,
 	// Number of Jigsaw iterations when generating a structure
 	"shirazPalaceSize": 50,
 	/* 

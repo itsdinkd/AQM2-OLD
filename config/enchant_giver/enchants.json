@@ -55,6 +55,9 @@
   "mcdw:spear_fortune": {
     "minecraft:looting": 1
   },
+  "mythicmetals:white_aegis_sword": {
+    "minecraft:smite": 6
+  },
   "mcdw:bow_bonebow": {
     "mcdw:growing": 1
   },
@@ -75,6 +78,9 @@
   },
   "mcdw:sword_dancers_sword": {
     "mcdw:rampaging": 1
+  },
+  "mythicmetals:red_aegis_sword": {
+    "minecraft:fire_aspect": 3
   },
   "mcdw:gauntlet_maulers": {
     "mcdw:rampaging": 1
@@ -194,11 +200,7 @@
   },
   "mcdw:bow_call_of_the_void": {
     "mcdw:void_shot": 1,
-    "mcdw:fuse_shot": 1,
-    "minecraft:bonus_shot": 1
-  },
-  "mythicaddons:red_aegis_sword": {
-    "minecraft:fire_aspect": 3
+    "mcdw:fuse_shot": 1
   },
   "mcdw:bow_void_bow": {
     "mcdw:void_shot": 1
@@ -290,9 +292,6 @@
   },
   "mythicmetals:prometheum_helmet": {
     "minecraft:mending": 1
-  },
-  "mythicaddons:white_aegis_sword": {
-    "minecraft:smite": 6
   },
   "mcdw:sword_freezing_foil": {
     "mcdw:freezing": 1

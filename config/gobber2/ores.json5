@@ -2,33 +2,12 @@
 	/* 
 	   
 	   ***********************
-	   Gobber Ore
+	   No worldgen options
 	   ***********************
 	*/
-	"gobberEnable": true,
-	"gobberVeinSize": 3,
-	"gobberMaxLevel": 40,
-	"gobberPerChunk": 10,
-	/* 
-	   
-	   ***********************
-	   Nether Gobber Ore
-	   ***********************
-	*/
-	"netherGobberEnable": true,
-	"netherGobberVeinSize": 3,
-	"netherGobberMaxLevel": 110,
-	"netherGobberPerChunk": 11,
-	/* 
-	   
-	   ***********************
-	   End Gobber Ore
-	   ***********************
-	*/
-	"endGobberEnable": true,
-	"endGobberVeinSize": 3,
-	"endGobberMaxLevel": 160,
-	"endGobberPerChunk": 11,
+	"enableGobberAlternateDrops": false,
+	"diamondGobberDropChance": 0.15000000596046448,
+	"netherGoldGobberDropChance": 0.15000000596046448,
 	/* 
 	   
 	   ***********************
@@ -38,7 +17,27 @@
 	"luckyEnable": true,
 	"luckyVeinSize": 2,
 	"luckyMaxLevel": 100,
-	"luckyPerChunk": 12,
+	"luckyPerChunk": 11,
+	/* 
+	   
+	   ***********************
+	   Lucky Block - Deepslate
+	   ***********************
+	*/
+	"luckyDeepslateEnable": true,
+	"luckyDeepslateVeinSize": 1,
+	"luckyDeepslateMaxLevel": 0,
+	"luckyDeepslatePerChunk": 8,
+	/* 
+	   
+	   ***********************
+	   Lucky Block - Nether
+	   ***********************
+	*/
+	"luckyNetherEnable": true,
+	"luckyNetherVeinSize": 2,
+	"luckyNetherMaxLevel": 128,
+	"luckyNetherPerChunk": 11,
 	/* 
 	   
 	   ***********************
@@ -55,5 +54,45 @@
 	"cutoffThreshold": 0.2,
 	"commonThreshold": 0.1,
 	"uncommonThreshold": 0.04,
-	"rareThreshold": 0.01
+	"rareThreshold": 0.01,
+	/* 
+	   
+	   ***********************
+	   Gobber Ore
+	   ***********************
+	*/
+	"gobberEnable": true,
+	"gobberVeinSize": 3,
+	"gobberMaxLevel": 40,
+	"gobberPerChunk": 9,
+	/* 
+	   
+	   ***********************
+	   Deepslate Gobber Ore
+	   ***********************
+	*/
+	"gobberDeepslateEnable": true,
+	"gobberDeepslateVeinSize": 2,
+	"gobberDeepslateMaxLevel": 0,
+	"gobberDeepslatePerChunk": 5,
+	/* 
+	   
+	   ***********************
+	   Nether Gobber Ore
+	   ***********************
+	*/
+	"netherGobberEnable": true,
+	"netherGobberVeinSize": 3,
+	"netherGobberMaxLevel": 60,
+	"netherGobberPerChunk": 7,
+	/* 
+	   
+	   ***********************
+	   End Gobber Ore
+	   ***********************
+	*/
+	"endGobberEnable": true,
+	"endGobberVeinSize": 3,
+	"endGobberMaxLevel": 100,
+	"endGobberPerChunk": 6
 }

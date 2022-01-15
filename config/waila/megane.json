@@ -20,10 +20,14 @@
     "enabled": true,
     "expandWhenSneak": false,
     "colors": {
-      "megane": 7408640
+      "megane": 7408640,
+      "techreborn": 8390656,
+      "enhanced_quarries": 7408640
     },
     "units": {
-      "megane": "E"
+      "megane": "E",
+      "techreborn": "E",
+      "enhanced_quarries": "E"
     },
     "blacklist": [
       "appliedenergistics2:energy_acceptor"
@@ -34,7 +38,8 @@
     "expandWhenSneak": false,
     "colors": {
       "megane:default": 855385,
-      "minecraft:water": 4159204
+      "minecraft:water": 4159204,
+      "kibe:liquid_xp": 5635925
     },
     "blacklist": []
   },

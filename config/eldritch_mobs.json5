@@ -62,7 +62,7 @@
 		"disableGhastly": true,
 		"disableGravity": false,
 		"disableLethargic": false,
-		"disableLifesteal": false,
+		"disableLifesteal": true,
 		"disableOneUp": false,
 		"disableRegen": true,
 		"disableResistant": false,
@@ -77,6 +77,6 @@
 		"disableWebslinging": false,
 		"disableWithering": false,
 		"disableSniper": false,
-		"disableDuplicator": false
+		"disableDuplicator": true
 	}
 }

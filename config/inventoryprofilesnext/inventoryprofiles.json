@@ -1,15 +1,16 @@
 {
     "ModSettings": {
-        "tool_damage_threshold": 7,
-        "auto_refill_wait_tick": 15,
         "add_interval_between_clicks": true,
         "interval_between_clicks_ms": 5,
         "first_run": false
     },
     "GuiSettings": {
         "enable_profiles_ui": false,
-        "enable_inventory_buttons": false,
-        "treat_unknown_screens_as_containers": true
+        "enable_inventory_buttons": false
+    },
+    "AutoRefillSettings": {
+        "tool_damage_threshold": 7,
+        "auto_refill_wait_tick": 15
     },
     "Hotkeys": {
         "sort_inventory": {

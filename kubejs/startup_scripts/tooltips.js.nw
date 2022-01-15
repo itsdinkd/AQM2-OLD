@@ -1,0 +1,9 @@
+// priority: 0
+
+console.info('Adding AQM2 Tooltips...');
+onEvent('item.tooltip', tooltip => {
+  tooltip.addAdvanced('kibe:angel_ring', (item, advanced, text) => {
+    text.add(0, Text.of('§eAngel Ring §7[§l§9Creative Tier§7]')) // Adds text in first line, replacing title. If you want 2nd line, the index must be 1
+  tooltip.add('kibe:angel_ring', '§8Note: Disabled means the effect is disabled')
+  });
+});

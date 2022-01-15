@@ -1,6 +1,8 @@
 {
   "_comment": "Before changing anything, see https://github.com/Patbox/UniversalGraves#configuration",
-  "graveStyle": "player_head",
+  "graveStyle": "client_model",
+  "allowClientSideStyle": true,
+  "playerHeadTurnIntoSkulls": true,
   "presetHeadLockedTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjdjYWI1NmM4MmNiODFiZGI5OTc5YTQ2NGJjOWQzYmEzZTY3MjJiYTEyMmNmNmM1Mjg3MzAxMGEyYjU5YWVmZSJ9fX0=",
   "presetHeadUnlockedTexture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjdjYWI1NmM4MmNiODFiZGI5OTc5YTQ2NGJjOWQzYmEzZTY3MjJiYTEyMmNmNmM1Mjg3MzAxMGEyYjU5YWVmZSJ9fX0=",
   "customBlockStateLockedStyles": [
@@ -23,19 +25,29 @@
     "<blue><lang:'text.graves.protected_time':''>",
     "<white>${protection_time}"
   ],
+  "customStyleSignVisualText": [
+    "<white>${player}"
+  ],
   "customStyleUpdateRate": 20,
-  "isProtected": true,
   "protectionTime": 86400,
   "breakingTime": 172800,
-  "breakEmptyGraves": true,
+  "keepBlockAfterBreaking": true,
   "xpStorageType": "percent_points",
   "xpPercentTypeValue": 80.0,
+  "replaceAnyBlock": true,
+  "maxPlacementDistance": 8,
+  "useRealTime": false,
   "createFromPvP": true,
+  "createFromVoid": true,
+  "createFromCommandDeaths": true,
   "createInClaims": true,
   "dropItemsAfterExpiring": false,
+  "allowAttackersToTakeItems": false,
   "shiftClickTakesItems": true,
+  "giveGraveCompass": false,
   "graveTitle": "<lang:'text.graves.players_grave':'${player}'>",
-  "hologram": true,
+  "hologram": false,
+  "hologramDisplayIfOnClient": true,
   "hologramOffset": 1.2,
   "hologramProtectedText": [
     "<gold><lang:'text.graves.grave_of':'<white>${player}'>",
@@ -52,6 +64,10 @@
     "<gray><lang:'text.graves.items_xp':'<white>${item_count}':'<white>${xp}'>",
     "<blue><lang:'text.graves.not_protected'>",
     "<red><lang:'text.graves.break_time':'<white>${break_time}'>"
+  ],
+  "hologramVisualText": [
+    "<gold><lang:'text.graves.grave_of':'<white>${player}'>",
+    "<yellow>${death_cause}"
   ],
   "guiTitle": "<lang:'text.graves.gui_title':'${player}'>",
   "guiProtectedText": [
@@ -79,14 +95,18 @@
   "messageGraveExpired": "<red><lang:'text.graves.expired':'<gold>${position}':'<white>${world}':'<yellow>${item_count}'>",
   "messageGraveBroken": "<gray><lang:'text.graves.somebody_broke':'<white>${position}':'<white>${world}':'<white>${item_count}'>",
   "messageCreationFailed": "<red><lang:'text.graves.creation_failed':'<gold>${position}':'<yellow>${world}'>",
+  "messageCreationFailedVoid": "<red><lang:'text.graves.creation_failed_void':'<gold>${position}':'<yellow>${world}'>",
   "messageCreationFailedPvP": "<red><lang:'text.graves.creation_failed_pvp':'<gold>${position}':'<yellow>${world}'>",
   "messageCreationFailedClaim": "<red><lang:'text.graves.creation_failed_claim':'<gold>${position}':'<yellow>${world}'>",
-  "neverExpires": "Never",
   "yearsText": "y",
   "daysText": "d",
   "hoursText": "h",
   "minutesText": "m",
   "secondsText": "s",
+  "infinityText": "∞",
   "worldNameOverrides": {},
+  "blacklistedWorlds": [],
+  "tryDetectionSoulbound": true,
+  "skippedEnchantments": [],
   "CONFIG_VERSION_DONT_TOUCH_THIS": 2
 }

@@ -18,7 +18,7 @@
     },
     "clockingDeviceEnergyUsage": {
       "comment": "Cloacking device energy usage",
-      "value": 10
+      "value": 50
     },
     "quantumSuitSprintingCost": {
       "comment": "Quantum Suit Sprinting Cost",
@@ -142,7 +142,7 @@
     },
     "quantumSuitFlyingCost": {
       "comment": "Quantum Suit Flying Cost",
-      "value": 50
+      "value": 0
     },
     "omniToolCost": {
       "comment": "Energy Cost for Omni Tool",

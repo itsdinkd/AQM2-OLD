@@ -78,7 +78,7 @@
 			*/
 			"absorption_over_health": false,
 			/* Display mode for absorption
-			   absorption.advanced.absorptionOverHealth must to be true
+			   absorption.advanced.absorption_over_health must be true
 			   Modes:
 			     "BEGINNING":
 			       Absorption always starts at first heart.
@@ -89,20 +89,8 @@
 			                      five hearts and in case it is higher it will loop back over first five health hearts.
 			         Example 2: If a player has more than 20 absorption, second color is shown the same way as in "BEGINNING".
 			         Example 3: If player health is divisible by 20, absorption is shown the same way as in "BEGINNING".
-			     "AFTER_HEALTH_ADVANCED":
-			       Absorption starts after the last highest health heart and loops back to first absorption heart if overflowing.
-			       This means that no matter how much absorption there is, health hearts will almost always be visible.
-			         Example 1: If a player has 18 health (9 hearts), absorption will render itself in the last
-			                    empty heart and color itself accordingly, e.g. absorption 0 has 2 hearts and
-			                    will render using the second color as the first color is used for the first heart.
-			         Example 2: If a player has 30 health (15 hearts), absorption will render itself in the last
-			                    five hearts and color itself accordingly, e.g. absorption 2 has 6 hearts and
-			                    will render first heart using second color and rest using first color.
-			         Example 3: If player health is divisible by 20, absorption is shown the same way as in "BEGINNING".
-			     "AS_HEALTH":
-			       Absorption is rendered as health, making all colors and values same as health.
 			*/
-			"absorption_over_health_mode": "AFTER_HEALTH_ADVANCED"
+			"absorption_over_health_mode": "AFTER_HEALTH"
 		}
 	}
 }

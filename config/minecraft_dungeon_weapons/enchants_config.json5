@@ -8,7 +8,7 @@
   "stunning": true,
   "shockwave": true,
   "growing": true,
-  "custom_looting": true,
+  "custom_looting": false,
   "levitation_shot": true,
   "mixin_bee": true,
   "weakening": true,
