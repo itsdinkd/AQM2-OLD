@@ -1,0 +1,10 @@
+{
+	id: "131BA4C7CD773192"
+	group: ""
+	order_index: 6
+	filename: "what_sorcery_is_this"
+	title: "What Sorcery is this"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

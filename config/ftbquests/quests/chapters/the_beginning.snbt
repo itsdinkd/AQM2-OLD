@@ -1,0 +1,10 @@
+{
+	id: "020030C7EAE53A6E"
+	group: ""
+	order_index: 1
+	filename: "the_beginning"
+	title: "The Beginning"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

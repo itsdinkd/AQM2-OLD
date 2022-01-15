@@ -1,0 +1,10 @@
+{
+	id: "00781057BAD827EA"
+	group: ""
+	order_index: 9
+	filename: "nether_things"
+	title: "Nether Things"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

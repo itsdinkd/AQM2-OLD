@@ -1,0 +1,10 @@
+{
+	id: "351023B042C700E9"
+	group: ""
+	order_index: 2
+	filename: "i_spy_with_my_little_eye"
+	title: "I Spy with my Little Eye"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

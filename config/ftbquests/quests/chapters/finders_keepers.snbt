@@ -1,0 +1,10 @@
+{
+	id: "2362B0F4C9709913"
+	group: ""
+	order_index: 7
+	filename: "finders_keepers"
+	title: "Finders Keepers"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

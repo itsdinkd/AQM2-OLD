@@ -1,0 +1,10 @@
+{
+	id: "4A06B17F82107FE8"
+	group: ""
+	order_index: 5
+	filename: "gotta_catch_em_all"
+	title: "Gotta Catch Em All"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}
