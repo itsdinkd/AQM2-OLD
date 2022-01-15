@@ -28,11 +28,14 @@
 	"allow_guardian_spawner_spawn": true,
 	"allow_source_stone_tp": false,
 	"disable_armor_bonus": false,
-	"resummoned_ender_dragon_drops_egg": false,
+	"resummoned_ender_dragon_drops_egg": true,
 	"allow_ender_dragon_nether_portal": false,
 	"heavy_dragon_flight": true,
 	"allow_special_enchant_loot": true,
 	"allow_extra_tooltips": true,
 	"allow_all_items_on_holder": false,
-	"warthog_rare_chance": 0.009999999776482582
+	"warthog_rare_chance": 0.009999999776482582,
+	"stoned_heart_duration": 72000,
+	"stoned_heart_amplifier": 0,
+	"allow_other_dragon_hatching": false
 }

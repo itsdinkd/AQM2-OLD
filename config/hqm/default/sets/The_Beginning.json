@@ -1,0 +1,251 @@
+{
+  "name": "The Beginning",
+  "quests": [
+    {
+      "uuid": "e4988a48-48b5-491a-9cf1-ed4f9ccc37a9",
+      "name": "Burn Gobber, Burn.",
+      "description": "Using Gobber Foo, you can have a great fuel source, and I mean great. 1 can burn 45 items.. \n\nCraft up some gobber foo with some globs and throw it in a furnace as the fuel.",
+      "x": 29,
+      "y": 34,
+      "icon": {
+        "id": "gobber2:gobber2_foo",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Craft some Gobber Foo to use as a fuel source",
+          "items": [
+            {
+              "item": {
+                "id": "gobber2:gobber2_foo",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "72947b2f-e1d4-45a7-ba5e-dc54661bf6f4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "gofish:diamond_crate",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f03fe664-f26f-4c43-8904-4ac2a244852d",
+      "name": "Craft Gobber Ingot",
+      "description": "You\u0027re going to need a lot of these. The Gobber Ingot is needed for most items and used throughout the modpack. As well as the Nether and end version. \n\nCraft a ingot",
+      "x": 44,
+      "y": 10,
+      "icon": {
+        "id": "gobber2:gobber2_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Craft a Gobber Ingot",
+          "items": [
+            {
+              "item": {
+                "id": "gobber2:gobber2_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "72947b2f-e1d4-45a7-ba5e-dc54661bf6f4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "gobber2:gobber2_globette",
+          "Count": 2
+        },
+        {
+          "id": "gobber2:gobber2_goo",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f6e73ae1-7eae-4af6-899a-0348e739bd4c",
+      "name": "Craft a Gobber Rod",
+      "description": "This gobber rod is going to help you advance through the gobber weapons tiers.\n\nGo ahead and craft one",
+      "x": 72,
+      "y": 10,
+      "icon": {
+        "id": "gobber2:gobber2_rod",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "gobber2:gobber2_rod",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "f03fe664-f26f-4c43-8904-4ac2a244852d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "gobber2:gobber2_globette",
+          "Count": 2
+        },
+        {
+          "id": "gobber2:gobber2_gooey_apple",
+          "Count": 1
+        },
+        {
+          "id": "gobber2:gobber2_goo",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bb593f38-2423-47dd-8992-abf6413da0ed",
+      "name": "Craft a Gobber Pickaxe",
+      "description": "Now its finally time to get yourself a tool. After this quest, you won\u0027t see a gobber quest until late game. Next step is going into the Nether and getting Nether Gobber Ore.  \n\nNow craft a Gobber Pickaxe. ",
+      "x": 102,
+      "y": 7,
+      "bigicon": true,
+      "icon": {
+        "id": "gobber2:gobber2_pickaxe",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Craft a Gobber Pickaxe",
+          "items": [
+            {
+              "item": {
+                "id": "gobber2:gobber2_pickaxe",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "f6e73ae1-7eae-4af6-899a-0348e739bd4c"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "gobber2:gobber2_glob",
+          "Count": 1
+        },
+        {
+          "id": "gobber2:gobber2_globette",
+          "Count": 6
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "72947b2f-e1d4-45a7-ba5e-dc54661bf6f4",
+      "name": "Get The Glob",
+      "description": "Gobber has a lot of layers, but thats due to the amazingness that you will with it. 3x3 Hammers, 5x5 Hammers, Paxels, Rings, and more. \n\nTime to get yourself the Glob. Go ahead and craft it with 9 Globettes",
+      "x": 16,
+      "y": 10,
+      "icon": {
+        "id": "gobber2:gobber2_glob",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "gobber2:gobber2_glob",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2f338efd-b8f8-4f47-ac91-03a50ac177cc"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "gobber2:gobber2_globette",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1e088b0a-495a-4ddc-9288-d9598f2518fd",
+      "name": "Kill The Gobber Nemesis",
+      "description": "These just don\u0027t spawn in the world that you can come across, they spawn when you do something. So when that thing happens, Slay this beast and get your loot.",
+      "x": 58,
+      "y": 34,
+      "icon": {
+        "id": "gobber2:gobber2_globette",
+        "Count": 1
+      },
+      "parentrequirement": 1,
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Kill Gobber Nemesis",
+          "longDescription": "Kill it!",
+          "mobs": [
+            {
+              "name": "Gobber Nemesis",
+              "mob": "gobber2:nemesis",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "72947b2f-e1d4-45a7-ba5e-dc54661bf6f4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "gobber2:gobber2_globette",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "Your journey into AQM"
+}

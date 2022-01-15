@@ -1,29 +1,510 @@
 {
-  //All enchantments cost this much levels to start.
-  "baseCost": 3.0,
-  //Make enchantments cost more.
-  "costFactor": 1.55,
-  //How much curses should be multiplied by.
+  //
+  //Performance: Decide whether Dark Conduits emit particles.
+  //True means they do emit particles.
+  //Default: true
+  "hasFancyShrineParticle": true,
+  //
+  //Enchantments will cost this many levels for any transactions.
+  //Default: 3.0
+  "baseCost": 2.8,
+  //
+  //Each enchantment's cost is multiplied by this value.
+  //Default: 1.0
+  "costFactor": 1.4,
+  //
+  //Removing an enchantment from gear will give XP back.
+  //The amount received back is multiplied by this value.
+  //Default: 0.49
+  "receiveFactor": 0.0,
+  //
+  //Each CURSE enchantment's cost is multiplied by this value.
+  //Curse Enchantments will show up as red on the Dark Enchanter.
+  //Default: 3.0
   "curseFactor": 3.3,
-  //How much treasure enchantments should be multiplied by.
+  //
+  //Each TREASURE enchantment's cost is multiplied by this value.
+  //TREASURE Enchantments will show up as blue on the Dark Enchanter.
+  //Default: 4.0
   "treasureFactor": 5.0,
-  //Makes rare enchantments less cheap. Decrease the value increase the cost of Rare & Very Rare enchantments.
-  "weightDivisor": 1.2,
-  //This number gets multiplied by the repair cost. Increase it to make repair cost more.
-  "repairFactor": 1.6,
-  //This number (in percent) will be converted into the cost discount when surrounded by bookshelves. (default: 40 % / 0.4
-  "bookshelvesDiscount": 0.4,
-  //This is where people can write specific enchantment data for this mod. The following is an example entry. This entry represents an entry for sharpness in its default form. The Id of the enchantments, factors to multiply during enchanting (discount is when taking off enchantments, cost is when putting on),  and activated decides whether the enchantment can be used
+  //
+  //Enchantments contain a certain weight, viewable in the Minecraft Wiki.
+  //Weight Divisor is used to determine a specialWeightFactor.
+  //We perform the calculation:
+  //
+  //(11 - weight) / weightDivisor = specialWeightFactor
+  //
+  //specialWeightFactor will ALWAYS be greater than 1. Meaning, if the calculation provides a specialWeightFactor less than 1, we will just use 1 instead.
+  //
+  //For example, Sharpness has a weight of 10, while Mending will have a weight of 2.
+  //In the equation, Sharpness will have a factor of 1 while Mending will have a factor of 4.5 (WITH DEFAULTS).
+  //
+  //TLDR: higher values means that this will DECREASE rarer enchantment's cost, while lower values will INCREASE the cost.
+  //Default: 2.0
+  "weightDivisor": 1.5,
+  //
+  //Repairing any item will have its cost multiplied by this value.
+  //Default: 1.0
+  "repairFactor": 1.4,
+  //
+  //This number represents the discount from bookshelves.
+  //Default: 0.4 (40%)
+  "bookshelvesDiscount": 0.3,
+  //
+  //This number represents the discount from Dark Conduits.
+  //Default: 0.1 (10%)
+  "conduitDiscount": 0.1,
+  //
+  //This list can be used to configure specific enchantments.
+  //The values are as follows:
+  //
+  //    enchantmentId: The In-Game identification of the Enchantment.
+  //        No Default.
+  //    activated: Determines whether the enchantment will be available in the Dark Enchanter.
+  //        Default: true
+  //    personalFactor: During transactions, the cost of the specific enchantment is multiplied by this value.
+  //        Default: 1.0
+  //    personalReceiveFactor: Removing enchantments allows you to receive back some XP. The amount received is multiplied by this value.
+  //
+  //Below is an example entry for Sharpness with its defaults.
   "configEnchantments": [
     {
-      "enchantmentId": "minecraft:silktouch",
-      "personalFactor": 5.0,
-      "activated": true
+      "enchantmentId": "minecraft:unbreaking",
+      "activated": false,
+      "personalFactor": 1.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "minecraft:mending",
+      "activated": false,
+      "personalFactor": 1.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "minecraft:sharpness",
+      "activated": true,
+      "personalFactor": 4.5,
+      "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "veinmining:vein_mining",
-      "personalFactor": 7.0,
-      "activated": true
+      "activated": true,
+      "personalFactor": 6.5,
+      "personalReceiveFactor": 0.4
+    },
+    {
+      "enchantmentId": "minecraft:silk_touch",
+      "activated": true,
+      "personalFactor": 5.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "soulbound:soulbound",
+      "activated": true,
+      "personalFactor": 4.0,
+      "personalReceiveFactor": 0.4
+    },
+    {
+      "enchantmentId": "fabricenchantments:auto_smelt",
+      "activated": true,
+      "personalFactor": 4.5,
+      "personalReceiveFactor": 0.3
+    },
+    {
+      "enchantmentId": "fabricenchantments:experience",
+      "activated": false,
+      "personalFactor": 3.3,
+      "personalReceiveFactor": 0.2
+    },
+    {
+      "enchantmentId": "fabricenchantments:tank",
+      "activated": true,
+      "personalFactor": 3.5,
+      "personalReceiveFactor": 0.4
+    },
+    {
+      "enchantmentId": "mcdw:rampaging",
+      "activated": true,
+      "personalFactor": 4.4,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:enigma_resonator",
+      "activated": false,
+      "personalFactor": 1.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spectrum:inventory_insertion",
+      "activated": false,
+      "personalFactor": 4.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spectrum:pest_control",
+      "activated": false,
+      "personalFactor": 3.2,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spectrum:exuberance",
+      "activated": false,
+      "personalFactor": 3.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spectrum:treasure_hunter",
+      "activated": false,
+      "personalFactor": 5.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spectrum:disarming",
+      "activated": false,
+      "personalFactor": 3.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spectrum:improved_critical",
+      "activated": false,
+      "personalFactor": 3.9,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spectrum:treasure_hunter",
+      "activated": false,
+      "personalFactor": 3.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spectrum:inertia",
+      "activated": false,
+      "personalFactor": 4.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "minecraft:protection",
+      "activated": true,
+      "personalFactor": 4.4,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "minecraft:fire_protection",
+      "activated": false,
+      "personalFactor": 3.75,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "minecraft:power",
+      "activated": true,
+      "personalFactor": 2.5,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "minecraft:efficiency",
+      "activated": true,
+      "personalFactor": 3.85,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spectrum:clovers_favor",
+      "activated": false,
+      "personalFactor": 3.25,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spectrum:tight_grip",
+      "activated": false,
+      "personalFactor": 4.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spectrum:first_strike",
+      "activated": false,
+      "personalFactor": 4.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "minecraft:looting",
+      "activated": true,
+      "personalFactor": 3.5,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:leeching",
+      "activated": true,
+      "personalFactor": 4.4,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:exploding",
+      "activated": true,
+      "personalFactor": 4.2,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:chains",
+      "activated": true,
+      "personalFactor": 3.5,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:echo",
+      "activated": true,
+      "personalFactor": 4.5,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:stunning",
+      "activated": true,
+      "personalFactor": 3.5,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:shockwave",
+      "activated": true,
+      "personalFactor": 3.5,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:growing",
+      "activated": true,
+      "personalFactor": 3.7,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:levitation_shot",
+      "activated": true,
+      "personalFactor": 3.5,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:weakening",
+      "activated": true,
+      "personalFactor": 3.6,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:jungle_poison",
+      "activated": true,
+      "personalFactor": 3.5,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:tempo_theft",
+      "activated": true,
+      "personalFactor": 4.1,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:ambush",
+      "activated": true,
+      "personalFactor": 3.5,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:dipping_poison",
+      "activated": true,
+      "personalFactor": 3.5,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:thundering",
+      "activated": false,
+      "personalFactor": 3.5,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:poison_cloud",
+      "activated": true,
+      "personalFactor": 4.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:void_strike",
+      "activated": false,
+      "personalFactor": 3.5,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:guarding_strike",
+      "activated": true,
+      "personalFactor": 3.5,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:multi_shot",
+      "activated": true,
+      "personalFactor": 3.5,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:chain_reaction",
+      "activated": true,
+      "personalFactor": 3.5,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:replenish",
+      "activated": true,
+      "personalFactor": 3.8,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:critical_hit",
+      "activated": true,
+      "personalFactor": 4.6,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:swirling",
+      "activated": true,
+      "personalFactor": 4.3,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:radiance_shot",
+      "activated": true,
+      "personalFactor": 3.5,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:smiting",
+      "activated": true,
+      "personalFactor": 3.6,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:ricochet",
+      "activated": true,
+      "personalFactor": 3.5,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:radiance",
+      "activated": true,
+      "personalFactor": 3.5,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:rushdown",
+      "activated": true,
+      "personalFactor": 4.4,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:committed",
+      "activated": false,
+      "personalFactor": 3.5,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:charge",
+      "activated": true,
+      "personalFactor": 4.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:refreshment",
+      "activated": true,
+      "personalFactor": 3.5,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:prospector",
+      "activated": true,
+      "personalFactor": 4.7,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:bonus_shot",
+      "activated": true,
+      "personalFactor": 3.5,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:refreshment_shot",
+      "activated": true,
+      "personalFactor": 3.5,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:freezing",
+      "activated": true,
+      "personalFactor": 4.1,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:illagers_bane",
+      "activated": true,
+      "personalFactor": 3.5,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:void_shot",
+      "activated": false,
+      "personalFactor": 3.5,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:gravity",
+      "activated": true,
+      "personalFactor": 4.2,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:anima",
+      "activated": false,
+      "personalFactor": 3.5,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:soul_siphon",
+      "activated": false,
+      "personalFactor": 4.3,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:fuse_shot",
+      "activated": true,
+      "personalFactor": 3.7,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:cobweb_shot",
+      "activated": true,
+      "personalFactor": 3.5,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:phantoms_mark",
+      "activated": false,
+      "personalFactor": 3.5,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "minecraft:aqua_affinity",
+      "activated": false,
+      "personalFactor": 3.5,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "minecraft:aqua_affinity",
+      "activated": false,
+      "personalFactor": 3.5,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "minecraft:fire_aspect",
+      "activated": true,
+      "personalFactor": 3.5,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "tolaserblade:light",
+      "activated": false,
+      "personalFactor": 3.5,
+      "personalReceiveFactor": 0.0
     }
   ]
 }

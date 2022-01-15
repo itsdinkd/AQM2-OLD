@@ -5,6 +5,6 @@
   "fireResistanceSeconds": 30,
   "slowFallingSeconds": 5,
   "horizontalDistanceOffset": 128,
-  "targetDimension": "dimdoors:limbo",
-  "transferPositionMode": "SURFACE"
+  "targetDimension": "the_nether",
+  "transferPositionMode": "SIMILAR"
 }

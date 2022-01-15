@@ -1,0 +1,1021 @@
+{
+  "name": "Gotta Catch Em All",
+  "quests": [
+    {
+      "uuid": "b25b2ad5-eca2-4aeb-ad45-c0b91390ea8b",
+      "name": "Craft Soul Mirror",
+      "description": "Each soul has a set of attributes and genetics that determine its type and abilities. You can check the genes of your soulstones with a soul mirror\n\nTo use the soul mirror, just hold it in your off-hand and right-click with a soulstone in the other hand.",
+      "x": 82,
+      "y": 171,
+      "icon": {
+        "id": "golemancy:soul_mirror",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Craft Soul Mirror",
+          "longDescription": "To use the soul mirror, just hold it in your off-hand and right-click with a soulstone in the other hand.",
+          "items": [
+            {
+              "item": {
+                "id": "golemancy:soul_mirror",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2fda4418-ce09-447a-af35-378f527dc76b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "golemancy:soulstone_empty",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "47e06828-d54a-4e1f-88c4-e93c46ecfbe8",
+      "name": "Summon a Rooster",
+      "description": "Summon a rooster using a bowl of seed.",
+      "x": 123,
+      "y": 9,
+      "icon": {
+        "id": "guardiansgalore:bowl_of_seed",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "items": [
+            {
+              "item": {
+                "id": "guardiansgalore:bowl_of_seed",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aae21450-07e1-4301-b410-bdbffbeca0b7"
+      ],
+      "optionlinks": [
+        "ad3eef2f-3bf1-4f01-856a-5bc81413fdd2",
+        "23586591-90bc-484e-bf95-53cc2bbf62f9",
+        "811ecc86-4192-49fa-9460-2e0627e78ddf",
+        "ec8ffc31-fbf1-49ad-a96e-6a001e021cbd",
+        "d294629b-cbdf-4f4e-b497-3561e3058c36",
+        "6841f47f-236c-40af-aa55-47d27c10520b",
+        "c37896e4-6945-4611-b887-ad4b43db0835",
+        "94941088-4ba6-4cd8-a4ab-2f13dbabd50c"
+      ],
+      "reward": [
+        {
+          "id": "culinaire:sandwich",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6841f47f-236c-40af-aa55-47d27c10520b",
+      "name": "Summon a Toad",
+      "description": "Summon a toad using a bowl of toadstools.",
+      "x": 201,
+      "y": 9,
+      "icon": {
+        "id": "guardiansgalore:bowl_of_toadstools",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "items": [
+            {
+              "item": {
+                "id": "guardiansgalore:bowl_of_toadstools",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aae21450-07e1-4301-b410-bdbffbeca0b7"
+      ],
+      "optionlinks": [
+        "ad3eef2f-3bf1-4f01-856a-5bc81413fdd2",
+        "23586591-90bc-484e-bf95-53cc2bbf62f9",
+        "811ecc86-4192-49fa-9460-2e0627e78ddf",
+        "ec8ffc31-fbf1-49ad-a96e-6a001e021cbd",
+        "d294629b-cbdf-4f4e-b497-3561e3058c36",
+        "94941088-4ba6-4cd8-a4ab-2f13dbabd50c"
+      ],
+      "reward": [
+        {
+          "id": "culinaire:sandwich",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c6298722-ef28-4be9-8c2b-2e9729b04547",
+      "name": "Slave Golems??",
+      "description": "Thats right! You can create a curated Golem that will do special things like defending you, to breaking blocks for you, all depending on the type of soul you obtain. ",
+      "x": 12,
+      "y": 196,
+      "icon": {
+        "id": "golemancy:soulstone_empty",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Stonecut Empty Soulstone",
+          "longDescription": "Using Nether Quartz, Put 1 in a stonecutter and you shall receive a Empty Soulstone.",
+          "items": [
+            {
+              "item": {
+                "id": "golemancy:soulstone_empty",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "gofish:wooden_crate",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ad3eef2f-3bf1-4f01-856a-5bc81413fdd2",
+      "name": "Summon a Tortoise",
+      "description": "ummon a tortoise using a bowl of watermelon.",
+      "x": 149,
+      "y": 10,
+      "icon": {
+        "id": "guardiansgalore:bowl_of_toadstools",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "items": [
+            {
+              "item": {
+                "id": "guardiansgalore:bowl_of_watermelon",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aae21450-07e1-4301-b410-bdbffbeca0b7"
+      ],
+      "optionlinks": [
+        "d294629b-cbdf-4f4e-b497-3561e3058c36",
+        "c37896e4-6945-4611-b887-ad4b43db0835"
+      ],
+      "reward": [
+        {
+          "id": "culinaire:sandwich",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "23586591-90bc-484e-bf95-53cc2bbf62f9",
+      "name": "Summon a Raven",
+      "description": "Summon a raven using a bowl of wheat.",
+      "x": 253,
+      "y": 9,
+      "icon": {
+        "id": "guardiansgalore:bowl_of_wheat",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "items": [
+            {
+              "item": {
+                "id": "guardiansgalore:bowl_of_wheat",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aae21450-07e1-4301-b410-bdbffbeca0b7"
+      ],
+      "optionlinks": [
+        "ad3eef2f-3bf1-4f01-856a-5bc81413fdd2",
+        "811ecc86-4192-49fa-9460-2e0627e78ddf",
+        "d294629b-cbdf-4f4e-b497-3561e3058c36",
+        "94941088-4ba6-4cd8-a4ab-2f13dbabd50c"
+      ],
+      "reward": [
+        {
+          "id": "culinaire:sandwich",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f914b3d1-c95a-4a20-80c0-8ea8027e896d",
+      "name": "Summon a Dove",
+      "description": "Summon a dove using a bowl of mixed seeds.",
+      "x": 178,
+      "y": 38,
+      "icon": {
+        "id": "guardiansgalore:bowl_of_mixed_seed",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "items": [
+            {
+              "item": {
+                "id": "guardiansgalore:bowl_of_mixed_seed",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aae21450-07e1-4301-b410-bdbffbeca0b7"
+      ],
+      "optionlinks": [
+        "ad3eef2f-3bf1-4f01-856a-5bc81413fdd2",
+        "23586591-90bc-484e-bf95-53cc2bbf62f9",
+        "811ecc86-4192-49fa-9460-2e0627e78ddf",
+        "ec8ffc31-fbf1-49ad-a96e-6a001e021cbd",
+        "d294629b-cbdf-4f4e-b497-3561e3058c36",
+        "47e06828-d54a-4e1f-88c4-e93c46ecfbe8",
+        "6841f47f-236c-40af-aa55-47d27c10520b",
+        "0286d31b-489f-4cc3-9c23-b427427e64dc",
+        "c37896e4-6945-4611-b887-ad4b43db0835",
+        "94941088-4ba6-4cd8-a4ab-2f13dbabd50c",
+        "7cfee50c-d438-411e-aba1-ef53b78d48d4"
+      ],
+      "reward": [
+        {
+          "id": "culinaire:sandwich",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "aae21450-07e1-4301-b410-bdbffbeca0b7",
+      "name": "The Pets that Stop Mob Spawns",
+      "description": "Guardian Pets, once set up, will prevent mobs from spawning. Be gone, creep...er.\n\nThere\u0027s 12 pets, each with 4-7 skin variations, and they will rest at the anchor until you get back and then move around.",
+      "x": 15,
+      "y": 9,
+      "icon": {
+        "id": "guardiansgalore:guardian_block",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "These blocks are used to summon different kinds of guardians and serve as their home base. Summoned animals will wander nearby once summoned, and will teleport back to their anchor stone if they roam too far from it. Anchor stones also control the how far the guardian’s protective range extends. Use blaze bells on anchor stones to increase the despawn range, or right-click them with an empty hand to decrease the range and remove bells. There are four varieties: stone, sandstone, granite, and diorite.\n\n",
+          "items": [
+            {
+              "item": {
+                "id": "guardiansgalore:guardian_block",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "BLOCK_PLACE",
+          "longDescription": "You crafted it, now its time to place it.",
+          "items": [
+            {
+              "item": {
+                "id": "guardiansgalore:guardian_block",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0286d31b-489f-4cc3-9c23-b427427e64dc",
+      "name": "Summon a Liondog",
+      "description": "Summon a liondog using a bowl of emeralds.\n\n",
+      "x": 140,
+      "y": 37,
+      "icon": {
+        "id": "guardiansgalore:bowl_of_emeralds",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "items": [
+            {
+              "item": {
+                "id": "guardiansgalore:bowl_of_emeralds",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aae21450-07e1-4301-b410-bdbffbeca0b7"
+      ],
+      "optionlinks": [
+        "ad3eef2f-3bf1-4f01-856a-5bc81413fdd2",
+        "23586591-90bc-484e-bf95-53cc2bbf62f9",
+        "811ecc86-4192-49fa-9460-2e0627e78ddf",
+        "ec8ffc31-fbf1-49ad-a96e-6a001e021cbd",
+        "d294629b-cbdf-4f4e-b497-3561e3058c36",
+        "47e06828-d54a-4e1f-88c4-e93c46ecfbe8",
+        "6841f47f-236c-40af-aa55-47d27c10520b",
+        "c37896e4-6945-4611-b887-ad4b43db0835",
+        "94941088-4ba6-4cd8-a4ab-2f13dbabd50c",
+        "7cfee50c-d438-411e-aba1-ef53b78d48d4"
+      ],
+      "reward": [
+        {
+          "id": "culinaire:sandwich",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c37896e4-6945-4611-b887-ad4b43db0835",
+      "name": "Summon a Wolf",
+      "description": "Summon a wolf using a bowl of bones.",
+      "x": 174,
+      "y": 9,
+      "icon": {
+        "id": "guardiansgalore:bowl_of_bones",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "items": [
+            {
+              "item": {
+                "id": "guardiansgalore:bowl_of_bones",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aae21450-07e1-4301-b410-bdbffbeca0b7"
+      ],
+      "optionlinks": [
+        "23586591-90bc-484e-bf95-53cc2bbf62f9",
+        "811ecc86-4192-49fa-9460-2e0627e78ddf",
+        "ec8ffc31-fbf1-49ad-a96e-6a001e021cbd",
+        "d294629b-cbdf-4f4e-b497-3561e3058c36",
+        "6841f47f-236c-40af-aa55-47d27c10520b",
+        "94941088-4ba6-4cd8-a4ab-2f13dbabd50c"
+      ],
+      "reward": [
+        {
+          "id": "culinaire:sandwich",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0a71741b-0cf1-452f-8d98-a906b439dcb8",
+      "name": "Extend Despawn Range",
+      "description": "With this bell, shift right click a anchor stone with a pet on it and you can extend the despawn range, going even further. \n\nTo decrease the range, empty hand and shift right click. ",
+      "x": 17,
+      "y": 39,
+      "icon": {
+        "id": "guardiansgalore:blaze_bell",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "guardiansgalore:blaze_bell",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aae21450-07e1-4301-b410-bdbffbeca0b7"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "811ecc86-4192-49fa-9460-2e0627e78ddf",
+      "name": "Summon a Boar",
+      "description": "Summon a boar using a bowl of potatoes.",
+      "x": 305,
+      "y": 8,
+      "icon": {
+        "id": "guardiansgalore:bowl_of_potatoes",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "items": [
+            {
+              "item": {
+                "id": "guardiansgalore:bowl_of_potatoes",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aae21450-07e1-4301-b410-bdbffbeca0b7"
+      ],
+      "optionlinks": [
+        "ad3eef2f-3bf1-4f01-856a-5bc81413fdd2",
+        "d294629b-cbdf-4f4e-b497-3561e3058c36"
+      ],
+      "reward": [
+        {
+          "id": "culinaire:sandwich",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f02aa5d6-cbf1-404b-b474-3ec106cedd0f",
+      "name": "Capture a Soul",
+      "description": "[Completion might not work] \n\nNext you\u0027ll need to kill some mobs. If you kill a mob whose soul can be captured and you have an empty soulstone in your inventory, it will be filled up.\n\n",
+      "x": 38,
+      "y": 195,
+      "icon": {
+        "id": "minecraft:shulker_box",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Covetous Soul (Enderman)",
+          "longDescription": "comes from Endermen. They can pick up items and put them in their linked inventory.",
+          "mobs": [
+            {
+              "name": "Kill Enderman",
+              "mob": "mobz:ender",
+              "kills": 1
+            }
+          ]
+        },
+        {
+          "type": "KILL",
+          "description": "Curious Soul (Slime)",
+          "longDescription": "comes from Slimes. They follow their owner around, but don\u0027t do much else.",
+          "mobs": [
+            {
+              "name": "Kill Slime",
+              "icon": {
+                "id": "minecraft:slime_block",
+                "Count": 1
+              },
+              "mob": "minecraft:slime",
+              "kills": 1
+            }
+          ]
+        },
+        {
+          "type": "KILL",
+          "description": "Entropic Soul (Creeper or Silverfish)",
+          "longDescription": "comes from Creepers and Silverfish. Link them to a block, and they\u0027ll break any instances of that block they find nearby. They\u0027ll need a high strength to break very hard blocks!",
+          "mobs": [
+            {
+              "name": "Kill Silverfish",
+              "icon": {
+                "id": "minecraft:silverfish_spawn_egg",
+                "Count": 1
+              },
+              "mob": "minecraft:silverfish",
+              "kills": 1
+            }
+          ]
+        },
+        {
+          "type": "KILL",
+          "description": "Hungry Soul (Hoglin or Zombie)",
+          "longDescription": "comes from Hoglins and Zombies. They\u0027ll pick up items and eat them, destroying them. They can eat any item.",
+          "mobs": [
+            {
+              "name": "Kill Hoglin",
+              "mob": "minecraft:hoglin",
+              "kills": 1
+            }
+          ]
+        },
+        {
+          "type": "KILL",
+          "description": "Intrepid Soul (Shulker)",
+          "longDescription": "comes from Shulkers. They are ranged golems that throw clay balls at enemies.",
+          "mobs": [
+            {
+              "name": "Kill Shulker",
+              "icon": {
+                "id": "minecraft:shulker_box",
+                "Count": 1
+              },
+              "mob": "minecraft:shulker",
+              "kills": 1
+            }
+          ]
+        },
+        {
+          "type": "KILL",
+          "description": "Parched Soul (Blaze or Husk)",
+          "longDescription": "comes from Blazes and Husks. They can fill buckets from fluid blocks and store them in their linked inventory. They can also get empty buckets from their linked inventory.",
+          "mobs": [
+            {
+              "name": "Kill Blaze",
+              "icon": {
+                "id": "minecraft:blaze_powder",
+                "Count": 1
+              },
+              "mob": "minecraft:blaze",
+              "kills": 1
+            }
+          ]
+        },
+        {
+          "type": "KILL",
+          "description": "Restless Soul (Skeleton)",
+          "longDescription": "comes from Skeletons. They wander around randomly, but don\u0027t do much else.",
+          "mobs": [
+            {
+              "name": "Kill Skeleton",
+              "icon": {
+                "id": "graveyard:leaning_skeleton",
+                "Count": 1
+              },
+              "mob": "minecraft:skeleton",
+              "kills": 1
+            }
+          ]
+        },
+        {
+          "type": "KILL",
+          "description": "Tactile Soul (Phantom)",
+          "longDescription": "comes from Phantoms. They\u0027ll right-click their linked block every few seconds, like a player.",
+          "mobs": [
+            {
+              "name": "Kill Phantom",
+              "icon": {
+                "id": "minecraft:phantom_membrane",
+                "Count": 1
+              },
+              "mob": "minecraft:phantom",
+              "kills": 1
+            }
+          ]
+        },
+        {
+          "type": "KILL",
+          "description": "Valiant Soul (Ravager or Guardian)",
+          "longDescription": "comes from Ravagers and Guardians. You can equip them with tools by right-clicking, and they\u0027ll fight off enemies.",
+          "mobs": [
+            {
+              "name": "Kill Ravager",
+              "icon": {
+                "id": "minecraft:ravager_spawn_egg",
+                "Count": 1
+              },
+              "mob": "minecraft:ravager",
+              "kills": 1
+            }
+          ]
+        },
+        {
+          "type": "KILL",
+          "description": "Weeping Soul (Ghast)",
+          "longDescription": "comes from Ghasts. They can heal other golems and even other types of pets, like wolves.",
+          "mobs": [
+            {
+              "name": "Kill Ghast",
+              "icon": {
+                "id": "minecraft:ghast_tear",
+                "Count": 1
+              },
+              "mob": "minecraft:ghast",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c6298722-ef28-4be9-8c2b-2e9729b04547"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "gobber2:gobber2_glob",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ec8ffc31-fbf1-49ad-a96e-6a001e021cbd",
+      "name": "Summon a Bear",
+      "description": "Summon a bear using a bowl of apples.",
+      "x": 227,
+      "y": 9,
+      "icon": {
+        "id": "guardiansgalore:bowl_of_apples",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "items": [
+            {
+              "item": {
+                "id": "guardiansgalore:bowl_of_apples",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aae21450-07e1-4301-b410-bdbffbeca0b7"
+      ],
+      "optionlinks": [
+        "ad3eef2f-3bf1-4f01-856a-5bc81413fdd2",
+        "23586591-90bc-484e-bf95-53cc2bbf62f9",
+        "811ecc86-4192-49fa-9460-2e0627e78ddf",
+        "d294629b-cbdf-4f4e-b497-3561e3058c36",
+        "94941088-4ba6-4cd8-a4ab-2f13dbabd50c"
+      ],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "181d9143-ca7a-44a8-ae4f-39981ba02228",
+      "name": "Craft Soul Grafter",
+      "description": "You can breed (or \"graft\") soulstones together to produce new results. To do so, you\u0027ll need to craft a soul grafter using any converted soulstone.\n\nThe soul grafter is what you use to breed soulstones. You\u0027ll need a good supply of empty soulstones and bone meal to keep it running, though:",
+      "x": 57,
+      "y": 170,
+      "icon": {
+        "id": "golemancy:soul_grafter",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Craft Soul Grafter",
+          "longDescription": "The soul grafter is what you use to breed soulstones. You\u0027ll need a good supply of empty soulstones and bone meal to keep it running, though:",
+          "items": [
+            {
+              "item": {
+                "id": "golemancy:soul_grafter",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2fda4418-ce09-447a-af35-378f527dc76b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "golemancy:soulstone_empty",
+          "Count": 2
+        },
+        {
+          "id": "minecraft:bone_meal",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "be60f577-548e-461d-964f-74e3b0530761",
+      "name": "Craft Golem Wand",
+      "description": "Used to interact with your golem.\n\nHold the golem wand in your hand and right-click on one of your golems to make them follow you. Right click again to tell them to stop. If you right-click a golem while sneaking, you\u0027ll enter \"linking mode\". You can then right-click on a block to link the golem to that block.\n\nGolems consider their linked block as \"home\" and will return to it when they\u0027re not busy doing something else. Some golems can, if linked to a chest or other inventory, extract or insert items into their linked block.",
+      "x": 95,
+      "y": 192,
+      "icon": {
+        "id": "golemancy:golem_wand",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Craft Golem Wand",
+          "longDescription": "Craft Golem Wand to Interact with your Golem",
+          "items": [
+            {
+              "item": {
+                "id": "golemancy:golem_wand",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2fda4418-ce09-447a-af35-378f527dc76b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "additionaladditions:mysterious_bundle",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d294629b-cbdf-4f4e-b497-3561e3058c36",
+      "name": "Summon a Dragon",
+      "description": "Summon a dragon using a bowl of gold.\n\n ",
+      "x": 69,
+      "y": 9,
+      "icon": {
+        "id": "guardiansgalore:bowl_of_gold",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "description": "Place Bowl on Anchor",
+          "items": [
+            {
+              "item": {
+                "id": "guardiansgalore:bowl_of_gold",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aae21450-07e1-4301-b410-bdbffbeca0b7"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "culinaire:sandwich",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b2e75df3-0fa5-4d5e-85b4-bf510a5cc8ab",
+      "name": "Summon a Fox",
+      "description": "Summon a fox using a bowl of berries.",
+      "x": 42,
+      "y": 9,
+      "icon": {
+        "id": "guardiansgalore:bowl_of_berries",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "description": "Place Bowl on Anchor",
+          "items": [
+            {
+              "item": {
+                "id": "guardiansgalore:bowl_of_berries",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aae21450-07e1-4301-b410-bdbffbeca0b7"
+      ],
+      "optionlinks": [
+        "ad3eef2f-3bf1-4f01-856a-5bc81413fdd2",
+        "23586591-90bc-484e-bf95-53cc2bbf62f9",
+        "811ecc86-4192-49fa-9460-2e0627e78ddf",
+        "ec8ffc31-fbf1-49ad-a96e-6a001e021cbd",
+        "f914b3d1-c95a-4a20-80c0-8ea8027e896d",
+        "d294629b-cbdf-4f4e-b497-3561e3058c36",
+        "47e06828-d54a-4e1f-88c4-e93c46ecfbe8",
+        "6841f47f-236c-40af-aa55-47d27c10520b",
+        "0286d31b-489f-4cc3-9c23-b427427e64dc",
+        "c37896e4-6945-4611-b887-ad4b43db0835",
+        "94941088-4ba6-4cd8-a4ab-2f13dbabd50c",
+        "7cfee50c-d438-411e-aba1-ef53b78d48d4"
+      ],
+      "reward": [
+        {
+          "id": "culinaire:sandwich",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "94941088-4ba6-4cd8-a4ab-2f13dbabd50c",
+      "name": "Summon a Rabbit",
+      "description": "Summon a rabbit using a bowl of carrots.",
+      "x": 280,
+      "y": 8,
+      "icon": {
+        "id": "guardiansgalore:bowl_of_carrots",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "items": [
+            {
+              "item": {
+                "id": "guardiansgalore:bowl_of_carrots",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aae21450-07e1-4301-b410-bdbffbeca0b7"
+      ],
+      "optionlinks": [
+        "ad3eef2f-3bf1-4f01-856a-5bc81413fdd2",
+        "811ecc86-4192-49fa-9460-2e0627e78ddf",
+        "d294629b-cbdf-4f4e-b497-3561e3058c36"
+      ],
+      "reward": [
+        {
+          "id": "culinaire:sandwich",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2fda4418-ce09-447a-af35-378f527dc76b",
+      "name": "Craft and Place Golem Effigy",
+      "description": "Nows the time to get your golem ready for the Soulstone you captured. \n\nOnce you have captured a Soulstone by killing the mob of your choice, you can use it on the Effigy to convert it into that golem type. \n\nCraft the Golem Effigy, Place it in the world, and then holding your soulstone, right click the golem effigy. ",
+      "x": 64,
+      "y": 195,
+      "icon": {
+        "id": "golemancy:clay_effigy",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Craft Golem Effigy",
+          "longDescription": "Craft Golem Effigy",
+          "items": [
+            {
+              "item": {
+                "id": "golemancy:clay_effigy",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CHECKBOX",
+          "description": "Place Golem Effigy",
+          "longDescription": "Once Crafted, Place it in the world (Only if you have a converted Soulstone, if not, complete one of the tasks from the soulstone quest)"
+        },
+        {
+          "type": "CHECKBOX",
+          "description": "Convert Golem",
+          "longDescription": "With the converted Soulstone you prefer to use, Hold it out and right click the golem. This will convert it. "
+        }
+      ],
+      "prerequisites": [
+        "c6298722-ef28-4be9-8c2b-2e9729b04547"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "additionaladditions:mysterious_bundle",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7cfee50c-d438-411e-aba1-ef53b78d48d4",
+      "name": "Summon a Deer",
+      "description": "Summon a deer using a bowl of hay.",
+      "x": 96,
+      "y": 9,
+      "icon": {
+        "id": "guardiansgalore:bowl_of_hay",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_PLACE",
+          "description": "Place Bowl on Anchor",
+          "items": [
+            {
+              "item": {
+                "id": "guardiansgalore:bowl_of_hay",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "aae21450-07e1-4301-b410-bdbffbeca0b7"
+      ],
+      "optionlinks": [
+        "ad3eef2f-3bf1-4f01-856a-5bc81413fdd2",
+        "23586591-90bc-484e-bf95-53cc2bbf62f9",
+        "811ecc86-4192-49fa-9460-2e0627e78ddf",
+        "ec8ffc31-fbf1-49ad-a96e-6a001e021cbd",
+        "d294629b-cbdf-4f4e-b497-3561e3058c36",
+        "47e06828-d54a-4e1f-88c4-e93c46ecfbe8",
+        "6841f47f-236c-40af-aa55-47d27c10520b",
+        "c37896e4-6945-4611-b887-ad4b43db0835",
+        "94941088-4ba6-4cd8-a4ab-2f13dbabd50c"
+      ],
+      "reward": [
+        {
+          "id": "culinaire:sandwich",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

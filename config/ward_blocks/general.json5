@@ -8,19 +8,21 @@
 	"enableGrowthBlock": true,
 	"enableHealthBlock": true,
 	"enableDefenseBlock": true,
-	"enableExpBlock": true,
+	"enableExpBlock": false,
 	"enableAttackBlock": true,
 	"enableLootBlock": false,
 	/* 
 	   
 	   ***********************
-	   Growth Ward
+	   Block Loot Chances
 	   ***********************
 	*/
-	"growthHorizRadius": 8,
-	"growthVertRadius": 4,
-	"baseTickDelay": 70,
-	"cactusTickDelay": 20,
+	"growthBlockChance": 0.03999999910593033,
+	"healthBlockChance": 0.06000000238418579,
+	"defenseBlockChance": 0.03999999910593033,
+	"expBlockChance": 0.05000000074505806,
+	"attackBlockChance": 0.030000001192092896,
+	"lootBlockChance": 0.05000000074505806,
 	/* 
 	   
 	   ***********************
@@ -31,9 +33,8 @@
 	"healthVertRadius": 4,
 	"healthLevel": 0,
 	"enableYellowHearts": true,
-	"healthYellowHearts": 6.0,
-	"yellowHeartDelay": 20,
-	"effectTickInterval": 20,
+	"healthYellowHearts": 4.0,
+	"effectTickInterval": 30,
 	/* 
 	   
 	   ***********************
@@ -46,12 +47,13 @@
 	/* 
 	   
 	   ***********************
-	   Attack Ward
+	   Growth Ward
 	   ***********************
 	*/
-	"attackHorizRadius": 8,
-	"attackVertRadius": 6,
-	"damageAmount": 3,
+	"growthHoriz": 8,
+	"growthHeight": 5,
+	"baseTickDelay": 70,
+	"cactusTickDelay": 30,
 	/* 
 	   
 	   ***********************
@@ -64,6 +66,15 @@
 	/* 
 	   
 	   ***********************
+	   Attack Ward
+	   ***********************
+	*/
+	"attackHorizRadius": 8,
+	"attackVertRadius": 6,
+	"damageAmount": 3,
+	/* 
+	   
+	   ***********************
 	   Loot Ward
 	   ***********************
 	*/
@@ -73,8 +84,17 @@
 	/* 
 	   
 	   ***********************
-	   Additional Mobs
+	   Loot Ward - Drops
+	   - only use values between .01 to .99
+	   - values cannot overlap
+	   - values should be in decending order from
+	   cutoff, common, uncommon, and rare
+	   - values above cutoff threshold get a carrot
 	   ***********************
 	*/
-	"firstAdditional": "minecraft:sheep"
+	"defaultDrop": "minecraft:carrot",
+	"cutoffThreshold": 0.48,
+	"commonThreshold": 0.28,
+	"uncommonThreshold": 0.12,
+	"rareThreshold": 0.04
 }

@@ -1,0 +1,6 @@
+{
+    "parent": "item/bowl",
+    "textures": {
+        "layer0": "item/curse_tablet_witchling"
+    }
+}

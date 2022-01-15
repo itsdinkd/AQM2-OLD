@@ -1,7 +1,6 @@
 {
 	/* 
 	   
-	   
 	   ******************************
 	   ENABLE/DISABLE TOOLS
 	   ******************************
@@ -16,24 +15,23 @@
 	"enableTrashCan": true,
 	/* 
 	   
-	   
 	   ******************************
 	   SPRING BLOCKS
 	   ******************************
 	*/
 	"enableLavaSpring": true,
 	"enableWellSpring": true,
+	"laveSpringPowerFurnace": true,
 	/* 
-	   
 	   
 	   ******************************
 	   CRACK HAMMERS
 	   ******************************
 	*/
+	"copperHammerDurability": 125,
 	"ironHammerDurability": 129,
 	"diamondHammerDurability": 412,
 	/* 
-	   
 	   
 	   ******************************
 	   HAND PICK
@@ -46,8 +44,8 @@
 	"quartzDropChance": 0.1,
 	"blackstoneDropChance": 0.1,
 	"endstoneDropChance": 0.1,
+	"deepslateDropChance": 0.15,
 	/* 
-	   
 	   
 	   ******************************
 	   HAND TILLER
@@ -58,18 +56,16 @@
 	"gravelDropChance": 0.2,
 	/* 
 	   
-	   
 	   ******************************
-	   Clam Digger
+	   CLAM DIGGER
 	   - drop chance value between 0.0-1.0
 	   ******************************
 	*/
 	"clamDropChance": 0.6,
 	/* 
 	   
-	   
 	   ******************************
-	   HAND TRIMMER
+	   TREE TRIMMER
 	   - drop chance value between 0.0-1.0
 	   ******************************
 	*/
@@ -82,8 +78,8 @@
 	"seagrassDropChance": 0.05,
 	"kelpDropChance": 0.05,
 	"eggDropChance": 0.35,
+	"phantomMembraneDropChance": 0.15,
 	/* 
-	   
 	   
 	   ******************************
 	   IRON TOOL MATERIAL
@@ -94,9 +90,8 @@
 	"ironMiningSpeed": 1.399999976158142,
 	"ironAttackDamage": 1.399999976158142,
 	"ironMiningLevel": 2,
-	"ironEnchantability": 8,
+	"ironEnchantability": 4,
 	/* 
-	   
 	   
 	   ******************************
 	   COPPER TOOL MATERIAL
@@ -107,5 +102,5 @@
 	"copperMiningSpeed": 1.7000000476837158,
 	"copperAttackDamage": 1.600000023841858,
 	"copperMiningLevel": 2,
-	"copperEnchantability": 8
+	"copperEnchantability": 2
 }

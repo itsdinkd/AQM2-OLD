@@ -16,6 +16,11 @@
   "wand_mode_display_y_pos": 100.0,
   "preview_opacity": 0.8,
   "fancy_preview": true,
+  "block_outlines": true,
+  "fill_outlines": true,
+  "copy_outlines": true,
+  "paste_outlines": true,
+  "no_lines": false,
   "fat_lines": true,
   "fat_lines_width": 0.025,
   "block_outline_color": "220,220,220,255",
@@ -27,10 +32,12 @@
   "line_color": "200,0,200,200",
   "paste_bb_color": "80,40,0,255",
   "block_color": "255,255,255,255",
-  "str_allowed": [
-    "minecraft:soul_sand",
-    "minecraft:grass_path"
+  "str_pickaxe_allowed": [
+    "minecraft:sea_lantern"
   ],
+  "str_axe_allowed": [],
+  "str_shovel_allowed": [],
+  "str_hoe_allowed": [],
   "str_denied": [
     "kibe:cursed_dirt"
   ]

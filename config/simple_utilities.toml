@@ -1,0 +1,10 @@
+[statusElements]
+toggleSimpleUtilitiesHUD = true
+toggleCoordinatesStatus = true
+toggleDirectionStatus = true
+toggleEquipmentStatus = true
+toggleFpsStatus = true
+toggleSprintStatus = true
+toggleBiomeStatus = true
+toggleGameTimeStatus = true
+textColor = 14737632

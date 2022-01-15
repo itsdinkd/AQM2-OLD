@@ -1,0 +1,7 @@
+{
+  "enableCopperGolem": true,
+  "enableGlareSpawn": true,
+  "enableMoobloomSpawn": true,
+  "enableBeekeeperVillagerProfession": true,
+  "generateBeekeeperAreaStructure": true
+}

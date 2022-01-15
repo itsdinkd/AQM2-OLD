@@ -1,0 +1,390 @@
+{
+  "name": "What Sorcery is this",
+  "quests": [
+    {
+      "uuid": "bda1c308-a0e5-4298-a2de-5d3729381455",
+      "name": "Craft a Bewitchment Book",
+      "description": "Bewitchment is a magic mod based around curses, voodoo puppets, sacrifices, and demons. You can transform into a werewolf or a vampire, you can fight Lilith and other Demons, and even fly on brooms. \n\nCraft the book to get started.",
+      "x": 205,
+      "y": 11,
+      "icon": {
+        "id": "bewitchment:book_of_shadows",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Craft Book of Shadows",
+          "longDescription": "Go down the bewitchment rabbit hole and craft the book of shadows.",
+          "items": [
+            {
+              "item": {
+                "id": "bewitchment:book_of_shadows",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "gofish:wooden_crate",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fd1153f3-4e6b-4f47-91f9-acc6962f9bae",
+      "name": "Craft Magic Fungi Book",
+      "description": "Lastly, we have Magic Fungi. The mod revolving around Mushrooms. This mod has one of the best swords in the game, though I wish you the best on getting it!",
+      "x": 267,
+      "y": 11,
+      "icon": {
+        "id": "patchouli:guide_book",
+        "Count": 1,
+        "tag": {
+          "patchouli:book": "magicfungi:magicfungi"
+        }
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Craft Magic Mycology Book",
+          "items": [
+            {
+              "item": {
+                "id": "patchouli:guide_book",
+                "Count": 1,
+                "tag": {
+                  "patchouli:book": "magicfungi:magicfungi"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "gofish:wooden_crate",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "84e01902-43b9-4087-88d3-ab38ad837487",
+      "name": "Craft Presses",
+      "description": "Use the same mana pool for all the AE2 required Presses. Find out the resources required using REI, and then the tasks will complete individually one by one.",
+      "x": 45,
+      "y": 10,
+      "icon": {
+        "id": "ae2:logic_processor_press",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Silicon Press",
+          "items": [
+            {
+              "item": {
+                "id": "ae2:silicon_press",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Logic Press",
+          "items": [
+            {
+              "item": {
+                "id": "ae2:logic_processor_press",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Calculation Press",
+          "items": [
+            {
+              "item": {
+                "id": "ae2:calculation_processor_press",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Engineering Press",
+          "items": [
+            {
+              "item": {
+                "id": "ae2:engineering_processor_press",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5b651881-eb61-4e15-8c0b-81c4363125ca"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "ae2:certus_quartz_crystal",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5b651881-eb61-4e15-8c0b-81c4363125ca",
+      "name": "Craft AE2 Sky Blocks",
+      "description": "We\u0027re differnt. We require Sky Blocks to be crafted using Botania\u0027s Mana Pool.\n\nGet your mana pool setup, view the Sky Block recipe in REI to learn what you need.",
+      "x": 16,
+      "y": 10,
+      "icon": {
+        "id": "ae2:smooth_sky_stone_block",
+        "Count": 1
+      },
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 1,
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Mana Pool Task",
+          "longDescription": "Set up Mana Pool\nSet up your Alchemist Catalyst\nThrow in Crying Obsidian into Mana Pool\nReceive Sky Stone Block",
+          "items": [
+            {
+              "item": {
+                "id": "ae2:sky_stone_block",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "ae2:sky_stone_block",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "60415420-633e-4991-b222-316d4e91dd74",
+      "name": "Craft Conjuring Book",
+      "description": "The Conjuring.... a magistic magic mod based around spawning vanilla mobs and getting crazy loot from it",
+      "x": 173,
+      "y": 43,
+      "icon": {
+        "id": "conjuring:enchiridion",
+        "Count": 1,
+        "tag": {}
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Craft Enchiridion",
+          "longDescription": "Craft the Conjuring Enchiridion",
+          "items": [
+            {
+              "item": {
+                "id": "conjuring:enchiridion",
+                "Count": 1,
+                "tag": {}
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "gofish:wooden_crate",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8e072622-8388-4020-831c-3e33a52d3799",
+      "name": "Start Spectrum Questline",
+      "description": "Spectrum is a brand new, story driven, exploration-based magic mod focusing on the natural energies that flow in the world, represented in color.\n\nCraft the Manual to learn how to play through this mod. It also relies heavily on advancements, so be sure to check the Spectrum Advancements if you\u0027re stuck (Press \"L\" in game)",
+      "x": 173,
+      "y": 12,
+      "icon": {
+        "id": "spectrum:manual",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Craft Colorful World Book",
+          "longDescription": "This guide will get you started in Spectrum. Also, be sure to checkout advancements for the mod as it relies heavily on it and will also show you how to progress.",
+          "items": [
+            {
+              "item": {
+                "id": "spectrum:manual",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "gofish:wooden_crate",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0c92c08a-38bf-4cf6-9280-7f83e5be9577",
+      "name": "Craft the Lexica Botania",
+      "description": "This book will get you started with Botania, and how to progress. Botania is a unique magic mod that relies heavily on flowers that you can find in the overworld. Consider it a tech-magic mod. You can automate tons of things, cast spells, and so much more. ",
+      "x": 235,
+      "y": 11,
+      "icon": {
+        "id": "botania:lexicon",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Craft Lexica Book",
+          "longDescription": "Jump into Botania with the Lexica Botania",
+          "items": [
+            {
+              "item": {
+                "id": "botania:lexicon",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "gofish:wooden_crate",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c54fd481-d6a2-401f-b8f9-410e24df9127",
+      "name": "Craft a Arcanus Wand",
+      "description": "Craft a Arcanus wand. With this wand you can use spells. \n\nSearch the world for lecterns or bookshelves in dungeons, villages, or strongholds and you might come across a spellbook that teaches you a new spell, which you use with your Arcanus Wand ",
+      "x": 16,
+      "y": 42,
+      "icon": {
+        "id": "arcanus:initiate_wand",
+        "Count": 1,
+        "tag": {
+          "arcanus": {}
+        }
+      },
+      "tasks": [
+        {
+          "type": "ADVANCEMENT",
+          "description": "Crafting Task",
+          "longDescription": "Once crafted, you will be able to use the spells you find at Lecterns and Bookshelves. These are usually found at with a chance to spawn at dungeons, villages, and strongholds.\n\nYou can type \"/spells list\" at any time to see all the spells, as well as their patterns, that you know.",
+          "advancements": [
+            {
+              "name": "Craft Wand",
+              "icon": {
+                "id": "arcanus:initiate_wand",
+                "Count": 1,
+                "tag": {
+                  "arcanus": {}
+                }
+              },
+              "adv_name": "arcanus:wand"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "arcanus:mana_flask",
+          "Count": 1,
+          "tag": {
+            "arcanus": {
+              "Mana": 4
+            }
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "498bf62f-e99c-45c9-abb2-4d686a65f460",
+      "name": "Start Dark Enchanting",
+      "description": "Want good enchantments but don\u0027t want to grind for them? Well, now you can use Dark Enchanter Table to pick what enchantments you want. This will cost you XP, and some enchantments cost a lot. ",
+      "x": 15,
+      "y": 183,
+      "icon": {
+        "id": "dark-enchanting:dark_enchanter",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Craft Dark Enchanter Table",
+          "longDescription": "Craft a Dark Enchanter Table",
+          "items": [
+            {
+              "item": {
+                "id": "dark-enchanting:dark_enchanter",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "additionaladditions:mysterious_bundle",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "Your\u0027e a wizard, harry. \n\nComplete the Magic side of AQM"
+}

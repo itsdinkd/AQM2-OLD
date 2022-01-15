@@ -511,7 +511,9 @@
     "sugar_from_root [default: true]": true,
     "endstone_flower_pot [default: true]": true,
     "guide_book [default: true]": true,
-    "dragon_bone_block [default: true]": true
+    "dragon_bone_block [default: true]": true,
+    "dragon_bone_slab [default: true]": true,
+    "dragon_bone_stairs [default: true]": true
   },
   "furnace": {
     "thallasium_ingot_furnace_ore [default: true]": true,
@@ -652,6 +654,6 @@
     "multishot_book [default: true]": true,
     "quick_charge_book [default: true]": true,
     "piercing_book [default: true]": true,
-    "mending_book [default: true]": true
+    "mending_book [default: true]": false
   }
 }

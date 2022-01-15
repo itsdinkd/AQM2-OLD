@@ -1,6 +1,6 @@
 {
   "bar": false,
-  "samurai_banner": false,
+  "samurai_banner": true,
   "fox_correction": true,
   "banner_glint": false,
   "horse_slot": true,

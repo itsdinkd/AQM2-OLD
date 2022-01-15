@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ae2",
+    "enabled": true
+  },
+  {
+    "id": "fastfurnace",
+    "enabled": true
+  },
+  {
+    "id": "ironfurnaces",
+    "enabled": true
+  },
+  {
+    "id": "recipecache",
+    "enabled": true
+  },
+  {
+    "id": "roughlyenoughitems-runtime",
+    "enabled": true
+  },
+  {
+    "id": "toms_storage",
+    "enabled": true
+  }
+]

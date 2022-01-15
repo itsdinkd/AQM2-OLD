@@ -7,6 +7,7 @@
   "allowWaterInNonOverworldDimensions": true,
   "enableAutomationOptionsFromModerateFarm": false,
   "includeMineshaftChest": true,
+  "playBuildingSound": true,
   "recipes": {
     "Grassy Plains": true,
     "Boundary Block": true,

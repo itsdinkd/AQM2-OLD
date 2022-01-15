@@ -1,6 +1,6 @@
 {
   "Generic": {
-    "carpetCtrlQCraftingEnabledOnServer": true,
+    "carpetCtrlQCraftingEnabledOnServer": false,
     "clientCraftingFixOn1.12": true,
     "craftingRenderRecipeItems": true,
     "packetRateLimit": 4,
@@ -407,7 +407,7 @@
     "enableScrollingMatchingStacks": true,
     "enableScrollingSingle": true,
     "enableScrollingStacks": true,
-    "enableScrollingStacksFallback": true,
+    "enableScrollingStacksFallback": false,
     "enableScrollingVillager": true,
     "enableShiftDropItems": true,
     "enableShiftPlaceItems": true,
