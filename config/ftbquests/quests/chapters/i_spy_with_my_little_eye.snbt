@@ -4,7 +4,62 @@
 	order_index: 2
 	filename: "i_spy_with_my_little_eye"
 	title: "I Spy with my Little Eye"
+	icon: "minecraft:spyglass"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			title: "Travel to the Nether"
+			icon: "additionaladditions:mysterious_bundle"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Its time to visit Hell to progress further. Good luck, its hard as hell."
+			id: "051C81A88B70C303"
+			tasks: [{
+				id: "61D9C9F28ECD2FE2"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "41AF2426EA4C9350"
+				type: "item"
+				item: "additionaladditions:mysterious_bundle"
+			}]
+		}
+		{
+			title: "Mining Dimension"
+			icon: "spectrum:end_portal_cracker"
+			x: 0.0d
+			y: -1.0d
+			subtitle: "We have 4 dimensions that you can visit to mine, hunt, climb, or cave (weird). "
+			id: "7E27FCFA8A163F34"
+			tasks: [
+				{
+					id: "1BBD77438CA10D7D"
+					type: "dimension"
+					dimension: "mining_dims:mining_dim"
+				}
+				{
+					id: "0B619480978757F4"
+					type: "dimension"
+					dimension: "mining_dims:caving_dim"
+				}
+				{
+					id: "6F16EEBEFD4CB46C"
+					type: "dimension"
+					dimension: "mining_dims:climbing_dim"
+				}
+				{
+					id: "0E180EB35C171125"
+					type: "dimension"
+					dimension: "mining_dims:hunting_dim"
+				}
+			]
+			rewards: [{
+				id: "143CFB8F463E3BC4"
+				type: "item"
+				item: "gobber2:gobber2_globette"
+			}]
+		}
+	]
 }
