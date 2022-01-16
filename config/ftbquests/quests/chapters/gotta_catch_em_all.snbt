@@ -4,7 +4,509 @@
 	order_index: 5
 	filename: "gotta_catch_em_all"
 	title: "Gotta Catch Em All"
-	default_quest_shape: ""
+	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			title: "Craft Soul Mirror"
+			x: 2.5d
+			y: 3.0d
+			subtitle: "Each soul has a set of attributes and genetics that determine its type and abilities."
+			description: [
+				"Each soul has a set of attributes and genetics that determine its type and abilities. You can check the genes of your soulstones with a soul mirror"
+				""
+				"To use the soul mirror, just hold it in your off-hand and right-click with a soulstone in the other hand."
+			]
+			dependencies: ["260534C1D189BA9E"]
+			id: "735A60040CCE040B"
+			tasks: [{
+				id: "01E0B1364FCE1EF7"
+				type: "item"
+				item: {
+					id: "golemancy:soul_mirror"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "07683EA56749366D"
+				type: "item"
+				item: "golemancy:soulstone_empty"
+			}]
+		}
+		{
+			title: "The Pets that Stop Mob Spawns"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Guardian Pets, once set up, will prevent mobs from spawning."
+			description: [
+				"Guardian Pets, once set up, will prevent mobs from spawning. Be gone, creep...er."
+				""
+				"There\\u0027s 12 pets, each with 4-7 skin variations, and they will rest at the anchor until you get back and then move around."
+			]
+			id: "1065CAB5189B3DD4"
+			tasks: [{
+				id: "114DC90B3A5D2DA8"
+				type: "item"
+				item: "guardiansgalore:guardian_block"
+				only_from_crafting: true
+			}]
+		}
+		{
+			title: "Summon a Guardian"
+			x: 1.0d
+			y: 0.0d
+			subtitle: "Guardians stop certain mobs from spawning"
+			description: ["Summon a guardian using the proper bowl."]
+			dependencies: ["1065CAB5189B3DD4"]
+			id: "6D893BC304AD9E5B"
+			tasks: [{
+				id: "1BBD90B219E05652"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "guardiansgalore:bowl_of_seed"
+							}
+							{
+								Count: 1b
+								id: "guardiansgalore:bowl_of_apples"
+							}
+							{
+								Count: 1b
+								id: "guardiansgalore:bowl_of_bones"
+							}
+							{
+								Count: 1b
+								id: "guardiansgalore:bowl_of_carrots"
+							}
+							{
+								Count: 1b
+								id: "guardiansgalore:bowl_of_gold"
+							}
+							{
+								Count: 1b
+								id: "guardiansgalore:bowl_of_mixed_seed"
+							}
+							{
+								Count: 1b
+								id: "guardiansgalore:bowl_of_hay"
+							}
+							{
+								Count: 1b
+								id: "guardiansgalore:bowl_of_potatoes"
+							}
+							{
+								Count: 1b
+								id: "guardiansgalore:bowl_of_toadstools"
+							}
+							{
+								Count: 1b
+								id: "guardiansgalore:bowl_of_melon"
+							}
+							{
+								Count: 1b
+								id: "guardiansgalore:bowl_of_wheat"
+							}
+							{
+								Count: 1b
+								id: "guardiansgalore:bowl_of_emerald"
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "2A06A0DC04241230"
+				type: "item"
+				item: "farmersdelight:chicken_sandwich"
+			}]
+		}
+		{
+			title: "Slave Golems??"
+			x: 0.0d
+			y: 4.0d
+			subtitle: "You can create a curated Golem that will do special things"
+			description: [
+				"Thats right! You can create a curated Golem that will do special things like defending you, to breaking blocks for you, all depending on the type of soul you obtain. "
+				""
+				"Using Nether Quartz, Put 1 in a stonecutter and you shall receive a Empty Soulstone."
+			]
+			id: "45C7866BB219FC18"
+			tasks: [{
+				id: "1465DAFE140DFA6A"
+				type: "item"
+				item: "golemancy:soulstone_empty"
+			}]
+			rewards: [{
+				id: "76C54A69F4CCC257"
+				type: "item"
+				item: "gofish:wooden_crate"
+			}]
+		}
+		{
+			title: "Extend Despawn Range"
+			x: 0.0d
+			y: 1.0d
+			description: ["With this bell, shift right click a anchor stone with a pet on it and you can extend the despawn range, going even further. \\n\\nTo decrease the range, empty hand and shift right click."]
+			dependencies: ["1065CAB5189B3DD4"]
+			id: "092D6149B54BA8F0"
+			tasks: [{
+				id: "67F784A1AE84B446"
+				type: "item"
+				item: "guardiansgalore:blaze_bell"
+				only_from_crafting: true
+			}]
+		}
+		{
+			title: "Capture Souls"
+			x: 1.0d
+			y: 4.0d
+			subtitle: "KILL EVERYTHING"
+			description: [
+				"Have Empty Soulstone in your inventory while you kill the mob."
+				"Note: Killing Baby mobs will not count"
+			]
+			dependencies: ["45C7866BB219FC18"]
+			id: "0D69865694FD43C4"
+			tasks: [
+				{
+					id: "276386B21C445E07"
+					type: "item"
+					title: "Kill Enderman"
+					item: {
+						id: "golemancy:soulstone_filled"
+						Count: 1b
+						tag: {
+							vigor_dormant: 1
+							vigor_active: 1
+							CustomModelData: 4
+							type_dormant: "Covetous"
+							strength_active: 1
+							agility_active: 1
+							potency_dormant: 2
+							strength_dormant: 1
+							type_active: "Covetous"
+							potency_active: 2
+							smarts_dormant: 2
+							agility_dormant: 1
+							smarts_active: 2
+						}
+					}
+				}
+				{
+					id: "52606B5BC33C8006"
+					type: "item"
+					title: "Kill Slime"
+					item: {
+						id: "golemancy:soulstone_filled"
+						Count: 1b
+						tag: {
+							vigor_dormant: 0
+							vigor_active: 0
+							CustomModelData: 2
+							type_dormant: "Curious"
+							strength_active: 0
+							agility_active: 0
+							potency_dormant: 5
+							strength_dormant: 0
+							type_active: "Curious"
+							potency_active: 5
+							smarts_dormant: 0
+							agility_dormant: 0
+							smarts_active: 0
+						}
+					}
+				}
+				{
+					id: "614983C89BA133CE"
+					type: "item"
+					title: "Kill Creeper or Silverfish"
+					item: {
+						id: "golemancy:soulstone_filled"
+						Count: 1b
+						tag: {
+							vigor_dormant: 1
+							vigor_active: 1
+							CustomModelData: 7
+							type_dormant: "Entropic"
+							strength_active: 0
+							agility_active: 1
+							potency_dormant: 3
+							strength_dormant: 0
+							type_active: "Entropic"
+							potency_active: 3
+							smarts_dormant: 1
+							agility_dormant: 1
+							smarts_active: 1
+						}
+					}
+				}
+				{
+					id: "6AEE26BF23590044"
+					type: "item"
+					title: "Kill Hoglin or Zombie"
+					item: {
+						id: "golemancy:soulstone_filled"
+						Count: 1b
+						tag: {
+							vigor_dormant: 2
+							vigor_active: 2
+							CustomModelData: 3
+							type_dormant: "Hungry"
+							strength_active: 1
+							agility_active: 1
+							potency_dormant: 3
+							strength_dormant: 1
+							type_active: "Hungry"
+							potency_active: 3
+							smarts_dormant: 0
+							agility_dormant: 1
+							smarts_active: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "3D4D664EF62E2895"
+					type: "item"
+					title: "Kill Shulker"
+					item: {
+						id: "golemancy:soulstone_filled"
+						Count: 1b
+						tag: {
+							vigor_dormant: 2
+							vigor_active: 2
+							CustomModelData: 9
+							type_dormant: "Intrepid"
+							strength_active: 0
+							agility_active: 0
+							potency_dormant: 2
+							strength_dormant: 0
+							type_active: "Intrepid"
+							potency_active: 2
+							smarts_dormant: 2
+							agility_dormant: 0
+							smarts_active: 2
+						}
+					}
+				}
+				{
+					id: "7F4A299458A581CC"
+					type: "item"
+					title: "Kill Blaze or Husk"
+					item: {
+						id: "golemancy:soulstone_filled"
+						Count: 1b
+						tag: {
+							vigor_dormant: 1
+							vigor_active: 1
+							CustomModelData: 6
+							type_dormant: "Parched"
+							strength_active: 0
+							agility_active: 1
+							potency_dormant: 3
+							strength_dormant: 0
+							type_active: "Parched"
+							potency_active: 3
+							smarts_dormant: 1
+							agility_dormant: 1
+							smarts_active: 1
+						}
+					}
+				}
+				{
+					id: "1A13904D22BCE0AB"
+					type: "item"
+					title: "Kill Phantom"
+					item: {
+						id: "golemancy:soulstone_filled"
+						Count: 1b
+						tag: {
+							vigor_dormant: 1
+							vigor_active: 1
+							CustomModelData: 8
+							type_dormant: "Tactile"
+							strength_active: 1
+							agility_active: 2
+							potency_dormant: 1
+							strength_dormant: 1
+							type_active: "Tactile"
+							potency_active: 1
+							smarts_dormant: 2
+							agility_dormant: 2
+							smarts_active: 2
+						}
+					}
+				}
+				{
+					id: "1D4749BB47D26B3E"
+					type: "item"
+					title: "Kill Ravager or Guardian"
+					item: {
+						id: "golemancy:soulstone_filled"
+						Count: 1b
+						tag: {
+							vigor_dormant: 2
+							vigor_active: 2
+							CustomModelData: 5
+							type_dormant: "Valiant"
+							strength_active: 2
+							agility_active: 0
+							potency_dormant: 2
+							strength_dormant: 2
+							type_active: "Valiant"
+							potency_active: 2
+							smarts_dormant: 0
+							agility_dormant: 0
+							smarts_active: 0
+						}
+					}
+				}
+				{
+					id: "2924C345297F1BED"
+					type: "item"
+					title: "Kill Ghast"
+					item: {
+						id: "golemancy:soulstone_filled"
+						Count: 1b
+						tag: {
+							vigor_dormant: 1
+							vigor_active: 1
+							CustomModelData: 10
+							type_dormant: "Weeping"
+							strength_active: 0
+							agility_active: 2
+							potency_dormant: 3
+							strength_dormant: 0
+							type_active: "Weeping"
+							potency_active: 3
+							smarts_dormant: 1
+							agility_dormant: 2
+							smarts_active: 1
+						}
+					}
+				}
+				{
+					id: "3AFA882CC7D72379"
+					type: "item"
+					title: "Kill Skeleton"
+					item: {
+						id: "golemancy:soulstone_filled"
+						Count: 1b
+						tag: {
+							vigor_dormant: 0
+							vigor_active: 0
+							CustomModelData: 1
+							type_dormant: "Restless"
+							strength_active: 1
+							agility_active: 1
+							potency_dormant: 3
+							strength_dormant: 1
+							type_active: "Restless"
+							potency_active: 3
+							smarts_dormant: 1
+							agility_dormant: 1
+							smarts_active: 1
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0888EC7587048A47"
+				type: "item"
+				item: "gobber2:gobber2_glob"
+			}]
+		}
+		{
+			title: "Craft Soul Grafter"
+			x: 1.5d
+			y: 3.0d
+			subtitle: "You can breed (or \"graft\") soulstones together to produce new results."
+			description: [
+				"You can breed (or \"graft\") soulstones together to produce new results. To do so, you'll need to craft a soul grafter using any converted soulstone."
+				""
+				"The soul grafter is what you use to breed soulstones. You'll need a good supply of empty soulstones and bone meal to keep it running, though"
+			]
+			dependencies: ["260534C1D189BA9E"]
+			id: "5CA44BB0F6B662C2"
+			tasks: [{
+				id: "2292CE439B87C4CC"
+				type: "item"
+				item: "golemancy:soul_grafter"
+				only_from_crafting: true
+			}]
+			rewards: [
+				{
+					id: "1EB6022F73FF6A23"
+					type: "item"
+					item: "golemancy:soulstone_empty"
+					count: 2
+				}
+				{
+					id: "7D1D999F9007CFFF"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Craft Golem Wand"
+			x: 3.0d
+			y: 4.0d
+			subtitle: "Used to interact with your golem."
+			description: [
+				"Hold the golem wand in your hand and right-click on one of your golems to make them follow you. Right click again to tell them to stop. If you right-click a golem while sneaking, you'll enter \"linking mode\". You can then right-click on a block to link the golem to that block. "
+				""
+				"Golems consider their linked block as \"home\" and will return to it when they're not busy doing something else. Some golems can, if linked to a chest or other inventory, extract or insert items into their linked block."
+			]
+			dependencies: ["260534C1D189BA9E"]
+			id: "5995410BD2B888CD"
+			tasks: [{
+				id: "3477D8125CC20850"
+				type: "item"
+				item: "golemancy:golem_wand"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "038E89E4C7139DA3"
+				type: "item"
+				item: "additionaladditions:mysterious_bundle"
+			}]
+		}
+		{
+			title: "Craft and Place Golem Effigy"
+			x: 2.0d
+			y: 4.0d
+			subtitle: "Craft Golem Effigy"
+			description: [
+				"Nows the time to get your golem ready for the Soulstone you captured."
+				""
+				"Once you have captured a Soulstone by killing the mob of your choice, you can use it on the Effigy to convert it into that golem type."
+				""
+				"Craft the Golem Effigy, Place it in the world, and then holding your soulstone, right click the golem effigy."
+			]
+			dependencies: ["0D69865694FD43C4"]
+			id: "260534C1D189BA9E"
+			tasks: [{
+				id: "5DCD20782C9B54D6"
+				type: "item"
+				item: "golemancy:clay_effigy"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "2D9407E77871489A"
+				type: "item"
+				item: "additionaladditions:mysterious_bundle"
+			}]
+		}
+	]
 }
