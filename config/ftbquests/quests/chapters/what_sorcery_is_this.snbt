@@ -12,7 +12,7 @@
 		}
 	}
 	subtitle: ["You're a Wizzard, harry"]
-	always_invisible: true
+	always_invisible: false
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
