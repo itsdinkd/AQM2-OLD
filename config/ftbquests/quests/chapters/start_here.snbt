@@ -5,7 +5,8 @@
 	filename: "start_here"
 	title: "Start Here"
 	icon: "minecraft:oak_log"
-	default_quest_shape: "circle"
+	subtitle: ["Your Journey into AQM"]
+	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
