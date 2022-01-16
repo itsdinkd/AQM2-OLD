@@ -4,6 +4,7 @@
 	order_index: 1
 	filename: "the_beginning"
 	title: "The Beginning"
+	icon: "gobber2:gobber2_globette"
 	subtitle: ["Your journey into AQM"]
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
@@ -25,7 +26,6 @@
 				id: "6396E4A8E72CC69C"
 				type: "item"
 				item: "gobber2:gobber2_foo"
-				only_from_crafting: true
 			}]
 			rewards: [{
 				id: "4B178FB87C494638"
@@ -49,7 +49,6 @@
 				id: "254CF8CA7C6EAC38"
 				type: "item"
 				item: "gobber2:gobber2_ingot"
-				only_from_crafting: true
 			}]
 			rewards: [
 				{
@@ -84,7 +83,6 @@
 				id: "70F3C01F6F71E74F"
 				type: "item"
 				item: "gobber2:gobber2_rod"
-				only_from_crafting: true
 			}]
 			rewards: [
 				{
@@ -130,7 +128,6 @@
 						Damage: 0
 					}
 				}
-				only_from_crafting: true
 			}]
 			rewards: [
 				{
@@ -163,7 +160,6 @@
 				id: "7BF479E46F246676"
 				type: "item"
 				item: "gobber2:gobber2_glob"
-				only_from_crafting: true
 			}]
 			rewards: [{
 				id: "3398E2C456D18164"
