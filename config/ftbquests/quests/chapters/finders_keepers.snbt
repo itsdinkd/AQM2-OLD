@@ -4,6 +4,7 @@
 	order_index: 7
 	filename: "finders_keepers"
 	title: "Finders Keepers"
+	icon: "minecraft:filled_map"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [ ]
