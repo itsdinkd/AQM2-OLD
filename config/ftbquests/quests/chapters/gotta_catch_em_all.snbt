@@ -4,6 +4,7 @@
 	order_index: 5
 	filename: "gotta_catch_em_all"
 	title: "Gotta Catch Em All"
+	icon: "hoverpets:fox_pet"
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
 	quests: [
@@ -29,7 +30,6 @@
 						Damage: 0
 					}
 				}
-				only_from_crafting: true
 			}]
 			rewards: [{
 				id: "07683EA56749366D"
@@ -52,7 +52,6 @@
 				id: "114DC90B3A5D2DA8"
 				type: "item"
 				item: "guardiansgalore:guardian_block"
-				only_from_crafting: true
 			}]
 		}
 		{
@@ -162,7 +161,6 @@
 				id: "67F784A1AE84B446"
 				type: "item"
 				item: "guardiansgalore:blaze_bell"
-				only_from_crafting: true
 			}]
 		}
 		{
@@ -272,7 +270,6 @@
 							smarts_active: 0
 						}
 					}
-					consume_items: true
 				}
 				{
 					id: "3D4D664EF62E2895"
@@ -441,7 +438,6 @@
 				id: "2292CE439B87C4CC"
 				type: "item"
 				item: "golemancy:soul_grafter"
-				only_from_crafting: true
 			}]
 			rewards: [
 				{
@@ -474,7 +470,6 @@
 				id: "3477D8125CC20850"
 				type: "item"
 				item: "golemancy:golem_wand"
-				only_from_crafting: true
 			}]
 			rewards: [{
 				id: "038E89E4C7139DA3"
@@ -500,7 +495,6 @@
 				id: "5DCD20782C9B54D6"
 				type: "item"
 				item: "golemancy:clay_effigy"
-				only_from_crafting: true
 			}]
 			rewards: [{
 				id: "2D9407E77871489A"
