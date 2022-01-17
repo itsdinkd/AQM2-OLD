@@ -1,0 +1,191 @@
+{
+	id: "020030C7EAE53A6E"
+	group: ""
+	order_index: 1
+	filename: "the_beginning"
+	title: "The Beginning"
+	icon: "gobber2:gobber2_globette"
+	subtitle: ["Your journey into AQM"]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Burn Gobber, Burn"
+			x: 0.0d
+			y: 1.0d
+			subtitle: "Using Gobber Foo, you can have a great fuel source"
+			description: [
+				"Using Gobber Foo, you can have a great fuel source, and I mean great. 1 can burn 45 items."
+				""
+				"Craft up some gobber foo with some globs and throw it in a furnace as the fuel."
+			]
+			dependencies: ["333D851BF7D1E900"]
+			hide: true
+			id: "6AEFA788A8C32BE2"
+			tasks: [{
+				id: "6396E4A8E72CC69C"
+				type: "item"
+				item: "gobber2:gobber2_foo"
+			}]
+			rewards: [{
+				id: "4B178FB87C494638"
+				type: "item"
+				item: "gofish:diamond_crate"
+			}]
+		}
+		{
+			title: "Craft Gobber Ingot"
+			x: 1.0d
+			y: 0.0d
+			subtitle: "The Gobber Ingot is needed for most items and used throughout the modpack"
+			description: [
+				"You're going to need a lot of these. The Gobber Ingot is needed for most items and used throughout the modpack. As well as the Nether and end version."
+				""
+				"Craft an ingot."
+			]
+			dependencies: ["333D851BF7D1E900"]
+			id: "7DCB9D548877902F"
+			tasks: [{
+				id: "254CF8CA7C6EAC38"
+				type: "item"
+				item: "gobber2:gobber2_ingot"
+			}]
+			rewards: [
+				{
+					id: "4319A2CBA247C4B0"
+					type: "item"
+					item: "gobber2:gobber2_globette"
+					count: 2
+				}
+				{
+					id: "3B4DC530EE5FB261"
+					type: "item"
+					item: "gobber2:gobber2_goo"
+				}
+			]
+		}
+		{
+			title: "Craft a Gobber Rod"
+			x: 2.0d
+			y: 0.0d
+			subtitle: "This gobber rod is going to help you advance through the gobber weapons tiers."
+			description: [
+				"This gobber rod is going to help you advance through the gobber weapons tiers."
+				""
+				"Go ahead and craft one."
+			]
+			dependencies: [
+				"333D851BF7D1E900"
+				"7DCB9D548877902F"
+			]
+			id: "61495D4F54FE2978"
+			tasks: [{
+				id: "70F3C01F6F71E74F"
+				type: "item"
+				item: "gobber2:gobber2_rod"
+			}]
+			rewards: [
+				{
+					id: "2F70AAF279C85650"
+					type: "item"
+					item: "gobber2:gobber2_globette"
+					count: 2
+				}
+				{
+					id: "5DCFDAB9D7DA5F63"
+					type: "item"
+					item: "gobber2:gobber2_gooey_apple"
+				}
+				{
+					id: "42FCBF709422FB16"
+					type: "item"
+					item: "gobber2:gobber2_goo"
+				}
+			]
+		}
+		{
+			title: "Craft a Gobber Pickaxe"
+			x: 3.0d
+			y: 0.0d
+			subtitle: "Now its finally time to get yourself a tool."
+			description: [
+				"Now its finally time to get yourself a tool. After this quest, you won't see a gobber quest until late game. Next step is going into the Nether and getting Nether Gobber Ore."
+				""
+				"Now craft a Gobber Pickaxe."
+			]
+			dependencies: [
+				"333D851BF7D1E900"
+				"61495D4F54FE2978"
+			]
+			id: "01CD851D9E5DA620"
+			tasks: [{
+				id: "5A24F24A8BFAB500"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "50F97A147AC54716"
+					type: "item"
+					item: "gobber2:gobber2_glob"
+				}
+				{
+					id: "001950BA8DEE37A1"
+					type: "item"
+					item: "gobber2:gobber2_globette"
+					count: 6
+				}
+			]
+		}
+		{
+			title: "Get The Glob"
+			icon: "gobber2:gobber2_glob"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Time to get yourself the Glob."
+			description: [
+				"Gobber has a lot of layers, but thats due to the amazingness that you will with it. 3x3 Hammers, 5x5 Hammers, Paxels, Rings, and more."
+				""
+				"Time to get yourself the Glob. Go ahead and craft it with 9 Globettes"
+			]
+			dependency_requirement: "all_started"
+			id: "333D851BF7D1E900"
+			tasks: [{
+				id: "7BF479E46F246676"
+				type: "item"
+				item: "gobber2:gobber2_glob"
+			}]
+			rewards: [{
+				id: "3398E2C456D18164"
+				type: "item"
+				item: "gobber2:gobber2_globette"
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			description: ["The Gobber Nemesis has a chance to spawn when mining Gobber Ore. Slay this beast and get your loot."]
+			dependencies: ["333D851BF7D1E900"]
+			id: "4629227FCF91E173"
+			tasks: [{
+				id: "2719608AA988294C"
+				type: "kill"
+				title: "Kill Gobber Nemesis"
+				entity: "gobber2:nemesis"
+				value: 1L
+			}]
+			rewards: [{
+				id: "188692D01089F1C4"
+				type: "item"
+				item: "gobber2:gobber2_globette"
+			}]
+		}
+	]
+}
