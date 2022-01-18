@@ -5,9 +5,35 @@
 	filename: "start_here"
 	title: "Start Here"
 	icon: "minecraft:oak_log"
-	subtitle: ["Your Journey into AQM"]
+	subtitle: ["The Basics"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 1.0d
+			y: -1.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/book.png"
+			hover: ["The Wiki"]
+			click: "#WIKI LINK#"
+			dev: false
+			corner: false
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/presets/isles.png"
+			hover: ["Join the our community discord and hang out with us, request support via ticket system, suggestions, and bug reports"]
+			click: "https://discord.gg/y6Sby9BGVe"
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
 			title: "Locate Biomes"
@@ -562,6 +588,25 @@
 				id: "6D8CC593AA9330B5"
 				type: "item"
 				item: "additionaladditions:mysterious_bundle"
+			}]
+		}
+		{
+			title: "Moar Space"
+			x: 2.0d
+			y: 5.0d
+			subtitle: "With all the Mining you will be doing a dank is a great way to hold the blocks you mine."
+			description: [
+				"The Dank 1 Can hold 256 of 9 differernt items. "
+				""
+				"Each tier hold 4X the stack size and 9 more types than the previous tier,"
+				""
+				"Later you can use the dock to be able to connect to your storage system"
+			]
+			id: "135CCA336BE0DDCF"
+			tasks: [{
+				id: "7F8FF314DE302FFF"
+				type: "item"
+				item: "dankstorage:dank_1"
 			}]
 		}
 	]
