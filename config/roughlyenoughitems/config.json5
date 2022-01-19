@@ -7,7 +7,7 @@
 		],
 		// Declares whether cheating mode is on.
 		"cheating": true,
-		"favoritesEnabled": true,
+		"favoritesEnabled": false,
 		"keyBindings": {
 			"recipeKeybind": {
 				"keyCode": "key.keyboard.r",
