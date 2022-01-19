@@ -1,7 +1,7 @@
 {
 	id: "4A06B17F82107FE8"
-	group: ""
-	order_index: 5
+	group: "50115579257378EC"
+	order_index: 0
 	filename: "gotta_catch_em_all"
 	title: "Gotta Catch Em All"
 	icon: "hoverpets:fox_pet"
@@ -45,13 +45,14 @@
 			description: [
 				"Guardian Pets, once set up, will prevent mobs from spawning. Be gone, creep...er."
 				""
-				"There\\u0027s 12 pets, each with 4-7 skin variations, and they will rest at the anchor until you get back and then move around."
+				"Theres 12 pets, each with 4-7 skin variations, and they will rest at the anchor until you get back and then move around."
 			]
 			id: "1065CAB5189B3DD4"
 			tasks: [{
 				id: "114DC90B3A5D2DA8"
 				type: "item"
 				item: "guardiansgalore:guardian_block"
+				only_from_crafting: true
 			}]
 		}
 		{
@@ -138,6 +139,7 @@
 				""
 				"Using Nether Quartz, Put 1 in a stonecutter and you shall receive a Empty Soulstone."
 			]
+			hide: false
 			id: "45C7866BB219FC18"
 			tasks: [{
 				id: "1465DAFE140DFA6A"
@@ -154,13 +156,18 @@
 			title: "Extend Despawn Range"
 			x: 0.0d
 			y: 1.0d
-			description: ["With this bell, shift right click a anchor stone with a pet on it and you can extend the despawn range, going even further. \\n\\nTo decrease the range, empty hand and shift right click."]
+			description: [
+				"With this bell, shift right click a anchor stone with a pet on it and you can extend the despawn range, going even further"
+				""
+				"To decrease the range, empty hand and shift right click."
+			]
 			dependencies: ["1065CAB5189B3DD4"]
 			id: "092D6149B54BA8F0"
 			tasks: [{
 				id: "67F784A1AE84B446"
 				type: "item"
 				item: "guardiansgalore:blaze_bell"
+				only_from_crafting: true
 			}]
 		}
 		{
@@ -173,6 +180,7 @@
 				"Note: Killing Baby mobs will not count"
 			]
 			dependencies: ["45C7866BB219FC18"]
+			hide: false
 			id: "0D69865694FD43C4"
 			tasks: [
 				{
@@ -465,6 +473,7 @@
 				"Golems consider their linked block as \"home\" and will return to it when they're not busy doing something else. Some golems can, if linked to a chest or other inventory, extract or insert items into their linked block."
 			]
 			dependencies: ["260534C1D189BA9E"]
+			hide: false
 			id: "5995410BD2B888CD"
 			tasks: [{
 				id: "3477D8125CC20850"

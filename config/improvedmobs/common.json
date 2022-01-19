@@ -1,0 +1,691 @@
+{
+  "enableDifficultyScaling": {
+    "comments": [
+      "Disable/Enables the whole difficulty scaling of this mod. Requires a mc restart"
+    ],
+    "input": true
+  },
+  "difficultyDelay": {
+    "comments": [
+      "Time in ticks for which the difficulty shouldnt increase at the beginning. One full minecraft day is 24000 ticks"
+    ],
+    "input": 0
+  },
+  "increaseHandler": {
+    "comments": [
+      "Handles increase in difficulty regarding current difficulty.",
+      "Format is <minimum current difficulty>-<increase every 2400 ticks>",
+      "Example [\"0-0.01\",\"10-0.1\",\"30-0\"]",
+      "So the difficulty increases by 0.01 every 2400 ticks (->0.1 per mc day) till it reaches a difficulty of 10.",
+      "Then it increases by 1 per mc day till it reaches 30 and then stops."
+    ],
+    "input": [
+      "0-0.1"
+    ]
+  },
+  "ignorePlayers": {
+    "comments": [
+      "Wether difficulty should only increase with at least one online players or not"
+    ],
+    "input": false
+  },
+  "shouldPunishTimeSkip": {
+    "comments": [
+      "Should punish time skipping with e.g. bed, commands? If false, difficulty will increase by 0.1 regardless of skipped time."
+    ],
+    "input": true
+  },
+  "friendlyFire": {
+    "comments": [
+      "Disable/Enable friendly fire for owned pets."
+    ],
+    "input": false
+  },
+  "petArmorBlackList": {
+    "comments": [
+      "Blacklist for pet you should't be able to give armor to. Pets from mods, which have custom armor should be included here."
+    ],
+    "input": []
+  },
+  "petWhiteList": {
+    "comments": [
+      "Treat pet blacklist as whitelist"
+    ],
+    "input": false
+  },
+  "doIMDifficulty": {
+    "comments": [
+      "Increase difficulty with time",
+      "Here untill its back as a gamerule"
+    ],
+    "input": true
+  },
+  "flagBlacklist": {
+    "comments": [
+      "Put the above flags here to completly disable them."
+    ],
+    "input": []
+  },
+  "entityBlacklist": {
+    "comments": [
+      "By default the mod only modifies EntityMobs. Add other entities here if you want to apply modifications to them. Usage:",
+      "<entity registry name> followed by any of:",
+      "[ALL,ATTRIBUTES,ARMOR,HELDITEMS,BLOCKBREAK,USEITEM,LADDER,STEAL,GUARDIAN,PARROT,TARGETVILLAGER,REVERSE].",
+      "Leave empty to apply them all and REVERSE to reverse all flags. Some flags do nothing for certain mobs!",
+      "example: minecraft:sheep|REVERSE|ATTRIBUTES will add sheep to attributes modification (since default is a blacklist)",
+      "or minecraft:sheep|ATTRIBUTES will add sheep to everything except attributes"
+    ],
+    "input": [
+      "hoverpets:cow_pet",
+      "agape_space:space_cat",
+      "betteranimalsplus:octopus",
+      "minecraft:glow_squid",
+      "adventurez:the_eye",
+      "minecraft:trader_llama",
+      "goblintraders:goblin_trader",
+      "minecraft:horse",
+      "agape_space:europa_fish_a",
+      "betterend:silk_moth",
+      "betternether:naga_projectile",
+      "golemancy:golem_intrepid",
+      "agape_space:rocket_ship",
+      "betteranimalsplus:bobbit_worm",
+      "minecraft:llama",
+      "earthtojavamobs:long_nosed_sheep",
+      "bosses_of_mass_destruction:gauntlet",
+      "earthtojavamobs:vested_rabbit",
+      "mtmechs:tunnelarmor",
+      "aqupd:grizzly_bear",
+      "mobz:knight4",
+      "betteranimalsplus:nautilus",
+      "minecraft:dolphin",
+      "valley:duck",
+      "betteranimalsplus:flying_fish",
+      "lovely_snails:snail",
+      "golemancy:golem_parched",
+      "guardiansgalore:bear",
+      "minecraft:donkey",
+      "earthtojavamobs:wooly_cow",
+      "hoverpets:panda_pet",
+      "mobz:boar",
+      "betteranimalsplus:eel_freshwater",
+      "golemancy:golem_curious",
+      "friendsandfoes:moobloom",
+      "friendsandfoes:copper_golem",
+      "golemancy:golem_entropic",
+      "aqupd:caracal",
+      "agape_space:hoverbike",
+      "earthtojavamobs:fuzzy_sheep",
+      "earthtojavamobs:jumbo_rabbit",
+      "minecraft:bee",
+      "golemancy:golem_restless",
+      "hoverpets:blaze_pet",
+      "goblintraders:vein_goblin_trader",
+      "betteranimalsplus:moose",
+      "earthtojavamobs:moobloom",
+      "mobz:metalgolem",
+      "bosses_of_mass_destruction:void_blossom",
+      "earthtojavamobs:stormy_chicken",
+      "earthtojavamobs:bronzed_chicken",
+      "minecraft:mooshroom",
+      "minecraft:villager",
+      "earthtojavamobs:rainbow_sheep",
+      "betteranimalsplus:eel_saltwater",
+      "earthtojavamobs:pale_pig",
+      "friendsandfoes:glare",
+      "minecraft:axolotl",
+      "botania:doppleganger",
+      "mobz:gchicken",
+      "betteranimalsplus:turkey",
+      "hoverpets:fox_pet",
+      "golemancy:golem_marshy",
+      "earthtojavamobs:patched_sheep",
+      "guardiansgalore:deer",
+      "mythicmounts:nudibranch",
+      "guardiansgalore:dragon",
+      "minecraft:strider",
+      "guardiansgalore:chirpy",
+      "earthtojavamobs:piebald_pig",
+      "mobz:brownbear",
+      "minecraft:parrot",
+      "betteranimalsplus:feralwolf",
+      "betternether:flying_pig",
+      "guardiansgalore:cricket",
+      "hoverpets:magma_cube_pet",
+      "mythicmounts:direwolf",
+      "earthtojavamobs:cluckshroom",
+      "mcdar:enchanted_red_sheep",
+      "mobz:toad",
+      "golemancy:golem_covetous",
+      "minecraft:wandering_trader",
+      "mtmechs:magitekarmor",
+      "earthtojavamobs:freckled_rabbit",
+      "betteranimalsplus:piranha",
+      "minecraft:iron_golem",
+      "earthtojavamobs:jolly_llama",
+      "adventurez:dragon",
+      "mythicmounts:ridinglizard",
+      "betteranimalsplus:barracuda",
+      "earthtojavamobs:rocky_sheep",
+      "ratsmischief:rat",
+      "guardiansgalore:tortoise",
+      "botania:pixie",
+      "adventurez:red_fungus",
+      "mcdw:summoned_bee",
+      "dummmmmmy:target_dummy",
+      "crusade:trebuchet_projectile",
+      "betteranimalsplus:squirrel",
+      "betteranimalsplus:coyote",
+      "betternether:hydrogen_jellyfish",
+      "agape_space:rocket_ship_v3",
+      "betteranimalsplus:dragonfly",
+      "earthtojavamobs:albino_cow",
+      "betternether:chair",
+      "creeperspores:creeperling",
+      "betteranimalsplus:songbird",
+      "minecraft:mule",
+      "agape_space:rocket_ship_v2",
+      "hoverpets:chicken_pet",
+      "earthtojavamobs:inky_sheep",
+      "adventurez:nightmare",
+      "betteranimalsplus:pheasant",
+      "bewitchment:toad",
+      "agape_space:europa_fish",
+      "mythicmounts:dragon",
+      "betteranimalsplus:blackbear",
+      "betteranimalsplus:jellyfish",
+      "minecraft:pufferfish",
+      "overlord:owned_skeleton",
+      "mobz:stonegolem",
+      "earthtojavamobs:muddy_pig",
+      "minecraft:fox",
+      "betteranimalsplus:lammergeier",
+      "earthtojavamobs:sooty_pig",
+      "mcdar:tasty_bone_wolf",
+      "golemancy:golem_valiant",
+      "minecraft:chicken",
+      "betternether:firefly",
+      "guardiansgalore:hokum",
+      "guardiansgalore:boar",
+      "mobz:icegolem",
+      "betteranimalsplus:whale",
+      "golemancy:golem_hungry",
+      "golemancy:golem_weeping",
+      "mcdar:golem_kit_golem",
+      "mtmechs:protoarmor",
+      "mythicmounts:geckotoalizard",
+      "earthtojavamobs:fancy_chicken",
+      "betteranimalsplus:goose",
+      "golemancy:clay_effigy",
+      "bewitchment:raven",
+      "mythicmounts:netherbat",
+      "guardiansgalore:liondog",
+      "earthtojavamobs:cream_cow",
+      "bosses_of_mass_destruction:lich",
+      "earthtojavamobs:pinto_cow",
+      "earthtojavamobs:moolip",
+      "minecraft:polar_bear",
+      "adventurez:mammoth",
+      "companion_bats:bat",
+      "earthtojavamobs:sunset_cow",
+      "valley:bear",
+      "minecraft:pig",
+      "minecraft:turtle",
+      "minecraft:sheep",
+      "betteranimalsplus:butterfly",
+      "mythicmounts:griffon",
+      "bosses_of_mass_destruction:obsidilith",
+      "earthtojavamobs:dairy_cow",
+      "minecraft:goat",
+      "betteranimalsplus:brownbear",
+      "golemancy:golem_verdant",
+      "guardiansgalore:raven",
+      "farmingforblockheads:merchant",
+      "adventurez:brown_fungus",
+      "golemancy:golem_rustic",
+      "guardiansgalore:dove",
+      "minecraft:cod",
+      "adventurez:deer",
+      "betteranimalsplus:squid_giant",
+      "mobz:toad_giant",
+      "agape_space:mmu",
+      "agape_space:rocket_ship_cargo",
+      "earthtojavamobs:harelequin_rabbit",
+      "earthtojavamobs:midnight_chicken",
+      "minecraft:squid",
+      "earthtojavamobs:furnace_golem",
+      "minecraft:skeleton_horse",
+      "betteranimalsplus:walrus",
+      "earthtojavamobs:cookie_cow",
+      "hoverpets:creeper_pet",
+      "minecraft:cow",
+      "mythicmounts:courierbird",
+      "golemancy:golem_tactile",
+      "mobz:blackbear",
+      "minecraft:salmon",
+      "mythicmounts:archelon",
+      "mythicmounts:moth",
+      "minecraft:snow_golem",
+      "capybara:capybara",
+      "betterend:end_fish",
+      "mcdar:buzzy_nest_bee",
+      "earthtojavamobs:spotted_pig",
+      "hoverpets:glow_squid_pet",
+      "minecraft:rabbit",
+      "betterend:cubozoa",
+      "betteranimalsplus:deer",
+      "earthtojavamobs:bold_striped_rabbit",
+      "earthtojavamobs:gold_crested_chicken",
+      "mythicmounts:nightmare",
+      "earthtojavamobs:pink_footed_pig",
+      "guardiansgalore:toad",
+      "minecraft:bat",
+      "betteranimalsplus:crab",
+      "betteranimalsplus:horseshoecrab",
+      "earthtojavamobs:mottled_pig",
+      "mythicmounts:acencia",
+      "golemancy:terracotta_effigy",
+      "mcdar:enchanted_green_sheep",
+      "guardiansgalore:chicken",
+      "bewitchment:owl",
+      "mobz:tadpode",
+      "betterend:dragonfly",
+      "earthtojavamobs:melon_golem",
+      "adventurez:ender_whale",
+      "mcdar:enchanted_blue_sheep",
+      "minecraft:zombie_horse",
+      "bewitchment:snake",
+      "guardiansgalore:fox",
+      "hoverpets:ocelot_pet",
+      "mcdar:wonderful_wheat_llama",
+      "mobz:lavagolem",
+      "mobz:boar2",
+      "mobz:boar3",
+      "guardiansgalore:wolf",
+      "earthtojavamobs:glow_squid",
+      "earthtojavamobs:amber_chicken",
+      "minecraft:cat",
+      "earthtojavamobs:umbra_cow",
+      "guardiansgalore:rabbit",
+      "adventurez:iguana",
+      "earthtojavamobs:ashen_cow",
+      "minecraft:tropical_fish",
+      "earthtojavamobs:muddy_foot_rabbit",
+      "hoverpets:witch_pet",
+      "earthtojavamobs:flecked_sheep",
+      "minecraft:ocelot",
+      "mobz:friend",
+      "betteranimalsplus:squid_colossal",
+      "minecraft:wolf",
+      "betteranimalsplus:reindeer",
+      "hoverpets:pufferfish_pet",
+      "minecraft:panda",
+      "earthtojavamobs:skewbald_chicken",
+      "earthtojavamobs:horned_sheep",
+      "mobz:dog"
+    ]
+  },
+  "mobAttributeWhitelist": {
+    "comments": [
+      "Treat ATTRIBUTES flags as whitelist"
+    ],
+    "input": false
+  },
+  "armorMobWhitelist": {
+    "comments": [
+      "Treat ARMOR flags as whitelist"
+    ],
+    "input": false
+  },
+  "heldMobWhitelist": {
+    "comments": [
+      "Treat HELDITEMS flags as whitelist"
+    ],
+    "input": false
+  },
+  "mobListBreakWhitelist": {
+    "comments": [
+      "Treat BLOCKBREAK flags as whitelist"
+    ],
+    "input": false
+  },
+  "mobListUseWhitelist": {
+    "comments": [
+      "Treat USEITEM flags as whitelist"
+    ],
+    "input": false
+  },
+  "mobListLadderWhitelist": {
+    "comments": [
+      "Treat LADDER flags as whitelist"
+    ],
+    "input": false
+  },
+  "mobListStealWhitelist": {
+    "comments": [
+      "Treat STEAL flags as whitelist"
+    ],
+    "input": false
+  },
+  "mobListBoatWhitelist": {
+    "comments": [
+      "Treat GUARDIAN flags as whitelist"
+    ],
+    "input": false
+  },
+  "mobListFlyWhitelist": {
+    "comments": [
+      "Treat PARROT flags as whitelist"
+    ],
+    "input": false
+  },
+  "targetVillagerWhitelist": {
+    "comments": [
+      "Treat TARGETVILLAGER flags as whitelist"
+    ],
+    "input": false
+  },
+  "debugPath": {
+    "comments": [
+      "Enable showing of entity paths"
+    ],
+    "input": false
+  },
+  "useScalingHealthMod": {
+    "comments": [
+      "Should the scaling health mods difficulty system be used instead of this ones. (Requires scaling health mod)"
+    ],
+    "input": true
+  },
+  "breakableBlocks": {
+    "comments": [
+      "Whitelist for blocks, which can be actively broken. Usage: <registry name;classname;tag> put \"!\" infront to exclude blocks",
+      "If you includery common blocks (like grass blocks) the pathfinding will be a bit strange"
+    ],
+    "input": [
+      "minecraft:fence_gates",
+      "minecraft:wooden_doors",
+      "c:glass",
+      "c:glass_panes",
+      "minecraft:glass"
+    ]
+  },
+  "breakingAsBlacklist": {
+    "comments": [
+      "Treat Block Whitelist as Blocklist"
+    ],
+    "input": false
+  },
+  "useBlockBreakSound": {
+    "comments": [
+      "Use the block breaking sound instead of a knocking sound"
+    ],
+    "input": false
+  },
+  "breakerChance": {
+    "comments": [
+      "Chance for a mob to be able to break blocks"
+    ],
+    "input": 0.3
+  },
+  "breakerInitCooldown": {
+    "comments": [
+      "Initial cooldown for block breaking mobs"
+    ],
+    "input": 120
+  },
+  "breakerCooldown": {
+    "comments": [
+      "Cooldown for breaking blocks"
+    ],
+    "input": 20
+  },
+  "stealerChance": {
+    "comments": [
+      "Chance for a mob to be able to steal items"
+    ],
+    "input": 0.3
+  },
+  "breakTileEntities": {
+    "comments": [
+      "Should mobs be able to break tile entities? Evaluated before the break list"
+    ],
+    "input": true
+  },
+  "breakingItems": {
+    "comments": [
+      "Items which will be given to mobs who can break blocks. Empty list = no items. Syntax: id;weight"
+    ],
+    "input": [
+      "minecraft:diamond_pickaxe;1",
+      "minecraft:iron_axe;2"
+    ]
+  },
+  "neutralAggressiv": {
+    "comments": [
+      "Chance for neutral mobs to be aggressive"
+    ],
+    "input": 0.2
+  },
+  "autoTargets": {
+    "comments": [
+      "List for of pairs containing which mobs auto target others. Syntax is [mob id]-[mob id] where second value is the target.",
+      " e.g. minecraft:zombie-minecraft:skeleton makes all zombies target skeletons"
+    ],
+    "input": []
+  },
+  "difficultyBreak": {
+    "comments": [
+      "Difficulty at which mobs are able to break blocks"
+    ],
+    "input": 0.0
+  },
+  "difficultySteal": {
+    "comments": [
+      "Difficulty at which mobs are able to steal items"
+    ],
+    "input": 0.0
+  },
+  "flyAIChance": {
+    "comments": [
+      "Chance for mobs to be able to ride a parrot"
+    ],
+    "input": 0.5
+  },
+  "equipmentModBlacklist": {
+    "comments": [
+      "Blacklist for mods. Add modid to prevent items from that mod being equipped. (For individual items use the equipment.json)"
+    ],
+    "input": []
+  },
+  "equipmentModWhitelist": {
+    "comments": [
+      "Use blacklist as whitelist"
+    ],
+    "input": false
+  },
+  "itemuseBlacklist": {
+    "comments": [
+      "Blacklist for items mobs should never be able to use.",
+      "Use as in using the item similar to players (e.g. shooting bows)"
+    ],
+    "input": [
+      "bigbrain:buckler"
+    ]
+  },
+  "itemuseWhitelist": {
+    "comments": [
+      "Turn the use blacklist into a whitelist"
+    ],
+    "input": false
+  },
+  "entityItemConfig": {
+    "comments": [
+      "Blacklist for specific mobs and items they shouldnt use (e.g. skeletons already use bows)",
+      "<entity registry name-item>",
+      "For different items but same entity use multiple lines",
+      "Some special names are BOW, TRIDEN, CROSSBOW refering to every bow/trident/crossbow item (So you dont need to type e.g. every bow item)"
+    ],
+    "input": [
+      "minecraft:drowned;TRIDENT",
+      "minecraft:illusioner;BOW",
+      "minecraft:piglin;CROSSBOW",
+      "minecraft:pillager;CROSSBOW",
+      "minecraft:skeleton;BOW",
+      "minecraft:snow_golem;minecraft:snowball",
+      "minecraft:stray;BOW",
+      "minecraft:wither_skeleton;BOW"
+    ]
+  },
+  "baseEquipChance": {
+    "comments": [
+      "Base chance that a mob can have one piece of armor"
+    ],
+    "input": 0.1
+  },
+  "baseEquipChanceAdd": {
+    "comments": [
+      "Base chance for each additional armor pieces"
+    ],
+    "input": 0.3
+  },
+  "diffEquipAdd": {
+    "comments": [
+      "Adds additional x*difficulty% to base equip chance"
+    ],
+    "input": 0.3
+  },
+  "baseWeaponChance": {
+    "comments": [
+      "Chance for mobs to have a weapon"
+    ],
+    "input": 0.05
+  },
+  "diffWeaponChance": {
+    "comments": [
+      "Adds additional x*difficulty% to base weapon chance"
+    ],
+    "input": 0.3
+  },
+  "baseEnchantChance": {
+    "comments": [
+      "Base chance for each armor pieces to get enchanted"
+    ],
+    "input": 0.2
+  },
+  "diffEnchantAdd": {
+    "comments": [
+      "Adds additional x*difficulty% to base enchanting chance"
+    ],
+    "input": 0.2
+  },
+  "enchantCalc": {
+    "comments": [
+      "Specify min and max enchanting levels according to difficulty. difficulty-minLevel-maxLevel"
+    ],
+    "input": [
+      "0-5-10",
+      "25-5-15",
+      "50-10-17",
+      "100-15-25",
+      "200-20-30",
+      "250-30-35"
+    ]
+  },
+  "baseItemChance": {
+    "comments": [
+      "Chance for mobs to have an item in offhand"
+    ],
+    "input": 0.05
+  },
+  "diffItemChanceAdd": {
+    "comments": [
+      "Adds additional x*difficulty% to base item chance"
+    ],
+    "input": 0.2
+  },
+  "shouldDropEquip": {
+    "comments": [
+      "Should mobs drop the armor equipped through this mod? (Other methods e.g. through vanilla is not included)"
+    ],
+    "input": false
+  },
+  "healthIncrease": {
+    "comments": [
+      "Health will be multiplied by difficulty*0.016*x. Set to 0 to disable"
+    ],
+    "input": 1.0
+  },
+  "healthMax": {
+    "comments": [
+      "Health will be multiplied by at maximum this. Set to 0 means no limit"
+    ],
+    "input": 5.0
+  },
+  "roundHP": {
+    "comments": [
+      "Round health to the nearest x. Set to 0 to disable"
+    ],
+    "input": 0.5
+  },
+  "damageIncrease": {
+    "comments": [
+      "Damage will be multiplied by difficulty*0.008*x. Set to 0 to disable"
+    ],
+    "input": 1.0
+  },
+  "damageMax": {
+    "comments": [
+      "Damage will be multiplied by at maximum this. Set to 0 means no limit"
+    ],
+    "input": 3.0
+  },
+  "speedIncrease": {
+    "comments": [
+      "Speed will be increased by difficulty*0.0008*x. Set to 0 to disable"
+    ],
+    "input": 1.0
+  },
+  "speedMax": {
+    "comments": [
+      "Maximum increase in speed"
+    ],
+    "input": 0.1
+  },
+  "knockbackIncrease": {
+    "comments": [
+      "Knockback will be increased by difficulty*0.002*x. Set to 0 to disable"
+    ],
+    "input": 1.0
+  },
+  "knockbackMax": {
+    "comments": [
+      "Maximum increase in knockback"
+    ],
+    "input": 0.5
+  },
+  "magicResIncrease": {
+    "comments": [
+      "Magic resistance will be increased by difficulty*0.0016*x. Set to 0 to disable"
+    ],
+    "input": 1.0
+  },
+  "magicResMax": {
+    "comments": [
+      "Maximum increase in magic resistance. Magic reduction is percentage"
+    ],
+    "input": 0.4
+  },
+  "projectileIncrease": {
+    "comments": [
+      "Projectile Damage will be multiplied by 1+difficulty*0.008*x. Set to 0 to disable"
+    ],
+    "input": 1.0
+  },
+  "projectileMax": {
+    "comments": [
+      "Projectile damage will be multiplied by maximum of this"
+    ],
+    "input": 2.0
+  }
+}

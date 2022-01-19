@@ -1,12 +1,12 @@
 {
 	id: "48AED9D0BCAFF527"
-	group: ""
+	group: "5D105B5F3CE9B0B7"
 	order_index: 0
 	filename: "start_here"
-	title: "Start Here"
+	title: "Learn New Things"
 	icon: "minecraft:oak_log"
 	subtitle: ["Your Journey into AQM"]
-	default_quest_shape: ""
+	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
 	quests: [
 		{

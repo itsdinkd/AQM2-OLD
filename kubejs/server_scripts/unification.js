@@ -57,7 +57,10 @@ const UNIFICATION_ORDER = [
     "bewitchment",
     "agape_space",
     "resourceful_tools",
-    "ae2"
+    "ae2",
+    "bno",
+    "mining_dims",
+    "valley"
 ];
 
 // List of tags NOT to unify

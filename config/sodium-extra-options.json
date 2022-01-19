@@ -21,7 +21,9 @@
     "bubble": true,
     "environment": true,
     "villagers": true,
-    "composter": true
+    "composter": true,
+    "block_break": true,
+    "block_breaking": true
   },
   "detail_settings": {
     "rain_snow": true,

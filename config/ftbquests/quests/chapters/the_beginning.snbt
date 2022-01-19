@@ -1,12 +1,12 @@
 {
 	id: "020030C7EAE53A6E"
-	group: ""
+	group: "2B2D8A5BD664DEFC"
 	order_index: 1
 	filename: "the_beginning"
 	title: "The Beginning"
 	icon: "gobber2:gobber2_globette"
 	subtitle: ["Your journey into AQM"]
-	default_quest_shape: "hexagon"
+	default_quest_shape: "gear"
 	default_hide_dependency_lines: false
 	quests: [
 		{
@@ -154,6 +154,8 @@
 				""
 				"Time to get yourself the Glob. Go ahead and craft it with 9 Globettes"
 			]
+			dependencies: ["40AC615E022379B9"]
+			hide: true
 			dependency_requirement: "all_started"
 			id: "333D851BF7D1E900"
 			tasks: [{

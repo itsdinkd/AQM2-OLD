@@ -1,11 +1,37 @@
 {
 	id: "4D51D68B3DCDAA0B"
-	group: ""
-	order_index: 4
+	group: "7DDA60A5DB5F9F6C"
+	order_index: 1
 	filename: "tato_farmer"
 	title: "Tato Farmer"
 	icon: "minecraft:potato"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [{
+		x: -3.0d
+		y: -0.5d
+		subtitle: "Buy Seeds, Saplings, and Other Goodies"
+		description: ["Get this Market, Place it, and then interact with it to have your own personal farming shop"]
+		id: "1F2BCB39AA537AD1"
+		tasks: [{
+			id: "6E67C23357940874"
+			type: "item"
+			item: "farmingforblockheads:market"
+			only_from_crafting: true
+		}]
+		rewards: [
+			{
+				id: "7D8FAD4051E1A142"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 3
+			}
+			{
+				id: "3D2A675D58E30CA2"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 3
+			}
+		]
+	}]
 }

@@ -1,7 +1,7 @@
 {
 	id: "131BA4C7CD773192"
-	group: ""
-	order_index: 6
+	group: "332CF3EA95B49108"
+	order_index: 0
 	filename: "what_sorcery_is_this"
 	title: "What Sorcery is this"
 	icon: {
@@ -12,7 +12,6 @@
 		}
 	}
 	subtitle: ["You're a Wizzard, harry"]
-	always_invisible: false
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

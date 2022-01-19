@@ -33,7 +33,11 @@
     "damageRounding": "ROUND_DOWN",
     "speedMultiplicand": 0.0
   },
+  "player": {
+    "allowedTags": []
+  },
   "reverseSneaking": true,
   "breakInCreative": false,
+  "registerEnchant": false,
   "notificationMode": "ACTION_BAR"
 }
