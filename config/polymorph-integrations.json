@@ -4,7 +4,15 @@
     "enabled": true
   },
   {
+    "id": "fastbench",
+    "enabled": true
+  },
+  {
     "id": "fastfurnace",
+    "enabled": true
+  },
+  {
+    "id": "improved-stations",
     "enabled": true
   },
   {

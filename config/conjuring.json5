@@ -287,6 +287,14 @@
 		"axe_secondary_per_scope_durability_cost": 9,
 		// Cooldown for firing projectiles with the hatchet, in ticks
 		"axe_secondary_cooldown": 25,
+		// The exponent for the scope level, tree cutting range is calculated like this: 8 + scope_level^exponent * 8
+		"scythe_scope_exponent": 3.0,
+		// How much durability firing a projectile with the scythe costs, base value
+		"scythe_secondary_base_durability_cost": 10,
+		// How much durability firing a projectile with the scythe costs, added per scope level
+		"scythe_secondary_per_scope_durability_cost": 5,
+		// Cooldown for firing projectiles with the scythe, in ticks
+		"scythe_secondary_cooldown": 15,
 		// How much durability firing a projectile with the pickaxe costs
 		"pickaxe_secondary_durability_cost": 22,
 		// Cooldown for firing projectiles with the pickaxe, in ticks

@@ -99,12 +99,12 @@ event.shaped("gobber2:gobber2_ring_vision", [
 
 
 // OLD RECIPE -- Angel Ring
-event.remove({ output: "kibe:angel_ring" });
-event.shaped("kibe:angel_ring", [
- ['techreborn:iridium_neutron_reflector','gobber2:gobber2_chestplate_dragon_no_flight','adventurez:source_stone'],
- ['techreborn:interdimensional_su', 'modern_industrialization:quantum_upgrade', 'techreborn:interdimensional_su'],
- ['techreborn:nak_coolant_cell_360k','ae2:cell_component_64k','bosses_of_mass_destruction:earthdive_spear'],
- ]);
+// event.remove({ output: "kibe:angel_ring" });
+// event.shaped("kibe:angel_ring", [
+//  ['techreborn:iridium_neutron_reflector','gobber2:gobber2_chestplate_dragon_no_flight','adventurez:source_stone'],
+//  ['techreborn:interdimensional_su', 'modern_industrialization:quantum_upgrade', 'techreborn:interdimensional_su'],
+//  ['techreborn:nak_coolant_cell_360k','ae2:cell_component_64k','bosses_of_mass_destruction:earthdive_spear'],
+//  ]);
 
   // Abyss Watcher
   event.remove({output: 'waystones:abyss_watcher'});
@@ -153,8 +153,96 @@ event.shaped("kibe:angel_ring", [
       }
     });
 
-  // // Angel Ring
-    // event.remove({output: 'kibe:angel_ring'});
+
+// Angel Ring
+event.remove({output: 'kibe:angel_ring'});
+event.custom({
+  "type": "bigbenchtheory:crafting_shaped",
+  "pattern": [
+    "@NyCHCyN@",
+    "gMAAaAAMg",
+    "^I1DDD4I^",
+    "gM2DND5Mg",
+    "&I3DDD6I&",
+    "gMAA7AAMg",
+    "!NsCECsN!"
+  ],
+  "key": {
+    "D": {
+      "item": "gobber2:dragon_star"
+    },
+    "N": {
+      "item": "modern_industrialization:quantum_upgrade"
+    },
+    "A": {
+      "item": "ae2:cell_component_64k"
+    },
+    "1": {
+      "item": "kubejs:demon_pearl"
+    },
+    "2": {
+      "item": "kubejs:star_of_icon"
+    },
+    "3": {
+      "item": "kubejs:corrupted_emerald"
+    },
+    "4": {
+      "item": "bosses_of_mass_destruction:void_thorn"
+    },
+    "5": {
+      "item": "bosses_of_mass_destruction:ancient_anima"
+    },
+    "6": {
+      "item": "bosses_of_mass_destruction:blazing_eye"
+    },
+    "7": {
+      "item": "bosses_of_mass_destruction:obsidian_heart"
+    },
+    "M": {
+      "item": "mobz:boss_ingot"
+    },
+    "H": {
+      "item": "adventurez:stone_golem_heart"
+    },
+    "E": {
+      "item": "adventurez:prime_eye"
+    },
+    "I": {
+      "item": "techreborn:interdimensional_su"
+    },
+    "C": {
+      "item": "techreborn:nak_coolant_cell_360k"
+    },
+    "s": {
+      "item": "spectrum:upgrade_speed3"
+    },
+    "y": {
+      "item": "spectrum:upgrade_yield2"
+    },
+    "g": {
+      "item": "botania:gaia_ingot"
+    },
+    "@": {
+      "item": "magicfungi:impetus_essence"
+    },
+    "!": {
+      "item": "magicfungi:clypeus_essence"
+    },
+    "^": {
+      "item": "magicfungi:utilis_essence"
+    },
+    "&": {
+      "item": "magicfungi:vivifica_essence"
+    },
+    "a": {
+      "item": "minecraft:apple"
+    }
+  },
+  "result": {
+    "item": "kibe:angel_ring"
+  }
+})
+
     // event.custom({
     //   "type": "botania:runic_altar",
     //   "output": {
@@ -324,6 +412,13 @@ event.replaceInput(
 { id: "dark-enchanting:dark_enchanter" },
 "minecraft:crying_obsidian",
 "gobber2:gobber2_glob_nether"
+);
+
+// Dark Enchanter Upgrade
+event.replaceInput(
+{ id: "dark-enchanting:dark_enchanter" },
+"minecraft:air",
+"dark-enchanting:dark_enchanter"
 );
 
 // SoulFire

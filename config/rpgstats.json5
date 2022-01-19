@@ -57,15 +57,29 @@
 	},
 	// If these damage types should grant defense XP when blocked
 	"damageBlacklist": {
+		"inFire": true,
 		"lightning": false,
+		"onFire": true,
 		"lava": false,
 		"hotFloor": false,
+		"inWall": true,
+		"cramming": true,
+		"drown": true,
+		"starve": true,
 		"cactus": false,
+		"fall": true,
+		"flyIntoWall": true,
+		"outOfWorld": true,
+		"magic": true,
+		"generic": true,
+		"wither": true,
 		"anvil": false,
 		"fallingBlock": false,
 		"dryOut": true,
 		"berryBush": true,
-		"stalactite": false
+		"freeze": true,
+		"stalactite": false,
+		"fallingStalactite": true
 	},
 	// Debug options
 	"debug": {

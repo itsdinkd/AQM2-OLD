@@ -1,7 +1,7 @@
 {
 	id: "00781057BAD827EA"
-	group: ""
-	order_index: 9
+	group: "2B2D8A5BD664DEFC"
+	order_index: 0
 	filename: "nether_things"
 	title: "Nether Things"
 	icon: "minecraft:obsidian"
@@ -104,13 +104,14 @@
 		{
 			x: 3.0d
 			y: 1.0d
-			hide_dependency_lines: true
-			dependencies: ["34F995C13D2E8ECB"]
+			subtitle: "Bet you won't"
+			dependencies: ["4FDF85B3FD6D691B"]
+			hide: false
 			id: "5C3324C5094EA33B"
 			tasks: [{
 				id: "4026F62E588A5ED1"
 				type: "kill"
-				title: "Run from the Mother Demon"
+				title: "Kill the Mother Demon"
 				entity: "doom:motherdemon"
 				value: 1L
 			}]
@@ -136,6 +137,54 @@
 					type: "item"
 					item: "doom:shotgun_shells"
 					count: 10
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			subtitle: "The last Doom Boss... you cant do it!"
+			dependencies: ["5C3324C5094EA33B"]
+			hide: true
+			id: "075E9ED31928FCFA"
+			tasks: [{
+				id: "6CAA179F4E796CB6"
+				type: "kill"
+				title: "Kill Icon of Sin"
+				entity: "doom:iconofsin"
+				value: 1L
+			}]
+			rewards: [{
+				id: "48C474F348CED4F5"
+				type: "item"
+				item: "tacocraft:cheesy_taco"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["34F995C13D2E8ECB"]
+			hide: true
+			id: "4FDF85B3FD6D691B"
+			tasks: [{
+				id: "56B533D691636624"
+				type: "kill"
+				title: "Kill Arch Makyr"
+				entity: "doom:arch_maykr"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "055291452BBF348D"
+					type: "item"
+					item: "doom:argent_energy"
+					count: 16
+				}
+				{
+					id: "238F38632A4D07E0"
+					type: "item"
+					item: "doom:jump_pad"
 				}
 			]
 		}

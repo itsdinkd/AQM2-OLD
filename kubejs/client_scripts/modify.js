@@ -14,6 +14,9 @@ onEvent("rei.hide.items", event => { event.hide('kibe:chunk_loader');  event.hid
   event.hide('botania:diving_rod')
   event.hide('botania:fel_pumpkin')
   event.hide('botania:flight_tiara')
+  event.hide('mythicmetals:copper_nugget');
+  event.hide('valley:copper_nugget');
+  event.hide('bno:copper_nugget');
   event.hide('botania:flight_tiara_0')
   event.hide('botania:flight_tiara_1')
   event.hide('botania:flight_tiara_2')
@@ -23,6 +26,7 @@ onEvent("rei.hide.items", event => { event.hide('kibe:chunk_loader');  event.hid
   event.hide('botania:flight_tiara_6')
   event.hide('botania:flight_tiara_7')
   event.hide('botania:flight_tiara_8')
+  event.hide('spectrum:exchange_staff')
   event.hide('botania:laputa_shard')
   event.hide('botania:missile_rod')
   event.hide('botania:smelt_rod')
@@ -31,6 +35,7 @@ onEvent("rei.hide.items", event => { event.hide('kibe:chunk_loader');  event.hid
   event.hide('botania:terraform_rod')
   event.hide('botania:tornado_rod')
   event.hide('botania:water_ring')
+  event.hide('mining_dims:diamond_nugget')
   // event.hide('croptosis:feather_meal');
   // event.hide('croptosis:rotten_pile');
   event.hide('doom:daisy');
@@ -152,6 +157,4 @@ onEvent("rei.hide.items", event => { event.hide('kibe:chunk_loader');  event.hid
   // // copper nugget duplicates
   // event.hide('consistency_plus:copper_nugget');
   // event.hide('valleycraft:copper_nugget');
-  // event.hide('mythicmetals:copper_nugget');
-
 })

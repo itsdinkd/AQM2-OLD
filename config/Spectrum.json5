@@ -26,12 +26,12 @@
 		"minecraft:overworld",
 		"starry_sky:starry_sky"
 	],
-	// Worlds where lightning strikes can spawn Lightning Stones
+	// Worlds where lightning strikes can spawn Storm Stones
 	"LightningStonesWorlds": [
 		"minecraft:overworld",
 		"starry_sky:starry_sky"
 	],
-	// chance for a lightning strike to spawn a Lightning Stone
+	// chance for a lightning strike to spawn a Storm Stone
 	"LightningStonesChance": 0.4000000059604645,
 	/* Shooting star spawns are checked every night between time 13000 and 22000, every 100 ticks (so 90 chances per night).
 	   By default, there is a 0.02 ^= 2 % chance at each of those check times. Making it ~3 shooting star spawns
@@ -42,7 +42,7 @@
 	"MermaidsBrushGenerationBiomes": [
 		"minecraft:ocean",
 		"minecraft:cold_ocean",
-		"minecraft_frozen_ocean",
+		"minecraft:frozen_ocean",
 		"minecraft:lukewarm_ocean",
 		"minecraft:warm_ocean",
 		"minecraft:deep_ocean",
@@ -54,10 +54,16 @@
 	"QuitoxicReedsGenerationBiomes": [
 		"minecraft:swamp"
 	],
+	// The time in ticks it takes a Pigment Pedestal to autocraft a vanilla crafting table recipe without upgrades
+	"VanillaRecipeCraftingTimeTicks": 60,
 	/* How fast decay will be spreading on random tick
 	   can be used to slow down propagation speed of decay in the worlds
 	   decay does use very few resources, but if your fear of someone letting decay
 	   spread free or using higher random tick rates than vanilla you can limit the spreading rate here
+	   
+	   Fading and Failing do no real harm to the world. If you turn up these values too high players
+	   may lack the feedback they need that what they are doing is correct
+	   
 	   1.0: every random tick (default)
 	   0.5: Every second random tick
 	   0.0: never (forbidden - players would be unable to progress)
@@ -65,6 +71,7 @@
 	"FadingDecayTickRate": 0.4000000059604645,
 	"FailingDecayTickRate": 0.4000000059604645,
 	"RuinDecayTickRate": 0.20000000298023224,
+	"TerrorDecayTickRate": 1.0,
 	// Enable or disable specific enchantments. Resonance and Voiding can not be disabled.
 	"AutoSmeltEnchantmentEnabled": false,
 	"ExuberanceEnchantmentEnabled": true,
@@ -89,7 +96,7 @@
 	"TightGripMaxLevel": 2,
 	// Exuberance increases experience gained when killing mobs. With 25% bonus XP and 5 levels this would mean 2,25x XP on max level
 	"ExuberanceMaxLevel": 3,
-	"ExuberanceBonusExperiencePercentPerLevel": 0.20000000298023224,
+	"ExuberanceBonusExperiencePercentPerLevel": 0.25,
 	// In vanilla, crits are a flat 50 % damage bonus. Improved Critical increases this damage by additional 50 % per level by default
 	"ImprovedCriticalExtraDamageMultiplierPerLevel": 0.15000000596046448,
 	// Flat additional damage dealt with each level of the First Strike enchantment

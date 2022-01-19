@@ -6,8 +6,8 @@
 			"{data:{Count:1b,id:\"adventurez:spawn_amethyst_golem\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
 		],
 		// Declares whether cheating mode is on.
-		"cheating": false,
-		"favoritesEnabled": true,
+		"cheating": true,
+		"favoritesEnabled": false,
 		"keyBindings": {
 			"recipeKeybind": {
 				"keyCode": "key.keyboard.r",
@@ -150,6 +150,8 @@
 	"functionality": {
 		// Declares whether REI should remove the recipe book.
 		"disableRecipeBook": false,
+		// Declares whether mob effects should be on the left side instead of the right side.
+		"leftSideMobEffects": false,
 		// Declares whether subsets is enabled.
 		"isSubsetsEnabled": false,
 		"allowInventoryHighlighting": true

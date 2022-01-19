@@ -3,5 +3,7 @@
   "enableGlareSpawn": true,
   "enableMoobloomSpawn": true,
   "enableBeekeeperVillagerProfession": true,
-  "generateBeekeeperAreaStructure": true
+  "generateBeekeeperAreaStructure": true,
+  "enableIllusionerInRaids": true,
+  "generateIllusionerShackStructure": true
 }
