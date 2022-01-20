@@ -1,7 +1,7 @@
 ---
 name: BUG Report
 about: Report any crashes or bugs you're experiencing
-title: ''
+title: "[BUG]"
 labels: bug
 assignees: ''
 
