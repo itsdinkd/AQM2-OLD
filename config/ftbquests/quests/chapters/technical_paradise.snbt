@@ -12,7 +12,7 @@
 		{
 			title: "Mine Certus Ore"
 			icon: "ae2:quartz_ore"
-			x: -1.0d
+			x: 0.0d
 			y: 0.0d
 			subtitle: "You need Certus Quartz for Applied Energistics 2... a lot of it.."
 			description: [""]
@@ -30,7 +30,7 @@
 		}
 		{
 			title: "Smelt For Silicon"
-			x: 0.0d
+			x: 2.0d
 			y: 0.0d
 			subtitle: "Smelt Cetrus Dust into Silicon so you can make some presses next."
 			description: ["Make sure you have completed the first four Botania quests from \"What Sorcery is This\" to unlock the next quest."]
@@ -49,8 +49,8 @@
 		}
 		{
 			title: "Get Magitekal"
-			x: 9.5d
-			y: 0.5d
+			x: 22.5d
+			y: -5.0d
 			shape: "circle"
 			subtitle: "First things first.... You need this core to even make the mech run."
 			description: [
@@ -71,8 +71,8 @@
 		{
 			title: "Magitek Mech"
 			icon: "mtmechs:ma_whole_item"
-			x: 8.5d
-			y: 1.5d
+			x: 20.5d
+			y: -3.0d
 			shape: "circle"
 			description: [
 				"Craft the parts."
@@ -116,8 +116,8 @@
 		{
 			title: "Tunnel Mech"
 			icon: "mtmechs:ta_whole_item"
-			x: 9.5d
-			y: 1.5d
+			x: 22.5d
+			y: -3.0d
 			shape: "circle"
 			description: [
 				"Craft the Tunnel Mech and dig some holes."
@@ -164,8 +164,8 @@
 		{
 			title: "Proto Mech"
 			icon: "mtmechs:pa_whole_item"
-			x: 10.5d
-			y: 1.5d
+			x: 24.5d
+			y: -3.0d
 			shape: "circle"
 			description: [
 				"This mech is pretty much the same as the Magitek Mech, however, it requires a charged item, such as a battery to power it. "
@@ -202,8 +202,8 @@
 		}
 		{
 			title: "Crystals"
-			x: 0.0d
-			y: 1.0d
+			x: 4.0d
+			y: 2.0d
 			subtitle: "Just add water"
 			description: [
 				"Crystals are grown from Crystal seeds. Craft a peice of sand with Certus Quartz dust or Fluix Dust. Throw in water and wait for it to grow. "
@@ -236,7 +236,7 @@
 			]
 		}
 		{
-			x: -1.0d
+			x: 2.0d
 			y: 2.0d
 			dependencies: ["34A45EEBE143A514"]
 			id: "06E70622D9F330EC"
@@ -247,8 +247,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 1.0d
+			x: 0.0d
+			y: 2.0d
 			dependencies: [
 				"417915745B47F7AB"
 				"3EE872A3E563FBD8"
@@ -261,8 +261,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 0.0d
+			x: 0.0d
+			y: 4.0d
 			id: "3EE872A3E563FBD8"
 			tasks: [{
 				id: "59B3FAEC2CBEC1CF"
@@ -272,8 +272,8 @@
 		}
 		{
 			title: "Craft Presses"
-			x: 1.0d
-			y: 1.0d
+			x: 4.0d
+			y: 0.0d
 			description: ["Use the same mana pool for all the AE2 required Presses. Find out the resources required using REI,"]
 			dependencies: [
 				"523C60C22F277DBE"
@@ -311,8 +311,8 @@
 		}
 		{
 			title: "Craft AE2 Sky Stone"
-			x: 4.0d
-			y: 0.0d
+			x: 8.0d
+			y: -2.0d
 			subtitle: "We're different. We require Sky Blocks to be crafted using Botania's Mana Pool."
 			description: [
 				"Setup your mana pool with your Alchemy Catalyst underneath."
@@ -335,8 +335,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 1.0d
+			x: 6.0d
+			y: 0.0d
 			dependencies: ["737F2F2D5BB68057"]
 			id: "5B9904D13E22D795"
 			tasks: [
@@ -364,8 +364,8 @@
 		}
 		{
 			title: "The Brains"
-			x: 3.0d
-			y: 1.0d
+			x: 10.0d
+			y: 0.0d
 			dependencies: [
 				"3C7C63336CC5D065"
 				"5B9904D13E22D795"
@@ -380,8 +380,8 @@
 		}
 		{
 			title: "Cables!"
-			x: 0.0d
-			y: 2.0d
+			x: 2.0d
+			y: 4.0d
 			dependencies: ["47FBE6421F89965A"]
 			id: "3924F8E793EADD9B"
 			tasks: [
@@ -408,7 +408,7 @@
 			]
 		}
 		{
-			x: 3.0d
+			x: 10.0d
 			y: 2.0d
 			dependencies: ["49ABC4DF0D766549"]
 			id: "2778D36732C866C5"
@@ -420,8 +420,8 @@
 		}
 		{
 			title: "Digital Chest"
-			x: 2.5d
-			y: 3.0d
+			x: 8.0d
+			y: 4.0d
 			dependencies: ["2778D36732C866C5"]
 			id: "7F3F93B6D72DD605"
 			tasks: [{
@@ -436,8 +436,8 @@
 		}
 		{
 			title: "Digital Bucket"
-			x: 3.5d
-			y: 3.0d
+			x: 10.0d
+			y: 4.0d
 			dependencies: ["2778D36732C866C5"]
 			id: "36EB6E38C860D5F3"
 			tasks: [{
@@ -451,12 +451,9 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 4.0d
-			dependencies: [
-				"36EB6E38C860D5F3"
-				"7F3F93B6D72DD605"
-			]
+			x: 8.0d
+			y: 2.0d
+			dependencies: ["2778D36732C866C5"]
 			dependency_requirement: "one_completed"
 			id: "797936FC5ECDAB83"
 			tasks: [{
@@ -467,8 +464,8 @@
 		}
 		{
 			title: "Access your Digital network"
-			x: 4.0d
-			y: 1.0d
+			x: 12.0d
+			y: 0.0d
 			dependencies: ["49ABC4DF0D766549"]
 			id: "1FDE492726991561"
 			tasks: [{
@@ -479,8 +476,8 @@
 		}
 		{
 			title: "Are we There Yet"
-			x: 1.0d
-			y: 2.0d
+			x: 4.0d
+			y: 4.0d
 			subtitle: "Crystal Growth Accelerators speed up the growth of crystals"
 			description: ["Using energy you can speed up the growth of your cystals "]
 			dependencies: ["47FBE6421F89965A"]
@@ -492,7 +489,7 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 16.0d
 			y: 2.0d
 			dependencies: ["5A098D5D785A0336"]
 			id: "6AF1EA37D5A9D256"
@@ -503,7 +500,7 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: 14.0d
 			y: 2.0d
 			dependencies: ["542F60F81CA4E9D7"]
 			id: "5A098D5D785A0336"
@@ -515,7 +512,7 @@
 		}
 		{
 			title: "Road to Autocrafting"
-			x: 4.0d
+			x: 12.0d
 			y: 2.0d
 			description: [""]
 			dependencies: [
@@ -537,8 +534,8 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: 1.0d
+			x: 14.0d
+			y: 0.0d
 			description: ["Upgrade you me terminal to have a build in crafting table"]
 			dependencies: ["1FDE492726991561"]
 			id: "0B3B2C940F00A020"
@@ -549,8 +546,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -1.0d
+			x: 2.0d
+			y: -5.0d
 			dependencies: ["7F3543CAAA237869"]
 			id: "71A1B2042C2096C1"
 			tasks: [{
@@ -561,8 +558,8 @@
 		}
 		{
 			title: "Powwa"
-			x: 3.0d
-			y: 0.0d
+			x: 10.0d
+			y: -2.0d
 			description: ["Your going to need to power your system somehow. This will convert other mods energy into AE2 Energy"]
 			dependencies: ["49ABC4DF0D766549"]
 			id: "7EF3EEE918C70377"
@@ -573,8 +570,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -1.0d
+			x: 10.0d
+			y: -4.0d
 			dependencies: ["7EF3EEE918C70377"]
 			id: "7DA27B4F2ECBB91D"
 			tasks: [{
@@ -588,8 +585,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -2.0d
+			x: 10.0d
+			y: -6.0d
 			dependencies: ["7DA27B4F2ECBB91D"]
 			id: "67F17A72A072BFAD"
 			tasks: [{
@@ -603,8 +600,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 3.0d
+			x: 14.0d
+			y: 4.0d
 			dependencies: ["542F60F81CA4E9D7"]
 			id: "65CC9F873C944D4F"
 			tasks: [{
@@ -614,8 +611,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 4.0d
+			x: 8.0d
+			y: 5.0d
 			dependencies: ["7F3F93B6D72DD605"]
 			id: "5278E22683D87BBF"
 			tasks: [{
@@ -629,8 +626,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 5.0d
+			x: 8.0d
+			y: 6.0d
 			dependencies: ["5278E22683D87BBF"]
 			id: "3CA36BD99AD2B0CC"
 			tasks: [{
@@ -645,8 +642,8 @@
 		}
 		{
 			title: "For all your cobble"
-			x: 2.0d
-			y: 6.0d
+			x: 8.0d
+			y: 7.0d
 			dependencies: ["3CA36BD99AD2B0CC"]
 			id: "670400718F8AEB50"
 			tasks: [{
@@ -660,9 +657,9 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 4.0d
-			dependencies: ["65CC9F873C944D4F"]
+			x: 10.0d
+			y: 5.0d
+			dependencies: ["36EB6E38C860D5F3"]
 			id: "4100036A96A701E5"
 			tasks: [{
 				id: "195E57ADA477F8CD"
@@ -675,8 +672,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 5.0d
+			x: 10.0d
+			y: 6.0d
 			dependencies: ["4100036A96A701E5"]
 			id: "01E64ABED6565205"
 			tasks: [{
@@ -691,8 +688,8 @@
 		}
 		{
 			title: "What are you going to do with this much fluid"
-			x: 4.0d
-			y: 6.0d
+			x: 10.0d
+			y: 7.0d
 			dependencies: ["01E64ABED6565205"]
 			id: "1938AF274C8A119D"
 			tasks: [{
@@ -707,8 +704,8 @@
 		}
 		{
 			title: "I don't even know what this does"
-			x: 3.0d
-			y: 5.0d
+			x: 6.0d
+			y: 2.0d
 			dependencies: ["797936FC5ECDAB83"]
 			id: "619B1BEEE8FA52A9"
 			tasks: [{
@@ -718,8 +715,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 4.0d
+			x: 14.0d
+			y: 5.0d
 			dependencies: ["65CC9F873C944D4F"]
 			id: "687EACA1277CC05C"
 			tasks: [{
@@ -729,8 +726,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 5.0d
+			x: 14.0d
+			y: 6.0d
 			dependencies: ["687EACA1277CC05C"]
 			id: "164D8719FDA31374"
 			tasks: [{
@@ -741,8 +738,8 @@
 		}
 		{
 			title: "End Game Crafting"
-			x: 5.0d
-			y: 6.0d
+			x: 14.0d
+			y: 7.0d
 			dependencies: ["164D8719FDA31374"]
 			id: "4A28F9A12CECAE35"
 			tasks: [{
@@ -753,8 +750,8 @@
 		}
 		{
 			title: "Multi-Tasking"
-			x: 5.5d
-			y: 3.0d
+			x: 16.0d
+			y: 4.0d
 			dependencies: ["65CC9F873C944D4F"]
 			id: "6BF072B7BEE0DE34"
 			tasks: [{
@@ -764,8 +761,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 0.0d
+			x: 2.0d
+			y: -4.0d
 			dependencies: ["5B9904D13E22D795"]
 			id: "7F3543CAAA237869"
 			tasks: [{
@@ -775,8 +772,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 2.0d
+			x: 12.0d
+			y: -2.0d
 			dependencies: ["49ABC4DF0D766549"]
 			id: "01D31B7FE59F4DAE"
 			tasks: [{
@@ -787,8 +784,8 @@
 		}
 		{
 			title: "Storage Access from anyhwhere"
-			x: 2.0d
-			y: 9.0d
+			x: 8.0d
+			y: 13.0d
 			dependencies: ["46297D1ED3F77482"]
 			id: "1C9F5E5FE89E8C63"
 			tasks: [
@@ -805,8 +802,8 @@
 			]
 		}
 		{
-			x: 6.0d
-			y: 0.0d
+			x: 16.0d
+			y: -4.0d
 			dependencies: ["0BB3693761D1C488"]
 			id: "464435E041196D6B"
 			tasks: [
@@ -823,20 +820,27 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: 0.0d
+			x: 14.0d
+			y: -2.0d
 			dependencies: ["1FDE492726991561"]
 			id: "0BB3693761D1C488"
-			tasks: [{
-				id: "38A89CB61738FDA6"
-				type: "item"
-				item: "ae2:security_station"
-			}]
+			tasks: [
+				{
+					id: "38A89CB61738FDA6"
+					type: "item"
+					item: "ae2:security_station"
+				}
+				{
+					id: "6E8024A5C7DEA9FF"
+					type: "item"
+					item: "ae2:biometric_card"
+				}
+			]
 		}
 		{
-			x: 1.5d
-			y: 3.0d
-			dependencies: ["65CC9F873C944D4F"]
+			x: 12.0d
+			y: 4.0d
+			dependencies: ["2778D36732C866C5"]
 			id: "7405BEC5E81F585F"
 			tasks: [{
 				id: "163746143FFD39B2"
@@ -845,8 +849,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 7.0d
+			x: 8.0d
+			y: 9.0d
 			dependencies: ["670400718F8AEB50"]
 			id: "25819C016AEE03E2"
 			tasks: [{
@@ -856,8 +860,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 8.0d
+			x: 8.0d
+			y: 11.0d
 			dependencies: ["25819C016AEE03E2"]
 			dependency_requirement: "one_completed"
 			id: "46297D1ED3F77482"
@@ -876,8 +880,8 @@
 		}
 		{
 			title: "That looks better"
-			x: 0.0d
-			y: 3.0d
+			x: 2.0d
+			y: 6.0d
 			dependencies: ["3924F8E793EADD9B"]
 			id: "78F605D8331AC6B6"
 			tasks: [{
@@ -887,8 +891,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 0.0d
+			x: 6.0d
+			y: -6.5d
 			id: "607D2C3300D73F51"
 			tasks: [
 				{
@@ -902,6 +906,108 @@
 					item: "ae2:export_bus"
 				}
 			]
+		}
+		{
+			x: 6.0d
+			y: -4.0d
+			dependencies: ["5B9904D13E22D795"]
+			id: "2439D15FB5BC5E87"
+			tasks: [{
+				id: "3AA34F0CB186DCF5"
+				type: "item"
+				item: "ae2:basic_card"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -5.0d
+			id: "1557BAA6C3B8EB2D"
+			tasks: [{
+				id: "7CDE5ADB890A273F"
+				type: "item"
+				item: "ae2:crafting_card"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -4.0d
+			id: "6F8E601ED55CAEC9"
+			tasks: [{
+				id: "2232D0C7D8F93693"
+				type: "item"
+				item: "ae2:redstone_card"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -4.0d
+			id: "3F654E95D85DBBFF"
+			tasks: [{
+				id: "5DA7C273A1DEB4FB"
+				type: "item"
+				item: "ae2:capacity_card"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			id: "30864119DADA28F8"
+			tasks: [{
+				id: "49EBAC6F1942304D"
+				type: "item"
+				item: "ae2:fuzzy_card"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			id: "16AB80CCFA7E4D64"
+			tasks: [{
+				id: "25C93E98D93FF1EA"
+				type: "item"
+				item: "ae2:energy_card"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.0d
+			id: "7938D7424D3895A3"
+			tasks: [{
+				id: "74B7497245C7C102"
+				type: "item"
+				item: "ae2:inverter_card"
+			}]
+		}
+		{
+			title: "Digital World"
+			x: 6.0d
+			y: 4.0d
+			id: "5A8DA159E2B9DC6F"
+			tasks: [{
+				id: "786F40A8FB790EB6"
+				type: "item"
+				item: "ae2:spatial_storage_cell_2"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.0d
+			id: "7BA93CD590238676"
+			tasks: [{
+				id: "157A48677EF7B9AF"
+				type: "item"
+				item: "ae2:spatial_storage_cell_16"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.0d
+			id: "6EAB1AB571CF2921"
+			tasks: [{
+				id: "6B7C3EBD425B3983"
+				type: "item"
+				item: "ae2:spatial_storage_cell_128"
+			}]
 		}
 	]
 }
