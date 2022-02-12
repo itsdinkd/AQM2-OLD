@@ -10,25 +10,25 @@
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: 1.0d
-			y: -1.0d
+			x: 5.5d
+			y: -2.5d
 			width: 1.0d
 			height: 1.0d
 			rotation: 0.0d
 			image: "minecraft:textures/item/book.png"
-			hover: ["The Wiki"]
+			hover: ["The Wiki (Coming Soon)"]
 			click: "#WIKI LINK#"
 			dev: false
 			corner: false
 		}
 		{
-			x: 2.0d
-			y: -1.0d
+			x: 6.5d
+			y: -2.5d
 			width: 1.0d
 			height: 1.0d
 			rotation: 0.0d
-			image: "minecraft:textures/gui/presets/isles.png"
-			hover: ["Join the our community discord and hang out with us, request support via ticket system, suggestions, and bug reports"]
+			image: "kubejs:textures/gui/presets/aqm2.png"
+			hover: ["Click here to join the AQM Discord"]
 			click: "https://discord.gg/y6Sby9BGVe"
 			dev: false
 			corner: false
@@ -39,7 +39,7 @@
 			title: "Locate Biomes"
 			x: 1.0d
 			y: 0.0d
-			subtitle: "Craft Natures Compass"
+			subtitle: "Nature's Compass... more like your best friend"
 			description: ["Want to find biomes fast? Then you'll need Nature's Compass! This handy necessity gives you the coordinates, and a compass to show you the direction you need to follow for your targeted biome."]
 			id: "0DFD9D948D188C8A"
 			tasks: [{
@@ -77,6 +77,7 @@
 			}]
 		}
 		{
+			title: "Use Ctrl and Shift in Keybinds"
 			icon: "minecraft:slime_ball"
 			x: 3.0d
 			y: 0.0d
@@ -607,6 +608,47 @@
 				id: "7F8FF314DE302FFF"
 				type: "item"
 				item: "dankstorage:dank_1"
+			}]
+		}
+		{
+			title: "Reset Origins"
+			icon: "origins:orb_of_origin"
+			x: 2.0d
+			y: 2.0d
+			subtitle: "Learn how to reset your origin"
+			description: ["Craft a Orb of Origin to reset your origin. But look, i'm a nice guy. I'll give you one free reset because you're awesome."]
+			id: "19534F81193FF552"
+			tasks: [{
+				id: "2F701E70DBDA56F4"
+				type: "checkmark"
+				title: "Yay, one free reset"
+			}]
+			rewards: [{
+				id: "3A95EC1EBB4CBF72"
+				type: "item"
+				item: "origins:orb_of_origin"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			subtitle: "Find Structures with this guy"
+			dependencies: ["0DFD9D948D188C8A"]
+			hide: true
+			id: "37858C2342635F64"
+			tasks: [{
+				id: "266725330869C202"
+				type: "item"
+				item: {
+					id: "explorerscompass:explorerscompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "19AFFE0A6973B745"
+				type: "xp_levels"
+				xp_levels: 1
 			}]
 		}
 	]
