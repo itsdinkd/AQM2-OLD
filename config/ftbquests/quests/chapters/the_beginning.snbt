@@ -493,24 +493,6 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -3.0d
-			description: [""]
-			dependencies: ["7DCB9D548877902F"]
-			id: "47C80F126DB9B45C"
-			tasks: [{
-				id: "7258CD8D9FEB4BFE"
-				type: "item"
-				item: "gobber2:gobber2_ring"
-			}]
-			rewards: [{
-				id: "24A3524D8B81F124"
-				type: "item"
-				item: "gobber2:gobber2_globette"
-				count: 3
-			}]
-		}
-		{
 			x: -1.5d
 			y: -3.0d
 			dependencies: ["7DCB9D548877902F"]
@@ -541,6 +523,42 @@
 				id: "6CDD66F524E3A672"
 				type: "item"
 				item: "gobber2:gobber2_foo_nether"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			description: ["Remove those pesky usless blocks while mining."]
+			dependencies: ["47C80F126DB9B45C"]
+			id: "243C256FE0E8FB08"
+			tasks: [{
+				id: "75E813447F3E58BD"
+				type: "item"
+				item: "gobber2:gobber2_ring_miner"
+			}]
+			rewards: [{
+				id: "67AB538CF0AEFCB1"
+				type: "item"
+				item: "gobber2:gobber2_globette"
+				count: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			description: [""]
+			dependencies: ["7DCB9D548877902F"]
+			id: "47C80F126DB9B45C"
+			tasks: [{
+				id: "7258CD8D9FEB4BFE"
+				type: "item"
+				item: "gobber2:gobber2_ring"
+			}]
+			rewards: [{
+				id: "24A3524D8B81F124"
+				type: "item"
+				item: "gobber2:gobber2_globette"
+				count: 3
 			}]
 		}
 	]
