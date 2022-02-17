@@ -372,10 +372,10 @@
 			}]
 		}
 		{
-			title: "Iron and Gold"
+			title: "T2 Resource Seeds"
 			x: -5.0d
 			y: -1.5d
-			description: ["Grow your Iron and Gold"]
+			description: [""]
 			dependencies: ["3CD2A3AD3473836D"]
 			id: "471A37A94D6721AD"
 			tasks: [
@@ -389,12 +389,17 @@
 					type: "item"
 					item: "croparia:seed_crop_iron"
 				}
+				{
+					id: "66DA62624C692FDA"
+					type: "item"
+					item: "croparia:seed_crop_copper"
+				}
 			]
 			rewards: [{
 				id: "04A8CD9EB5660F58"
 				type: "item"
 				item: "croparia:croparia"
-				count: 2
+				count: 3
 			}]
 		}
 		{
