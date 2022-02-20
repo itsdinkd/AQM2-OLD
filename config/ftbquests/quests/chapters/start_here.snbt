@@ -135,17 +135,24 @@
 				type: "checkmark"
 				title: "Claim Land"
 			}]
-			rewards: [{
-				id: "26E53771ED42AFDE"
-				type: "item"
-				item: {
-					id: "minecraft:golden_hoe"
-					Count: 1b
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "26E53771ED42AFDE"
+					type: "item"
+					item: {
+						id: "minecraft:golden_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+				{
+					id: "44D3699AD14360A3"
+					type: "item"
+					item: "kubejs:aqm2"
+				}
+			]
 		}
 		{
 			title: "Zoom Zoom"
