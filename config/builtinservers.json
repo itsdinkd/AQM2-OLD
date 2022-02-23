@@ -1,8 +1,12 @@
 {
   "builtinServers": [
     {
-      "name": "Another Quality Modpack 2 - 1.18",
-      "address": "aqm2-118.minecraft.best"
+      "name": "Another Quality Modpack 2 | Zion",
+      "address": "23.185.16.87:25599"
+    },
+    {
+      "name": "Another Quality Modpack 2 | Abyss",
+      "address": "23.185.16.87:26375"
     }
   ]
 }
