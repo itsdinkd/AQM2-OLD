@@ -251,6 +251,65 @@
 			]
 		}
 		{
+			title: "Craft AE2 Sky Stone"
+			x: 4.0d
+			y: 1.0d
+			subtitle: "We're different. We require Sky Blocks to be crafted using Botania's Mana Pool."
+			description: [
+				"Setup your mana pool with your Alchemy Catalyst underneath."
+				""
+				"Throw Crying Obsidian into the mana pool to get Sky Stone."
+			]
+			dependencies: ["523C60C22F277DBE"]
+			id: "3C7C63336CC5D065"
+			tasks: [{
+				id: "54CC070CB36C3210"
+				type: "item"
+				item: "ae2:sky_stone_block"
+			}]
+			rewards: [{
+				id: "4AFF327A59C40CB1"
+				type: "item"
+				item: "ae2:sky_stone_block"
+				count: 2
+			}]
+		}
+		{
+			title: "Craft Presses"
+			x: 4.0d
+			y: 2.0d
+			description: ["Use the same mana pool for all the AE2 required Presses. Find out the resources required using REI,"]
+			dependencies: ["523C60C22F277DBE"]
+			id: "737F2F2D5BB68057"
+			tasks: [
+				{
+					id: "7797789C53599165"
+					type: "item"
+					item: "ae2:calculation_processor_press"
+				}
+				{
+					id: "781DE56CCBBD19E7"
+					type: "item"
+					item: "ae2:engineering_processor_press"
+				}
+				{
+					id: "0E7A7B3445F4B03E"
+					type: "item"
+					item: "ae2:logic_processor_press"
+				}
+				{
+					id: "1AA47B80FA6DCEC7"
+					type: "item"
+					item: "ae2:silicon_press"
+				}
+			]
+			rewards: [{
+				id: "4548069A15B70B61"
+				type: "item"
+				item: "ae2:certus_quartz_crystal"
+			}]
+		}
+		{
 			title: "Craft an Arcanus Wand"
 			x: 0.0d
 			y: 0.0d
