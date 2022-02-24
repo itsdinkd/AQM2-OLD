@@ -1,11 +1,11 @@
 {
 	id: "020030C7EAE53A6E"
-	group: "2B2D8A5BD664DEFC"
+	group: "5D105B5F3CE9B0B7"
 	order_index: 1
 	filename: "the_beginning"
-	title: "The Beginning"
+	title: "Gobber this Gobber that"
 	icon: "gobber2:gobber2_globette"
-	subtitle: ["Your journey into AQM"]
+	subtitle: ["You sound silly talking about Gobber"]
 	default_quest_shape: "gear"
 	default_hide_dependency_lines: false
 	quests: [
@@ -115,6 +115,7 @@
 				"Time to get yourself the Glob. Go ahead and craft it with 9 Globettes"
 			]
 			dependency_requirement: "all_started"
+			dependencies: ["40AC615E022379B9"]
 			id: "333D851BF7D1E900"
 			tasks: [{
 				id: "7BF479E46F246676"
@@ -131,7 +132,9 @@
 		{
 			x: 1.5d
 			y: -1.5d
+			subtitle: "Ouch"
 			description: ["The Gobber Nemesis has a chance to spawn when mining Gobber Ore. Slay this beast and get your loot."]
+			dependencies: ["40AC615E022379B9"]
 			id: "4629227FCF91E173"
 			tasks: [{
 				id: "2719608AA988294C"
@@ -255,9 +258,9 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 4.5d
 			y: 3.0d
-			dependencies: ["5F87690E9ED5F080"]
+			dependencies: ["40B65FA30052F614"]
 			id: "156DB03AE9BE4795"
 			tasks: [{
 				id: "542BA83CB52EA04D"
@@ -322,11 +325,11 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 3.0d
+			x: 6.0d
+			y: 1.5d
 			subtitle: "Have fun with this one"
 			description: ["The Gobber Dragon Star is needed for several great items."]
-			dependencies: ["40B65FA30052F614"]
+			dependencies: ["00513081E349E179"]
 			id: "5F87690E9ED5F080"
 			tasks: [{
 				id: "6382BC08FD43FC90"
@@ -342,7 +345,7 @@
 		{
 			title: "Craft End Gobber Armor Set"
 			x: 6.0d
-			y: 1.5d
+			y: 3.0d
 			subtitle: "My personal favorite"
 			dependencies: ["156DB03AE9BE4795"]
 			id: "00513081E349E179"
@@ -393,6 +396,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "2C5A5E4610296423"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
 		}
 		{
 			x: -1.5d
@@ -415,7 +423,7 @@
 		{
 			x: 3.0d
 			y: 1.5d
-			subtitle: "Literally the best fuel in the pack"
+			subtitle: "Second best fuel in the pack"
 			dependencies: ["2CD163E1780FAD0D"]
 			id: "5EEFF9007CB80901"
 			tasks: [{
@@ -462,34 +470,6 @@
 				type: "item"
 				item: "gobber2:gobber2_globette_nether"
 				count: 3
-			}]
-		}
-		{
-			x: -1.5d
-			y: 0.0d
-			subtitle: "to receive some gobber food, yum"
-			dependencies: ["79F4D4DA705033B9"]
-			id: "640CD2A4796A60F9"
-			tasks: [
-				{
-					id: "5E2374F2A3C22D9E"
-					type: "item"
-					item: "gobber2:gobber2_lucky_block_nether"
-				}
-				{
-					id: "56667DB47626AB0E"
-					type: "observation"
-					title: "Break a Lucky Nether Block"
-					icon: "gobber2:gobber2_lucky_block_nether"
-					timer: 3L
-					observe_type: 0
-					to_observe: "gobber2:gobber2_lucky_block_nether"
-				}
-			]
-			rewards: [{
-				id: "671135A4B41FA0D7"
-				type: "item"
-				item: "gobber2:gobber2_goo_nether"
 			}]
 		}
 		{
@@ -541,6 +521,105 @@
 				id: "6CDD66F524E3A672"
 				type: "item"
 				item: "gobber2:gobber2_foo_nether"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			description: ["Remove those pesky usless blocks while mining."]
+			dependencies: ["47C80F126DB9B45C"]
+			id: "243C256FE0E8FB08"
+			tasks: [{
+				id: "75E813447F3E58BD"
+				type: "item"
+				item: "gobber2:gobber2_ring_miner"
+			}]
+			rewards: [{
+				id: "67AB538CF0AEFCB1"
+				type: "item"
+				item: "gobber2:gobber2_globette"
+				count: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			description: [""]
+			dependencies: ["7DCB9D548877902F"]
+			id: "47C80F126DB9B45C"
+			tasks: [{
+				id: "7258CD8D9FEB4BFE"
+				type: "item"
+				item: "gobber2:gobber2_ring"
+			}]
+			rewards: [{
+				id: "24A3524D8B81F124"
+				type: "item"
+				item: "gobber2:gobber2_globette"
+				count: 3
+			}]
+		}
+		{
+			title: "Dragon Armor"
+			x: 6.0d
+			y: 0.0d
+			description: [
+				"Best armor Gobber has to offer."
+				""
+				"The full set offers gliding, no fall damage, and water breathing."
+			]
+			dependencies: ["5F87690E9ED5F080"]
+			id: "76532B4BC6DC40B9"
+			tasks: [
+				{
+					id: "6072474268FCF730"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_helmet_dragon_no_flight"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00430272B5E48629"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_chestplate_dragon_no_flight"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6C19B0C114909567"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_leggings_dragon_no_flight"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5143143B011F85D5"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_boots_dragon_no_flight"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "31AFC01336ADF47B"
+				type: "item"
+				item: "minecraft:nether_star"
 			}]
 		}
 	]

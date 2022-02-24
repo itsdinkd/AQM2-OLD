@@ -66,6 +66,7 @@
 			tasks: [{
 				id: "1BBD90B219E05652"
 				type: "item"
+				title: "Craft a bowl."
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -176,258 +177,38 @@
 			y: 4.0d
 			subtitle: "KILL EVERYTHING"
 			description: [
-				"Have Empty Soulstone in your inventory while you kill the mob."
+				"Have Empty Soulstone in your inventory while you kill a mob to get a Filled Soulstone."
 				"Note: Killing Baby mobs will not count"
+				""
+				"Covetous: Endermen"
+				"Curious: Slimes"
+				"Entropic: Creepers/Silverfish"
+				"Hungry: Hoglins/Zombies"
+				"Intrepid: Shulkers"
+				"Marshy: Drowned"
+				"Parched: Blazes/Husks"
+				"Restless: Skeletons"
+				"Tactile: Phantoms"
+				"Valiant: Guardians/Ravagers"
+				"Weeping: Ghasts"
 			]
 			dependencies: ["45C7866BB219FC18"]
 			hide: false
 			id: "0D69865694FD43C4"
-			tasks: [
-				{
-					id: "276386B21C445E07"
-					type: "item"
-					title: "Kill Enderman"
-					item: {
-						id: "golemancy:soulstone_filled"
-						Count: 1b
-						tag: {
-							vigor_dormant: 1
-							vigor_active: 1
-							CustomModelData: 4
-							type_dormant: "Covetous"
-							strength_active: 1
-							agility_active: 1
-							potency_dormant: 2
-							strength_dormant: 1
-							type_active: "Covetous"
-							potency_active: 2
-							smarts_dormant: 2
-							agility_dormant: 1
-							smarts_active: 2
-						}
-					}
+			tasks: [{
+				id: "3AFA882CC7D72379"
+				type: "item"
+				title: "Filled Soulstone"
+				item: {
+					id: "golemancy:soulstone_filled"
+					Count: 1b
+					tag: { }
 				}
-				{
-					id: "52606B5BC33C8006"
-					type: "item"
-					title: "Kill Slime"
-					item: {
-						id: "golemancy:soulstone_filled"
-						Count: 1b
-						tag: {
-							vigor_dormant: 0
-							vigor_active: 0
-							CustomModelData: 2
-							type_dormant: "Curious"
-							strength_active: 0
-							agility_active: 0
-							potency_dormant: 5
-							strength_dormant: 0
-							type_active: "Curious"
-							potency_active: 5
-							smarts_dormant: 0
-							agility_dormant: 0
-							smarts_active: 0
-						}
-					}
-				}
-				{
-					id: "614983C89BA133CE"
-					type: "item"
-					title: "Kill Creeper or Silverfish"
-					item: {
-						id: "golemancy:soulstone_filled"
-						Count: 1b
-						tag: {
-							vigor_dormant: 1
-							vigor_active: 1
-							CustomModelData: 7
-							type_dormant: "Entropic"
-							strength_active: 0
-							agility_active: 1
-							potency_dormant: 3
-							strength_dormant: 0
-							type_active: "Entropic"
-							potency_active: 3
-							smarts_dormant: 1
-							agility_dormant: 1
-							smarts_active: 1
-						}
-					}
-				}
-				{
-					id: "6AEE26BF23590044"
-					type: "item"
-					title: "Kill Hoglin or Zombie"
-					item: {
-						id: "golemancy:soulstone_filled"
-						Count: 1b
-						tag: {
-							vigor_dormant: 2
-							vigor_active: 2
-							CustomModelData: 3
-							type_dormant: "Hungry"
-							strength_active: 1
-							agility_active: 1
-							potency_dormant: 3
-							strength_dormant: 1
-							type_active: "Hungry"
-							potency_active: 3
-							smarts_dormant: 0
-							agility_dormant: 1
-							smarts_active: 0
-						}
-					}
-				}
-				{
-					id: "3D4D664EF62E2895"
-					type: "item"
-					title: "Kill Shulker"
-					item: {
-						id: "golemancy:soulstone_filled"
-						Count: 1b
-						tag: {
-							vigor_dormant: 2
-							vigor_active: 2
-							CustomModelData: 9
-							type_dormant: "Intrepid"
-							strength_active: 0
-							agility_active: 0
-							potency_dormant: 2
-							strength_dormant: 0
-							type_active: "Intrepid"
-							potency_active: 2
-							smarts_dormant: 2
-							agility_dormant: 0
-							smarts_active: 2
-						}
-					}
-				}
-				{
-					id: "7F4A299458A581CC"
-					type: "item"
-					title: "Kill Blaze or Husk"
-					item: {
-						id: "golemancy:soulstone_filled"
-						Count: 1b
-						tag: {
-							vigor_dormant: 1
-							vigor_active: 1
-							CustomModelData: 6
-							type_dormant: "Parched"
-							strength_active: 0
-							agility_active: 1
-							potency_dormant: 3
-							strength_dormant: 0
-							type_active: "Parched"
-							potency_active: 3
-							smarts_dormant: 1
-							agility_dormant: 1
-							smarts_active: 1
-						}
-					}
-				}
-				{
-					id: "1A13904D22BCE0AB"
-					type: "item"
-					title: "Kill Phantom"
-					item: {
-						id: "golemancy:soulstone_filled"
-						Count: 1b
-						tag: {
-							vigor_dormant: 1
-							vigor_active: 1
-							CustomModelData: 8
-							type_dormant: "Tactile"
-							strength_active: 1
-							agility_active: 2
-							potency_dormant: 1
-							strength_dormant: 1
-							type_active: "Tactile"
-							potency_active: 1
-							smarts_dormant: 2
-							agility_dormant: 2
-							smarts_active: 2
-						}
-					}
-				}
-				{
-					id: "1D4749BB47D26B3E"
-					type: "item"
-					title: "Kill Ravager or Guardian"
-					item: {
-						id: "golemancy:soulstone_filled"
-						Count: 1b
-						tag: {
-							vigor_dormant: 2
-							vigor_active: 2
-							CustomModelData: 5
-							type_dormant: "Valiant"
-							strength_active: 2
-							agility_active: 0
-							potency_dormant: 2
-							strength_dormant: 2
-							type_active: "Valiant"
-							potency_active: 2
-							smarts_dormant: 0
-							agility_dormant: 0
-							smarts_active: 0
-						}
-					}
-				}
-				{
-					id: "2924C345297F1BED"
-					type: "item"
-					title: "Kill Ghast"
-					item: {
-						id: "golemancy:soulstone_filled"
-						Count: 1b
-						tag: {
-							vigor_dormant: 1
-							vigor_active: 1
-							CustomModelData: 10
-							type_dormant: "Weeping"
-							strength_active: 0
-							agility_active: 2
-							potency_dormant: 3
-							strength_dormant: 0
-							type_active: "Weeping"
-							potency_active: 3
-							smarts_dormant: 1
-							agility_dormant: 2
-							smarts_active: 1
-						}
-					}
-				}
-				{
-					id: "3AFA882CC7D72379"
-					type: "item"
-					title: "Kill Skeleton"
-					item: {
-						id: "golemancy:soulstone_filled"
-						Count: 1b
-						tag: {
-							vigor_dormant: 0
-							vigor_active: 0
-							CustomModelData: 1
-							type_dormant: "Restless"
-							strength_active: 1
-							agility_active: 1
-							potency_dormant: 3
-							strength_dormant: 1
-							type_active: "Restless"
-							potency_active: 3
-							smarts_dormant: 1
-							agility_dormant: 1
-							smarts_active: 1
-						}
-					}
-				}
-			]
+			}]
 			rewards: [{
 				id: "0888EC7587048A47"
 				type: "item"
-				item: "gobber2:gobber2_glob"
+				item: "gobber2:gobber2_globette"
 			}]
 		}
 		{
@@ -474,6 +255,7 @@
 			]
 			dependencies: ["260534C1D189BA9E"]
 			hide: false
+			min_width: 300
 			id: "5995410BD2B888CD"
 			tasks: [{
 				id: "3477D8125CC20850"
@@ -484,6 +266,47 @@
 				id: "038E89E4C7139DA3"
 				type: "item"
 				item: "additionaladditions:mysterious_bundle"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			subtitle: "Put on your reading glasses."
+			description: [
+				"Covetous: Picks up items, deposits held items into their linked inventory."
+				""
+				"Curious: Give them a block to hold, and they'll stare at nearby instances - even through walls."
+				""
+				"Entropic: Link them to a block, and they'll break instances of that block they find nearby. They'll need a high strength to break hard blocks."
+				""
+				"Hungry: Picks up items and eats them, destroying them. They can eat any item."
+				""
+				"Intrepid: Ranged golem that throws clay balls. Immune to clay balls from other golems."
+				""
+				"Marshy: Give them a fishing rod, and they will fish for you. Agile golems fish faster, smarters golems produce less junk. Golems can never fish up treasure."
+				""
+				"Parched: Can fill up an empty bucket or bottle from nearby fluid blocks. If they're linked to an inventory, they can extract empty buckets/bottles and deposit full ones."
+				""
+				"Restless: Wander around randomly and don't do much... or maybe they're just looking for something to listen to?"
+				""
+				"Tactile: Link them to a block, and they'll interact with it every few seconds, like a player. They can pull levers, open doors, place blocks, etc."
+				""
+				"Valiant: Melee combat golem. Equip them with tools, and they'll use them in combat."
+				""
+				"Weeping: Can heal golems and even other pets, like wolves. However, they can't heal players or others peoples' pets."
+			]
+			dependencies: ["260534C1D189BA9E"]
+			min_width: 600
+			id: "4F0403235F612964"
+			tasks: [{
+				id: "432451AA430D3C84"
+				type: "checkmark"
+				title: "Types of Golems"
+			}]
+			rewards: [{
+				id: "7F5DCD98FFEEB668"
+				type: "item"
+				item: "valley:tenderloin_sandwich"
 			}]
 		}
 		{

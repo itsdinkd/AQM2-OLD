@@ -261,9 +261,9 @@
 				"Throw Crying Obsidian into the mana pool to get Sky Stone."
 			]
 			dependencies: ["523C60C22F277DBE"]
-			id: "3C7C63336CC5D065"
+			id: "5B1021E19054DB13"
 			tasks: [{
-				id: "54CC070CB36C3210"
+				id: "080CA87DF9CD05FC"
 				type: "item"
 				item: "ae2:sky_stone_block"
 			}]
@@ -280,25 +280,25 @@
 			y: 2.0d
 			description: ["Use the same mana pool for all the AE2 required Presses. Find out the resources required using REI,"]
 			dependencies: ["523C60C22F277DBE"]
-			id: "737F2F2D5BB68057"
+			id: "03DC791EC5F5BEBA"
 			tasks: [
 				{
-					id: "7797789C53599165"
+					id: "236C9A882BCA1EC2"
 					type: "item"
 					item: "ae2:calculation_processor_press"
 				}
 				{
-					id: "781DE56CCBBD19E7"
+					id: "68C12E1D1FA840A6"
 					type: "item"
 					item: "ae2:engineering_processor_press"
 				}
 				{
-					id: "0E7A7B3445F4B03E"
+					id: "495E807103DD3DCF"
 					type: "item"
 					item: "ae2:logic_processor_press"
 				}
 				{
-					id: "1AA47B80FA6DCEC7"
+					id: "5B34949530C8FB7F"
 					type: "item"
 					item: "ae2:silicon_press"
 				}

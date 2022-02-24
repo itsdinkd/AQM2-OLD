@@ -135,17 +135,24 @@
 				type: "checkmark"
 				title: "Claim Land"
 			}]
-			rewards: [{
-				id: "26E53771ED42AFDE"
-				type: "item"
-				item: {
-					id: "minecraft:golden_hoe"
-					Count: 1b
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "26E53771ED42AFDE"
+					type: "item"
+					item: {
+						id: "minecraft:golden_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+				{
+					id: "44D3699AD14360A3"
+					type: "item"
+					item: "kubejs:aqm2"
+				}
+			]
 		}
 		{
 			title: "Zoom Zoom"
@@ -342,7 +349,7 @@
 			y: 2.0d
 			subtitle: "Gobber Gobber Gobber..."
 			description: [
-				" If this pack were a human body, Gobber would be the spine. Paxels, Tree Axes, 5x5 Hammers, Rings, Medallions, It's got it all, but very rare to find the ore. Go find some Gobber Ore and mine it with atleast a diamond pick axe"
+				"If this pack were a human body, Gobber would be the spine. Paxels, Tree Axes, 5x5 Hammers, Rings, Medallions, It's got it all, but very rare to find the ore. Go find some Gobber Ore and mine it with at least a diamond pick axe"
 				""
 				"Do note; a lot of recipes in AQM2 require gobber materials due to gobber ore being very rare."
 				""
@@ -350,6 +357,7 @@
 				""
 				"Click On the Gobber above and click submit. This will consume 1 Gobber."
 			]
+			min_width: 400
 			id: "40AC615E022379B9"
 			tasks: [{
 				id: "7340447646BC18C6"
@@ -545,17 +553,19 @@
 		{
 			x: 1.0d
 			y: 5.0d
-			subtitle: "Minecraft 101... You need a backpack. Its essential."
+			subtitle: "Modded Minecraft 101... You need a backpack. Its essential."
 			description: ["So, Go ahead and craft a inmis Baby Backpack and turn it in for a better reward! After that, work on getting higher tiers of the backpacks as you get so much more storage space."]
 			id: "43E87948D1604211"
 			tasks: [{
 				id: "3939E3B0004E3AFE"
 				type: "item"
+				title: "Turn in your empty baby backpack"
 				item: {
 					id: "inmis:baby_backpack"
 					Count: 1b
 					tag: { }
 				}
+				consume_items: true
 			}]
 			rewards: [{
 				id: "75F74210F46C8EB5"
