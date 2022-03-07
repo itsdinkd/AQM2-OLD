@@ -28,52 +28,48 @@
 			}]
 		}
 		{
-			title: "Mining Dimension"
-			icon: "spectrum:end_portal_cracker"
-			x: 0.0d
-			y: -1.0d
-			subtitle: "We have 4 dimensions that you can visit to mine, hunt, climb, or cave (weird). "
-			description: [
-				"Mining Dimension:"
-				"A dimension with two biomes (desert and plains) and is always noon; same ores and structures as Overworld; made using the vanilla portal method but with deepslate and lit with flint-n-steel. "
-				""
-				"Caving Dimension:"
-				"A safe haven dimension of Mushroom biome caves; same ores as Overworld; made with tuff and lit with flint-n-steel;"
-				""
-				"Climbing Dimension:"
-				"A dimensions with two biomes (badlands and wind-swept hills) and is always noon; same ores and structures as Overworld; made with snow blocks and lit with flint-n-steel."
-				""
-				"Hunting Dimension:"
-				"A dimension with just plains, always dark, and full of juiced up, armored mobs; only vanilla ores; made with oak logs and lit with flint-n-steel; seriously, the mobs are tough and you will likely die!"
-				"However, you get good loot from slaying those mobs."
-			]
-			id: "7E27FCFA8A163F34"
-			tasks: [
-				{
-					id: "1BBD77438CA10D7D"
-					type: "dimension"
-					dimension: "mining_dims:mining_dim"
-				}
-				{
-					id: "0B619480978757F4"
-					type: "dimension"
-					dimension: "mining_dims:caving_dim"
-				}
-				{
-					id: "6F16EEBEFD4CB46C"
-					type: "dimension"
-					dimension: "mining_dims:climbing_dim"
-				}
-				{
-					id: "0E180EB35C171125"
-					type: "dimension"
-					dimension: "mining_dims:hunting_dim"
-				}
-			]
+			title: "Find Killer Bunny Castle"
+			x: -1.0d
+			y: 2.0d
+			subtitle: "Search the overworld for Killer Bunny's Castle"
+			description: ["Can you kill it?"]
+			id: "44397653A9E18B40"
+			tasks: [{
+				id: "42B3E7157994116D"
+				type: "structure"
+				icon: "companion_bats:bunny_ears"
+				structure: "mostructures:killer_bunny_castle"
+			}]
 			rewards: [{
-				id: "143CFB8F463E3BC4"
+				id: "63D217DC2D1413A5"
 				type: "item"
-				item: "gobber2:gobber2_globette"
+				item: "soaringstructures2:heavenly_tea"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			subtitle: "It's Better"
+			description: ["You can find lots here, including Arcanus spell books in the libraries"]
+			id: "21789090F6D9D027"
+			tasks: [{
+				id: "57420B926B45C780"
+				type: "structure"
+				title: "Visit The Better Stronghold"
+				icon: {
+					id: "mythicmetals:midas_gold_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				structure: "betterstrongholds:stronghold"
+			}]
+			rewards: [{
+				id: "5F5E6E269AEB71D6"
+				type: "item"
+				item: "gofish:golden_crate"
 			}]
 		}
 	]
