@@ -36,6 +36,28 @@
 			]
 		}
 		{
+			x: -1.5d
+			y: -0.5d
+			subtitle: "One menu to see the all"
+			description: [
+				"Place this where your villagers are and you will get all trades in one menu"
+				""
+				"The range is 24 blocks horizontally, 14 blocks vertically"
+			]
+			id: "7B9FF9B3955224DA"
+			tasks: [{
+				id: "774028ECB27A66E5"
+				type: "item"
+				item: "tradingpost:trading_post"
+			}]
+			rewards: [{
+				id: "40982C5C6DF542AE"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
 			x: -6.0d
 			y: 3.5d
 			dependencies: ["1C72D8F994EB404A"]
