@@ -337,7 +337,6 @@
 			title: "Craft AE2 Sky Stone"
 			x: 8.0d
 			y: 2.0d
-			subtitle: "Using Botania Complete complete the Sky Stone quest in \"What Sorcery Is this\""
 			subtitle: "Using Botania complete the Sky Stone quest in \"What Sorcery Is this\""
 			dependencies: ["523C60C22F277DBE"]
 			hide: true
