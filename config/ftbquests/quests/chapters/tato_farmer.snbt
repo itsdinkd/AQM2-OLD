@@ -1,7 +1,7 @@
 {
 	id: "4D51D68B3DCDAA0B"
 	group: "7DDA60A5DB5F9F6C"
-	order_index: 2
+	order_index: 3
 	filename: "tato_farmer"
 	title: "Tato Farmer"
 	icon: "minecraft:potato"
@@ -34,6 +34,28 @@
 					count: 3
 				}
 			]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			subtitle: "One menu to see the all"
+			description: [
+				"Place this where your villagers are and you will get all trades in one menu"
+				""
+				"The range is 24 blocks horizontally, 14 blocks vertically"
+			]
+			id: "7B9FF9B3955224DA"
+			tasks: [{
+				id: "774028ECB27A66E5"
+				type: "item"
+				item: "tradingpost:trading_post"
+			}]
+			rewards: [{
+				id: "40982C5C6DF542AE"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
 		}
 		{
 			x: -6.0d

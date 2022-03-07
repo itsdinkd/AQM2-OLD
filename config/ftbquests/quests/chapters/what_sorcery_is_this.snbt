@@ -349,8 +349,8 @@
 			title: "Start Dark Enchanting"
 			x: 0.0d
 			y: 3.0d
-			subtitle: "Want good enchantments but don't want to grind for them?"
-			description: ["Well, now you can use Dark Enchanter Table to pick what enchantments you want. This will cost you XP, and some enchantments cost a lot."]
+			subtitle: "Pick out Enchantments, Pay with XP"
+			description: ["Use the Dark Enchanter Table to pick what enchantments you want. This will cost you XP, and most enchantments cost a lot."]
 			id: "3D146715B8B709EF"
 			tasks: [{
 				id: "50237CB72F66F83D"
